@@ -1,1 +1,5 @@
-On the Hidden Mystery of OCR in Large Multimodal Models (Evaluation Pipeline)
+# Evaluation Pipeline
+
+Updating the instruction of evaluating large multimodal models on ocr tasks.
+
+Feel free to open issues for any suggestion or comment.
