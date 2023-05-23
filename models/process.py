@@ -1,4 +1,5 @@
 import PIL
+from PIL import Image,ImageOps
 def pad_image(image, target_size):
  
     """
@@ -27,3 +28,23 @@ def pad_image(image, target_size):
     new_image.paste(image, ((w - nw) // 2, (h - nh) // 2))  # 将图像填充为中间图像，两侧为黑色的样式
 
     return new_image
+def resize_image(image, target_size):
+    width, height = image.size
+    aspect_ratio = width / height
+    if aspect_ratio > 1:
+        # 宽度大于高度，以宽度为基准进行 resize
+        new_width = target_size[0]
+        new_height = int(new_width / aspect_ratio)
+    else:
+        # 高度大于宽度，以高度为基准进行 resize
+        new_height = target_size[1]
+        new_width = int(new_height * aspect_ratio)
+    image = image.resize((new_width, new_height))
+    width_diff = target_size[0] - image.size[0]
+    height_diff = target_size[1] - image.size[1]
+    left_padding = 0
+    top_padding = 0
+    right_padding = width_diff - left_padding
+    bottom_padding = height_diff - top_padding
+    padded_image = ImageOps.expand(image, border=(left_padding, top_padding, right_padding, bottom_padding), fill=0)
+    return padded_image

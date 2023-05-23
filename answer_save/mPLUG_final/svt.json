@@ -1,0 +1,4531 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that reads \"Door.\"",
+        "gt_answers": "door",
+        "image_path": "./data/svt/image/img_0001.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red neon sign that reads \"The.\"",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0002.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red neon sign that says \"TH\" in white letters.",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0003.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red neon sign that reads \"Triple.\"",
+        "gt_answers": "triple",
+        "image_path": "./data/svt/image/img_0004.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that reads \"The.\"",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0005.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white car with a black bumper and a black license plate.",
+        "gt_answers": "auto",
+        "image_path": "./data/svt/image/img_0006.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white text that reads \"Magic.\"",
+        "gt_answers": "magic",
+        "image_path": "./data/svt/image/img_0007.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man standing in front of a billiards table.",
+        "gt_answers": "billiards",
+        "image_path": "./data/svt/image/img_0008.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and white sign that reads \"First.\"",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0009.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and colorful sign that reads \"South.\"",
+        "gt_answers": "south",
+        "image_path": "./data/svt/image/img_0010.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and white sign with the word \"Market\" written on it.",
+        "gt_answers": "market",
+        "image_path": "./data/svt/image/img_0011.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red neon sign that reads \"Meat.\"",
+        "gt_answers": "meat",
+        "image_path": "./data/svt/image/img_0012.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Mexican Restaurant\" written in bold letters.",
+        "gt_answers": "michoacana",
+        "image_path": "./data/svt/image/img_0013.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant sign with the words \"Taceria\" written on it.",
+        "gt_answers": "taqueria",
+        "image_path": "./data/svt/image/img_0014.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign for a Mexican restaurant called Taceria.",
+        "gt_answers": "taqueria",
+        "image_path": "./data/svt/image/img_0015.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large banner with the word \"Motif\" written in black on a white background.",
+        "gt_answers": "motif",
+        "image_path": "./data/svt/image/img_0016.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a restaurant with a sign that reads \"Restaurant.\"",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0017.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a woman wearing a purple dress and holding a purse.",
+        "gt_answers": "club",
+        "image_path": "./data/svt/image/img_0018.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white and blue logo with the words \"AND\" and \"AND\" written in blue.",
+        "gt_answers": "and",
+        "image_path": "./data/svt/image/img_0019.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white and blue logo with the word \"South\" written in bold letters.",
+        "gt_answers": "south",
+        "image_path": "./data/svt/image/img_0020.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white text on a blue background that reads \"Fitness.\"",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0021.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"COBRA YOUTH.\"",
+        "gt_answers": "colorado",
+        "image_path": "./data/svt/image/img_0022.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue sign that reads \"Daily.\"",
+        "gt_answers": "daily",
+        "image_path": "./data/svt/image/img_0023.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign that reads \"College.\"",
+        "gt_answers": "college",
+        "image_path": "./data/svt/image/img_0024.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large black sign with white lettering that reads \"Everest.\"",
+        "gt_answers": "everest",
+        "image_path": "./data/svt/image/img_0025.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown leather nameplate with the word \"Allen\" written on it.",
+        "gt_answers": "allen",
+        "image_path": "./data/svt/image/img_0026.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called Hess.",
+        "gt_answers": "hess",
+        "image_path": "./data/svt/image/img_0027.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, black sign with the word \"Center\" written in white letters.",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0028.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with Japanese writing on it.",
+        "gt_answers": "japanese",
+        "image_path": "./data/svt/image/img_0029.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant sign with the words \"Restaurant\" written in blue.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0030.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Sakana\" and \"Restaurant\" written on it.",
+        "gt_answers": "sakana",
+        "image_path": "./data/svt/image/img_0031.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a graffiti sign that reads \"The Icebox.\"",
+        "gt_answers": "icebox",
+        "image_path": "./data/svt/image/img_0032.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a book with the words \"The End\" written on it.",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0033.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called Claire.",
+        "gt_answers": "claire",
+        "image_path": "./data/svt/image/img_0034.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and gold logo with the word \"Sainte\" written in it.",
+        "gt_answers": "sainte",
+        "image_path": "./data/svt/image/img_0035.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo with the word \"The\" written in gold.",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0036.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large stone building with the word \"Mission\" written on it.",
+        "gt_answers": "mission",
+        "image_path": "./data/svt/image/img_0037.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a building.",
+        "gt_answers": "wheeler",
+        "image_path": "./data/svt/image/img_0038.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the words \"Gifts\" written in red.",
+        "gt_answers": "gifts",
+        "image_path": "./data/svt/image/img_0039.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white label with the word \"JAS\" written in black.",
+        "gt_answers": "jas",
+        "image_path": "./data/svt/image/img_0040.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pizza restaurant sign with the words \"Pizza\" written in bold letters.",
+        "gt_answers": "pizza",
+        "image_path": "./data/svt/image/img_0041.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a piece of paper with the word \"Man\" written on it.",
+        "gt_answers": "man",
+        "image_path": "./data/svt/image/img_0042.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo for a company called Sopra.",
+        "gt_answers": "sopra",
+        "image_path": "./data/svt/image/img_0043.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"Sotto\" written in it.",
+        "gt_answers": "sotto",
+        "image_path": "./data/svt/image/img_0044.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the word \"Airways\" written in white letters.",
+        "gt_answers": "airways",
+        "image_path": "./data/svt/image/img_0045.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Science Center.\"",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0046.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, standing in front of a brick wall.",
+        "gt_answers": "carroll",
+        "image_path": "./data/svt/image/img_0047.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called \"Street.\"",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0048.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Indiana\" written on it.",
+        "gt_answers": "indiana",
+        "image_path": "./data/svt/image/img_0049.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper clipping with the headline \"Repertoire\" and a subheading \"Theatre and Music.\"",
+        "gt_answers": "repertory",
+        "image_path": "./data/svt/image/img_0050.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper clipping with the word \"Theatre\" written in bold letters.",
+        "gt_answers": "theatre",
+        "image_path": "./data/svt/image/img_0051.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a book with the title \"Indiananama\" written on it.",
+        "gt_answers": "indiana",
+        "image_path": "./data/svt/image/img_0052.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"Inn\" written in white.",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0053.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the word \"Loyal\" written in bold letters.",
+        "gt_answers": "loyal",
+        "image_path": "./data/svt/image/img_0054.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Best Western logo, which is a white and blue design with a red star in the center.",
+        "gt_answers": "western",
+        "image_path": "./data/svt/image/img_0055.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, red and white sign that reads \"Best Buy.\"",
+        "gt_answers": "best",
+        "image_path": "./data/svt/image/img_0056.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue Paramount sign, which is a well-known movie theater sign.",
+        "gt_answers": "paramount",
+        "image_path": "./data/svt/image/img_0057.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown and white KFC logo, which is a well-known fast food chain.",
+        "gt_answers": "kfc",
+        "image_path": "./data/svt/image/img_0058.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a woman wearing a red dress, sitting on a chair, and holding a violin.",
+        "gt_answers": "muzeo",
+        "image_path": "./data/svt/image/img_0059.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown leather belt with a gold-colored metal buckle.",
+        "gt_answers": "public",
+        "image_path": "./data/svt/image/img_0060.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a brick wall.",
+        "gt_answers": "anaheim",
+        "image_path": "./data/svt/image/img_0061.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for Trident, a brand of toothpaste.",
+        "gt_answers": "trident",
+        "image_path": "./data/svt/image/img_0062.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue neon sign with the word \"WINBRO\" written in white letters.",
+        "gt_answers": "winbro",
+        "image_path": "./data/svt/image/img_0063.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"Grant\" written in it.",
+        "gt_answers": "grant",
+        "image_path": "./data/svt/image/img_0064.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, standing in front of a building.",
+        "gt_answers": "olin",
+        "image_path": "./data/svt/image/img_0065.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"Best Buy\" written in bold letters.",
+        "gt_answers": "best",
+        "image_path": "./data/svt/image/img_0066.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white business card with the word \"Executive\" written in bold letters.",
+        "gt_answers": "executive",
+        "image_path": "./data/svt/image/img_0067.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"The Inn\" written in white.",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0068.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Best Western logo, which is a white and blue design with the words \"Best Western\" written in blue.",
+        "gt_answers": "western",
+        "image_path": "./data/svt/image/img_0069.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man named Diego.",
+        "gt_answers": "diego",
+        "image_path": "./data/svt/image/img_0070.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, standing in front of a car.",
+        "gt_answers": "excursion",
+        "image_path": "./data/svt/image/img_0071.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple and white logo with the word \"Harbor\" written in it.",
+        "gt_answers": "harbor",
+        "image_path": "./data/svt/image/img_0072.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large white sign with the word \"SAM\" written in black.",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0073.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man with a mustache, wearing a suit and tie.",
+        "gt_answers": "cortez",
+        "image_path": "./data/svt/image/img_0074.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the words \"The Hotel\" written on it.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0075.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the words \"The Hotel\" written on it.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0076.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the name \"Moore\" written on it.",
+        "gt_answers": "moore",
+        "image_path": "./data/svt/image/img_0077.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Moore.\"",
+        "gt_answers": "moore",
+        "image_path": "./data/svt/image/img_0078.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the words \"The Hotel\" written in red.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0079.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Whitcomb.\"",
+        "gt_answers": "whitcomb",
+        "image_path": "./data/svt/image/img_0080.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the words \"Fuddruckers\" written on it.",
+        "gt_answers": "fuddruckers",
+        "image_path": "./data/svt/image/img_0081.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that reads \"The\" in red letters.",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0082.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign for Quiznos, a sandwich shop.",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0083.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the word \"Quiznos\" written in green.",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0084.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie.",
+        "gt_answers": "murphy",
+        "image_path": "./data/svt/image/img_0085.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a moon.",
+        "gt_answers": "moon",
+        "image_path": "./data/svt/image/img_0086.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white drawing of a palace with a large, ornate doorway.",
+        "gt_answers": "palace",
+        "image_path": "./data/svt/image/img_0087.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a silver-colored metal nameplate with the word \"Colonial\" written on it.",
+        "gt_answers": "colonial",
+        "image_path": "./data/svt/image/img_0088.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a hat and a jacket, with the word \"HOBBY\" written on the jacket.",
+        "gt_answers": "hobby",
+        "image_path": "./data/svt/image/img_0089.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photo of a license plate with the word \"INC\" written on it.",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0090.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a hat.",
+        "gt_answers": "photo",
+        "image_path": "./data/svt/image/img_0091.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue neon sign that reads \"Puff.\"",
+        "gt_answers": "puff",
+        "image_path": "./data/svt/image/img_0092.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue neon sign that reads \"Stuff.\"",
+        "gt_answers": "stuff",
+        "image_path": "./data/svt/image/img_0093.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red sign with the words \"Michaels\" written in white.",
+        "gt_answers": "michael",
+        "image_path": "./data/svt/image/img_0094.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red brick wall with the word \"Arkis\" written on it.",
+        "gt_answers": "arts",
+        "image_path": "./data/svt/image/img_0095.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Crafts\" in red letters.",
+        "gt_answers": "crafts",
+        "image_path": "./data/svt/image/img_0096.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red wooden sign with the word \"Wood\" written on it.",
+        "gt_answers": "world",
+        "image_path": "./data/svt/image/img_0097.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Market\" written on it.",
+        "gt_answers": "market",
+        "image_path": "./data/svt/image/img_0098.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign with the words \"Fitness\" written in white.",
+        "gt_answers": "fitness",
+        "image_path": "./data/svt/image/img_0099.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red and yellow sign that reads \"Shell.\"",
+        "gt_answers": "shell",
+        "image_path": "./data/svt/image/img_0100.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Shogun's\" written on it.",
+        "gt_answers": "shogun",
+        "image_path": "./data/svt/image/img_0101.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"ShoGun\" in blue letters.",
+        "gt_answers": "shogun",
+        "image_path": "./data/svt/image/img_0102.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Sushi\" written in blue and gold.",
+        "gt_answers": "sushi",
+        "image_path": "./data/svt/image/img_0103.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Sushi.\"",
+        "gt_answers": "sushi",
+        "image_path": "./data/svt/image/img_0104.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the headline \"Pioneer\" written across the top.",
+        "gt_answers": "pioneer",
+        "image_path": "./data/svt/image/img_0105.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small piece of paper with the word \"Place\" written on it.",
+        "gt_answers": "place",
+        "image_path": "./data/svt/image/img_0106.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a woman wearing a long black dress.",
+        "gt_answers": "saks",
+        "image_path": "./data/svt/image/img_0107.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a book with the word \"FIFTH\" written on it.",
+        "gt_answers": "fifth",
+        "image_path": "./data/svt/image/img_0108.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign with the word \"Avenue\" written in large letters.",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0109.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large brick building with the words \"Grand Hotel\" written on it.",
+        "gt_answers": "grand",
+        "image_path": "./data/svt/image/img_0110.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Horton\" in white letters on a black background.",
+        "gt_answers": "horton",
+        "image_path": "./data/svt/image/img_0111.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the words \"Hotel\" written in black on a white background.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0112.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the word \"Zula\" written in black letters.",
+        "gt_answers": "zula",
+        "image_path": "./data/svt/image/img_0113.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a man wearing a suit and tie, standing in front of a wall with a large cross on it.",
+        "gt_answers": "zula",
+        "image_path": "./data/svt/image/img_0114.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the word \"hotel\" written in red letters.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0115.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red lion sign on a brick wall.",
+        "gt_answers": "lion",
+        "image_path": "./data/svt/image/img_0116.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red sign with the word \"RED\" written in it.",
+        "gt_answers": "red",
+        "image_path": "./data/svt/image/img_0117.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red neon sign that reads \"RED.\"",
+        "gt_answers": "red",
+        "image_path": "./data/svt/image/img_0118.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red square sign with the word \"Square\" written on it.",
+        "gt_answers": "square",
+        "image_path": "./data/svt/image/img_0119.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a sign that reads \"Belvedere.\"",
+        "gt_answers": "belvedere",
+        "image_path": "./data/svt/image/img_0120.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the word \"Orlando\" written in black letters.",
+        "gt_answers": "orlando",
+        "image_path": "./data/svt/image/img_0121.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the word \"Sentinel\" written on it.",
+        "gt_answers": "sentinel",
+        "image_path": "./data/svt/image/img_0122.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown brick wall with a circle written on it.",
+        "gt_answers": "circles",
+        "image_path": "./data/svt/image/img_0123.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Tapes\" in a gray font.",
+        "gt_answers": "tapes",
+        "image_path": "./data/svt/image/img_0124.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called \"City Arts.\"",
+        "gt_answers": "cityarts",
+        "image_path": "./data/svt/image/img_0125.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called \"Insafactory.\"",
+        "gt_answers": "factory",
+        "image_path": "./data/svt/image/img_0126.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a metal sign with the word \"Hust\" written on it.",
+        "gt_answers": "hut",
+        "image_path": "./data/svt/image/img_0127.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Pizza-Ria.\"",
+        "gt_answers": "pizza",
+        "image_path": "./data/svt/image/img_0128.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Garage\" in white letters on a black background.",
+        "gt_answers": "garage",
+        "image_path": "./data/svt/image/img_0129.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a person's eye, with the word \"eye\" written on it.",
+        "gt_answers": "eye",
+        "image_path": "./data/svt/image/img_0130.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"Lounge\" in a gray font.",
+        "gt_answers": "lounge",
+        "image_path": "./data/svt/image/img_0131.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the headline \"Jobsite\" written in bold letters.",
+        "gt_answers": "jobsite",
+        "image_path": "./data/svt/image/img_0132.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Rubber Supply.\"",
+        "gt_answers": "supply",
+        "image_path": "./data/svt/image/img_0133.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, with the word \"WORK\" written on his shirt.",
+        "gt_answers": "work",
+        "image_path": "./data/svt/image/img_0134.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, white sign with the words \"Chase Bank\" written in black.",
+        "gt_answers": "chase",
+        "image_path": "./data/svt/image/img_0135.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man in a suit, sitting on a bench.",
+        "gt_answers": "chase",
+        "image_path": "./data/svt/image/img_0136.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a fireplace company.",
+        "gt_answers": "fireplace",
+        "image_path": "./data/svt/image/img_0137.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white box with the word \"BOX\" written on it in black letters.",
+        "gt_answers": "box",
+        "image_path": "./data/svt/image/img_0138.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Jewel\" in white letters on a black background.",
+        "gt_answers": "jewel",
+        "image_path": "./data/svt/image/img_0139.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small, white sign that reads \"Tiny.\"",
+        "gt_answers": "tiny",
+        "image_path": "./data/svt/image/img_0140.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the headline \"Napasorn\" written in bold letters.",
+        "gt_answers": "napasorn",
+        "image_path": "./data/svt/image/img_0141.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the words \"PARC\" written in pink.",
+        "gt_answers": "parc",
+        "image_path": "./data/svt/image/img_0142.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the words \"The Hotel\" written on it.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0143.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Warwick\" written on it.",
+        "gt_answers": "warwick",
+        "image_path": "./data/svt/image/img_0144.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the headline \"Scooters\" written in bold letters.",
+        "gt_answers": "scooters",
+        "image_path": "./data/svt/image/img_0145.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign with the word \"Sportique\" written on it.",
+        "gt_answers": "sportique",
+        "image_path": "./data/svt/image/img_0146.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"SPRUCE\" in black text on a white background.",
+        "gt_answers": "spruce",
+        "image_path": "./data/svt/image/img_0147.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the word \"Hotel\" written in blue letters.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0148.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Wyndham.\"",
+        "gt_answers": "wyndham",
+        "image_path": "./data/svt/image/img_0149.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown wooden sign with the words \"Jerome's\" written on it.",
+        "gt_answers": "jerome",
+        "image_path": "./data/svt/image/img_0150.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a school building with a sign that reads \"The School of Life.\"",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0151.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"LensCrafters\" in bold letters.",
+        "gt_answers": "lenscrafters",
+        "image_path": "./data/svt/image/img_0152.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"FIFTH\" written in it.",
+        "gt_answers": "fifth",
+        "image_path": "./data/svt/image/img_0153.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue sign with the word \"Ave\" written on it.",
+        "gt_answers": "ave",
+        "image_path": "./data/svt/image/img_0154.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"PIKE\" written on it.",
+        "gt_answers": "pike",
+        "image_path": "./data/svt/image/img_0155.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Western.\"",
+        "gt_answers": "western",
+        "image_path": "./data/svt/image/img_0156.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Wine\" written on it.",
+        "gt_answers": "wine",
+        "image_path": "./data/svt/image/img_0157.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the word \"Domino's\" written in large letters.",
+        "gt_answers": "domino",
+        "image_path": "./data/svt/image/img_0158.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and white logo with the word \"Kyro\" written in it.",
+        "gt_answers": "kyro",
+        "image_path": "./data/svt/image/img_0159.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and white sign that reads \"Pizza.\"",
+        "gt_answers": "pizza",
+        "image_path": "./data/svt/image/img_0160.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white text on a black background that reads \"Higher.\"",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0161.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white Lincoln car with a black Lincoln logo on the side.",
+        "gt_answers": "lincoln",
+        "image_path": "./data/svt/image/img_0162.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a school building with the words \"School\" written on it.",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0163.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blackboard with the word \"school\" written on it.",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0164.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a California-based company.",
+        "gt_answers": "california",
+        "image_path": "./data/svt/image/img_0165.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large white sign with the word \"YES\" written in black letters.",
+        "gt_answers": "eyes",
+        "image_path": "./data/svt/image/img_0166.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the word \"FOR\" written in black letters.",
+        "gt_answers": "for",
+        "image_path": "./data/svt/image/img_0167.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"Shea's\" written on it.",
+        "gt_answers": "shea",
+        "image_path": "./data/svt/image/img_0168.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Chinese restaurant sign with the words \"Chinese Restaurant\" written in black text on a pink background.",
+        "gt_answers": "chinese",
+        "image_path": "./data/svt/image/img_0169.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white banner that reads \"Great.\"",
+        "gt_answers": "great",
+        "image_path": "./data/svt/image/img_0170.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wall with the word \"WALL\" written in pink letters.",
+        "gt_answers": "wall",
+        "image_path": "./data/svt/image/img_0171.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown and red textured wall with the word \"ORTLIEB\" written in bold letters.",
+        "gt_answers": "ortlieb",
+        "image_path": "./data/svt/image/img_0172.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Polish.\"",
+        "gt_answers": "polish",
+        "image_path": "./data/svt/image/img_0173.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"SALMER\" written on it.",
+        "gt_answers": "salle",
+        "image_path": "./data/svt/image/img_0174.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a fortune cookie with the word \"Fortune\" written on it.",
+        "gt_answers": "fortune",
+        "image_path": "./data/svt/image/img_0175.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Lucky.\"",
+        "gt_answers": "lucky",
+        "image_path": "./data/svt/image/img_0176.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant menu with a blue background.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0177.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Brasserie.\"",
+        "gt_answers": "brasserie",
+        "image_path": "./data/svt/image/img_0178.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"TEN\" written in it.",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0179.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white television screen with the word \"TEN\" written in white letters.",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0180.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white television screen with the word \"TEN\" written in white letters.",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0181.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pair of boots with a blue and white design.",
+        "gt_answers": "boot",
+        "image_path": "./data/svt/image/img_0182.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called \"Fitting.\"",
+        "gt_answers": "fitting",
+        "image_path": "./data/svt/image/img_0183.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small black and white photo of a man with a mustache, possibly a businessman, and the words \"Larry's Pizza\" written on it.",
+        "gt_answers": "larry",
+        "image_path": "./data/svt/image/img_0184.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Fossil.\"",
+        "gt_answers": "fossil",
+        "image_path": "./data/svt/image/img_0185.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"Fossil\" written in bold letters.",
+        "gt_answers": "fossil",
+        "image_path": "./data/svt/image/img_0186.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a small white label with the word \"Mahr\" written on it.",
+        "gt_answers": "mart",
+        "image_path": "./data/svt/image/img_0187.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sticker with the word \"Mobil\" written on it.",
+        "gt_answers": "mobil",
+        "image_path": "./data/svt/image/img_0188.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"Mobil\" written in bold letters.",
+        "gt_answers": "mobil",
+        "image_path": "./data/svt/image/img_0189.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a website called Cinemarama.",
+        "gt_answers": "cinerama",
+        "image_path": "./data/svt/image/img_0190.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and colorful sign that reads \"Cinerama.\"",
+        "gt_answers": "cinerama",
+        "image_path": "./data/svt/image/img_0191.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Dong\" in large letters.",
+        "gt_answers": "dong",
+        "image_path": "./data/svt/image/img_0192.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Market.\"",
+        "gt_answers": "market",
+        "image_path": "./data/svt/image/img_0193.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign that reads \"YMCA.\"",
+        "gt_answers": "ymca",
+        "image_path": "./data/svt/image/img_0194.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Beads\" in large letters.",
+        "gt_answers": "beads",
+        "image_path": "./data/svt/image/img_0195.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Beads\" in large letters.",
+        "gt_answers": "beads",
+        "image_path": "./data/svt/image/img_0196.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Beads\" in large letters.",
+        "gt_answers": "beads",
+        "image_path": "./data/svt/image/img_0197.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for the FOX News channel.",
+        "gt_answers": "fox",
+        "image_path": "./data/svt/image/img_0198.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Cleaners\" in bold letters.",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0199.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red neon sign that reads \"Hotel.\"",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0200.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called \"MAX.\"",
+        "gt_answers": "max",
+        "image_path": "./data/svt/image/img_0201.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"Mahah\" in red letters.",
+        "gt_answers": "hahm",
+        "image_path": "./data/svt/image/img_0202.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Motorsports\" in red letters.",
+        "gt_answers": "motorsports",
+        "image_path": "./data/svt/image/img_0203.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Motorsports\" in bold letters.",
+        "gt_answers": "motorsports",
+        "image_path": "./data/svt/image/img_0204.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a round seal with the words \"Mahahawaii\" written in it.",
+        "gt_answers": "hahm",
+        "image_path": "./data/svt/image/img_0205.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white logo with the word \"Joe\" written in it.",
+        "gt_answers": "joe",
+        "image_path": "./data/svt/image/img_0206.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and black logo with the word \"Trader\" written in it.",
+        "gt_answers": "trader",
+        "image_path": "./data/svt/image/img_0207.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a woman wearing a purple dress, standing in front of a mirror. She is looking at herself in the mirror, and her reflection can be seen in the glass.",
+        "gt_answers": "body",
+        "image_path": "./data/svt/image/img_0208.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"The Shop\" written in bold letters.",
+        "gt_answers": "shop",
+        "image_path": "./data/svt/image/img_0209.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white text on a black background that reads \"e-Line.\"",
+        "gt_answers": "line",
+        "image_path": "./data/svt/image/img_0210.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the word \"Budget\" written across the top.",
+        "gt_answers": "budget",
+        "image_path": "./data/svt/image/img_0211.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black sign with the word \"Tribunal\" written on it.",
+        "gt_answers": "tribunali",
+        "image_path": "./data/svt/image/img_0212.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign that reads \"Via.\"",
+        "gt_answers": "via",
+        "image_path": "./data/svt/image/img_0213.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a woman's name written in cursive on a brown background.",
+        "gt_answers": "angelo",
+        "image_path": "./data/svt/image/img_0214.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Hamburgers\" in red letters.",
+        "gt_answers": "hamburgers",
+        "image_path": "./data/svt/image/img_0215.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a metal badge with the word \"Fox\" written on it.",
+        "gt_answers": "fox",
+        "image_path": "./data/svt/image/img_0216.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large GameStop store with a red and white sign.",
+        "gt_answers": "gamestop",
+        "image_path": "./data/svt/image/img_0217.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a group of people standing on a beach, with a large pile of fabric in the background.",
+        "gt_answers": "fabrics",
+        "image_path": "./data/svt/image/img_0218.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a movie theater with the words \"Fishman's Fine Arts\" written on it.",
+        "gt_answers": "fishman",
+        "image_path": "./data/svt/image/img_0219.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Onc\" written on it.",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0220.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, white building with a green roof and a red roof. There are two chimneys on the roof, one on the left side and the other on the right side.",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0221.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for Flats Burrito Co.",
+        "gt_answers": "flats",
+        "image_path": "./data/svt/image/img_0222.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called Tijuana.",
+        "gt_answers": "tijuana",
+        "image_path": "./data/svt/image/img_0223.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white text that reads \"Zou.\"",
+        "gt_answers": "zou",
+        "image_path": "./data/svt/image/img_0224.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo with the word \"Zou\" written in it.",
+        "gt_answers": "zou",
+        "image_path": "./data/svt/image/img_0225.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo with the word \"Zoui\" written in it.",
+        "gt_answers": "zou",
+        "image_path": "./data/svt/image/img_0226.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brick wall with the word \"Dodge\" written in it.",
+        "gt_answers": "dodge",
+        "image_path": "./data/svt/image/img_0227.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the words \"PHILIPS\" written on it.",
+        "gt_answers": "phelps",
+        "image_path": "./data/svt/image/img_0228.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"TOWER\" written on it.",
+        "gt_answers": "tower",
+        "image_path": "./data/svt/image/img_0229.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Ernst & Young.\"",
+        "gt_answers": "ernst",
+        "image_path": "./data/svt/image/img_0230.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue sign with the word \"Young\" written on it.",
+        "gt_answers": "young",
+        "image_path": "./data/svt/image/img_0231.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a small, rectangular piece of paper with the word \"Sy\" written on it.",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0232.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Pompei.\"",
+        "gt_answers": "pompei",
+        "image_path": "./data/svt/image/img_0233.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red McDonald's sign with the words \"McDonald's\" written in white.",
+        "gt_answers": "donald",
+        "image_path": "./data/svt/image/img_0234.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white checkered tablecloth with a bowl of fruit on it.",
+        "gt_answers": "donald",
+        "image_path": "./data/svt/image/img_0235.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red sign with the word \"Ramada\" written on it.",
+        "gt_answers": "ramada",
+        "image_path": "./data/svt/image/img_0236.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Cleaners.\"",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0237.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"FIVE\" written in green.",
+        "gt_answers": "five",
+        "image_path": "./data/svt/image/img_0238.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and green bag with the words \"Star\" written on it.",
+        "gt_answers": "star",
+        "image_path": "./data/svt/image/img_0239.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large white sign with the word \"Grandstand\" written in black.",
+        "gt_answers": "grandstand",
+        "image_path": "./data/svt/image/img_0240.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man standing in front of a brick wall, with a sign above his head that reads \"Grandstand Sports.\"",
+        "gt_answers": "grandstand",
+        "image_path": "./data/svt/image/img_0241.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Little\" in red letters.",
+        "gt_answers": "little",
+        "image_path": "./data/svt/image/img_0242.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Saigon.\"",
+        "gt_answers": "saigon",
+        "image_path": "./data/svt/image/img_0243.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a license plate with the word \"Capitol\" written on it.",
+        "gt_answers": "capitol",
+        "image_path": "./data/svt/image/img_0244.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, white sign with the words \"Custom\" written in black.",
+        "gt_answers": "custom",
+        "image_path": "./data/svt/image/img_0245.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called \"Three Tailors.\"",
+        "gt_answers": "tailors",
+        "image_path": "./data/svt/image/img_0246.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Jewelry\" in large letters.",
+        "gt_answers": "jewelry",
+        "image_path": "./data/svt/image/img_0247.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the words \"Bakery\" written in yellow letters.",
+        "gt_answers": "bakery",
+        "image_path": "./data/svt/image/img_0248.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Watercourse Resort.\"",
+        "gt_answers": "watercourse",
+        "image_path": "./data/svt/image/img_0249.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign that reads \"Town.\"",
+        "gt_answers": "town",
+        "image_path": "./data/svt/image/img_0250.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black license plate with the word \"BLACK\" written on it.",
+        "gt_answers": "black",
+        "image_path": "./data/svt/image/img_0251.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white sign with the word \"BOTTLE\" written in it.",
+        "gt_answers": "bottle",
+        "image_path": "./data/svt/image/img_0252.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue background with the word \"Vine\" written in white.",
+        "gt_answers": "vine",
+        "image_path": "./data/svt/image/img_0253.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white logo for the Economist magazine.",
+        "gt_answers": "econo",
+        "image_path": "./data/svt/image/img_0254.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red lodge with a sign that reads \"Lodge.\"",
+        "gt_answers": "lodge",
+        "image_path": "./data/svt/image/img_0255.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and black sign with the word \"Avenue\" written in bold letters.",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0256.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a theater marquee with the words \"Theater\" written in bold letters.",
+        "gt_answers": "theater",
+        "image_path": "./data/svt/image/img_0257.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Air Duct Cleaners.\"",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0258.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Cleaners\" in bold letters.",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0259.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"GlenOaks\" written on it.",
+        "gt_answers": "glenoaks",
+        "image_path": "./data/svt/image/img_0260.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a large, dark building.",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0261.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called Jose.",
+        "gt_answers": "jose",
+        "image_path": "./data/svt/image/img_0262.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a museum.",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0263.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called San.",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0264.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the name \"David\" written on it.",
+        "gt_answers": "david",
+        "image_path": "./data/svt/image/img_0265.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign that reads \"Jeans.\"",
+        "gt_answers": "jean",
+        "image_path": "./data/svt/image/img_0266.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the words \"Louis K\" written on it.",
+        "gt_answers": "louis",
+        "image_path": "./data/svt/image/img_0267.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called Mosser.",
+        "gt_answers": "mosser",
+        "image_path": "./data/svt/image/img_0268.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white text on a black background that reads \"The.\"",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0269.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white and gray logo for a caf\u00e9, with the word \"caf\u00e9\" written in black.",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0270.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called \"Met.\"",
+        "gt_answers": "met",
+        "image_path": "./data/svt/image/img_0271.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Marriott logo, which is a large red and white logo with the words \"Marriott\" written in black.",
+        "gt_answers": "marriott",
+        "image_path": "./data/svt/image/img_0272.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Sandwich\" written on it.",
+        "gt_answers": "sandwich",
+        "image_path": "./data/svt/image/img_0273.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"shop\" written in it.",
+        "gt_answers": "shop",
+        "image_path": "./data/svt/image/img_0274.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white text on a blue background that reads \"Zero Tolerance.\"",
+        "gt_answers": "zero",
+        "image_path": "./data/svt/image/img_0275.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man with a beard, wearing a hat, and holding a sign that says \"Happiness.\"",
+        "gt_answers": "happiness",
+        "image_path": "./data/svt/image/img_0276.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white text that reads \"Three.\"",
+        "gt_answers": "three",
+        "image_path": "./data/svt/image/img_0277.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and white sign with the words \"Charles Tower\" written in black.",
+        "gt_answers": "chinatown",
+        "image_path": "./data/svt/image/img_0278.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white plaque with the words \"Plaza\" written on it.",
+        "gt_answers": "plaza",
+        "image_path": "./data/svt/image/img_0279.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a hat with the word \"SHELL\" written on it.",
+        "gt_answers": "shell",
+        "image_path": "./data/svt/image/img_0280.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the words \"Two Bros. Pizza\" written on it.",
+        "gt_answers": "two",
+        "image_path": "./data/svt/image/img_0281.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for T-Mobile, which is a cell phone service provider.",
+        "gt_answers": "mobile",
+        "image_path": "./data/svt/image/img_0282.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, with a nameplate on his chest that reads \"Marrlott.\"",
+        "gt_answers": "marriott",
+        "image_path": "./data/svt/image/img_0283.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a large stone wall.",
+        "gt_answers": "marriott",
+        "image_path": "./data/svt/image/img_0284.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a sign that reads \"Higgins.\"",
+        "gt_answers": "higgins",
+        "image_path": "./data/svt/image/img_0285.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo for a company called Brexton.",
+        "gt_answers": "brexton",
+        "image_path": "./data/svt/image/img_0286.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo for Chase Bank.",
+        "gt_answers": "chase",
+        "image_path": "./data/svt/image/img_0287.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"Health\" written in it.",
+        "gt_answers": "health",
+        "image_path": "./data/svt/image/img_0288.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the words \"Services.com\" written in black.",
+        "gt_answers": "services",
+        "image_path": "./data/svt/image/img_0289.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the text \"Inc.\" written in it.",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0290.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a pair of black shoes.",
+        "gt_answers": "feet",
+        "image_path": "./data/svt/image/img_0291.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photo of a man wearing a suit and tie, with a name tag that reads \"SIX.\"",
+        "gt_answers": "six",
+        "image_path": "./data/svt/image/img_0292.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called Underground.",
+        "gt_answers": "under",
+        "image_path": "./data/svt/image/img_0293.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large yellow sign with the word \"ARMY\" written on it.",
+        "gt_answers": "army",
+        "image_path": "./data/svt/image/img_0294.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a store sign that reads \"Store.\"",
+        "gt_answers": "store",
+        "image_path": "./data/svt/image/img_0295.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white nameplate with the name \"Francis\" written on it.",
+        "gt_answers": "francis",
+        "image_path": "./data/svt/image/img_0296.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a hospital sign with the word \"Hospital\" written on it.",
+        "gt_answers": "hospital",
+        "image_path": "./data/svt/image/img_0297.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a memorial plaque with the words \"In Memory of\" written on it.",
+        "gt_answers": "memorial",
+        "image_path": "./data/svt/image/img_0298.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the word \"SAINT\" written in it.",
+        "gt_answers": "saint",
+        "image_path": "./data/svt/image/img_0299.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white newspaper with the word \"CRUSH\" written in bold letters across the top.",
+        "gt_answers": "crush",
+        "image_path": "./data/svt/image/img_0300.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and white text that reads \"FIRST.\"",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0301.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a woman wearing a hat and a dress, standing in front of a building.",
+        "gt_answers": "magnolia",
+        "image_path": "./data/svt/image/img_0302.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple and white striped fabric with the word \"Dunbar\" written in white letters.",
+        "gt_answers": "dunbar",
+        "image_path": "./data/svt/image/img_0303.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple ribbon with the word \"High\" written on it.",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0304.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple and white striped scarf with the word \"Laurence\" written in white on it.",
+        "gt_answers": "laurence",
+        "image_path": "./data/svt/image/img_0305.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a man's name written in a purple font.",
+        "gt_answers": "paul",
+        "image_path": "./data/svt/image/img_0306.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a school sign with the words \"Pinewood Elementary School\" written on it.",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0307.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, black and white sign that reads \"Orleans.\"",
+        "gt_answers": "orleans",
+        "image_path": "./data/svt/image/img_0308.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a sign that reads \"Anodizing.\"",
+        "gt_answers": "anodizing",
+        "image_path": "./data/svt/image/img_0309.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a large industrial building.",
+        "gt_answers": "industrial",
+        "image_path": "./data/svt/image/img_0310.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large black and white sign that reads \"Dallas.\"",
+        "gt_answers": "dallas",
+        "image_path": "./data/svt/image/img_0311.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a seminary building with a large sign that reads \"Seminary.\"",
+        "gt_answers": "seminary",
+        "image_path": "./data/svt/image/img_0312.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a blackboard.",
+        "gt_answers": "theological",
+        "image_path": "./data/svt/image/img_0313.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown wooden sign with the word \"Public\" written in white letters.",
+        "gt_answers": "public",
+        "image_path": "./data/svt/image/img_0314.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown storage unit with a red door.",
+        "gt_answers": "storage",
+        "image_path": "./data/svt/image/img_0315.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red and white sign that reads \"America.\"",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0316.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a large American flag.",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0317.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a bookshelf with a variety of books displayed on it.",
+        "gt_answers": "books",
+        "image_path": "./data/svt/image/img_0318.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"Books First\" written in white letters on a black background.",
+        "gt_answers": "books",
+        "image_path": "./data/svt/image/img_0319.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white text that reads \"For.\"",
+        "gt_answers": "for",
+        "image_path": "./data/svt/image/img_0320.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, white, and blue sign that reads \"FOR.\"",
+        "gt_answers": "for",
+        "image_path": "./data/svt/image/img_0321.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"Animal Inn.\"",
+        "gt_answers": "mint",
+        "image_path": "./data/svt/image/img_0322.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"States\" in bold letters.",
+        "gt_answers": "states",
+        "image_path": "./data/svt/image/img_0323.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"United.\"",
+        "gt_answers": "united",
+        "image_path": "./data/svt/image/img_0324.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Crestwood High School.\"",
+        "gt_answers": "crest",
+        "image_path": "./data/svt/image/img_0325.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Pineo's Pizza.\"",
+        "gt_answers": "pine",
+        "image_path": "./data/svt/image/img_0326.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant sign with the words \"Restaurant 42\" written on it.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0327.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue Ford logo with the words \"Ford\" written in white.",
+        "gt_answers": "ford",
+        "image_path": "./data/svt/image/img_0328.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Welcome to Mills.\"",
+        "gt_answers": "mills",
+        "image_path": "./data/svt/image/img_0329.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue sign with the word \"Avenue\" written on it.",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0330.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Sixth Street.\"",
+        "gt_answers": "sixth",
+        "image_path": "./data/svt/image/img_0331.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"Bar\" written in it.",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0332.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a restaurant called \"Grille.\"",
+        "gt_answers": "grill",
+        "image_path": "./data/svt/image/img_0333.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the words \"Sixth Avenue\" written in it.",
+        "gt_answers": "sixth",
+        "image_path": "./data/svt/image/img_0334.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"GILL\" written in it.",
+        "gt_answers": "grill",
+        "image_path": "./data/svt/image/img_0335.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue sign with the word \"Avenue\" written on it.",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0336.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue shirt with a white logo on it.",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0337.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant sign with the words \"Restaurant\" written on it.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0338.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a wooden sign with the name \"Stewart\" written on it.",
+        "gt_answers": "stewart",
+        "image_path": "./data/svt/image/img_0339.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a forum banner with the words \"Forum\" written in black text on a white background.",
+        "gt_answers": "forum",
+        "image_path": "./data/svt/image/img_0340.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large banner with the words \"Heritage Forum\" written in bold letters.",
+        "gt_answers": "forum",
+        "image_path": "./data/svt/image/img_0341.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white newspaper with the word \"Heritage\" written in bold letters across the top.",
+        "gt_answers": "heritage",
+        "image_path": "./data/svt/image/img_0342.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"Heritage Foundation\" written in bold letters.",
+        "gt_answers": "heritage",
+        "image_path": "./data/svt/image/img_0343.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, standing in front of a building.",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0344.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a restaurant called \"Grill.\"",
+        "gt_answers": "grill",
+        "image_path": "./data/svt/image/img_0345.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man and a woman standing together, with the man holding a sign that reads \"Join the team.\"",
+        "gt_answers": "joint",
+        "image_path": "./data/svt/image/img_0346.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a jukebox.",
+        "gt_answers": "juke",
+        "image_path": "./data/svt/image/img_0347.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Homewood\" written on it.",
+        "gt_answers": "homewood",
+        "image_path": "./data/svt/image/img_0348.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a hotel sign with the words \"Suites\" written on it.",
+        "gt_answers": "suites",
+        "image_path": "./data/svt/image/img_0349.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photo of a kitchen with a sink and a stove.",
+        "gt_answers": "kitchen",
+        "image_path": "./data/svt/image/img_0350.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a piece of paper with the word \"Paris\" written on it in a cursive font.",
+        "gt_answers": "park",
+        "image_path": "./data/svt/image/img_0351.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign that reads \"Tavern.\"",
+        "gt_answers": "tavern",
+        "image_path": "./data/svt/image/img_0352.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red brick building with a sign that reads \"Tavern.\"",
+        "gt_answers": "tavern",
+        "image_path": "./data/svt/image/img_0353.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign with the words \"Williams\" written in black.",
+        "gt_answers": "williams",
+        "image_path": "./data/svt/image/img_0354.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Chinese restaurant with a red sign and a large menu board.",
+        "gt_answers": "china",
+        "image_path": "./data/svt/image/img_0355.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a dollar sign written in red and black on a white background.",
+        "gt_answers": "dollar",
+        "image_path": "./data/svt/image/img_0356.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"INC.\" in bold letters.",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0357.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the word \"Uptown\" written across the top.",
+        "gt_answers": "town",
+        "image_path": "./data/svt/image/img_0358.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the word \"Ding\" written in large letters across the top.",
+        "gt_answers": "ding",
+        "image_path": "./data/svt/image/img_0359.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a movie theater with the words \"Cinema\" written on it.",
+        "gt_answers": "cinema",
+        "image_path": "./data/svt/image/img_0360.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow sign with the word \"SUB\" written on it.",
+        "gt_answers": "sub",
+        "image_path": "./data/svt/image/img_0361.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brick wall with the word \"Church\" written in white letters.",
+        "gt_answers": "church",
+        "image_path": "./data/svt/image/img_0362.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brick wall with the word \"First\" written on it in white.",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0363.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Grace Methodist Church.\"",
+        "gt_answers": "methodist",
+        "image_path": "./data/svt/image/img_0364.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brick wall with the words \"United\" written in white on it.",
+        "gt_answers": "united",
+        "image_path": "./data/svt/image/img_0365.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue Starbucks logo on a white background.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0366.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white Starbucks logo.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0367.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the words \"Coffee\" written in bold letters.",
+        "gt_answers": "coffee",
+        "image_path": "./data/svt/image/img_0368.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white vintage telephone with a dial.",
+        "gt_answers": "coffee",
+        "image_path": "./data/svt/image/img_0369.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"The Casbah.\"",
+        "gt_answers": "casbah",
+        "image_path": "./data/svt/image/img_0370.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a restaurant with a sign that reads \"Restaurant.\"",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0371.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"Tara\" written in it.",
+        "gt_answers": "tara",
+        "image_path": "./data/svt/image/img_0372.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black logo with the word \"Brasil\" written in it.",
+        "gt_answers": "brazil",
+        "image_path": "./data/svt/image/img_0373.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black logo with the word \"Canto\" written in it.",
+        "gt_answers": "canto",
+        "image_path": "./data/svt/image/img_0374.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and yellow sign with the word \"Restaurant\" written in bold letters.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0375.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Bicycle.\"",
+        "gt_answers": "bicycle",
+        "image_path": "./data/svt/image/img_0376.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Express 5-9.\"",
+        "gt_answers": "express",
+        "image_path": "./data/svt/image/img_0377.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black cat sitting on a white background.",
+        "gt_answers": "car",
+        "image_path": "./data/svt/image/img_0378.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for Enterprise, which is a software company.",
+        "gt_answers": "enterprise",
+        "image_path": "./data/svt/image/img_0379.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man's hand holding a piece of paper with the word \"Enprise\" written on it.",
+        "gt_answers": "enterprise",
+        "image_path": "./data/svt/image/img_0380.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photograph of a man wearing a suit and tie, standing in front of a building.",
+        "gt_answers": "rent",
+        "image_path": "./data/svt/image/img_0381.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"House of Pizza\" written on it.",
+        "gt_answers": "house",
+        "image_path": "./data/svt/image/img_0382.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Parliament House.\"",
+        "gt_answers": "parliament",
+        "image_path": "./data/svt/image/img_0383.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and black logo with the words \"The Resort\" written in it.",
+        "gt_answers": "resort",
+        "image_path": "./data/svt/image/img_0384.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign with the word \"AGENCY\" written in bold letters.",
+        "gt_answers": "agency",
+        "image_path": "./data/svt/image/img_0385.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white liquid with the word \"liquid\" written in it.",
+        "gt_answers": "liquid",
+        "image_path": "./data/svt/image/img_0386.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a liquor bottle with the word \"Liquid\" written on it.",
+        "gt_answers": "liquid",
+        "image_path": "./data/svt/image/img_0387.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a store.",
+        "gt_answers": "jones",
+        "image_path": "./data/svt/image/img_0388.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a mission statement.",
+        "gt_answers": "mission",
+        "image_path": "./data/svt/image/img_0389.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pub sign with the words \"Pub\" written in a script font.",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0390.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black theater marquee with the words \"Theater\" written in white.",
+        "gt_answers": "theatre",
+        "image_path": "./data/svt/image/img_0391.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a Starbucks logo on a white background.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0392.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, standing in front of a storefront. The storefront is labeled \"Cherry's.\"",
+        "gt_answers": "cherry",
+        "image_path": "./data/svt/image/img_0393.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black sign with the word \"Cherry\" written in it.",
+        "gt_answers": "cherry",
+        "image_path": "./data/svt/image/img_0394.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black sign with the word \"Chinese\" written in black.",
+        "gt_answers": "chinese",
+        "image_path": "./data/svt/image/img_0395.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black sign that reads \"Gluten-Free Vegetarian.\"",
+        "gt_answers": "vegetarian",
+        "image_path": "./data/svt/image/img_0396.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and yellow sign that reads \"Street.\"",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0397.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign with the word \"Street\" written in black and yellow.",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0398.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Cherry Innest.\"",
+        "gt_answers": "cherry",
+        "image_path": "./data/svt/image/img_0399.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow sign with the words \"Chinese Restaurant\" written in black.",
+        "gt_answers": "chinese",
+        "image_path": "./data/svt/image/img_0400.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow sign with black lettering that reads \"Changing the Game.\"",
+        "gt_answers": "vegetarian",
+        "image_path": "./data/svt/image/img_0401.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and black logo with the word \"Fuji\" written in it.",
+        "gt_answers": "fuji",
+        "image_path": "./data/svt/image/img_0402.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the word \"Massage\" written in it.",
+        "gt_answers": "massage",
+        "image_path": "./data/svt/image/img_0403.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called Hard Rock Cafe.",
+        "gt_answers": "hard",
+        "image_path": "./data/svt/image/img_0404.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, yellow-orange bull's head with a brown nose and a red tongue.",
+        "gt_answers": "hard",
+        "image_path": "./data/svt/image/img_0405.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Rock & Roll Pizza\" written on it.",
+        "gt_answers": "rock",
+        "image_path": "./data/svt/image/img_0406.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Rock and Roll\" written on it.",
+        "gt_answers": "rock",
+        "image_path": "./data/svt/image/img_0407.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, colorful, and detailed painting of a woman with a red dress.",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0408.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white cafe sign with the word \"CAFE\" written in bold letters.",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0409.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Neonos\" written on it.",
+        "gt_answers": "neumos",
+        "image_path": "./data/svt/image/img_0410.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Neumos\" in bold letters.",
+        "gt_answers": "neumos",
+        "image_path": "./data/svt/image/img_0411.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black sign with the word \"Central\" written in white.",
+        "gt_answers": "central",
+        "image_path": "./data/svt/image/img_0412.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, black and white sign with the word \"Grand\" written in it.",
+        "gt_answers": "grand",
+        "image_path": "./data/svt/image/img_0413.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a license plate with the word \"EAGER\" written on it.",
+        "gt_answers": "eager",
+        "image_path": "./data/svt/image/img_0414.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background with the words \"Imports.com\" written in black text.",
+        "gt_answers": "imports",
+        "image_path": "./data/svt/image/img_0415.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a vintage baseball jersey with the word \"Phils\" written on it.",
+        "gt_answers": "phil",
+        "image_path": "./data/svt/image/img_0416.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign with the word \"Center\" written in it.",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0417.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a convention.",
+        "gt_answers": "convention",
+        "image_path": "./data/svt/image/img_0418.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the word \"Garfield\" written in it.",
+        "gt_answers": "garfield",
+        "image_path": "./data/svt/image/img_0419.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign that reads \"Girls High.\"",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0420.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a school building with a large sign that reads \"SCHOOL.\"",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0421.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for Travelodge, a hotel chain.",
+        "gt_answers": "travelodge",
+        "image_path": "./data/svt/image/img_0422.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the words \"Goodwill\" written in it.",
+        "gt_answers": "goodwill",
+        "image_path": "./data/svt/image/img_0423.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black sign with the words \"Speed Zone\" written on it.",
+        "gt_answers": "speed",
+        "image_path": "./data/svt/image/img_0424.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and black sign that reads \"AZONE.\"",
+        "gt_answers": "zone",
+        "image_path": "./data/svt/image/img_0425.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow and red sign that reads \"AUTO.\"",
+        "gt_answers": "auto",
+        "image_path": "./data/svt/image/img_0426.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"Supply\" in blue letters.",
+        "gt_answers": "supply",
+        "image_path": "./data/svt/image/img_0427.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"LOCKSMITH\" in white letters on a blue background.",
+        "gt_answers": "locksmith",
+        "image_path": "./data/svt/image/img_0428.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red sign with the word \"Fahrenheit\" written in black.",
+        "gt_answers": "fahrenheit",
+        "image_path": "./data/svt/image/img_0429.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a lounge with a red couch and a red chair.",
+        "gt_answers": "lounge",
+        "image_path": "./data/svt/image/img_0430.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a sign that reads \"Escapigiro.\"",
+        "gt_answers": "capogiro",
+        "image_path": "./data/svt/image/img_0431.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large red and white sign that reads \"Target.\"",
+        "gt_answers": "target",
+        "image_path": "./data/svt/image/img_0432.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Orpheum.\"",
+        "gt_answers": "orpheum",
+        "image_path": "./data/svt/image/img_0433.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black theater sign with the word \"Theatre\" written in white.",
+        "gt_answers": "theatre",
+        "image_path": "./data/svt/image/img_0434.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called Redwood City.",
+        "gt_answers": "redwood",
+        "image_path": "./data/svt/image/img_0435.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Redwood.\"",
+        "gt_answers": "redwood",
+        "image_path": "./data/svt/image/img_0436.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a building with the words \"Apartments\" written on it.",
+        "gt_answers": "apartments",
+        "image_path": "./data/svt/image/img_0437.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a woman wearing a black dress and holding a red rose.",
+        "gt_answers": "bohemian",
+        "image_path": "./data/svt/image/img_0438.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a large building.",
+        "gt_answers": "grand",
+        "image_path": "./data/svt/image/img_0439.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the words \"Hotel\" written in red.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0440.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small black and red sign that reads \"Super.\"",
+        "gt_answers": "super",
+        "image_path": "./data/svt/image/img_0441.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden radio with a large red \"Radio\" sign on it.",
+        "gt_answers": "radio",
+        "image_path": "./data/svt/image/img_0442.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Shack\" written on it.",
+        "gt_answers": "shack",
+        "image_path": "./data/svt/image/img_0443.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a metal plaque with the word \"Chanterelle\" written on it.",
+        "gt_answers": "chanterelle",
+        "image_path": "./data/svt/image/img_0444.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a McDonald's sign.",
+        "gt_answers": "donald",
+        "image_path": "./data/svt/image/img_0445.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"High\" written on it.",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0446.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Lincoln\" written on it.",
+        "gt_answers": "lincoln",
+        "image_path": "./data/svt/image/img_0447.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"school\" written on it.",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0448.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a hotel sign with the words \"Hotel Ace\" written in red.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0449.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign with the word \"Vernon\" written in black.",
+        "gt_answers": "vernon",
+        "image_path": "./data/svt/image/img_0450.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"First National Bank\" written in bold letters.",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0451.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a woman wearing a pink dress.",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0452.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white advertisement for a chiropractic clinic.",
+        "gt_answers": "chiropractic",
+        "image_path": "./data/svt/image/img_0453.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the headline \"GIULIO\" written in large letters.",
+        "gt_answers": "giulio",
+        "image_path": "./data/svt/image/img_0454.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and white sign with the words \"Deli\" written in black.",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0455.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple and white sign with the words \"Deli\" written in white.",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0456.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white and blue striped shirt with the word \"Garny\" written in blue letters across the front.",
+        "gt_answers": "garny",
+        "image_path": "./data/svt/image/img_0457.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a tattoo on a person's arm that says \"Roots.\"",
+        "gt_answers": "roots",
+        "image_path": "./data/svt/image/img_0458.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white shirt with the word \"AIR\" written in blue letters on the front.",
+        "gt_answers": "air",
+        "image_path": "./data/svt/image/img_0459.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a museum sign with the words \"Museum\" written in black on a white background.",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0460.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white sign with the word \"SPACE\" written in black letters.",
+        "gt_answers": "space",
+        "image_path": "./data/svt/image/img_0461.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brick wall with the word \"Leon\" written on it.",
+        "gt_answers": "leon",
+        "image_path": "./data/svt/image/img_0462.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large blue sign with the word \"Plaza\" written on it.",
+        "gt_answers": "plaza",
+        "image_path": "./data/svt/image/img_0463.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large glass window with the words \"American Airlines\" written on it.",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0464.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"INN\" written in green letters.",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0465.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a square sign with the word \"Square\" written in black text.",
+        "gt_answers": "square",
+        "image_path": "./data/svt/image/img_0466.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and black text that reads \"Washington.\"",
+        "gt_answers": "washington",
+        "image_path": "./data/svt/image/img_0467.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"Embassy\" written in bold letters.",
+        "gt_answers": "embassy",
+        "image_path": "./data/svt/image/img_0468.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a hotel called \"The Suites.\"",
+        "gt_answers": "suites",
+        "image_path": "./data/svt/image/img_0469.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white metal sign with the words \"Parking\" written in bold letters.",
+        "gt_answers": "parking",
+        "image_path": "./data/svt/image/img_0470.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, dark building with a sign that reads \"The Center.\"",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0471.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a city skyline with a large building in the center.",
+        "gt_answers": "city",
+        "image_path": "./data/svt/image/img_0472.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a corner store with a green awning and a sign that reads \"Corner Grocery.\"",
+        "gt_answers": "corner",
+        "image_path": "./data/svt/image/img_0473.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, standing in front of a storefront.",
+        "gt_answers": "martin",
+        "image_path": "./data/svt/image/img_0474.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a bar with a wooden bar top and a bartender standing behind it. There are several bottles of alcohol displayed on the bar, including a bottle of wine and a bottle of beer. The bar is also equipped with a TV, which is mounted on the wall above the bar.\n\nIn the background, there are several people standing around the bar, enjoying their drinks and socializing. Some of them are closer to the foreground, while others are further back. The atmosphere appears to be lively and inviting.",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0475.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the word \"Quiznos\" written in black.",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0476.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a book with the word \"arts\" written on it.",
+        "gt_answers": "arts",
+        "image_path": "./data/svt/image/img_0477.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white text that reads \"modified.\"",
+        "gt_answers": "modified",
+        "image_path": "./data/svt/image/img_0478.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a group of men standing in front of a building. There are at least 10 men in the picture, with some standing closer to the front and others further back. They are all wearing suits, which suggests they might be attending a formal event or gathering. The building in the background appears to be a church, as there are several crosses visible in the scene.",
+        "gt_answers": "brothers",
+        "image_path": "./data/svt/image/img_0479.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large display of various products, including a variety of bottles, cups, and other items.",
+        "gt_answers": "products",
+        "image_path": "./data/svt/image/img_0480.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a vintage advertisement for Zesco, a company that manufactures and sells electrical products. The ad is displayed on a wooden board, and it features a man and a woman standing next to each other, with the woman holding a Zesco product. The ad is likely from the 1950s or 1960s, as it has a vintage feel to it.",
+        "gt_answers": "zesco",
+        "image_path": "./data/svt/image/img_0481.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a woman wearing a red dress. She is standing in front of a white wall, and her face is turned towards the camera.",
+        "gt_answers": "zoll",
+        "image_path": "./data/svt/image/img_0482.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white newspaper with the headline \"Goodwill\" written in bold letters.",
+        "gt_answers": "goodwill",
+        "image_path": "./data/svt/image/img_0483.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called FranklyVoice.",
+        "gt_answers": "frankly",
+        "image_path": "./data/svt/image/img_0484.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white wine bottle with a label that reads \"Say Wines.\"",
+        "gt_answers": "wines",
+        "image_path": "./data/svt/image/img_0485.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the words \"Holiday Season\" written on it.",
+        "gt_answers": "holiday",
+        "image_path": "./data/svt/image/img_0486.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"LATITUDE 41.5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0487.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green sign with the words \"The Inn\" written on it.",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0488.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white bicycle with the word \"BIKE\" written on it.",
+        "gt_answers": "bike",
+        "image_path": "./data/svt/image/img_0489.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign with the word \"Kyle's\" written on it.",
+        "gt_answers": "kyle",
+        "image_path": "./data/svt/image/img_0490.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign that reads \"SHOP.\"",
+        "gt_answers": "shop",
+        "image_path": "./data/svt/image/img_0491.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white poster with a red border, which has the words \"The Greatest Showman\" written in black.",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0492.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white sign with the word \"LESBIAN\" written in red letters.",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0493.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green sign with the word \"Kabob\" written on it.",
+        "gt_answers": "kabob",
+        "image_path": "./data/svt/image/img_0494.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Kotayyk\" in a white font on a black background.",
+        "gt_answers": "kotayk",
+        "image_path": "./data/svt/image/img_0495.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a grocery store sign with the words \"Grocery\" written in red.",
+        "gt_answers": "grocery",
+        "image_path": "./data/svt/image/img_0496.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called Carlton.",
+        "gt_answers": "carlton",
+        "image_path": "./data/svt/image/img_0497.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white hotel sign with the words \"Hotel\" written in white.",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0498.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Satyricon.\"",
+        "gt_answers": "satyricon",
+        "image_path": "./data/svt/image/img_0499.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign that reads \"Anahiem.\"",
+        "gt_answers": "anaheim",
+        "image_path": "./data/svt/image/img_0500.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue band logo on a white background.",
+        "gt_answers": "band",
+        "image_path": "./data/svt/image/img_0501.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue sign with the word \"Instruments\" written on it.",
+        "gt_answers": "instruments",
+        "image_path": "./data/svt/image/img_0502.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man standing in front of a building.",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0503.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, black and white photograph of a man wearing a suit and tie.",
+        "gt_answers": "dan",
+        "image_path": "./data/svt/image/img_0504.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie.",
+        "gt_answers": "louis",
+        "image_path": "./data/svt/image/img_0505.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"Elite\" written on it.",
+        "gt_answers": "oyster",
+        "image_path": "./data/svt/image/img_0506.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a castle with a large sign that reads \"Castle.\"",
+        "gt_answers": "castle",
+        "image_path": "./data/svt/image/img_0507.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white text on a black background, which reads \"The Whole Truth.\"",
+        "gt_answers": "white",
+        "image_path": "./data/svt/image/img_0508.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white text that reads \"Food.\"",
+        "gt_answers": "food",
+        "image_path": "./data/svt/image/img_0509.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the name \"Jimmy's Barber Shop\" written on it.",
+        "gt_answers": "jimmy",
+        "image_path": "./data/svt/image/img_0510.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a storefront with the words \"The Store\" written on it.",
+        "gt_answers": "store",
+        "image_path": "./data/svt/image/img_0511.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Hollywood.\"",
+        "gt_answers": "hollywood",
+        "image_path": "./data/svt/image/img_0512.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Posters.\"",
+        "gt_answers": "posters",
+        "image_path": "./data/svt/image/img_0513.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Palace\" written in red.",
+        "gt_answers": "palace",
+        "image_path": "./data/svt/image/img_0514.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with the words \"White\" written in red.",
+        "gt_answers": "white",
+        "image_path": "./data/svt/image/img_0515.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white van with the words \"White Van\" written on it.",
+        "gt_answers": "white",
+        "image_path": "./data/svt/image/img_0516.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and blue sign with the words \"AT&T America\" written on it.",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0517.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a book with the title \"Comfort Zone\" written on it.",
+        "gt_answers": "comfort",
+        "image_path": "./data/svt/image/img_0518.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple sign with the word \"inn\" written on it.",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0519.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small white book with the words \"Scientology\" written on it.",
+        "gt_answers": "scientology",
+        "image_path": "./data/svt/image/img_0520.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a church sign with the words \"Church of Christ\" written in blue.",
+        "gt_answers": "church",
+        "image_path": "./data/svt/image/img_0521.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a man named Jose, who is wearing a blue shirt and a tie.",
+        "gt_answers": "jose",
+        "image_path": "./data/svt/image/img_0522.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a museum sign with the words \"The Museum\" written in black text on a white background.",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0523.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Quilts\" in bold letters.",
+        "gt_answers": "quilts",
+        "image_path": "./data/svt/image/img_0524.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the words \"San Jose\" written in bold letters.",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0525.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a textile store with a large selection of fabrics and textiles.",
+        "gt_answers": "textiles",
+        "image_path": "./data/svt/image/img_0526.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green house with a white sign that reads \"House.\"",
+        "gt_answers": "house",
+        "image_path": "./data/svt/image/img_0527.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and white sign that reads \"TEA.\"",
+        "gt_answers": "tea",
+        "image_path": "./data/svt/image/img_0528.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and white Pakistani flag with the words \"Pakistan\" written in white on it.",
+        "gt_answers": "pak",
+        "image_path": "./data/svt/image/img_0529.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a Starbucks sign with the words \"Starbucks\" written in black on a white background.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0530.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown and white sign with the word \"Burbank\" written in it.",
+        "gt_answers": "burbank",
+        "image_path": "./data/svt/image/img_0531.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red neon sign with the word \"Burbank\" written in it.",
+        "gt_answers": "burbank",
+        "image_path": "./data/svt/image/img_0532.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man standing in front of a flower shop.",
+        "gt_answers": "florist",
+        "image_path": "./data/svt/image/img_0533.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper advertisement for gifts.",
+        "gt_answers": "gifts",
+        "image_path": "./data/svt/image/img_0534.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white sign with the word \"CHECK\" written in bold letters.",
+        "gt_answers": "check",
+        "image_path": "./data/svt/image/img_0535.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign that reads \"Bank.\"",
+        "gt_answers": "bank",
+        "image_path": "./data/svt/image/img_0536.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white drawing of a person's face, with the word \"TADU\" written in Thai script on the forehead.",
+        "gt_answers": "tabu",
+        "image_path": "./data/svt/image/img_0537.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a building.",
+        "gt_answers": "space",
+        "image_path": "./data/svt/image/img_0538.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green sign with the words \"Marlboro\" written in white.",
+        "gt_answers": "marlboro",
+        "image_path": "./data/svt/image/img_0539.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a suit and tie, with the words \"Houlihan's\" written on the bottom of the photo.",
+        "gt_answers": "houlihan",
+        "image_path": "./data/svt/image/img_0540.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a chocolate bar with the words \"Houlihan's\" written on it.",
+        "gt_answers": "houlihan",
+        "image_path": "./data/svt/image/img_0541.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for Sheraton Hotels.",
+        "gt_answers": "sheraton",
+        "image_path": "./data/svt/image/img_0542.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white restaurant logo.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0543.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"cellars.\"",
+        "gt_answers": "cellars",
+        "image_path": "./data/svt/image/img_0544.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a piece of paper with the word \"ten\" written on it.",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0545.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white text on a blue background that reads \"Times.\"",
+        "gt_answers": "times",
+        "image_path": "./data/svt/image/img_0546.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green sign with the words \"Accountancy\" written in black.",
+        "gt_answers": "accountancy",
+        "image_path": "./data/svt/image/img_0547.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a brown and white sign with the word \"Quiznos\" written in bold letters.",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0548.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a menu with the word \"Salads\" written in bold letters.",
+        "gt_answers": "salads",
+        "image_path": "./data/svt/image/img_0549.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a piece of paper with a handwritten note on it. The note is written in cursive and appears to be a quote or a message.",
+        "gt_answers": "subs",
+        "image_path": "./data/svt/image/img_0550.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small piece of paper with the word \"Jewel\" written on it.",
+        "gt_answers": "jewel",
+        "image_path": "./data/svt/image/img_0551.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"OSCO.\"",
+        "gt_answers": "osco",
+        "image_path": "./data/svt/image/img_0552.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a suit and tie, standing in front of a pickle display.",
+        "gt_answers": "pickles",
+        "image_path": "./data/svt/image/img_0553.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a pub sign with the words \"Pub Tavern\" written on it.",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0554.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green and white sign that reads \"Pickles.\"",
+        "gt_answers": "pickles",
+        "image_path": "./data/svt/image/img_0555.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large green neon sign that reads \"Pub\" in bold letters.",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0556.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a spaghetti dish.",
+        "gt_answers": "spaghetti",
+        "image_path": "./data/svt/image/img_0557.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Warehouse.\"",
+        "gt_answers": "warehouse",
+        "image_path": "./data/svt/image/img_0558.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a license plate with the word \"BREWERY\" written on it.",
+        "gt_answers": "brewery",
+        "image_path": "./data/svt/image/img_0559.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a license plate with the words \"PUB 1\" written on it.",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0560.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large purple sign with the word \"SUN\" written in white letters.",
+        "gt_answers": "sun",
+        "image_path": "./data/svt/image/img_0561.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a mountain with the words \"Mountain\" written on it.",
+        "gt_answers": "mountain",
+        "image_path": "./data/svt/image/img_0562.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called Simon.",
+        "gt_answers": "simon",
+        "image_path": "./data/svt/image/img_0563.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man standing in front of a gallery.",
+        "gt_answers": "gallery",
+        "image_path": "./data/svt/image/img_0564.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign with the word \"Street\" written in black on a white background.",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0565.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red car with the word \"Avis\" written on it.",
+        "gt_answers": "avis",
+        "image_path": "./data/svt/image/img_0566.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the words \"Himalayas\" written in black on a brown background.",
+        "gt_answers": "himalayas",
+        "image_path": "./data/svt/image/img_0567.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a restaurant with a sign that reads \"Chris Restaurant.\"",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0568.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a street sign with the word \"Street\" written on it.",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0569.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white sign that reads \"Center.\"",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0570.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black sign with the word \"University\" written on it.",
+        "gt_answers": "university",
+        "image_path": "./data/svt/image/img_0571.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a piece of paper with a message written on it.",
+        "gt_answers": "asu",
+        "image_path": "./data/svt/image/img_0572.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the headline \"Days\" written across the top.",
+        "gt_answers": "days",
+        "image_path": "./data/svt/image/img_0573.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo for a hotel chain, with the words \"Inn\" and \"Hotel\" written in the logo.",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0574.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the word \"Sheraton\" written on it.",
+        "gt_answers": "sheraton",
+        "image_path": "./data/svt/image/img_0575.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white paper with the words \"Avante Healthcare\" written in black ink.",
+        "gt_answers": "avante",
+        "image_path": "./data/svt/image/img_0576.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple sign with the words \"Avenue of Flowers\" written on it.",
+        "gt_answers": "florist",
+        "image_path": "./data/svt/image/img_0577.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, colorful sign that reads \"Gardens.\"",
+        "gt_answers": "gardens",
+        "image_path": "./data/svt/image/img_0578.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a school sign with the words \"School of the Arts\" written on it.",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0579.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background with a purple flower and the words \"Floral Design\" written in black.",
+        "gt_answers": "floral",
+        "image_path": "./data/svt/image/img_0580.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white background with the words \"Design\" written in black.",
+        "gt_answers": "design",
+        "image_path": "./data/svt/image/img_0581.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a Starbucks logo.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0582.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Starbucks logo, which is written in a green font.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0583.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red CVS sign on a building.",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0584.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"CVS\" written in bold letters.",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0585.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a CVS/pharmacy sign.",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0586.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and colorful sign that reads \"GVS/GVS.\"",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0587.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and black sign that reads \"Pharmacy.\"",
+        "gt_answers": "pharmacy",
+        "image_path": "./data/svt/image/img_0588.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white banner with the word \"God\" written in it.",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0589.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red car with a white stripe down the side, parked on a street.",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0590.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white striped cloth with the word \"Barnesley\" written in black on it.",
+        "gt_answers": "barnsley",
+        "image_path": "./data/svt/image/img_0591.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign that reads \"Tire.\"",
+        "gt_answers": "tire",
+        "image_path": "./data/svt/image/img_0592.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and black sign with the words \"Cafe Stop\" written on it.",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0593.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, red, and white sign that reads \"Soleil.\"",
+        "gt_answers": "soleil",
+        "image_path": "./data/svt/image/img_0594.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red bar with a white background, and the word \"bar\" is written in white letters on the bar.",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0595.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant sign with the words \"Restaurant\" written in red.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0596.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a business called Centre.",
+        "gt_answers": "centre",
+        "image_path": "./data/svt/image/img_0597.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a circle with the word \"circle\" written in it.",
+        "gt_answers": "circle",
+        "image_path": "./data/svt/image/img_0598.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign that reads \"Automotive\" in black letters.",
+        "gt_answers": "automotive",
+        "image_path": "./data/svt/image/img_0599.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue shirt with the word \"Diego\" written on it.",
+        "gt_answers": "diego",
+        "image_path": "./data/svt/image/img_0600.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large white sign with the word \"Museum\" written in black.",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0601.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sticker with the word \"SAN\" written in blue.",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0602.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man and a woman standing in front of a building.",
+        "gt_answers": "common",
+        "image_path": "./data/svt/image/img_0603.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo for a company called Threads.",
+        "gt_answers": "threads",
+        "image_path": "./data/svt/image/img_0604.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Hatsu\" written on it.",
+        "gt_answers": "hatsu",
+        "image_path": "./data/svt/image/img_0605.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign that reads \"Sushi.\"",
+        "gt_answers": "sushi",
+        "image_path": "./data/svt/image/img_0606.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo with the words \"Art\" written in it.",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0607.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called \"iArt.\"",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0608.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white text on a blue background, which reads \"Airbnb.\"",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0609.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a museum sign with the words \"Museum of Natural History\" written on it.",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0610.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a piece of paper with a handwritten note that reads \"I love you.\"",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0611.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white logo for Timken, a manufacturer of bearings and power transmission products.",
+        "gt_answers": "timken",
+        "image_path": "./data/svt/image/img_0612.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white piece of paper with a black ink stamp on it. The stamp reads \"100% Pure.\"",
+        "gt_answers": "timken",
+        "image_path": "./data/svt/image/img_0613.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Bar\" in large letters.",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0614.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a man standing on a stage, holding a sign that reads \"Bar.\"",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0615.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a sign that says \"Central.\"",
+        "gt_answers": "central",
+        "image_path": "./data/svt/image/img_0616.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the words \"Central High School\" written in bold letters.",
+        "gt_answers": "central",
+        "image_path": "./data/svt/image/img_0617.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large white sign with the word \"PlayStation\" written in black.",
+        "gt_answers": "station",
+        "image_path": "./data/svt/image/img_0618.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a newspaper with the headline \"Station 10\" written across the top.",
+        "gt_answers": "station",
+        "image_path": "./data/svt/image/img_0619.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a man wearing a black shirt with the word \"PASADA\" written on it.",
+        "gt_answers": "pasada",
+        "image_path": "./data/svt/image/img_0620.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large, bold, and colorful sign that reads \"Uptown\" in white letters.",
+        "gt_answers": "uptown",
+        "image_path": "./data/svt/image/img_0621.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white sign with black text that reads \"The Village.\"",
+        "gt_answers": "village",
+        "image_path": "./data/svt/image/img_0622.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue and white license plate with the word \"Massachusetts\" written on it.",
+        "gt_answers": "massa",
+        "image_path": "./data/svt/image/img_0623.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with the word \"Hertz\" written in bold letters.",
+        "gt_answers": "hertz",
+        "image_path": "./data/svt/image/img_0624.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the words \"Courtyard by Marriott\" written in black text on a white background.",
+        "gt_answers": "courtyard",
+        "image_path": "./data/svt/image/img_0625.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white sign with the word \"Jimmy\" written on it.",
+        "gt_answers": "jimmy",
+        "image_path": "./data/svt/image/img_0626.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red neon sign that reads \"Johnny's.\"",
+        "gt_answers": "john",
+        "image_path": "./data/svt/image/img_0627.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Chocolate\" in white letters on a black background.",
+        "gt_answers": "chocolate",
+        "image_path": "./data/svt/image/img_0628.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that reads \"Moose.\"",
+        "gt_answers": "moose",
+        "image_path": "./data/svt/image/img_0629.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photo of a lounge area with a couch and a chair.",
+        "gt_answers": "lounge",
+        "image_path": "./data/svt/image/img_0630.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for the journal \"Anthropologie.\"",
+        "gt_answers": "anthropologie",
+        "image_path": "./data/svt/image/img_0631.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a man wearing a colonial hat.",
+        "gt_answers": "colonial",
+        "image_path": "./data/svt/image/img_0632.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant sign with the words \"Restaurant\" written in red.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0633.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a busy city street with a yellow taxi parked in the middle of the road. There are several other cars parked and moving around the area, creating a lively atmosphere.",
+        "gt_answers": "bookstore",
+        "image_path": "./data/svt/image/img_0634.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a book with the title \"City\" written on it.",
+        "gt_answers": "city",
+        "image_path": "./data/svt/image/img_0635.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a wooden sign with the word \"City\" written on it.",
+        "gt_answers": "city",
+        "image_path": "./data/svt/image/img_0636.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white logo for a company called \"Lights.\"",
+        "gt_answers": "lights",
+        "image_path": "./data/svt/image/img_0637.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a yellow taxi cab with the words \"Lights\" written on the side.",
+        "gt_answers": "lights",
+        "image_path": "./data/svt/image/img_0638.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large black and white sign that reads \"Enterprise.\"",
+        "gt_answers": "enterprise",
+        "image_path": "./data/svt/image/img_0639.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white photograph of a building with a sign that reads \"Embassy.\"",
+        "gt_answers": "embassy",
+        "image_path": "./data/svt/image/img_0640.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white photograph of a sign that reads \"Cheuvront.\"",
+        "gt_answers": "cheuvront",
+        "image_path": "./data/svt/image/img_0641.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Cheuvront.\"",
+        "gt_answers": "cheuvront",
+        "image_path": "./data/svt/image/img_0642.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a restaurant sign with the words \"Restaurant\" written in black on a white background.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0643.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue eagle sign with the word \"Eagle\" written in white letters.",
+        "gt_answers": "eagle",
+        "image_path": "./data/svt/image/img_0644.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large eagle logo with the words \"Eagle\" written in black.",
+        "gt_answers": "eagle",
+        "image_path": "./data/svt/image/img_0645.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a green sign with the word \"Medical\" written in white.",
+        "gt_answers": "medical",
+        "image_path": "./data/svt/image/img_0646.jpg",
+        "model_name": "mPLUG"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue medical sign with the word \"Medical\" written on it.",
+        "gt_answers": "medical",
+        "image_path": "./data/svt/image/img_0647.jpg",
+        "model_name": "mPLUG"
+    }
+]

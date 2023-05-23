@@ -1,0 +1,2018 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a soccer jersey with the number 7 on it. The number 7 is written in white on a red background. The word Manchester United is also written on the jersey in white letters.",
+        "gt_answers": "ronaldo",
+        "image_path": "./data/ct80/timage/001.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 7 is written in the image.",
+        "gt_answers": "7",
+        "image_path": "./data/ct80/timage/002.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says Sea Rest.",
+        "gt_answers": "seacrest",
+        "image_path": "./data/ct80/timage/003.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the words \"Beach Club\" written on a sign above a doorway.",
+        "gt_answers": "beach",
+        "image_path": "./data/ct80/timage/004.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says, ballies casino.",
+        "gt_answers": "ballys",
+        "image_path": "./data/ct80/timage/005.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine the exact wording on the sign without a clear image. Can you provide a clearer image of the sign?",
+        "gt_answers": "station",
+        "image_path": "./data/ct80/timage/006.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It's difficult to determine what is written on the image without more context. Could you provide more information about the image or the context in which it appears?",
+        "gt_answers": "entrance",
+        "image_path": "./data/ct80/timage/007.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image is \"carp\".",
+        "gt_answers": "carp",
+        "image_path": "./data/ct80/timage/008.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"Image Content\" are written in the image.",
+        "gt_answers": "team",
+        "image_path": "./data/ct80/timage/009.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word EBIZU is written in the image.",
+        "gt_answers": "ebizu",
+        "image_path": "./data/ct80/timage/010.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image says,'daily newspaper'.",
+        "gt_answers": "daily",
+        "image_path": "./data/ct80/timage/011.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine what is written on the image without the image being provided.",
+        "gt_answers": "imperial",
+        "image_path": "./data/ct80/timage/012.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \" college \" is written in the image.",
+        "gt_answers": "college",
+        "image_path": "./data/ct80/timage/013.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I cannot see the image as it is not provided. Please provide the image for me to assist you.",
+        "gt_answers": "london",
+        "image_path": "./data/ct80/timage/014.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word written in the image is \"academy\"",
+        "gt_answers": "academy",
+        "image_path": "./data/ct80/timage/015.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"entrance\" is written in the image.",
+        "gt_answers": "entrance",
+        "image_path": "./data/ct80/timage/016.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 18 is written in the image.",
+        "gt_answers": "18",
+        "image_path": "./data/ct80/timage/017.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It's difficult to tell what's written on the image without the image. Can you provide the image so I can read it?",
+        "gt_answers": "78",
+        "image_path": "./data/ct80/timage/018.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written on the image is `nhl'. It appears to be a logo or emblem for a sports team or league.",
+        "gt_answers": "nil",
+        "image_path": "./data/ct80/timage/019.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image says,'satiety' which means the feeling of being full or satisfied.",
+        "gt_answers": "satis",
+        "image_path": "./data/ct80/timage/020.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is NISI, which stands for the National Institute of Standards and Technology.\n\nThe National Institute of Standards and Technology (NIST) is a federal agency that is part of the U.S. Department of Commerce. It is responsible for developing and promoting measurement, standards, and technology to enhance productivity, innovation, competitiveness, and quality of life. NIST works with industry, government, and other organizations to promote the development of technical standards and guidelines that help ensure the compatibility, interoperability, and security of products and services.",
+        "gt_answers": "nisi",
+        "image_path": "./data/ct80/timage/021.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a yellow and blue sign with the words'Optimum'written on it.",
+        "gt_answers": "optimum",
+        "image_path": "./data/ct80/timage/022.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a sign that says Everton in red letters on a beige background.\n\nThe team's name is Everton FC.",
+        "gt_answers": "everton",
+        "image_path": "./data/ct80/timage/023.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I cannot see the image as I am not able to see any images. Can you please provide me with a different question?",
+        "gt_answers": "arshavin",
+        "image_path": "./data/ct80/timage/024.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 23 is written on the image.",
+        "gt_answers": "23",
+        "image_path": "./data/ct80/timage/025.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the jersey reads, 'beirerhof.'",
+        "gt_answers": "bierhoff",
+        "image_path": "./data/ct80/timage/026.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 20 is written in the image.",
+        "gt_answers": "20",
+        "image_path": "./data/ct80/timage/027.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written on the image is 'AC MILAN'\n\n'AC MILAN' is the name of a professional soccer team based in Milan, Italy. The team was founded in 1908 and has since become one of the most successful and popular clubs in Italian football history, with numerous domestic and international titles to their name.",
+        "gt_answers": "acm",
+        "image_path": "./data/ct80/timage/028.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a white and black road sign with the number 1899 on it. It is a road sign for a highway or road.",
+        "gt_answers": "1899",
+        "image_path": "./data/ct80/timage/029.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word written in the image is 'west'.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/030.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and white santa claus hat with a white pompom on top. The word'Merry Christmas'is written on the front in white letters.",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/031.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is written in the image:'United'\n\nUnited is a name or title that can be associated with various entities such as a football club, a political party, a company or an organization. It is also a common term used to refer to a group of people who share a common goal or interest.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/032.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a shirt with the words'Arsenal'written on it.",
+        "gt_answers": "arsenal",
+        "image_path": "./data/ct80/timage/033.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I am sorry, but I do not have an image to provide an answer. Please provide an image for me to assist you.",
+        "gt_answers": "foot",
+        "image_path": "./data/ct80/timage/034.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image is \"ball\" written in a white font.",
+        "gt_answers": "ball",
+        "image_path": "./data/ct80/timage/035.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is the logo for a fictional club called'The Cube.'",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/036.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \" since 2005\" are written in the image.",
+        "gt_answers": "since",
+        "image_path": "./data/ct80/timage/037.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person with a crown on their head, a staff in one hand, and the other hand raised as if giving a speech. The person is wearing a white robe with a golden emblem on the chest.",
+        "gt_answers": "1886",
+        "image_path": "./data/ct80/timage/038.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is not clear what is written in the image as it is not provided.",
+        "gt_answers": "le",
+        "image_path": "./data/ct80/timage/039.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red shirt with the word'Grove' written in white letters on it. The word'Grove' is written in large white letters on the front of the shirt.\n\nThe word'Grove'is a location name, it could refer to a place, a park, a street, or a village with this name. It could also be the name of a business, organization, or a brand.",
+        "gt_answers": "grove",
+        "image_path": "./data/ct80/timage/040.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a number 1 on a red background.\n\n </Img>The number 1 is written in white on the red background.\n\n </Img>The number 1 is written in white on a red background.\n\n </Img>The number 1 is written in white on a red background.\n\n </Img>The number 1 is written in white on a red background.\n\n </Img>The number 1 is written in white on a red background.\n\n </Img>The number 1 is written in white on a red background.\n\n </Img>The number",
+        "gt_answers": "1",
+        "image_path": "./data/ct80/timage/041.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word 'walco' written in white letters on a red background.",
+        "gt_answers": "walcott",
+        "image_path": "./data/ct80/timage/042.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 14 is written in the image.",
+        "gt_answers": "14",
+        "image_path": "./data/ct80/timage/043.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This image is a red rectangle with white lettering that reads \"ARE\" in the middle.",
+        "gt_answers": "arsenal",
+        "image_path": "./data/ct80/timage/044.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "arista",
+        "gt_answers": "arteta",
+        "image_path": "./data/ct80/timage/045.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 6 is written on the image.",
+        "gt_answers": "6",
+        "image_path": "./data/ct80/timage/046.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine what is written on the image without a clear view of the text.\n\nIt is possible that the image shows a jersey with the name \"JOACHIM\" written on the back in white letters, with a blue outline.\n\nIt could also be a product or brand name or any other text with the name Joachim.",
+        "gt_answers": "joachim",
+        "image_path": "./data/ct80/timage/047.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a soccer jersey with the number 12 on the back and the player's name and number on the front. The jersey appears to be made of a maroon and blue material and has white and blue stripes on the sleeves. The player's name and number are written in white letters on the front of the jersey. The number 12 is written in white letters on the back of the jersey.",
+        "gt_answers": "12",
+        "image_path": "./data/ct80/timage/048.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says, \"Knight\".",
+        "gt_answers": "knight",
+        "image_path": "./data/ct80/timage/049.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, I can't see the image you provided. Can you please share the image again?",
+        "gt_answers": "16",
+        "image_path": "./data/ct80/timage/050.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written on the image is'Baker'in red and white plaid.",
+        "gt_answers": "baker",
+        "image_path": "./data/ct80/timage/051.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 32 is written on the image.",
+        "gt_answers": "32",
+        "image_path": "./data/ct80/timage/052.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is \"Aston.\"",
+        "gt_answers": "aston",
+        "image_path": "./data/ct80/timage/053.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is'Villa'.",
+        "gt_answers": "villa",
+        "image_path": "./data/ct80/timage/054.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The name on the image is ballack. It appears to be the name of a person or a team.",
+        "gt_answers": "ballack",
+        "image_path": "./data/ct80/timage/055.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 13 is written on the blue shirt in white.",
+        "gt_answers": "13",
+        "image_path": "./data/ct80/timage/056.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the text \"starbucks\" written on it in red letters.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/ct80/timage/057.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a coffee cup with a white frothy top and a black handle. The logo on the cup appears to be the Starbucks logo.\n\nWhat is written on the image?\nThe image shows the Starbucks logo on a coffee cup.",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/058.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says 'Samsung Mobile' in the image.",
+        "gt_answers": "samsung",
+        "image_path": "./data/ct80/timage/059.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I cannot see the image you have provided. Please provide a clear image for me to see.",
+        "gt_answers": "mobile",
+        "image_path": "./data/ct80/timage/060.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the crest of a soccer team. It appears to be a shield with a blue background and a gold or yellow emblem in the center that has a soccer ball and two lions on either side. There is also a banner with the team's name, 'Chelsea,' written in white letters.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/061.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for a football team, with the name of the team written in blue letters on a white background.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/062.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a logo with the word 'clubs' written on it.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/063.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the emblem of Chelsea Football Club.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/064.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close up of a crest with a blue and white shield in the center, with the words \"Football\" written in white letters on top of the shield.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/065.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is `Club '.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/066.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word eisen in black letters on a blue background. It does not contain any other text or images.",
+        "gt_answers": "essien",
+        "image_path": "./data/ct80/timage/067.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 5 is written in the image.",
+        "gt_answers": "5",
+        "image_path": "./data/ct80/timage/068.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the name Terry written in blue letters on a white background. The name Terry is written in capital letters with the letter \"e\" in red. The name Terry is written in blue letters on a white background.",
+        "gt_answers": "terry",
+        "image_path": "./data/ct80/timage/069.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 26 is written on the back of the jersey.",
+        "gt_answers": "26",
+        "image_path": "./data/ct80/timage/070.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a blue and white banner with the words'donovan' written in white on a blue background.\n\nThe banner is likely associated with a football team or player named Donovan.",
+        "gt_answers": "donovan",
+        "image_path": "./data/ct80/timage/071.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It's difficult to tell what is written on the image without the image itself. However, if you provide the image, I can help you identify the text.",
+        "gt_answers": "9",
+        "image_path": "./data/ct80/timage/072.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"artea\" is written in the image.",
+        "gt_answers": "arteta",
+        "image_path": "./data/ct80/timage/073.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 6 is written on the image.",
+        "gt_answers": "6",
+        "image_path": "./data/ct80/timage/074.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text that is written in the image is `chelsea fc`.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/075.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white shield with the word FOOTBALL written on it in white letters.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/076.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but the image provided doesn't have any text in it. It just shows a blue background with some geometric shapes on it.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/077.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue jersey with white and black stripes, and the number 12 in white on the back. The front of the jersey has the word 'TORRES' in white letters.",
+        "gt_answers": "torres",
+        "image_path": "./data/ct80/timage/078.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine what is written on the image without the full image. It appears to be a number 9, but it's difficult to determine the full text without the full image.",
+        "gt_answers": "9",
+        "image_path": "./data/ct80/timage/079.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the logo of the English football club Chelsea. The logo features the club's name and crest, with the words'Chelsea FC' written in blue letters. The image also features the club's official colors, which are blue and white.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/080.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image is the logo for a football team, with the words \"CHELSEA\" written in blue on a black background.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/081.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It's difficult to say without seeing the image. Could you please provide the image?",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/082.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I cannot see the image, as it is not provided.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/083.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It's difficult to tell what's written on the image without the context of the image. Can you please provide more information about the image so I can better understand what it says?",
+        "gt_answers": "jarrett",
+        "image_path": "./data/ct80/timage/084.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It's difficult to tell what is written in the image without more context. Can you provide more information or details about the image?",
+        "gt_answers": "gembira",
+        "image_path": "./data/ct80/timage/085.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I don't have access to the image you provided. Please provide the image for me to answer your question.",
+        "gt_answers": "loka",
+        "image_path": "./data/ct80/timage/086.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says, \"Savion\".",
+        "gt_answers": "avilon",
+        "image_path": "./data/ct80/timage/087.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sign that says, \"celebrating\".",
+        "gt_answers": "celelbrating",
+        "image_path": "./data/ct80/timage/088.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says, ` lifet '`.",
+        "gt_answers": "life",
+        "image_path": "./data/ct80/timage/089.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine what is written in the image without more context or the image itself. Can you provide more information about the image or the context in which it appears?",
+        "gt_answers": "il",
+        "image_path": "./data/ct80/timage/090.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that says Mercato.",
+        "gt_answers": "mercato",
+        "image_path": "./data/ct80/timage/091.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a circular badge with the words'Vacation'written in the center.",
+        "gt_answers": "vacation",
+        "image_path": "./data/ct80/timage/092.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult for me to determine what is written in the image since it is not clear and I am not able to see it.\n\nIt appears to be an image of a surface with various indentations and textures. There is a brown stain on the surface that looks like it has been left there for a long time. The overall color of the surface is brown, and it looks like it has been weathered by the elements over time.",
+        "gt_answers": "vinyl",
+        "image_path": "./data/ct80/timage/093.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the logo of the English football club Newcastle United. The club's emblem features a shield with a stylized letter N on top and a blue and white banner with the club's name on it.",
+        "gt_answers": "newcastle",
+        "image_path": "./data/ct80/timage/094.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads, `united'.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/095.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but as an AI language model, I cannot see the image that you provided. Can you please provide a textual description of the image?",
+        "gt_answers": "stubhub",
+        "image_path": "./data/ct80/timage/096.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 12 is written on the blue shirt.",
+        "gt_answers": "12",
+        "image_path": "./data/ct80/timage/097.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word on the red and white checked shirt is \" VERSINE \".",
+        "gt_answers": "vpersie",
+        "image_path": "./data/ct80/timage/098.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I cannot see the image you provided. Please provide a different image for me to see.",
+        "gt_answers": "20",
+        "image_path": "./data/ct80/timage/099.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the Manchester United logo, which is a shield with the letters MU in the center.\n\nThe Manchester United logo is a well-known symbol of the football club Manchester United. It is a shield with the letters MU in the center and two red devils on each side of the shield. The logo is often seen on the team's uniforms, merchandise, and promotional materials.",
+        "gt_answers": "manchester",
+        "image_path": "./data/ct80/timage/100.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I am unable to view the image you provided. Please provide a different image for me to answer your question.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/101.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a brown bottle of beer with the label \"southhampton\" on it. The label has a black and white illustration of a beer stein with a foamy head of beer on top.\n\nThe words \"southhampton\" are written in a bold font, with a small illustration of a beer stein underneath the text. The label also has a small illustration of a hops plant on the left side. The bottle appears to be made of brown glass and has a rounded shape with a slightly narrow neck.\n\nThe overall design of the",
+        "gt_answers": "southampton",
+        "image_path": "./data/ct80/timage/102.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult for me to accurately determine the contents of an image as I do not have access to the image in question. However, the text in the image appears to read \"Bowling for Soup - Public Library\"",
+        "gt_answers": "publick",
+        "image_path": "./data/ct80/timage/103.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a large, black and white logo that says, \"Lost House\" in the center. The logo appears to have a stylized, cartoonish depiction of a house with a small, white light on the roof. The words \"Lost House\" are written in white on a black background.\n\nThe Lost House is likely a brand, business, or organization that promotes itself through this logo. It could be a restaurant, bar, hotel, or some other kind of establishment that emphasizes its connection to home, comfort, or a sense of belonging. The small white light on the roof could",
+        "gt_answers": "house",
+        "image_path": "./data/ct80/timage/104.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word written on the image is `burton'.",
+        "gt_answers": "burton",
+        "image_path": "./data/ct80/timage/105.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"IPA\" which stands for India Pale Ale, a type of beer that originated in England and became popular in India during the 19th century. The beer was brewed with a high alcohol content to survive the long journey to India and has since become a popular style of beer around the world.\n\nThe beer is known for its distinct hoppy flavor and pale color, which is achieved by using a high proportion of hops in the brewing process. The beer is typically served in a pint glass and is enjoyed by many people as a refres",
+        "gt_answers": "ipa",
+        "image_path": "./data/ct80/timage/106.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, I can't see the image. Can you please provide the image?",
+        "gt_answers": "long",
+        "image_path": "./data/ct80/timage/107.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words, ` island's patty ', are written in the image.",
+        "gt_answers": "islands",
+        "image_path": "./data/ct80/timage/108.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and black logo with the words 'the original' in white letters on a black background.",
+        "gt_answers": "original",
+        "image_path": "./data/ct80/timage/109.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine what is written in the image without the image.",
+        "gt_answers": "craft",
+        "image_path": "./data/ct80/timage/110.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image reads, 'Ramsay's Brewery'. It appears to be a sign or label for a brewery or brewing company.",
+        "gt_answers": "brewery",
+        "image_path": "./data/ct80/timage/111.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I am unable to see the image as I am an AI language model and do not have the ability to view images. Can you provide me with a description of what is written on the image?",
+        "gt_answers": "lundekvam",
+        "image_path": "./data/ct80/timage/112.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 5 is written in the image.",
+        "gt_answers": "5",
+        "image_path": "./data/ct80/timage/113.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text says,'Allahabad'.",
+        "gt_answers": "allahabad",
+        "image_path": "./data/ct80/timage/114.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"university\" written in a brown, red, and white color scheme. The word is written in a bold font, with the letters in brown and red and the outline in white. The word is written on a circular plate with a brown and white background.",
+        "gt_answers": "university",
+        "image_path": "./data/ct80/timage/115.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image is \" quo t\"",
+        "gt_answers": "quot",
+        "image_path": "./data/ct80/timage/116.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says, 'rami'.",
+        "gt_answers": "rami",
+        "image_path": "./data/ct80/timage/117.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I can't see any text in the image provided. It appears to be a black and white photograph of a tree.",
+        "gt_answers": "tot",
+        "image_path": "./data/ct80/timage/118.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is, \"arboress\"",
+        "gt_answers": "arbores",
+        "image_path": "./data/ct80/timage/119.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and red arch with the word \"start\" written in white letters on it.",
+        "gt_answers": "start",
+        "image_path": "./data/ct80/timage/120.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"ImageContent\" are written in the image.",
+        "gt_answers": "finish",
+        "image_path": "./data/ct80/timage/121.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says, `Canadian Friendship'",
+        "gt_answers": "friendship",
+        "image_path": "./data/ct80/timage/122.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo of a soccer team, Tottenham Hotspur. The logo has the team's name in black letters on a white background.\n\nThe team's name is written in black letters on a white background. The team is from London, England and is a professional soccer team that plays in the Premier League, the top tier of English football. The team is known for its passionate fans, who are known for their chanting and singing during matches. The team's home ground is Tottenham Hotspur Stadium, also known as White Hart Lane, in Tottenham,",
+        "gt_answers": "tottenham",
+        "image_path": "./data/ct80/timage/123.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word 'l'is written in the image.",
+        "gt_answers": "1st",
+        "image_path": "./data/ct80/timage/124.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words 'no vita' are written in the image.",
+        "gt_answers": "nvidia",
+        "image_path": "./data/ct80/timage/125.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word'mean'written on it.",
+        "gt_answers": "meant",
+        "image_path": "./data/ct80/timage/126.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I cannot see the image as it is not provided. Could you please provide the image so that I can assist you?",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/127.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says `bee'.",
+        "gt_answers": "be",
+        "image_path": "./data/ct80/timage/128.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is'played'.",
+        "gt_answers": "played",
+        "image_path": "./data/ct80/timage/129.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red, white, and blue sign with the words \"west end\" written in red and blue letters on a white background.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/130.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word'ham'is written in the image.",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/131.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a soccer ball on the ground with the word \" UNITED\" written on it in white letters on a blue background and red letters on a red background.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/132.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"NANI\" is written in the image.",
+        "gt_answers": "nani",
+        "image_path": "./data/ct80/timage/133.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but the image you provided is not available for me to see or interpret. Please provide a different image for me to interpret.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/134.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows two men standing next to each other, one with a mustache and the other with a beard, both wearing suits and ties. They are both looking at the camera and smiling. Behind them is a banner with the text \"WBA\" written on it in large letters.",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/135.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"west end\".",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/136.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"ham\".",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/137.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I am unable to see the image you provided. Please provide a different image or a more descriptive question for me to assist you.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/138.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The wording on the image is \"wigan.\"",
+        "gt_answers": "wigan",
+        "image_path": "./data/ct80/timage/139.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a logo for a sports team. The team's name is written in white letters on a blue background, with a white circle in the center. The logo also has a blue and white border.",
+        "gt_answers": "athletic",
+        "image_path": "./data/ct80/timage/140.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says'heinz'on the black hat in the image.",
+        "gt_answers": "heinz",
+        "image_path": "./data/ct80/timage/141.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black bottle of baked beans with white writing on it that reads \"baked beans\" in white letters.",
+        "gt_answers": "baked",
+        "image_path": "./data/ct80/timage/142.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \" Baked Beanz\"",
+        "gt_answers": "beanz",
+        "image_path": "./data/ct80/timage/143.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 1896 is written in the image.",
+        "gt_answers": "1869",
+        "image_path": "./data/ct80/timage/144.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I don't see any image in your prompt. Can you please provide the image so I can assist you better?",
+        "gt_answers": "in",
+        "image_path": "./data/ct80/timage/145.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says, \"tomato\" in the center and \"ImageContent\" at the bottom.\n\nIt looks like the image is for a food product or a brand that sells tomatoes.",
+        "gt_answers": "tomato",
+        "image_path": "./data/ct80/timage/146.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says \"saidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaidsaid",
+        "gt_answers": "sauce",
+        "image_path": "./data/ct80/timage/147.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but the image provided does not contain any text or symbols that I can recognize to answer your question. Can you provide a different image with a clear text?",
+        "gt_answers": "estd",
+        "image_path": "./data/ct80/timage/148.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is eap.",
+        "gt_answers": "estd",
+        "image_path": "./data/ct80/timage/149.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It appears to be the logo for the University of Wigan, with the words `Wigan' written in a curved shape on a blue background.",
+        "gt_answers": "wigan",
+        "image_path": "./data/ct80/timage/150.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image reads `,'1932'in blue and white.",
+        "gt_answers": "1932",
+        "image_path": "./data/ct80/timage/151.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but the image you provided doesn't have any text on it. It appears to be a circular emblem with a blue and white design.\n\nCan you please provide more information or context about the image so I can assist you better?",
+        "gt_answers": "athletic",
+        "image_path": "./data/ct80/timage/152.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image says 'west'.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/153.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I can't see any image provided. Please provide an image so I can answer your question.",
+        "gt_answers": "bromwich",
+        "image_path": "./data/ct80/timage/154.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is \" Albion \".",
+        "gt_answers": "albion",
+        "image_path": "./data/ct80/timage/155.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word 'best' is written on the image.",
+        "gt_answers": "lest",
+        "image_path": "./data/ct80/timage/156.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text that is written in the image is'Welcome'to the property.",
+        "gt_answers": "we",
+        "image_path": "./data/ct80/timage/157.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"forgotten\" is written in the image.\n\nThe word \"forgotten\" is written in the image.",
+        "gt_answers": "forget",
+        "image_path": "./data/ct80/timage/158.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words written in the image are \"Bridge Stone\".",
+        "gt_answers": "briogestone",
+        "image_path": "./data/ct80/timage/159.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words \"TOKYO\" are written in the image.\n\n![](https://i.imgur.com/7zZdM8n.png)",
+        "gt_answers": "tokyo",
+        "image_path": "./data/ct80/timage/160.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the words \"Disneyland\" written on a sign with colorful lights in the background.",
+        "gt_answers": "disneyland",
+        "image_path": "./data/ct80/timage/161.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the 20th anniversary of a theme park.",
+        "gt_answers": "20",
+        "image_path": "./data/ct80/timage/162.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says 50 years.",
+        "gt_answers": "years",
+        "image_path": "./data/ct80/timage/163.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is \"ImageContent\".",
+        "gt_answers": "the",
+        "image_path": "./data/ct80/timage/164.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close up of a white shoe with the word \"kingdom\" written on it in blue letters. The word is written in a bold, capitalized font, with the letter K slightly larger than the rest of the word. The shoe itself appears to be made of white leather, with a clean, sleek look. The shoe has a pointed toe and a high heel. The image is of a high quality and is well lit.",
+        "gt_answers": "kingdom",
+        "image_path": "./data/ct80/timage/165.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the silhouette of a person walking on a beach with the sea in the background.",
+        "gt_answers": "of",
+        "image_path": "./data/ct80/timage/166.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image is'dreams '.\n\nThe word'dreams'is a noun that refers to a series of thoughts, images, and sensations that occur in a person's mind during sleep. It can also refer to a goal or aspiration that someone hopes to achieve. The word'dream'can also be used as a verb, meaning to have a dream or to imagine or hope for something.\n\nIt can also be a short form of the word'dreams', which refers to a series of thoughts, images, and sensations that occur in a person's",
+        "gt_answers": "dreams",
+        "image_path": "./data/ct80/timage/167.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white sign with the word'Magic'written on it in a white font. The sign appears to be on the side of a building or structure.",
+        "gt_answers": "macic",
+        "image_path": "./data/ct80/timage/168.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word'Merry Christmas' is written in the image.",
+        "gt_answers": "christmas",
+        "image_path": "./data/ct80/timage/169.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The numbers 2003 are written in the image.",
+        "gt_answers": "2003",
+        "image_path": "./data/ct80/timage/170.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large castle with a moat and drawbridge, surrounded by a landscape of green trees, a blue sky, and a body of water in the foreground. The castle is made of red bricks and has several tall towers with pointed roofs. The drawbridge is down and there is a small boat in the water in front of the castle. The image is in color and appears to be a scene from a fantasy story or movie.",
+        "gt_answers": "fantasy",
+        "image_path": "./data/ct80/timage/171.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I cannot see the image provided in the prompt. Please provide a valid image.",
+        "gt_answers": "denver",
+        "image_path": "./data/ct80/timage/172.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says 'Beer'.",
+        "gt_answers": "beer",
+        "image_path": "./data/ct80/timage/173.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"GOO\".",
+        "gt_answers": "co",
+        "image_path": "./data/ct80/timage/174.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a logo for the company Acea with the text Acea on it.",
+        "gt_answers": "afcea",
+        "image_path": "./data/ct80/timage/175.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is \"INNOVATION.\"",
+        "gt_answers": "nova",
+        "image_path": "./data/ct80/timage/176.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says, 'navy'.",
+        "gt_answers": "naval",
+        "image_path": "./data/ct80/timage/177.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I don't see any image provided. Please provide an image for me to answer your question.",
+        "gt_answers": "it",
+        "image_path": "./data/ct80/timage/178.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a circular logo with the text \"Good Day\" in the middle of it, with a blue and white background. The image is displayed on a black background.",
+        "gt_answers": "day",
+        "image_path": "./data/ct80/timage/179.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I cannot see the image you provided. Please provide a different image so I can answer your questions.",
+        "gt_answers": "bmw",
+        "image_path": "./data/ct80/timage/180.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The tire on the right has the brand name `Hutchinson' emblazoned on it.",
+        "gt_answers": "hutchinson",
+        "image_path": "./data/ct80/timage/181.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for a sports team or organization. It shows a circular logo with the word 'the' written in it. The logo is in green and white, with the words written in black. The circle is filled with a gradient of green and white.",
+        "gt_answers": "the",
+        "image_path": "./data/ct80/timage/182.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a circular logo with the text'scottish' in the center of the circle. The text is written in white against a blue background. The image is a simple design with a white background and blue text.\n\nThe text is written in white against a blue background. The image is a simple design with a white background and blue text.",
+        "gt_answers": "scottish",
+        "image_path": "./data/ct80/timage/183.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is'Salmonoid'",
+        "gt_answers": "salmon",
+        "image_path": "./data/ct80/timage/184.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text that is written in the image is `biking'.",
+        "gt_answers": "company",
+        "image_path": "./data/ct80/timage/185.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a logo for the town of Chatham-Kent. It has a red maple leaf on top and the words'Chatham-Kent'in white, with a blue and white border around the edge of the logo. The image is a representation of the town's history and culture.",
+        "gt_answers": "chathamkent",
+        "image_path": "./data/ct80/timage/186.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word police is written in the image.",
+        "gt_answers": "police",
+        "image_path": "./data/ct80/timage/187.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words in the image are \"together\" and \"forever\". The image depicts two people holding hands and looking into each other's eyes, with the words \"together forever\" written above them in a stylized font.",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/188.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"serve\".",
+        "gt_answers": "serve",
+        "image_path": "./data/ct80/timage/189.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image says,'and '",
+        "gt_answers": "and",
+        "image_path": "./data/ct80/timage/190.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "This image is of a sign that says, \"Protect Your Privacy.\"",
+        "gt_answers": "protect",
+        "image_path": "./data/ct80/timage/191.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It appears to be a brand name or logo for a product or company called \"Scoot's\".",
+        "gt_answers": "scott's",
+        "image_path": "./data/ct80/timage/192.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is not possible to answer this question without the image you are referring to.",
+        "gt_answers": "family",
+        "image_path": "./data/ct80/timage/193.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but the image you provided is incomplete and does not contain any text or information that I can read. Please provide a complete image for me to analyze.",
+        "gt_answers": "italian",
+        "image_path": "./data/ct80/timage/194.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is \"BURGER KING\".\n\nAnswer: The correct answer is \"BURGER KING\".",
+        "gt_answers": "cuisine",
+        "image_path": "./data/ct80/timage/195.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a sticker that says, \"I love you\".",
+        "gt_answers": "bar",
+        "image_path": "./data/ct80/timage/196.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the sign reads \"Maples Est 1972\".",
+        "gt_answers": "maples",
+        "image_path": "./data/ct80/timage/197.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign reads, \"Tavern\" in a font that is a combination of sans serif and serif.\n\nThe font for the word \"tavern\" has a mix of sans serif and serif elements. The letters \"T\" and \"V\" have straight, diagonal, and curved lines, giving them a modern look. The \"a\" and \"n\" have curved lines at the top, giving them a traditional look. The \"r\" has a curved line at the top and a straight line at the bottom, giving it a unique look. The overall effect is a mix of modern",
+        "gt_answers": "tavern",
+        "image_path": "./data/ct80/timage/198.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is not clear from the provided image what is written in it. The image shows a wooden sign with the words East written on it in gold letters.",
+        "gt_answers": "est",
+        "image_path": "./data/ct80/timage/199.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 2011 is written in the image.",
+        "gt_answers": "2011",
+        "image_path": "./data/ct80/timage/200.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says Crocodiles, which is a warning to drivers to be aware of the presence of crocodiles in the area.",
+        "gt_answers": "crocodiles",
+        "image_path": "./data/ct80/timage/201.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "No. The image shows the word \"no\" written in black on a yellow background.",
+        "gt_answers": "no",
+        "image_path": "./data/ct80/timage/202.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a yellow and black warning sign that reads, 'no swimming' in large letters. The sign is placed on a pole in front of a body of water. The image is a warning sign that is meant to alert people to the fact that swimming is not allowed in that particular area.\n\nAnswer: No swimming.",
+        "gt_answers": "swimming",
+        "image_path": "./data/ct80/timage/203.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"Welcome to\" with a large letter W in the middle.",
+        "gt_answers": "welcome",
+        "image_path": "./data/ct80/timage/204.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word `TO' written on it.",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/205.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a circular sign with the word \"Historic\" written in green letters.\n\nIt is difficult to determine the specific location of the image as it is not shown in its entirety. However, the presence of trees and buildings in the background suggests that it could be in a city or urban area.",
+        "gt_answers": "historic",
+        "image_path": "./data/ct80/timage/206.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"Battery\".",
+        "gt_answers": "battery",
+        "image_path": "./data/ct80/timage/207.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"point\" is written in the image.",
+        "gt_answers": "point",
+        "image_path": "./data/ct80/timage/208.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a sign with the words'Oldtown'written on it.",
+        "gt_answers": "oldtown",
+        "image_path": "./data/ct80/timage/209.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says \"white house\".",
+        "gt_answers": "white",
+        "image_path": "./data/ct80/timage/210.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It appears to say \"coffee\" in the image.",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/211.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \" oldtown \" is written in the image.",
+        "gt_answers": "oldtown",
+        "image_path": "./data/ct80/timage/212.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is of a white cat sitting on a white table with a white background.",
+        "gt_answers": "white",
+        "image_path": "./data/ct80/timage/213.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a brown sign with the word \" coffee\" written in yellow letters.",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/214.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the words \"restaurant\" written on it in white letters on a black background.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/ct80/timage/215.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"bar\" written in red letters on a white background.",
+        "gt_answers": "bar",
+        "image_path": "./data/ct80/timage/216.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text that is written in the image is: singhs",
+        "gt_answers": "singhs",
+        "image_path": "./data/ct80/timage/217.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says 'Caribbean'.\n\nThe Caribbean is a region that includes various countries and territories in the Americas, including the Bahamas, Cuba, Haiti, the Dominican Republic, and various island nations in the Caribbean Sea. It is known for its tropical climate, beautiful beaches, and diverse cultures.",
+        "gt_answers": "caribbean",
+        "image_path": "./data/ct80/timage/218.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a blue and white plate with the words'Pizza Cuisine'written in white letters on it.",
+        "gt_answers": "cuisine",
+        "image_path": "./data/ct80/timage/219.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The tire says Michelin.",
+        "gt_answers": "michelin",
+        "image_path": "./data/ct80/timage/220.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"mod\".\n\nThe word \"mod\" can be a noun, which means a person who is stylish and fashionable, especially in the 1960s, or an adjective, which means modern or up-to-date.\n\nAs an adjective, \"mod\" can also be used to describe a style of music, fashion, or design that is modern or up-to-date.",
+        "gt_answers": "mod",
+        "image_path": "./data/ct80/timage/221.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is not possible to determine the content of the image without additional context.",
+        "gt_answers": "tm",
+        "image_path": "./data/ct80/timage/222.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words written in the image are \"flying horse\".",
+        "gt_answers": "flying",
+        "image_path": "./data/ct80/timage/223.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the text, `Prairie Horses'America's Horse Racing' written in yellow on a red background.",
+        "gt_answers": "horses",
+        "image_path": "./data/ct80/timage/224.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, I don't have access to images or the text on them. Can you provide me with the image and the text?",
+        "gt_answers": "americas",
+        "image_path": "./data/ct80/timage/225.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says, `in the image?`. It is written in the image.",
+        "gt_answers": "oldest",
+        "image_path": "./data/ct80/timage/226.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is written in the image that it is the entrance to the carousel.",
+        "gt_answers": "carousel",
+        "image_path": "./data/ct80/timage/227.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads, \"National Geographic.\"",
+        "gt_answers": "national",
+        "image_path": "./data/ct80/timage/228.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is'ImageContent'",
+        "gt_answers": "register",
+        "image_path": "./data/ct80/timage/229.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the text `12:35'written in white on a blue background.",
+        "gt_answers": "of",
+        "image_path": "./data/ct80/timage/230.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a representation of a historical artifact or document. It may depict a map, document, or artifact from a specific time period or region.\n\nThe image may have been created using a variety of techniques, such as drawing, painting, or digital manipulation. It may have been intended for a specific purpose, such as educational or informational purposes, or it may simply be an artistic representation of a historical subject.\n\nWithout more context or information about the image, it is difficult to determine its specific meaning or significance.",
+        "gt_answers": "historic",
+        "image_path": "./data/ct80/timage/231.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a blue square with white text that says \"placebo\" in the center.",
+        "gt_answers": "places",
+        "image_path": "./data/ct80/timage/232.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"luxury\" is written in the image.",
+        "gt_answers": "le",
+        "image_path": "./data/ct80/timage/233.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a landscape scene with a lake in the background and some trees in the foreground. The sky appears to be cloudy and the sun is setting behind the trees. The water in the lake is reflecting the sky and the trees. There is a path leading to the lake.",
+        "gt_answers": "grenier",
+        "image_path": "./data/ct80/timage/234.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine the text that is written in the image without additional context. Could you provide more information or context about the image?",
+        "gt_answers": "a",
+        "image_path": "./data/ct80/timage/235.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says, PAIN.\n\nNote: The image is not available as it requires permission to access it.",
+        "gt_answers": "pain",
+        "image_path": "./data/ct80/timage/236.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The number 1000 is written in the image.",
+        "gt_answers": "10000",
+        "image_path": "./data/ct80/timage/237.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It appears that the image shows a sign with the words \"Business\" written on it. The sign is likely to be found in a business or commercial setting.",
+        "gt_answers": "business",
+        "image_path": "./data/ct80/timage/238.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a sign with the word 'invest'written on it. It is not clear what the sign is for or where it is located.",
+        "gt_answers": "invest",
+        "image_path": "./data/ct80/timage/239.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a woman sitting on a chair, with her arms folded and a smile on her face. The caption reads, 'Weddings are not just about the dress, but about capturing memories of a special day.'",
+        "gt_answers": "2012",
+        "image_path": "./data/ct80/timage/240.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is a URL link to a website. The URL is written in black letters on a white background with a grey border. The URL is highlighted in blue. The text is centered in the image.\n\nURL: http://www.example.com\n\nText: Campaign\n\nImage: An image of a campaign poster with the text \"Vote for John Smith\" in large letters at the top and the candidate's name and party affiliation at the bottom. The background is a patriotic color scheme with an American flag in the corner. The image is high quality and clear, with the",
+        "gt_answers": "campaign",
+        "image_path": "./data/ct80/timage/241.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text that is written in the image is \" business investment\"",
+        "gt_answers": "wwwbusinessinvestcouk",
+        "image_path": "./data/ct80/timage/242.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word KOLIN is written in the image.\n\nIt is an acronym for KOLIN, which is an abbreviation for KOLIN University.",
+        "gt_answers": "kolind",
+        "image_path": "./data/ct80/timage/243.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for a company or product named 'kore sokole'\n\nIt is a Korean restaurant",
+        "gt_answers": "koreskole",
+        "image_path": "./data/ct80/timage/244.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image reads, \"North\"",
+        "gt_answers": "north",
+        "image_path": "./data/ct80/timage/245.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words `Unity' are written in the image.",
+        "gt_answers": "union",
+        "image_path": "./data/ct80/timage/246.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the logo for the team's mascot, which is a wolf. The word'Wildcats'is written on the logo in red and black letters.",
+        "gt_answers": "wildcats",
+        "image_path": "./data/ct80/timage/247.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a neon sign that reads \"chinese\" in bright green and pink neon lights. The letters are arranged vertically in a rectangular shape with the word \"chinese\" written in the center. The sign is illuminated from behind, casting a glow on the surrounding area.\n\nAnswer: The neon sign reads \"chinese\".",
+        "gt_answers": "chinese",
+        "image_path": "./data/ct80/timage/248.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"food\" is written in the image.",
+        "gt_answers": "food",
+        "image_path": "./data/ct80/timage/249.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says \"Open\".",
+        "gt_answers": "open",
+        "image_path": "./data/ct80/timage/250.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word eating is written in the image.",
+        "gt_answers": "eat",
+        "image_path": "./data/ct80/timage/251.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word that is written in the image is 'glow'.",
+        "gt_answers": "in",
+        "image_path": "./data/ct80/timage/252.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word take is written in the image.",
+        "gt_answers": "take",
+        "image_path": "./data/ct80/timage/253.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image is \"out.\"",
+        "gt_answers": "out",
+        "image_path": "./data/ct80/timage/254.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It's difficult to say what is written in the image without seeing it. The text appears to be written in a font that is difficult to read, and it is unclear what it says.",
+        "gt_answers": "police",
+        "image_path": "./data/ct80/timage/255.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image says \"station\".\n\nNote: This question has been asked before and the answer is already available in the chat history. Please check the previous questions before asking similar ones.",
+        "gt_answers": "station",
+        "image_path": "./data/ct80/timage/256.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, I don't see any text on the image provided.",
+        "gt_answers": "the",
+        "image_path": "./data/ct80/timage/257.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"table\".",
+        "gt_answers": "table",
+        "image_path": "./data/ct80/timage/258.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a blue background with the words \"barbeque now\" written in yellow letters. It appears to be an advertisement for a barbeque restaurant or event.",
+        "gt_answers": "barbeoue",
+        "image_path": "./data/ct80/timage/259.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image appears to be a logo for the band the Beatles. The logo features a yellow circle with the word 'beatles' written in black letters inside the circle. The logo is surrounded by a blue circle with the word 'people' written in purple letters inside the circle.",
+        "gt_answers": "people",
+        "image_path": "./data/ct80/timage/260.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The sign says \"handmade glass eyes\"",
+        "gt_answers": "handmade",
+        "image_path": "./data/ct80/timage/261.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words'Chocolates' are written on the sign above the image.",
+        "gt_answers": "chocolates",
+        "image_path": "./data/ct80/timage/262.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I cannot see the image you provided as it is not displayed properly. Can you please provide a different image for me to see?",
+        "gt_answers": "aishahaleyesblogspotcom",
+        "image_path": "./data/ct80/timage/263.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a close-up shot of a person's face with a blue backdrop. The person is wearing a yellow hat and sunglasses, and their hair is styled in dreadlocks.",
+        "gt_answers": "exclusive",
+        "image_path": "./data/ct80/timage/264.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text in the image says: \"The image is white with a black border and the words \"Image Content\" written in the middle in black letters. There is a small red dot in the corner of the image.\"",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/265.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text written in the image is'cadbury'.",
+        "gt_answers": "cadbury",
+        "image_path": "./data/ct80/timage/266.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine what is written in the image without the image.",
+        "gt_answers": "world",
+        "image_path": "./data/ct80/timage/267.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a blue and white milk carton with the word'Dairy'written on it in white letters.",
+        "gt_answers": "dairy",
+        "image_path": "./data/ct80/timage/268.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a blue and white cup of milk. The word \"milk\" is written in blue letters on the side of the cup.",
+        "gt_answers": "milk",
+        "image_path": "./data/ct80/timage/269.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image reads, `smoothie's core'. It appears to be a brand name or slogan for a smoothie or drink product.",
+        "gt_answers": "smooth",
+        "image_path": "./data/ct80/timage/270.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words on the image are, \"Milkybar chocolate.\"",
+        "gt_answers": "chocolate",
+        "image_path": "./data/ct80/timage/271.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The words mousse are written in the image.",
+        "gt_answers": "mousse",
+        "image_path": "./data/ct80/timage/272.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the text, \"Starbucks\" written on it.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/ct80/timage/273.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I cannot see the image as it is not provided. Please provide the image for me to assist you.",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/274.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"BMW\" is written in the image.",
+        "gt_answers": "kia",
+        "image_path": "./data/ct80/timage/275.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a logo for a company called'motors'.",
+        "gt_answers": "motors",
+        "image_path": "./data/ct80/timage/276.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is written in the image that the sign says HALAL.",
+        "gt_answers": "halal",
+        "image_path": "./data/ct80/timage/277.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a green and white neon sign with the word \"star\" written on it in white letters.",
+        "gt_answers": "star",
+        "image_path": "./data/ct80/timage/278.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is not possible to determine what is written in the image without the image itself. Please provide the image so that I can assist you further.",
+        "gt_answers": "welcome",
+        "image_path": "./data/ct80/timage/279.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It is difficult to determine the text in the image because it is not clear what is written on the glass.",
+        "gt_answers": "snack",
+        "image_path": "./data/ct80/timage/280.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The text on the image reads \"tigane\".",
+        "gt_answers": "tagine",
+        "image_path": "./data/ct80/timage/281.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \" COBRA \" is written in the image.",
+        "gt_answers": "cobra",
+        "image_path": "./data/ct80/timage/282.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a black and white dog wearing a red collar and a red bow tie, with the word `show' written in red on a white background.",
+        "gt_answers": "show",
+        "image_path": "./data/ct80/timage/283.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "I'm sorry, but I cannot see any image in your prompt. Please provide an image so I can assist you.",
+        "gt_answers": "thailand",
+        "image_path": "./data/ct80/timage/284.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image says \"frikie safari\".",
+        "gt_answers": "frikkie",
+        "image_path": "./data/ct80/timage/285.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says, `du`.",
+        "gt_answers": "du",
+        "image_path": "./data/ct80/timage/286.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "It says \"tio\"",
+        "gt_answers": "toit",
+        "image_path": "./data/ct80/timage/287.jpg",
+        "model_name": "MiniGPT4"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word written in the image is 'Safari'. It is a term used to describe a trip or journey to a safari park or reserve to observe wild animals in their natural habitat. The word is often associated with adventure and excitement.",
+        "gt_answers": "safaris",
+        "image_path": "./data/ct80/timage/288.jpg",
+        "model_name": "MiniGPT4"
+    }
+]

@@ -1,0 +1,4118 @@
+[
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "an application for a job",
+        "gt_answers": "MRS. K. A. SPARROW",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "an application for a construction project",
+        "gt_answers": "R. G. Ryan",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "the image is a copy of a document",
+        "gt_answers": "12/ 10/ 96",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NOV\" information in the image?",
+        "answer": "nov information in the image",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MANUFACTURER\" information in the image?",
+        "answer": "what is manufacturer information in the image",
+        "gt_answers": "R. J. Reynolds",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BRAND:\" information in the image?",
+        "answer": "the name of the company that makes the product",
+        "gt_answers": "Camel Menthol",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TYPE OF PACKINGS:\" information in the image?",
+        "answer": "packing list",
+        "gt_answers": "Full Flavor Box and Light Box",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TEST MARKET GEOGRAPHY\" information in the image?",
+        "answer": "what is test market geography information",
+        "gt_answers": "All of Region 7.",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PRICE POINT:\" information in the image?",
+        "answer": "price point information in the image",
+        "gt_answers": "FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton)",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SALES FORCE INVOLVEMENT:\" information in the image?",
+        "answer": "what is sales force involvement information",
+        "gt_answers": "Merchandising the top tray of permanent counter displays and labeling carton fixtures in the Camel section. Also placing metal signs and temporary counter displays.",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS:\" information in the image?",
+        "answer": "distributors - acceptance/ intro terms/ intro deals",
+        "gt_answers": "Product is being introduced to all Direct: Accounts in the Region. Acceptance is spotty at this time.",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DISTRIBUTOR INVOLVEMENT:\" information in the image?",
+        "answer": "what is distributor involvement information",
+        "gt_answers": "Assembly of promotional products and shipment to retail Indianapolis Direct Accounts are reported to be receiving B1G1F product.",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\" information in the image?",
+        "answer": "chains - acceptance/ merchandising allowance",
+        "gt_answers": "Chain acceptance has been very good.",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\" information in the image?",
+        "answer": "independents - acceptance/ merchandising allowance information",
+        "gt_answers": "Acceptance is better at high volume locations than at lower volume retail calls.",
+        "image_path": "./data/FUNSD/testing_data/images/82253058_3059.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Change\" information in the image?",
+        "answer": "the document is a change order",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Other\" information in the image?",
+        "answer": "the name of the person who signed",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Routine\" information in the image?",
+        "answer": "the name of the person who signed the document",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Page\" information in the image?",
+        "answer": "the document is a page from a report",
+        "gt_answers": "1 of 1",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date\" information in the image?",
+        "answer": "october 1",
+        "gt_answers": "B-17-88",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Change\" information in the image?",
+        "answer": "the document is a change order",
+        "gt_answers": "8410059",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"RFC\" information in the image?",
+        "answer": "the rfc is a request for correction",
+        "gt_answers": "880029",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "october 1",
+        "gt_answers": "8-17-88",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ORIGINATOR Name:\" information in the image?",
+        "answer": "the name of the person who created the document",
+        "gt_answers": "Dan Straka",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date Prepared\" information in the image?",
+        "answer": "the date the document was prepared",
+        "gt_answers": "8-17-88",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Received By\" information in the image?",
+        "answer": "a report of an accident",
+        "gt_answers": "D. Marsh",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Department Name and Location\" information in the image?",
+        "answer": "department name and location information in the image",
+        "gt_answers": "611- 13 3rd Floor",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Glass Mat:\" information in the image?",
+        "answer": "glass mat information in the image",
+        "gt_answers": "Delete C- glass from Iten description. Change glass softening point to 756 + / - 10 degrees from 750. Change rolls per pallet to 2 from 1.",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"slit Glass Mat:\" information in the image?",
+        "answer": "slit glass mat information in the image",
+        "gt_answers": "Delete C- glass from item description Change bobbins per stack to 47 from 45. Add outside diameter specs of 30.0, 26.0 - 31.0 inches.",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Proposed Solution\" information in the image?",
+        "answer": "a proposed solution for a problem",
+        "gt_answers": "Change the current MSS specifications as outlined above.",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Proposed Effective Date\" information in the image?",
+        "answer": "the proposed effective date is october 1",
+        "gt_answers": "9/8/88",
+        "image_path": "./data/FUNSD/testing_data/images/87528321.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COURT:\" information in the image?",
+        "answer": "the document is a court order",
+        "gt_answers": "San Francisco Superior Court - No. 996378",
+        "image_path": "./data/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CASE NAME:\" information in the image?",
+        "answer": "the name of the case",
+        "gt_answers": "Wanda G. Robinson and Carroll Robinson v Raybestos- Manhattan, et al.",
+        "image_path": "./data/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"LORILLARD ENTITIES:\" information in the image?",
+        "answer": "lorillard entities information",
+        "gt_answers": "Lorillard Tobacco Company",
+        "image_path": "./data/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE FILED:\" information in the image?",
+        "answer": "the date filed information is in the upper right corner",
+        "gt_answers": "July 23, 1998",
+        "image_path": "./data/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE SERVED:\" information in the image?",
+        "answer": "the date served information in the image is date served",
+        "gt_answers": "August 3, 1998",
+        "image_path": "./data/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CASE TYPE:\" information in the image?",
+        "answer": "the case type is a criminal case",
+        "gt_answers": "Asbestos",
+        "image_path": "./data/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PLAINTIFF COUNSEL:\" information in the image?",
+        "answer": "the name of the plaintiff's counsel",
+        "gt_answers": "Wartnick, Chaber, Harowitz, Smith & Tigerman Madelyn J. Chaber 101 California Street, Suite 2200 San Francisco, California 94111 415 986- 5566",
+        "image_path": "./data/FUNSD/testing_data/images/82491256.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"THRU\" information in the image?",
+        "answer": "an application for a real estate contract",
+        "gt_answers": "12/31/94",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"THRU\" information in the image?",
+        "answer": "an application for a real estate contract",
+        "gt_answers": "12/31/95",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"THRU\" information in the image?",
+        "answer": "an application for a real estate contract",
+        "gt_answers": "12/31/96",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"1. PRINCIPAL INVESTIGATOR NAME, TITLE, TELEPHONE # AND MAILING ADDRESS.\" information in the image?",
+        "answer": "principal investigator name title telephone mailing address",
+        "gt_answers": "Steven R. Kleeberger, Ph. D.",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(A) 1ST 12 MONTH PERIOD\" information in the image?",
+        "answer": "an application for a renewable contract",
+        "gt_answers": "01/01/94",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(B) 2ND 12 MONTH PERIOD IF REQUIRED\" information in the image?",
+        "answer": "b 2nd 12 month period",
+        "gt_answers": "01/01/95",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(C) 3RD 12 MONTH PERIOD IF REQUIRED\" information in the image?",
+        "answer": "c 3rd 12 month period",
+        "gt_answers": "01/01/96",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"INCLUSIVE DATE\" information in the image?",
+        "answer": "january 1 - june 30",
+        "gt_answers": "01/01/94 01/01/95 01/01/96",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TOTAL COST\" information in the image?",
+        "answer": "the total cost information is the total cost of the project",
+        "gt_answers": "210, 910 212, 481 220, 416",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(A) NAME\" information in the image?",
+        "answer": "a name information in the image",
+        "gt_answers": "Alan M. Goldberg, Ph. D.",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(C) TELEPHONE\" information in the image?",
+        "answer": "c telephone information",
+        "gt_answers": "(410) 955-9253",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(B) TITLE\" information in the image?",
+        "answer": "b title information",
+        "gt_answers": "Assoc. Dean for Research",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(E) DATE\" information in the image?",
+        "answer": "e date information in the image",
+        "gt_answers": "5/26/93",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(C) City\" information in the image?",
+        "answer": "c city information",
+        "gt_answers": "Baltimore",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(D) STATE/ZIP\" information in the image?",
+        "answer": "zip code and state",
+        "gt_answers": "Maryland 21205",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(a) STREET\" information in the image?",
+        "answer": "a street address",
+        "gt_answers": "615 North Wolfe Street",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(A) INSTITUTION\" information in the image?",
+        "answer": "application for a research contract",
+        "gt_answers": "Johns Hopkins University",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(F) MAILING\" information in the image?",
+        "answer": "f mailing information",
+        "gt_answers": "615 North Wolfe Street, Baltimore, Maryland",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(D) DEPARTMENT\" information in the image?",
+        "answer": "d department information",
+        "gt_answers": "Environmental Health Sciences",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(a) TITLE\" information in the image?",
+        "answer": "application for restraining order",
+        "gt_answers": "Associate Professor",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(E) INSTITUTION\" information in the image?",
+        "answer": "e institution information in the image",
+        "gt_answers": "Johns Hopkins University, School of Hyg. & Pub. Hlth.",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(c) TELEPHONE\" information in the image?",
+        "answer": "c telephone information",
+        "gt_answers": "(410) 955-3515/955-0299",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"(G) STATE/ZIP\" information in the image?",
+        "answer": "state zip code",
+        "gt_answers": "21205",
+        "image_path": "./data/FUNSD/testing_data/images/87594142_87594144.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date/ Time:\" information in the image?",
+        "answer": "what is date/ time information in the image",
+        "gt_answers": "10/30/98 1:46 PM",
+        "image_path": "./data/FUNSD/testing_data/images/86079776_9777.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date:\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "3/14/90",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"on\" information in the image?",
+        "answer": "a black and white document",
+        "gt_answers": "2/15/90",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BLEND\" information in the image?",
+        "answer": "a blend is a mixture",
+        "gt_answers": "Attached",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CASTING\" information in the image?",
+        "answer": "a casting sheet for a movie",
+        "gt_answers": "None",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"RECASING\" information in the image?",
+        "answer": "a black and white document",
+        "gt_answers": "Attached",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MENIHOL\" information in the image?",
+        "answer": "menihol information",
+        "gt_answers": "None",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Maker\" information in the image?",
+        "answer": "mfg date",
+        "gt_answers": "MK 8",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Length\" information in the image?",
+        "answer": "length in inches",
+        "gt_answers": "99.0 mm",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Circumference\" information in the image?",
+        "answer": "circumference is the distance around a body part",
+        "gt_answers": "24.8 mm",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Weight\" information in the image?",
+        "answer": "the weight of a person",
+        "gt_answers": "78.0 g / 100",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Paper\" information in the image?",
+        "answer": "a black and white document",
+        "gt_answers": "81- 01- 07",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Kind\" information in the image?",
+        "answer": "financial information",
+        "gt_answers": "3.3/ 35,000 OG Lt.",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Circumference\" information in the image?",
+        "answer": "circumference is the distance around a body part",
+        "gt_answers": "24.45 mm",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Weight\" information in the image?",
+        "answer": "the weight of a person",
+        "gt_answers": "75.3 30g / 100",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Plast.\" information in the image?",
+        "answer": "plast information in the image",
+        "gt_answers": "7 % Kent",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Closures\" information in the image?",
+        "answer": "a list of closures for the year",
+        "gt_answers": "Blue",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Labels\" information in the image?",
+        "answer": "a list of names and addresses",
+        "gt_answers": "White",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Cartons\" information in the image?",
+        "answer": "a list of the contents of the carton",
+        "gt_answers": "White",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Markings\" information in the image?",
+        "answer": "a list of names and addresses",
+        "gt_answers": "Sample No. on each Carton",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Original Request Made By\" information in the image?",
+        "answer": "the original request was made by the u s government",
+        "gt_answers": "J. H. Bell",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Purpose of Sample\" information in the image?",
+        "answer": "it is a sample of a medical record",
+        "gt_answers": "Cigarette Modification B- 451",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sample Specifications Written By\" information in the image?",
+        "answer": "sample specifications written by information in the image",
+        "gt_answers": "C. W. Lassiter",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FINAL FLAVOR\" information in the image?",
+        "answer": "final flavor",
+        "gt_answers": "None",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sample No.\" information in the image?",
+        "answer": "no information",
+        "gt_answers": "1194- 90",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Type of Cigarette\" information in the image?",
+        "answer": "cigarette tax information",
+        "gt_answers": "100 mm Filter",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Batch Size\" information in the image?",
+        "answer": "batch size is the total number of units produced in a batch",
+        "gt_answers": "47.5 lbs.",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Filter Length\" information in the image?",
+        "answer": "the length of the filter in inches",
+        "gt_answers": "27 mm",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Tip. Paper\" information in the image?",
+        "answer": "a tip paper is a document that contains information about a tip",
+        "gt_answers": "25- 04- 07 67 mm White",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Tip. Paper Por.\" information in the image?",
+        "answer": "tip paper por information",
+        "gt_answers": "430",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Glue Roller\" information in the image?",
+        "answer": "glue roller information",
+        "gt_answers": "G",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Air Dilution\" information in the image?",
+        "answer": "air dilution information",
+        "gt_answers": "13.0 %",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Section A\" information in the image?",
+        "answer": "section a information in the image",
+        "gt_answers": "27 mm 3.3/ 35,000 OG Lt. 108 mm 400 mm 24.45 mm 75.3 30g / 100 7 % Kent 84- 52- 28 655 ",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Section B\" information in the image?",
+        "answer": "section b information is a list of the names and addresses of the people involved in the crime",
+        "gt_answers": "mm",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Rod Length\" information in the image?",
+        "answer": "rod length information in the image",
+        "gt_answers": "108 mm",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Pressure Drop\" information in the image?",
+        "answer": "a pressure drop is the difference in pressure between two points",
+        "gt_answers": "400 mm",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Plug Wrap\" information in the image?",
+        "answer": "a plug wrap is a piece of paper that is wrapped around a plug",
+        "gt_answers": "84- 52- 28",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Plug Wrap Por.\" information in the image?",
+        "answer": "what is a plug wrap",
+        "gt_answers": "655 ",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Tobacco Blend\" information in the image?",
+        "answer": "tobacco blend information",
+        "gt_answers": "Lassiter/ Douglas",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Filter Production\" information in the image?",
+        "answer": "the image is a filter production report",
+        "gt_answers": "MFG.",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Making & Packing\" information in the image?",
+        "answer": "m & p",
+        "gt_answers": "James",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sample Requistion (Form 02: 20: 06)\" information in the image?",
+        "answer": "the sample requistion form 02 20 06 is a requisition form",
+        "gt_answers": "James",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Tear Tape\" information in the image?",
+        "answer": "a tear tape is a piece of paper that has been torn from a roll",
+        "gt_answers": "White",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Laboratory Other\" information in the image?",
+        "answer": "laboratory other information",
+        "gt_answers": "1 Tray",
+        "image_path": "./data/FUNSD/testing_data/images/87093315_87093318.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PRODUCT\" information in the image?",
+        "answer": "a product information sheet",
+        "gt_answers": "Triumph",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "October 17, 1979",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Incidence\" information in the image?",
+        "answer": "a document containing information about an incident",
+        "gt_answers": "-",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Topline\" information in the image?",
+        "answer": "the name of the document",
+        "gt_answers": "2 wks from start of fid.",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Final\" information in the image?",
+        "answer": "the name of the person signing",
+        "gt_answers": "4 wks from start of fld",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PROJECT TITLE\" information in the image?",
+        "answer": "nasa project title",
+        "gt_answers": "Triumph Disaster Check Study",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Key Criteria for Analysis\" information in the image?",
+        "answer": "what is the purpose of the document",
+        "gt_answers": "-Triumph switchers asked why no longer smoking Triumph -Present smokers of Triumph asked reasons for switching to Triumph -Mentions of \"harshness\"",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Research Limitations\" information in the image?",
+        "answer": "the image is a research limitations information form",
+        "gt_answers": "Due to sample size and experience we feel 25 respondents will presently be Triumph smokers. An action standard of 75% should be utilized for judgments on product negatives only among this group If 75% of Triumph smokers mention harshness we could consider it a 50- 75% problem If of Triumph smokers mention \"harshness\" we could it a look consider possible problem at other areas). If below 50% of Triumph smokers mention \"harshness\" we could consider it at a problem",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Research Firm\" information in the image?",
+        "answer": "the name of the research firm",
+        "gt_answers": "The Data Group. Inc",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Lenght Int\" information in the image?",
+        "answer": "length int",
+        "gt_answers": "10 minutes",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# Open \" information in the image?",
+        "answer": "a copy of a document",
+        "gt_answers": "4",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# Reports\" information in the image?",
+        "answer": "a document containing a report",
+        "gt_answers": "1",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Cost Estimate + - 10% Contingency Final Report Inc.\" information in the image?",
+        "answer": "cost estimate + - 10% contingency final report inc",
+        "gt_answers": "$ 2.250",
+        "image_path": "./data/FUNSD/testing_data/images/89856243.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a sample of a work order",
+        "gt_answers": "K. A. Sparrow",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "D. J. Landro",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SUBJECT:\" information in the image?",
+        "answer": "the image is of a form",
+        "gt_answers": "OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Milw. South",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Milw. North",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# REP\" information in the image?",
+        "answer": "rep information",
+        "gt_answers": "7",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# REP\" information in the image?",
+        "answer": "rep information",
+        "gt_answers": "7",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Walgreen Drug",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"IND/LOR VOLUME\" information in the image?",
+        "answer": "ind/lor volume information",
+        "gt_answers": "144/14",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "93",
+        "image_path": "./data/FUNSD/testing_data/images/82252956_2958.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a receipt for a purchase",
+        "gt_answers": "K. A. SPARROW",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "S. Reindel",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ITEMS\" information in the image?",
+        "answer": "a tax return form",
+        "gt_answers": "BASEBALL CAP WATER BOTTLES",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE TO NYO:\" information in the image?",
+        "answer": "nyo information in the image",
+        "gt_answers": "1/24/97",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIV. NAME/ NO:\" information in the image?",
+        "answer": "no information",
+        "gt_answers": "Nassau/ 107",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF EVENT:\" information in the image?",
+        "answer": "iraq war",
+        "gt_answers": "H. Levinson Tradeshow",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"\"DATE OF EVENT:\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "3/18/97",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SAMPLES/ ITEMS REQUIRED:\" information in the image?",
+        "answer": "irs tax return form",
+        "gt_answers": "SAMPLE 10'S (400 PACKS PER CASE)",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NEWPORT K. S.\" information in the image?",
+        "answer": "newport k s",
+        "gt_answers": "2",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NEWPORT LTS K. S.\" information in the image?",
+        "answer": "newport lts k s",
+        "gt_answers": "1",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TRUE K. S.\" information in the image?",
+        "answer": "it is a tax return",
+        "gt_answers": "1",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"KENT K. S.\" information in the image?",
+        "answer": "kent k s information",
+        "gt_answers": "1",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"QUANTITY REQUIRED\" information in the image?",
+        "answer": "quantity required information in the image",
+        "gt_answers": "1500 500",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CUSTOMER SHIPPING NUMBER\" information in the image?",
+        "answer": "customer shipping number information in the image",
+        "gt_answers": "198- 1160006",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE FORWARDED TO PROMOTION SERVICES:\" information in the image?",
+        "answer": "forwarded to promotion services",
+        "gt_answers": "zbulan",
+        "image_path": "./data/FUNSD/testing_data/images/82254765.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COURT:\" information in the image?",
+        "answer": "a black and white document with a court seal",
+        "gt_answers": "San Francisco Superior Court- No. 996382",
+        "image_path": "./data/FUNSD/testing_data/images/82504862.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CASE NAME:\" information in the image?",
+        "answer": "name of the case",
+        "gt_answers": "Donald D. Sellers and Robin J. Sellers v. Raybestos Manhattan et al.",
+        "image_path": "./data/FUNSD/testing_data/images/82504862.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"LORILLARD ENTITIES\" information in the image?",
+        "answer": "lorillard entities information",
+        "gt_answers": "Lorillard Tobacco Company",
+        "image_path": "./data/FUNSD/testing_data/images/82504862.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE SERVED\" information in the image?",
+        "answer": "the date served information in the image is date served",
+        "gt_answers": "August 3, 1998",
+        "image_path": "./data/FUNSD/testing_data/images/82504862.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CASE TYPE:\" information in the image?",
+        "answer": "the case type is a criminal case",
+        "gt_answers": "Asbestos",
+        "image_path": "./data/FUNSD/testing_data/images/82504862.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PLAINTIEE'S COUNSEL:\" information in the image?",
+        "answer": "attorney's name and address",
+        "gt_answers": "Wartnick Chaber, Harowitz, Smith& Tigerman StephenM. Tigerman 101 California Street Suite 2200 San Francisco California 94111 ",
+        "image_path": "./data/FUNSD/testing_data/images/82504862.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a sample of a medical report",
+        "gt_answers": "K. A. Sparrow",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "a sample of a job application",
+        "gt_answers": "J. L. McGinnis",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SUBJECT:\" information in the image?",
+        "answer": "the image is of a medical report",
+        "gt_answers": "MAVERICK SPECIALS MENTHOL - PROGRESS REPORT",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FULL\" information in the image?",
+        "answer": "the image is a sample of a job application",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SEP 22\" information in the image?",
+        "answer": "sep 22 information in the image",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Don & Bens Western Beverage Speedy Stop Get Go Valley Shamrock Albertson's -Houston Mini Mart Neal One Stop Shopper Mart",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "ind/ lor volume information in the image",
+        "gt_answers": "26/ 2 42/ 2 106 /4 62/ 2 78/ 4 319/ 16 65/ 3 69/ 3 80/ 4",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "20 15 29 44 17 34 15 20 22",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Sac N Pac ACO Texaco Lone Star",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "ind/ lor volume information in the image",
+        "gt_answers": "75/ 2 95/ 3 76/ 3",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "27 15 37",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Chevron Brookshire Bro's Eckerd Drugs S. Texas Exxon Philip's 66 Star Enterprise Walgreen's",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "ind/ lor volume information in the image",
+        "gt_answers": "? ? ? ? ? ? ?",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "115 38 217 38 27 70 177",
+        "image_path": "./data/FUNSD/testing_data/images/82253362_3364.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a form for a medical procedure",
+        "gt_answers": "ESSENCE 1500 BROADWAY NEW YORK, NY 10036",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ATTN:\" information in the image?",
+        "answer": "to whom it may concern",
+        "gt_answers": "JOYCE WINSTON",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "january 1st, 2018",
+        "gt_answers": "MARCH 17, 1995",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ADVERTISER:\" information in the image?",
+        "answer": "advertiser information in the image",
+        "gt_answers": "LORILLARD",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PRODUCT:\" information in the image?",
+        "answer": "product information sheet",
+        "gt_answers": "NEWPORT",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"AD#:\" information in the image?",
+        "answer": "ad information in the image",
+        "gt_answers": "NPT- 533- 7",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CAPTION:\" information in the image?",
+        "answer": "a copy of an application for a permit",
+        "gt_answers": "FOUNTAIN COUPLE",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SPACE:\" information in the image?",
+        "answer": "space information in the image",
+        "gt_answers": "P5CE",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "january 1st, 2018",
+        "gt_answers": "JUNE 1995",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PO\" information in the image?",
+        "answer": "what is po information in the image",
+        "gt_answers": "#77219",
+        "image_path": "./data/FUNSD/testing_data/images/93106788.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sender\" information in the image?",
+        "answer": "the sender's name and address",
+        "gt_answers": "Charles Duggan",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date\" information in the image?",
+        "answer": "the date is in the upper right corner",
+        "gt_answers": "November 1999",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To\" information in the image?",
+        "answer": "the name of the person and the date",
+        "gt_answers": "Thomas M. Sobol Joseph F. Rice Robert V. Costello Jeffrey D. Woolf Richard M. Heimann Michael P. Thornton",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Reference\" information in the image?",
+        "answer": "the reference information in the image is reference information",
+        "gt_answers": "17555 002",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax Transmittal\" information in the image?",
+        "answer": "fax transmittal information",
+        "gt_answers": "450 Lexington Avenue New York, NY 10017 212- 450- 4000",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Number of Pages (this page included)\" information in the image?",
+        "answer": "2",
+        "gt_answers": "6",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sender Voice Number\" information in the image?",
+        "answer": "sender voice number information in the image",
+        "gt_answers": "212- 450- 4785",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"If problems receiving this fax, call\" information in the image?",
+        "answer": "fax number fax number",
+        "gt_answers": "212- 450- 4785",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sender Fax Number\" information in the image?",
+        "answer": "sender fax number information in the image",
+        "gt_answers": "212- 450- 3785",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax Number\" information in the image?",
+        "answer": "fax number information in the image",
+        "gt_answers": "617- 439- 3278 843- 720- 9290 617- 722- 0286 415- 956- 1008 617- 720- 2445",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Company\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "Brown Rudnick Freed & Gesmer Ness, Motley, Loadholt, Richardson & Poole Schneider, Reilly, Zabin & Costello Lieff, Cabraser & Heimann Thomton, Early & Naumes",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Recipient Phone Number\" information in the image?",
+        "answer": "recipient phone number information in the image",
+        "gt_answers": "617- 330- 9000 843- 720 9000 617- 227- 7500 415- 956- 1000 617- 720- 1333",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Confidentiality Note\" information in the image?",
+        "answer": "what is confidentiality note information in the image",
+        "gt_answers": "This only for the person or entity may besi pavilegedal  of otherwis protected from disclosos. Disscnlation, distribution popying of the facile the information herein by anyone other than the poupil, waployee responsible for delivering the message the prohibited. You thisfacsimile in error please notify as immediately by telephone and return the facsimile by mail.",
+        "image_path": "./data/FUNSD/testing_data/images/83553333_3334.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Telephone:\" information in the image?",
+        "answer": "telephone information in the image",
+        "gt_answers": "(615) ) 638- 5532",
+        "image_path": "./data/FUNSD/testing_data/images/87332450.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX:\" information in the image?",
+        "answer": "fax information in the image",
+        "gt_answers": "(615) ) 638- 6458",
+        "image_path": "./data/FUNSD/testing_data/images/87332450.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Advance Registration Fee:\" information in the image?",
+        "answer": "advance registration fee information",
+        "gt_answers": "$135 00",
+        "image_path": "./data/FUNSD/testing_data/images/87332450.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Late Registration Fee\" information in the image?",
+        "answer": "what is late registration fee information in the image",
+        "gt_answers": "$150 00",
+        "image_path": "./data/FUNSD/testing_data/images/87332450.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Ground Transportation (round trip)\" information in the image?",
+        "answer": "ground transportation round trip information",
+        "gt_answers": "$ 30. 00",
+        "image_path": "./data/FUNSD/testing_data/images/87332450.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Mail to:\" information in the image?",
+        "answer": "mail to information in the image is mail to information",
+        "gt_answers": "Dr. Phil P. Hunter U. T. Tobacco Experiment Station Route 5 Box 113 Greeneville, TN 37743",
+        "image_path": "./data/FUNSD/testing_data/images/87332450.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"APPROVALS\" information in the image?",
+        "answer": "the signature of the person who signed",
+        "gt_answers": "8/ 7/ 87 8/ 7/ 87",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "january 1st",
+        "gt_answers": "8/ 7/ 87 8/ 7/ 87",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "january 1st",
+        "gt_answers": "08/ 14/ 87 08/ 14/ 87",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STUDY NAME\" information in the image?",
+        "answer": "study name",
+        "gt_answers": "Induction of Hepatic Enzymes in rats (B202) Induction of Hepatic Enzymes in rats (B202)",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STUDY NUMBER\" information in the image?",
+        "answer": "study number information in the image",
+        "gt_answers": "I- 7016. 401 I- 7016. 401",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"INITIATION DATE\" information in the image?",
+        "answer": "initiation date information in the image",
+        "gt_answers": "October 27, 1986 October 27, 1986",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE OF FINAL REPORT\" information in the image?",
+        "answer": "the date of final report information in the image",
+        "gt_answers": "February 26, 1987 February 26, 1987",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PART OF FINAL REPORT TO BE AMENDED (EXACT LOCATION)\" information in the image?",
+        "answer": "location information",
+        "gt_answers": "Page 14 and Table 4 Page 14 and Table 4",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"REASON FOR THE AMENDMENT\" information in the image?",
+        "answer": "an amendment is a change to an existing document",
+        "gt_answers": "Request from sponsor Request from sponsor",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"AMENDMENT (Attach additional sheets as necessary)\" information in the image?",
+        "answer": "amendment attach additional sheets as necessary information",
+        "gt_answers": "see attached see attached",
+        "image_path": "./data/FUNSD/testing_data/images/87125460.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Ken Forrest",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Tom Frederick",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Tom Griffin",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Ever Hurwitz",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Barry Levin/ Curl Caton",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Barbara Robbins",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Greg Stone/Ron Olson",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Bill Allinder/Jeff Nelson",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Steve Krigbaum",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "James Wilson",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Eric Sarner/ Doug Flemming/ Peter Mckenna",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Thomas McKim",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "D. Scott Wise",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"No\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Tom Stoever",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Judy Bernstein- Gaeta",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Dal Burton",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name:\" information in the image?",
+        "answer": "the name of a person",
+        "gt_answers": "Andy McGaan",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Telecopier Nos.\" information in the image?",
+        "answer": "telecopier nos information in the image",
+        "gt_answers": "(804) 788- 8218 (804) 788- 8219 (804) 788- 8669",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NO:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "212- 403- 2211",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NO:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "312- 558- 5700",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NO.:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "617- 523- 1231",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NO.:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "202- 342- 5999",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOc.:\" information in the image?",
+        "answer": "fax noc information in the image",
+        "gt_answers": "415- 772- 6268",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "212- 403- 2033",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "213- 687- 3702",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "816- 421- 2708",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "917- 663- 5593",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "303- 832- 0428",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "202- 942- 5999",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "404- 581- 8330",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "312- 861- 2200",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "336- 335- 7707",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "212- 735- 2000",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NOv\" information in the image?",
+        "answer": "fax nov information in the image",
+        "gt_answers": "336- 741- 0671",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NO.:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "212- 450- 4800",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Pages (Including Cover)\" information in the image?",
+        "answer": "pages including cover information",
+        "gt_answers": "4",
+        "image_path": "./data/FUNSD/testing_data/images/86328049_8050.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "the date is in the upper right corner",
+        "gt_answers": "February 25, 1998",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COMPANY:\" information in the image?",
+        "answer": "fax transmission form",
+        "gt_answers": "Lorillard Tobacco Company",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHONE:\" information in the image?",
+        "answer": "what is phone information in the image",
+        "gt_answers": "910 /335 -7718",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "a fax transmission",
+        "gt_answers": "Andy Zausner",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHONE:\" information in the image?",
+        "answer": "what is phone information in the image",
+        "gt_answers": "202 /828 -2259",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MESSAGE:\" information in the image?",
+        "answer": "a fax transmission confirmation",
+        "gt_answers": "See attached fax from the Committee on Commerce just received in my office. Call me discuss.",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Tel\" information in the image?",
+        "answer": "fax transmission form",
+        "gt_answers": "202 785 9700",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax\" information in the image?",
+        "answer": "fax transmission information",
+        "gt_answers": "202 -887 -0589",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NUMBER:\" information in the image?",
+        "answer": "fax number information in the image",
+        "gt_answers": "910/ 335- 7707",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MESSAGE TO:\" information in the image?",
+        "answer": "fax transmission - fax transmission form",
+        "gt_answers": "Ronald S. Milstein",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CLIENT NO.:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "L8557 002",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PAGES (including Cover Sheet):\" information in the image?",
+        "answer": "fax cover sheet",
+        "gt_answers": "12",
+        "image_path": "./data/FUNSD/testing_data/images/83624198.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PARTIAL\" information in the image?",
+        "answer": "what is the name of the document?",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a form for a medical examination",
+        "gt_answers": "S. P. ZOLOT",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "R. W. RICHARDSON",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SUBJECT:\" information in the image?",
+        "answer": "the image is of a medical report form",
+        "gt_answers": "OLD GOLD- LIGHT BOX 100'S PROGRESS REPORT",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DEC 21\" information in the image?",
+        "answer": "what is dec 21 information",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Detroit North",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Detroit East",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Grand Rapids",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Detroit South",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Detroit West",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION NAME:\" information in the image?",
+        "answer": "division name information in the image",
+        "gt_answers": "Flint",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# REPS:\" information in the image?",
+        "answer": "reps information in the image",
+        "gt_answers": "13",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# REPS:\" information in the image?",
+        "answer": "reps information in the image",
+        "gt_answers": "12",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# REPS:\" information in the image?",
+        "answer": "reps information in the image",
+        "gt_answers": "13",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name of Account\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Quality Dairy Bay Stations Schmuckal Dil Wilson Oil Quik Stop Forwards Phil Flint Arbor Rx Imperial Oil",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Ind/Lor Volume\" information in the image?",
+        "answer": "what is ind/lor volume information",
+        "gt_answers": "151/15 81/9 138/9 140/13 118/8 117/9 166/15 115/13 163/11",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Number of Stores\" information in the image?",
+        "answer": "0",
+        "gt_answers": "31 1818 22 15 24 19 15 209 32",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name of Account\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Speedy Q",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Ind/Lor Volume\" information in the image?",
+        "answer": "what is ind/lor volume information",
+        "gt_answers": "196/13",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Number of Stores\" information in the image?",
+        "answer": "0",
+        "gt_answers": "16",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Name of Account\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Clark Gas Emra 7- Eleven Southland Walmart Ultra Diamond Dairy Mart Mobil Oil ACA Amoco",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Number of Stores\" information in the image?",
+        "answer": "0",
+        "gt_answers": "142 237 102 39 184 32 40 31",
+        "image_path": "./data/FUNSD/testing_data/images/83641919_1921.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"cc:\" information in the image?",
+        "answer": "cc information in the image",
+        "gt_answers": "D. O. S.",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \":\" information in the image?",
+        "answer": "a document containing a report",
+        "gt_answers": "R. W. Caldarella",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "the name of the person who wrote the report",
+        "gt_answers": "Kent B. Mills",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Area:\" information in the image?",
+        "answer": "a map showing the location of the property",
+        "gt_answers": "5",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Region:\" information in the image?",
+        "answer": "the region information in the image is a map",
+        "gt_answers": "17",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Chains:\" information in the image?",
+        "answer": "chain of command",
+        "gt_answers": "Payment\". was not place. The chains where were using the \"Flex Payment\" system we have not been las successful. The P. O. S. requirements of the P- 1 Plan with Oil Companies is difficult to obtain. This program has been successful to date with chains where our \"Flex",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Independents:\" information in the image?",
+        "answer": "independents information in the image",
+        "gt_answers": "Additional P. V. merchandising is being secured quickly,",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Distribution by/ to:\" information in the image?",
+        "answer": "distribution by/ to information in the image",
+        "gt_answers": "DM to RSM 1st of Month RSM to R W. C. 10th",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Comment on the assembly of displays and\" information in the image?",
+        "answer": "the information is arranged in a logical manner",
+        "gt_answers": "The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"application of shields:\" information in the image?",
+        "answer": "shields information in the image",
+        "gt_answers": "The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Pemanent Advertising Evaluation/ Effectiveness/ Acceptance: (P- 1/ P- 5 & C 5 Plans Only:\" information in the image?",
+        "answer": "pemanent advertising evaluation/ effectiveness/ acceptance",
+        "gt_answers": "Not available at this time",
+        "image_path": "./data/FUNSD/testing_data/images/82251504.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "Lynnette Stevens",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "Kelli Scruggs",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "credit card information",
+        "gt_answers": "Vincent Losito George Baroody",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Circulation(#)\" information in the image?",
+        "answer": "circulation information",
+        "gt_answers": "APPROX 600. 000 AR. AZ.A K CA CO FL ID IA. CT, ME, MASS, MN, MT, NE,",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Don Kisling\" information in the image?",
+        "answer": "kisling's name and address",
+        "gt_answers": "S. Tesh C. Hill",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Brand(s) Applicable\" information in the image?",
+        "answer": "brand s name",
+        "gt_answers": "Newport Parent, Lights. & 120's",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Media Type\" information in the image?",
+        "answer": "document",
+        "gt_answers": "Direct Mail",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Media Name\" information in the image?",
+        "answer": "the name of the media outlet",
+        "gt_answers": "Competitive 21- 34 years",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Coupon Issue Date\" information in the image?",
+        "answer": "the date the coupon was issued",
+        "gt_answers": "4/ 14/ 00",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Coupon Expiration Date\" information in the image?",
+        "answer": "coupon expiration date",
+        "gt_answers": "9 /30 00",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Coupon Value\" information in the image?",
+        "answer": "what is coupon value information",
+        "gt_answers": "NV, NM, NY ND, DK, OR, RL, SD, WA, DC, WY $1. 50 OFF PACK",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Pack and/ or Carton?\" information in the image?",
+        "answer": "pack and/ or carton",
+        "gt_answers": "NV, NM, NY ND, DK, OR, RL, SD, WA, DC, WY $1. 50 OFF PACK",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Signature of Initiator\" information in the image?",
+        "answer": "signature of initiator information",
+        "gt_answers": "21- Jan 00",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Code Assigned\" information in the image?",
+        "answer": "a code assigned by the u s government",
+        "gt_answers": "05787",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Est. Redemption\" information in the image?",
+        "answer": "est redemption information",
+        "gt_answers": "13%",
+        "image_path": "./data/FUNSD/testing_data/images/86075409_5410.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "it is a form for a business",
+        "gt_answers": "K. A. Sparrow",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the person who filled out the form",
+        "gt_answers": "F. Strickland",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SUBJECT:\" information in the image?",
+        "answer": "iraqi visa application form",
+        "gt_answers": "MAVERICK SPECIALS- PROGRESS REPORT",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FULL\" information in the image?",
+        "answer": "the image is of a form",
+        "gt_answers": "x",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DEC 13\" information in the image?",
+        "answer": "dec 13 is a document that contains information about a person",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "K&B Delchamps Winn Dixie Schwegmann Aurry Greer Double  Delchamps Litco Huber Oil Morris Corp",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "180 130 85 39 36 36 23 23 22",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Seyle Dantzlen Southeast Foods Compac Foods Bayou Foods Econ",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "20 19 18 18 17 16",
+        "image_path": "./data/FUNSD/testing_data/images/86230203_0206.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "KELLI SCRUGGS",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "LEONARD JONES",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "credit card information",
+        "gt_answers": "V. LOSITO M. TAHMASEB G. BAROODY L. STEVENS B. VON DER LIPPE D. Risling",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PACK/CARTON\" information in the image?",
+        "answer": "pack/carton information",
+        "gt_answers": "PACK",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"REQUIREMENTS\" information in the image?",
+        "answer": "an application form for a job",
+        "gt_answers": "REDEMPTION RESULTS",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"JOB#\" information in the image?",
+        "answer": "an application for employment",
+        "gt_answers": "594",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BRAND(S) APPLICABLE\" information in the image?",
+        "answer": "name address phone number",
+        "gt_answers": "OLD GOLD",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MEDIA TYPE\" information in the image?",
+        "answer": "document",
+        "gt_answers": "DIRECT MAIL",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COUPON VALUE\" information in the image?",
+        "answer": "a coupon is a piece of paper that can be redeemed for goods or services",
+        "gt_answers": "$1 00 OFF PACK",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"GEOGRAPHICAL AREA(S)\" information in the image?",
+        "answer": "a map of the area",
+        "gt_answers": "DISCOUNT SMOKERS OG GROUPS IANDII",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CIRCULATION DATES\" information in the image?",
+        "answer": "circulation dates information in the image",
+        "gt_answers": "OCTOBER 1999",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CIRCULATION(#)\" information in the image?",
+        "answer": "circulation information in the image",
+        "gt_answers": "201, 500",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COUPON EXPIRATION DATE\" information in the image?",
+        "answer": "coupon expiration date",
+        "gt_answers": "3/ 31/ 00",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COUPON ISSUE DATE\" information in the image?",
+        "answer": "the date the coupon was issued",
+        "gt_answers": "10/ 4/ 99",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CODE ASSIGNED\" information in the image?",
+        "answer": "a code is a unique identifier assigned to a document",
+        "gt_answers": "07809",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"EST. REDEMPTION\" information in the image?",
+        "answer": "est redemption information",
+        "gt_answers": "14%",
+        "image_path": "./data/FUNSD/testing_data/images/83996357.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "2 /15 /90",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "4 /18 /90",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "7 /25 /90",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DEPARTMENT NAME\" information in the image?",
+        "answer": "the department of motor vehicles",
+        "gt_answers": "SCIENCE & TECHNOLOGY",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COST CENTER NUMBER\" information in the image?",
+        "answer": "a cost center number is a unique identifier for a project",
+        "gt_answers": "141",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"INDEX BINDERS CONSOLIDATED BY:\" information in the image?",
+        "answer": "index binders consolidated by information",
+        "gt_answers": "N /A",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"INDEX BINDER RE- LABELED BY:\" information in the image?",
+        "answer": "re- labeled index binder",
+        "gt_answers": "Mallery",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"RETENTION & RECOMMENDATION FILE REORGANIZED AND RE- LABELED BY:\" information in the image?",
+        "answer": "retention & recommendation file",
+        "gt_answers": "/A",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"RECORDS RETENTION SCHEDULE PLACED IN INDEX BINDER AND IN FILE BY:\" information in the image?",
+        "answer": "the records retention schedule is placed in the index binder and in the file",
+        "gt_answers": "Wayne Boughan",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BOXES CREATED FOR HARD COPY PERMANENT RETENTION RECORDS BY:\" information in the image?",
+        "answer": "archival boxes",
+        "gt_answers": "N /A",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"RECORDS TRANSFER INVENTORY FORMS UPDATED BY:\" information in the image?",
+        "answer": "the records transfer inventory form is a form used to request the transfer of records",
+        "gt_answers": "Wayne Baughan",
+        "image_path": "./data/FUNSD/testing_data/images/86263525.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date:\" information in the image?",
+        "answer": "january 1st, 2018",
+        "gt_answers": "January 14, 1999",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "Steve W. Berman",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Re:\" information in the image?",
+        "answer": "a document containing information about a person",
+        "gt_answers": "Tobacco - Fee Payment Agreement and Release",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Recipient(s):\" information in the image?",
+        "answer": "the recipient s name and address",
+        "gt_answers": "Mr. Meyer G. Koplow Mr. Arthur F. Golden Mr. Martin Barrington Mr. F. Anthony Burke Mr. Ronald Milstein Mr. Charles A. Blixt Mr. Stephen R. Patton",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Company:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "Wachtell, Lipton, Rosen & Katz Davis, Polk & Wardwell Philip Morris Inc. Brown & Williamson Tobacco Corp. Lorillard Tobacco Co. R. J. Reynolds Tobacco Co Kirkland & Ellis",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"No. of Pages\" information in the image?",
+        "answer": "2",
+        "gt_answers": "37 (including this page)",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"File No.:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "1129. 01",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Phone No.:\" information in the image?",
+        "answer": "what is phone no information",
+        "gt_answers": "(212) 403- 1000 (212) 450- 4000 (312) 861- 2000",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax No.:\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "(212) 403- 2000 (212) 450- 4800 (917) 663- 5399 (502) 568- 7297 (336) 335- 7707 (336) 741- 2998 (312) 861- 2200",
+        "image_path": "./data/FUNSD/testing_data/images/83573282.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "03 /02 /90",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATES:\" information in the image?",
+        "answer": "october 1st, 1939",
+        "gt_answers": "03 /01 /90",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TA #:\" information in the image?",
+        "answer": "a marriage certificate",
+        "gt_answers": "T07281A",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SPONSOR'S NAME:\" information in the image?",
+        "answer": "the sponsor's name and address",
+        "gt_answers": "Lorillard",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TEST ARTICLE IDENTIFICATION:\" information in the image?",
+        "answer": "test article identification number",
+        "gt_answers": "B220",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"LOT #:\" information in the image?",
+        "answer": "the lot information is a lot number",
+        "gt_answers": "012590",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CONDITION OF SHIPMENT:\" information in the image?",
+        "answer": "in good condition",
+        "gt_answers": "GOOD",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SHIPPED VIA\" information in the image?",
+        "answer": "documents",
+        "gt_answers": "Direct Exress",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHYSICAL DESCRIPTION:\" information in the image?",
+        "answer": "a black and white photo of a person",
+        "gt_answers": "Clear brown liquid",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF CONTAINERS:\" information in the image?",
+        "answer": "no of containers information",
+        "gt_answers": "One",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"GROSS WEIGHT\" information in the image?",
+        "answer": "gross weight information in the image",
+        "gt_answers": "Not provided",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NET WEIGHT (if provided):\" information in the image?",
+        "answer": "net weight",
+        "gt_answers": "100 g",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"EXPIRATION DATE:\" information in the image?",
+        "answer": "the expiration date is the last day of the month",
+        "gt_answers": "Not provided",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SPECIAL HANDLING REQUIREMENTS:\" information in the image?",
+        "answer": "special handling requirements information",
+        "gt_answers": "Store refrigerated in dark.",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STUDY DIRECTOR /DEPARTMENT\" information in the image?",
+        "answer": "study director /department name",
+        "gt_answers": "Ray David",
+        "image_path": "./data/FUNSD/testing_data/images/87137840.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a sample of a report",
+        "gt_answers": "Mrs. K. A. Sparrow",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the report",
+        "gt_answers": "R. G. Ryan",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"JUNE7\" information in the image?",
+        "answer": "june 7 information in the image",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIRECT ACCOUNT/ WHOLESALERS:\" information in the image?",
+        "answer": "what is direct account/ wholesalers information in the image",
+        "gt_answers": "Distribution allowance was very effective in accomplishing our objectives. All accounts have purchased introductory products.",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIRECT ACCOUNT CHAINS:\" information in the image?",
+        "answer": "what is direct account chains information",
+        "gt_answers": "Eagle Foods is the only Void.",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NON- DIRECT ACCOUNT CHAINS:\" information in the image?",
+        "answer": "non direct account chains information in the image",
+        "gt_answers": "Reception from these accounts is most positive with a solid incentitive to purchase.",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"EFFECTIVENESS OF THE RETAIL (1 00 OFF CARTON) DISTRIBUTION ALLOWANCE:\" information in the image?",
+        "answer": "the information in the image is ineffective",
+        "gt_answers": "Has been most helpful in acquiring desireable distribution when needed by Sales Reps.",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"40c OFF PACK- GENERAL MARKET:\" information in the image?",
+        "answer": "40c off pack- general market information",
+        "gt_answers": "The 40c off promotions continue to be well received at the retail stores and by consumers, as well.",
+        "image_path": "./data/FUNSD/testing_data/images/86236474_6476.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"VENDOR\" information in the image?",
+        "answer": "vendor name and address",
+        "gt_answers": "Piedmont Research Laboratory 2748 Patterson Ave., Greensboro,",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TERMS\" information in the image?",
+        "answer": "the document is a medical report",
+        "gt_answers": "27407 NET 15 F. O. B. N/A VIA N/A",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DESCRIPTION\" information in the image?",
+        "answer": "a document containing a list of names and addresses",
+        "gt_answers": "This is your authorization to prepare cigarette smoke condensate according to the protocol \"Standard Operating Procedure f\u00f8r the Preparation of Smoke Condensate for Mouse Skin Bioassay,\" for the period April 1, 1988 through December 31, 1988. Condensate will be prepared acording to a time schedule provided by Lorillard. The fixed price for condensate collection will be at a rate of $1, 750/10, 000 cigarettes smoked. Piedmont will pay the cost of consumable supplies. This work is to be conducted in accordance with the December 10, 1984 formal agreement between Piedmont Reseach Laboratories and Lorillard. All work is to be coordinated with our Mr. Neil Thaggard (919) 373-6628",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "october 1",
+        "gt_answers": "April 19, 1988",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Prev.\" information in the image?",
+        "answer": "the name of the person arrested",
+        "gt_answers": "or Recommended Supplier",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE WANTED\" information in the image?",
+        "answer": "date wanted information in the image",
+        "gt_answers": "As required",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SHIP TO (DEPT BRANCH)\" information in the image?",
+        "answer": "ship to dept branch information",
+        "gt_answers": "Lorillard Research Center N. A. Thaggard",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DEPT. NO.\" information in the image?",
+        "answer": "dept no information in the image",
+        "gt_answers": "8700",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ACCT. NO.\" information in the image?",
+        "answer": "acct no information in the image",
+        "gt_answers": "4111",
+        "image_path": "./data/FUNSD/testing_data/images/87147607.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME:\" information in the image?",
+        "answer": "the name of the person",
+        "gt_answers": "GEORGE R. TELFORD",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TITLE:\" information in the image?",
+        "answer": "oklahoma city police department",
+        "gt_answers": "Brand Manager",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COMPANY:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "Lorillard",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ADDRESS:\" information in the image?",
+        "answer": "a street address",
+        "gt_answers": "666 Fifth Avenue, New York, NY 10019",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHONE:\" information in the image?",
+        "answer": "phone number",
+        "gt_answers": "(212) 841- 8787",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CHECK ONE:\" information in the image?",
+        "answer": "the name of the document",
+        "gt_answers": "Please reserve a room for me at the Sheraton- Carlton X I will my own housing arrangements.",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ARRIVAL DATE AND TIME:\" information in the image?",
+        "answer": "arrival date and time",
+        "gt_answers": "2/18/80 7:00 P. M.",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DEPARTURE DATE AND TIME:\" information in the image?",
+        "answer": "departure date and time",
+        "gt_answers": "2/21/80 4:00 P. M.",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Any questions?\" information in the image?",
+        "answer": "what is the document?",
+        "gt_answers": "Call Connie Drath or Carol Musgrave at 800/424- 9876.",
+        "image_path": "./data/FUNSD/testing_data/images/85240939.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date\" information in the image?",
+        "answer": "the date is in the upper right corner",
+        "gt_answers": "November 11, 1997",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To\" information in the image?",
+        "answer": "a document containing information about a person",
+        "gt_answers": "Robert H. Shaw, Esq.",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Company\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "Lorillard Tobacco Company",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sender\" information in the image?",
+        "answer": "the sender's name and address",
+        "gt_answers": "Charles Duggan",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Reference\" information in the image?",
+        "answer": "the reference information in the image is the name of the document",
+        "gt_answers": "17560 -188",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax Number\" information in the image?",
+        "answer": "fax number information in the image",
+        "gt_answers": "910 -335- 7077",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Voice Number\" information in the image?",
+        "answer": "voice number information in the image",
+        "gt_answers": "910 -335- 7720",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Number of Pages (this page included)\" information in the image?",
+        "answer": "two",
+        "gt_answers": "2",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sender Voice Number\" information in the image?",
+        "answer": "sender voice number information in the image",
+        "gt_answers": "212 -450- 4785",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Sender Fax Number\" information in the image?",
+        "answer": "sender fax number information in the image",
+        "gt_answers": "212 -450 -5578",
+        "image_path": "./data/FUNSD/testing_data/images/83823750.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "an application for a loan",
+        "gt_answers": "Mike Mozina",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Firm:\" information in the image?",
+        "answer": "firm name, address, phone number, fax number",
+        "gt_answers": "MSA",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX\" information in the image?",
+        "answer": "fax cover sheet",
+        "gt_answers": "Autodial",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "Susan Smith",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date:\" information in the image?",
+        "answer": "the date is in the upper right corner",
+        "gt_answers": "8/ 31/ 98",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX #:\" information in the image?",
+        "answer": "fax cover sheet",
+        "gt_answers": "335- 7733",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Phone #:\" information in the image?",
+        "answer": "a phone number",
+        "gt_answers": "335- 7150",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"# Pages:\" information in the image?",
+        "answer": "the pages information in the image is pages",
+        "gt_answers": "3 (including this cover page)",
+        "image_path": "./data/FUNSD/testing_data/images/86220490.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "it is a report of a crime",
+        "gt_answers": "K. A. Sparrow",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "T. D. Blachly",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION:\" information in the image?",
+        "answer": "the division information in the image is the division name",
+        "gt_answers": "Portland # REPS: 6",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION:\" information in the image?",
+        "answer": "the division information in the image is the division name",
+        "gt_answers": "Boise # REPS: 2. 5",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION:\" information in the image?",
+        "answer": "the division information in the image is the division name",
+        "gt_answers": "Eugene # REPS: 5",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"REGION:\" information in the image?",
+        "answer": "the image is a map of the united states",
+        "gt_answers": "(ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE)",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION:\" information in the image?",
+        "answer": "the division information in the image is the division name",
+        "gt_answers": "Seattle South # REPS: 7",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION:\" information in the image?",
+        "answer": "the division information in the image is the division name",
+        "gt_answers": "Seattle North # REPS: 4",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DIVISION:\" information in the image?",
+        "answer": "the division information in the image is the division name",
+        "gt_answers": "Helena # REPS: 4",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SEP 15\" information in the image?",
+        "answer": "sep 15 information - sep 15 information",
+        "gt_answers": "x",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "account information",
+        "gt_answers": "Texaco Seattle Texaco Portland Maid -O Clover Dari Mart Zip Trip Maverick Astro Gas",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"VOLUME\" information in the image?",
+        "answer": "volume information in the image",
+        "gt_answers": "105 / 5 61 / 3 20 / 2 125 / 5 77 / 1 106 / 4 600 / 7",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "225 27 15 31 18 19 20",
+        "image_path": "./data/FUNSD/testing_data/images/82200067_0069.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "january 1st, 1939",
+        "gt_answers": "12- 13- 89",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a form for a private corporation",
+        "gt_answers": "LORILLARD, INC. ONE PARK AVENUE 18TH FL NEW YORK, N. Y. 10016",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ATTN:\" information in the image?",
+        "answer": "to whom it may concern",
+        "gt_answers": "MR. ARTHUR STEVENS, ESQ A. J. STEVENS",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"RE:\" information in the image?",
+        "answer": "it is a document from the primary hall corporation",
+        "gt_answers": "LORILLARD, INC.",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Other:\" information in the image?",
+        "answer": "the name and address of the person applying",
+        "gt_answers": "X CITATION AND FIRST ORIGINAL PETITION",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"vs.\" information in the image?",
+        "answer": "vs application form",
+        "gt_answers": "R. J. REYNOLDS TOBACCO COMPANY, ET AL",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "january 1st, 1939",
+        "gt_answers": "Monday next 20 days from date of service",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Phone\" information in the image?",
+        "answer": "a phone number",
+        "gt_answers": "512/478- 4873",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MOTOR CARRIER\" information in the image?",
+        "answer": "the motor carrier information is the name of the motor carrier",
+        "gt_answers": "x",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"OR STATUTORY\" information in the image?",
+        "answer": "an application for a certificate of authority",
+        "gt_answers": "x",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Account #\" information in the image?",
+        "answer": "a credit card statement",
+        "gt_answers": "033052",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"We enclose the following documents which were served upon:\" information in the image?",
+        "answer": "a summons and complaint",
+        "gt_answers": "UNITED STATES CORPORATION COMPANY IN TEXAS",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"as registered agent for the above- captioned corporation on\" information in the image?",
+        "answer": "principal hall corporation services",
+        "gt_answers": "12- 13- 89",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Personal Service\" information in the image?",
+        "answer": "personal service information in the image",
+        "gt_answers": "x",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TITLE OF ACTION:\" information in the image?",
+        "answer": "private corporation service",
+        "gt_answers": "WEBSTER CRECC",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Case No.\" information in the image?",
+        "answer": "case no information",
+        "gt_answers": "475,592",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COURT OR JURISDICTION\" information in the image?",
+        "answer": "the name of the court where the case was filed",
+        "gt_answers": "345th Judicial District Court Travis County. Tx",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ATTORNEYS FOR CLAIMANT\" information in the image?",
+        "answer": "attorney for claimant",
+        "gt_answers": "Mary Ellen Felps 1000 West Ave. Austin, Tx. 78701",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fed X\" information in the image?",
+        "answer": "fed x information fed x information",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FORM PREPARED BY\" information in the image?",
+        "answer": "irs form 1040",
+        "gt_answers": "PAT HIGGINS",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date Received:\" information in the image?",
+        "answer": "the date received information in the image is october 1",
+        "gt_answers": "12/ 14/ 89",
+        "image_path": "./data/FUNSD/testing_data/images/92380595.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FOR\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "Metal \"Pack\" Plaque",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "October 16, 1987",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO\" information in the image?",
+        "answer": "stout industries, inc",
+        "gt_answers": "Lorillard Corporation",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ADDRESS\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "666 Fifth Avenue",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CITY\" information in the image?",
+        "answer": "st louis city information",
+        "gt_answers": "New York",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STATE\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "New York 10103",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Attn:\" information in the image?",
+        "answer": "to whom it may concern",
+        "gt_answers": "Mr. Robert Kennedy",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ITEM:\" information in the image?",
+        "answer": "stout industries inc stout industries inc",
+        "gt_answers": "Harley Davidson Metal Plaque",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ALUMINUM\" information in the image?",
+        "answer": "stout industries inc stout industries inc",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SIZE:\" information in the image?",
+        "answer": "size information in the image",
+        "gt_answers": "171/4 x 231/2 \"",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"GAUGE\" information in the image?",
+        "answer": "stout industries inc stout industries inc",
+        "gt_answers": ".025\" ",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COLORS:\" information in the image?",
+        "answer": "stout industries inc stout industries inc",
+        "gt_answers": "Transparent gold, opaque black, white and orange",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"YES\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"EMBOSSED\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SQUARE\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"OTHER:\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "Price is based on reproduction of customer supplied \"Pack\" box.",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Tooling:\" information in the image?",
+        "answer": "stout industries inc tooling information",
+        "gt_answers": "Form die, brass emboss die to achieve detail on eagle.",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"QUANTITIES:\" information in the image?",
+        "answer": "the quantities information in the image is the quantity information",
+        "gt_answers": "500 Plaques",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PRICE:\" information in the image?",
+        "answer": "stout industries inc price list",
+        "gt_answers": "$ 9.18 each",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"YOUR REPRESENTATIVE\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "Mr. A. D. Steinberg",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BASE COLOR\" information in the image?",
+        "answer": "stout industries inc - stout industries inc color chart",
+        "gt_answers": "Aluminum",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SINGLE FACE\" information in the image?",
+        "answer": "stout industries inc",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NUMBER OF\" information in the image?",
+        "answer": "three",
+        "gt_answers": "4",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STAMP FRAME\" information in the image?",
+        "answer": "stout stamp frame information",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PER CARTON\" information in the image?",
+        "answer": "per carton information per carton information",
+        "gt_answers": "10",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"One time tooling\" information in the image?",
+        "answer": "what is one time tooling information",
+        "gt_answers": "@ $ 3,015.00",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Steel tips\" information in the image?",
+        "answer": "stout industries inc steel tips",
+        "gt_answers": "$ 1,045.00",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BILL AS MANUFACTURE\" information in the image?",
+        "answer": "bill of material",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SHIP IMMEDIATELY\" information in the image?",
+        "answer": "what is ship immediately information in the image",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/87528380.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date:\" information in the image?",
+        "answer": "the document was dated january 1",
+        "gt_answers": "December 9, 1999",
+        "image_path": "./data/FUNSD/testing_data/images/82573104.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "a document containing information about a company",
+        "gt_answers": "Haney H. Bell, Esq.",
+        "image_path": "./data/FUNSD/testing_data/images/82573104.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "David H. Remes (202) 778 5212 - direct fax",
+        "image_path": "./data/FUNSD/testing_data/images/82573104.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Room:\" information in the image?",
+        "answer": "bldg bldg bldg",
+        "gt_answers": "803E // Pages (including cover)",
+        "image_path": "./data/FUNSD/testing_data/images/82573104.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "a fax document",
+        "gt_answers": "Mr. Randy Spell",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "credit card information",
+        "gt_answers": "Mr. Fred Paternostro",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Re:\" information in the image?",
+        "answer": "fax number",
+        "gt_answers": "Legal- lowa",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "fax number",
+        "gt_answers": "Rick Redfield",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date:\" information in the image?",
+        "answer": "the date of the document",
+        "gt_answers": "May 1, 2000",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax:\" information in the image?",
+        "answer": "fax information in the image",
+        "gt_answers": "952 894- 9690",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Pages:\" information in the image?",
+        "answer": "fax cover page",
+        "gt_answers": "4",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Comments:\" information in the image?",
+        "answer": "fax cover sheet",
+        "gt_answers": "Attached is the Iowa Department of Revenue and Finance Minimum Legal Prices on Cigarettes as of April 3, 2000. I am attempting to obtain a copy of the actual Fair Trade Law and will forward as soon as obtained. Rick",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Telephone:\" information in the image?",
+        "answer": "fax number",
+        "gt_answers": "(952) 694-2238",
+        "image_path": "./data/FUNSD/testing_data/images/82562350.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BRAND\" information in the image?",
+        "answer": "direct account transaction report",
+        "gt_answers": "STYLE LIGHT 100'S STYLE LIGHT MENTHOL 100'S STYLE LIGHT BOX 100'S STYLE MEN. LIGHT BOX 100'S STYLE SLIM LIGHT 100's STYLE SLIM MEN. LT. 100's",
+        "image_path": "./data/FUNSD/testing_data/images/86244113.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NOTE:\" information in the image?",
+        "answer": "direct account transaction report",
+        "gt_answers": "REPORT STYLE INVENTORY ONLY. SUBMIT REPORT ONLY IF STYLE IS STILL ON HAND IN THIS ACCOUNT.",
+        "image_path": "./data/FUNSD/testing_data/images/86244113.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CC:\" information in the image?",
+        "answer": "credit card information",
+        "gt_answers": "REGIONAL SALES MANAGER, ALL DIVISIONS SERVICED BY THIS ACCOUNT.",
+        "image_path": "./data/FUNSD/testing_data/images/86244113.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"pH\" information in the image?",
+        "answer": "ph information in the image",
+        "gt_answers": "The pH of a 50 % concentration of A221 in water was theoretically calculated to be 7.26 at 22 C from a 0.5 % solution in 79.5 % aqueous dioxane according to the extrapolation procedures of Dr. P. D. Schickedantz, Lozillard Accession Number 1662. Referenced 45- 10- 1.",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SOLUBILITY\" information in the image?",
+        "answer": "solubility information in the image",
+        "gt_answers": "MUTAGENICITY SOLVENTS A221 is soluble EtOH at 0.2 g/ ml, with stirring, at room temperature. Reference BC30- 88.",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"\" information in the image?",
+        "answer": "the document is a medical report",
+        "gt_answers": "A221 forms a solution in corn oil at 0.5 g/ 0.5 mL, with stirring at room temperature. Reference BC30- 8888.",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ORAL\" information in the image?",
+        "answer": "oral information is information that is not in writing",
+        "gt_answers": "A221 forms a solution in corn oil at 0.5 g/ 0.5 mL, with stirring at room temperature. Reference BC30- 88.",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"LRC FILE NUMBER\" information in the image?",
+        "answer": "lrc file number information in the image",
+        "gt_answers": "A221",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHYSICAL STATE\" information in the image?",
+        "answer": "a physical examination report",
+        "gt_answers": "A crystalline solid at room temperature which melts at > 56 C.",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SPECIFIC GRAVITY\" information in the image?",
+        "answer": "specific gravity is a measure of the density of a substance",
+        "gt_answers": "Not Determined.",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ACUTE CARDIOVASCULAR\" information in the image?",
+        "answer": "acute cardiovascular information in the image",
+        "gt_answers": "A221 is insoluble for this procedure. Reference BC30- 38",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STORAGE RECOMMENDATIONS\" information in the image?",
+        "answer": "the storage recommendations information in the image is storage recommendations",
+        "gt_answers": "Refrigerate in an amber glass bottle at no more than 8 C.",
+        "image_path": "./data/FUNSD/testing_data/images/87428306.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a sample of a complaint form",
+        "gt_answers": "Sam Zolot",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "a sample of a job application",
+        "gt_answers": "D. J. Landro",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "the date of the incident",
+        "gt_answers": "2- Dec- 97",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MANUFACTURER:\" information in the image?",
+        "answer": "what is manufacturer information in the image",
+        "gt_answers": "B&W",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BRAND:\" information in the image?",
+        "answer": "brand information in the image",
+        "gt_answers": "Kool Waterfall",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Nov.\" information in the image?",
+        "answer": "nov information in the image",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TYPE OF PACKINGS:\" information in the image?",
+        "answer": "packing list",
+        "gt_answers": "All Packings",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TEST MARKET GEOGRAPHY:\" information in the image?",
+        "answer": "test market geography information",
+        "gt_answers": "Divisions 621 and 627 wisconsin",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PRICE POINT:\" information in the image?",
+        "answer": "what is price point information in the image",
+        "gt_answers": "FULLS $ P/ V $",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SALES FORCE INVOLVEMENT:\" information in the image?",
+        "answer": "what is sales force involvement information",
+        "gt_answers": "They have crew- worked distribution, and it is reported that they may crew- work it again Sales force has been busy promoting old style backs to clean up inventory. All POS is being converted to \"B\" Kool.",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT:\" information in the image?",
+        "answer": "distributors acceptance intro terms intro deals",
+        "gt_answers": "All accounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to have 100% distribution of new packings.",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CHAINS ACCEPTANCE/ MERCHANDISING:\" information in the image?",
+        "answer": "chains acceptance/ merchandising information",
+        "gt_answers": "This has not been a problem. New packaging is just following on the old \"packaging\".",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"INDEPENDENTS ACCEPTANCE/ MERCHANDISING:\" information in the image?",
+        "answer": "independents acceptance/ merchandising information",
+        "gt_answers": "Very well received. The packs are peing consolidated and promoted in select retail locations at 40 off $4 00 off cartons.",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ADVERTISING EFFECTIVENESS OF P. O. S.:\" information in the image?",
+        "answer": "what is advertising effectiveness of p o s information in the image",
+        "gt_answers": "The theme \"B\" Kool has replaced all previous POS. They have effectively replaced all old POS. New door signage, hour signs, poster mats, and clocks have the new design. \"B\" Kool also appears on billboards in llinois.",
+        "image_path": "./data/FUNSD/testing_data/images/82250337_0338.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"#:\" information in the image?",
+        "answer": "a cover letter for a job application",
+        "gt_answers": "392",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a copy of a document",
+        "gt_answers": "JACK REILLY",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "a copy of a document",
+        "gt_answers": "JIM DALEY",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "october 1, 2015",
+        "gt_answers": "JANUARY 31, 1997",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TELECOPY NO:\" information in the image?",
+        "answer": "telecopy no information in the image",
+        "gt_answers": "212/ 545- 3297",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SHB Client Matter No:\" information in the image?",
+        "answer": "shb client matter",
+        "gt_answers": "LORI 45048",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COMMENTS/ MESSAGE:\" information in the image?",
+        "answer": "u s department of justice cover letter",
+        "gt_answers": "Per your request, attached is a memo regarding the process of labeling reviewed diskettes for the purpose of later identification Please call me if you have any questions regret I cannot join you and the electronic document collection team for lunch today. I hope you agree they have done an outstanding job! I look forward to seeing you on February 5 for the Legal Edge presentation. Best Regards, Jim Daley",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Special Instructions:\" information in the image?",
+        "answer": "special instructions information in the image",
+        "gt_answers": "If you experience any problems, please call extension 21000",
+        "image_path": "./data/FUNSD/testing_data/images/83772145.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"\" information in the image?",
+        "answer": "a document showing a chemical compound",
+        "gt_answers": "J. D. Ergle and R. F. Dufresne",
+        "image_path": "./data/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE\" information in the image?",
+        "answer": "october 1",
+        "gt_answers": "August 14, 1990",
+        "image_path": "./data/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"STRUCTURE\" information in the image?",
+        "answer": "the chemical structure of the drug",
+        "gt_answers": "CH3CH2O OH",
+        "image_path": "./data/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COMMENTS\" information in the image?",
+        "answer": "the name of the chemist",
+        "gt_answers": "This ethoxy substitued aromatic falls into class III.",
+        "image_path": "./data/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COMPOUND NAME\" information in the image?",
+        "answer": "the name of the compound",
+        "gt_answers": "Vanitrope",
+        "image_path": "./data/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"ESTIMATED TOXICITY CLASS\" information in the image?",
+        "answer": "the estimated toxicity class is etc",
+        "gt_answers": "III",
+        "image_path": "./data/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"LORILLARO COMPOUND CODE NUMBER\" information in the image?",
+        "answer": "lorillaro compound code number",
+        "gt_answers": "B134",
+        "image_path": "./data/FUNSD/testing_data/images/87086073.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "the date of the tax return",
+        "gt_answers": "January 11, 1999",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"COMPANY:\" information in the image?",
+        "answer": "fax transmission form",
+        "gt_answers": "Lorillard Tobacco Company",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHONE:\" information in the image?",
+        "answer": "a tax transmission form",
+        "gt_answers": "336/ 373- 6750",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "a tax transmission form",
+        "gt_answers": "Andy Zausner and Rob Mangas",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHONE:\" information in the image?",
+        "answer": "a tax transmission form",
+        "gt_answers": "202/ 828- 2259 and 202/ 828 2241",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MESSAGE:\" information in the image?",
+        "answer": "fax transmission confirmation",
+        "gt_answers": "The following is for your review JAN 1 2 1999",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"CLIENT NO.:\" information in the image?",
+        "answer": "client no information in the image",
+        "gt_answers": "L8557 002",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MESSAGE TO:\" information in the image?",
+        "answer": "fax transmission request form",
+        "gt_answers": "Dewey Tedder",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NUMBER:\" information in the image?",
+        "answer": "fax number information in the image",
+        "gt_answers": "336/ 373- 6917",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PAGES (including Cover Sheet):\" information in the image?",
+        "answer": "fax cover sheet",
+        "gt_answers": "2",
+        "image_path": "./data/FUNSD/testing_data/images/83443897.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "october 1st",
+        "gt_answers": "June 4, 1997",
+        "image_path": "./data/FUNSD/testing_data/images/83635935.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "a document from the cia",
+        "gt_answers": "Dr. Spears/ A. J. Stevens/ R. Milstein",
+        "image_path": "./data/FUNSD/testing_data/images/83635935.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the document",
+        "gt_answers": "Barry Hirsch",
+        "image_path": "./data/FUNSD/testing_data/images/83635935.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"OUR FAX NUMBER \" information in the image?",
+        "answer": "fax number fax number fax number",
+        "gt_answers": "(212) 935 6801",
+        "image_path": "./data/FUNSD/testing_data/images/83635935.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"*Note:\" information in the image?",
+        "answer": "the state of massachusetts",
+        "gt_answers": "If this expenditure is made to influence a local ballot question, a copy of this form should be filed with the city or town clerk or election commission.",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"19\" information in the image?",
+        "answer": "state of massachusetts",
+        "gt_answers": "92",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Address\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "P. O. B03 5979 Boston, MA 0212 P. O. Box 5979. Boston, MA 02114",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date\" information in the image?",
+        "answer": "the date of the application",
+        "gt_answers": "March 30, 1993",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Purpose\" information in the image?",
+        "answer": "to apply for a driver license",
+        "gt_answers": "Oppose Tax Increase Oppose Tax increas",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Final\" information in the image?",
+        "answer": "the date the application was received",
+        "gt_answers": "\u2611",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"File with:\" information in the image?",
+        "answer": "application for a driver's license",
+        "gt_answers": "Director, Office of Campaign & Political Finance One Ashburton Place, Boston, MA 02108",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"1. Name of Treasurer\" information in the image?",
+        "answer": "the state treasurer",
+        "gt_answers": "M. Alfred Peterson; Assistant Treasurer Peter J. Marzullo",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"2. Name of Corporation\" information in the image?",
+        "answer": "name of corporation",
+        "gt_answers": "Lorillard Tobacco Company",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"3. Address of Corporation\" information in the image?",
+        "answer": "address of corporation information in the image",
+        "gt_answers": "One Park Avenue New York. NY 10016 -5895",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"4. Question No.\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "1 relating to Tobacco Excise Tax Increase",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"submitted to the voters on\" information in the image?",
+        "answer": "voter registration application",
+        "gt_answers": "November 3, 1992",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"on the\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "Massachusetts",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Reporting Period Beginning\" information in the image?",
+        "answer": "the date the reporting period begins",
+        "gt_answers": "October 16,",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"and Ending\" information in the image?",
+        "answer": "the state of massachusetts",
+        "gt_answers": "November 5. 1992",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date Paid\" information in the image?",
+        "answer": "pay stub",
+        "gt_answers": "10/ 26/ 92 10/ 30/ 92",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To Whom Paid (Alphabetical Listing Mandatory)\" information in the image?",
+        "answer": "to whom paid alphabetical listing",
+        "gt_answers": "Committee Against Unfair Taxes Committee Against Unfair Taxes",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Amount or Value**\" information in the image?",
+        "answer": "the value of the property",
+        "gt_answers": "28, 482. 00 19, 503 00",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Total Expenditures or Disbursements on This Report\" information in the image?",
+        "answer": "total expenditures or disbursements",
+        "gt_answers": "48, 585 00",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Total Expenditures for Disbursements Previously Reported\" information in the image?",
+        "answer": "total expenditures for disbursements previously reported information",
+        "gt_answers": "508. 789 00",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Total Expenditures or Disbursements to Date\" information in the image?",
+        "answer": "total expenditures or disbursements to date",
+        "gt_answers": "556 874. 00",
+        "image_path": "./data/FUNSD/testing_data/images/91814768_91814769.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "it is a form of a report",
+        "gt_answers": "K. A. Sparrow",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FROM:\" information in the image?",
+        "answer": "the name of the person completing the form",
+        "gt_answers": "R. E. Lane",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SELL\" information in the image?",
+        "answer": "a sales contract",
+        "gt_answers": "Overall pre- sell efforts were successful Retail accounts that previously stocked Style Full Price accepted the introduction of the low price",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"JUNE 30\" information in the image?",
+        "answer": "june 30 information",
+        "gt_answers": "X",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BIGIF 2 FOR 1:\" information in the image?",
+        "answer": "bigif 2 for 1",
+        "gt_answers": "Proved to be an excellent tool for pulling the balance of Style Full Price packs through the system. This aided the field greatly during the transition",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"$ 7.00 CARTON COUPON/ BUYDOWN:\" information in the image?",
+        "answer": "what is 7 00 carton coupon/ buydown information",
+        "gt_answers": "Effective in those retail calls that we could not exchange product out of. Those situations were limited.",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "bank statement",
+        "gt_answers": "M. Maskos & Sons Pollock Candy and Cigar McKeesport Candy Co. Sicc Serva Sheetz Thrift/ Eckerd",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"IND/ LOR VOLUME\" information in the image?",
+        "answer": "ind/lor volume information in the image",
+        "gt_answers": "104/ 22 521/ 42 137/ 20",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO. OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "18 150 183",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NAME OF ACCOUNT\" information in the image?",
+        "answer": "bank statement",
+        "gt_answers": "Kroger Rich Oil Super America cvs W H Smith 7- 11 318 Zon Dairy Marts Widman Drugs",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NO OF STORES\" information in the image?",
+        "answer": "0",
+        "gt_answers": "21 82 106 87 5 23 35 43",
+        "image_path": "./data/FUNSD/testing_data/images/82253245_3247.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Date:\" information in the image?",
+        "answer": "january 1st",
+        "gt_answers": "September 22, 1997",
+        "image_path": "./data/FUNSD/testing_data/images/83594639.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"To:\" information in the image?",
+        "answer": "a document containing information about a company",
+        "gt_answers": "Ron Milstein",
+        "image_path": "./data/FUNSD/testing_data/images/83594639.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Company:\" information in the image?",
+        "answer": "the name of the company",
+        "gt_answers": "Lorillard",
+        "image_path": "./data/FUNSD/testing_data/images/83594639.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"From:\" information in the image?",
+        "answer": "the name of the person who wrote the report",
+        "gt_answers": "\"JJ\" Klein",
+        "image_path": "./data/FUNSD/testing_data/images/83594639.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Pages (Including cover page):\" information in the image?",
+        "answer": "cover page information",
+        "gt_answers": "3",
+        "image_path": "./data/FUNSD/testing_data/images/83594639.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax Number:\" information in the image?",
+        "answer": "fax number information in the image",
+        "gt_answers": "(910) 335 7707",
+        "image_path": "./data/FUNSD/testing_data/images/83594639.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "october 1",
+        "gt_answers": "8/ 10/ 90",
+        "image_path": "./data/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"MANUFACTURER:\" information in the image?",
+        "answer": "what is the name of the manufacturer",
+        "gt_answers": "B & W",
+        "image_path": "./data/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"cc:\" information in the image?",
+        "answer": "credit card information",
+        "gt_answers": "A. H. Tisch R. H. Orcutt M. A. Peterson T. H. Mau L. Gordon J. P. Mastandrea G. Telford F. J. Schultz A. W. Spears N. P. Ruffalo T. Achey P. J. McCann A. J. Giacolo J. J. Tatulli L. H. Kersh J. R. Slater S. T. Jones R S. Goldbrenner E. R. Harrow",
+        "image_path": "./data/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"REPORTED BY:\" information in the image?",
+        "answer": "a form of identification",
+        "gt_answers": "BOBBY MILLS, REGIONAL SALES MGR., INDIANAPOLIS, IN",
+        "image_path": "./data/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SOURCE OF INFORMATION:\" information in the image?",
+        "answer": "a document",
+        "gt_answers": "HALL RODECAP, NOBLESVILLE, IN",
+        "image_path": "./data/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"BRAND NAME:\" information in the image?",
+        "answer": "brand name information",
+        "gt_answers": "VICEROY KING BOX AND VICEROY LIGHTS KING BOX",
+        "image_path": "./data/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"OTHER INFORMATION:\" information in the image?",
+        "answer": "the name of the person",
+        "gt_answers": "SEE ATTACHED INFORMATION SHEET",
+        "image_path": "./data/FUNSD/testing_data/images/82837252.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"TO:\" information in the image?",
+        "answer": "an application for employment with the federal government",
+        "gt_answers": "George Baroody",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"DATE:\" information in the image?",
+        "answer": "the image is a copy of a form",
+        "gt_answers": "12 /10 /98",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"Fax:\" information in the image?",
+        "answer": "fax cover sheet",
+        "gt_answers": "614 -466 -5087",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NOTE:\" information in the image?",
+        "answer": "u s government employment application form",
+        "gt_answers": "THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation.",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NO.\" information in the image?",
+        "answer": "no information in the image",
+        "gt_answers": "(614) 466- 5087",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"FAX NUMBER:\" information in the image?",
+        "answer": "fax number information in the image",
+        "gt_answers": "(336) 335- 7392",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"PHONE NUMBER:\" information in the image?",
+        "answer": "phone number information in the image",
+        "gt_answers": "(336) 335- 7363",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"NUMBER OF PAGES INCLUDING COVER SHEET:\" information in the image?",
+        "answer": "2",
+        "gt_answers": "3",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is \"SENDER /PHONE NUMBER:\" information in the image?",
+        "answer": "the sender's name and phone number",
+        "gt_answers": "June Flynn for Eric Brown/ (614) 466- 8980",
+        "image_path": "./data/FUNSD/testing_data/images/82092117.png",
+        "model_name": "BLIP2"
+    }
+]
