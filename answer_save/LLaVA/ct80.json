@@ -1,0 +1,2018 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"Ronaldo\" written on a soccer jersey.",
+        "gt_answers": "ronaldo",
+        "image_path": "./data/ct80/timage/001.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number seven on a red and white soccer jersey.",
+        "gt_answers": "7",
+        "image_path": "./data/ct80/timage/002.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Seabreeze\" written on a sign and also appears as a logo, presumably for a business or organization.",
+        "gt_answers": "seacrest",
+        "image_path": "./data/ct80/timage/003.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"The Beach\" written on a sign.",
+        "gt_answers": "beach",
+        "image_path": "./data/ct80/timage/004.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon lighted sign for a restaurant that says \"Bally's.\"",
+        "gt_answers": "ballys",
+        "image_path": "./data/ct80/timage/005.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"STATION\" on a black and white background.",
+        "gt_answers": "station",
+        "image_path": "./data/ct80/timage/006.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a dark background with white lettering that reads \"ENTRANCE.\"",
+        "gt_answers": "entrance",
+        "image_path": "./data/ct80/timage/007.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Carpap\" written on a surface, possibly a piece of clothing or a sign.",
+        "gt_answers": "carp",
+        "image_path": "./data/ct80/timage/008.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Team\" written on a white surface.",
+        "gt_answers": "team",
+        "image_path": "./data/ct80/timage/009.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an Ebay auction item for a sweatshirt with the word \"Ebubu\" written on it.",
+        "gt_answers": "ebizu",
+        "image_path": "./data/ct80/timage/010.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"daily\" written on a piece of paper.",
+        "gt_answers": "daily",
+        "image_path": "./data/ct80/timage/011.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Imperial\" written on a purple surface, which is most likely a sweatshirt with a school logo.",
+        "gt_answers": "imperial",
+        "image_path": "./data/ct80/timage/012.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"UW Madison\" written on it, suggesting that it could be a reference to the University of Wisconsin-Madison.",
+        "gt_answers": "college",
+        "image_path": "./data/ct80/timage/013.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"College,\" possibly indicating that it is related to a educational institution or organization.",
+        "gt_answers": "london",
+        "image_path": "./data/ct80/timage/014.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a closeup view of the \"Acadamy\" sign, which is likely the name or identifier of a learning institution, such as a school or college. The sign is shown in two different languages.",
+        "gt_answers": "academy",
+        "image_path": "./data/ct80/timage/015.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word \"ENTRANCE\" written on it.",
+        "gt_answers": "entrance",
+        "image_path": "./data/ct80/timage/016.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large white number eight, which seems to be a part of an address or a building number.",
+        "gt_answers": "18",
+        "image_path": "./data/ct80/timage/017.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the number 7838 written on a building, which corresponds to the number 7878 when seen upside down.",
+        "gt_answers": "78",
+        "image_path": "./data/ct80/timage/018.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NiL\" written in a foreign language.",
+        "gt_answers": "nil",
+        "image_path": "./data/ct80/timage/019.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"satisfaction\" written on a blue and white ribbon or a piece of paper. The ribbon also has a logo or a title related to satisfaction.",
+        "gt_answers": "satis",
+        "image_path": "./data/ct80/timage/020.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NiSiNi\" written on it, which is a reference to a language model, LLaVA, standing for \"Large Language Model - Ample Assistance.\" The phrase is displayed in white and blue colors.",
+        "gt_answers": "nisi",
+        "image_path": "./data/ct80/timage/021.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"OPTIMUM\" written across a blue and white banner.",
+        "gt_answers": "optimum",
+        "image_path": "./data/ct80/timage/022.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large sign with a blue and white logo that has \"Everton\" written on it. The sign is likely associated with the Everton football team. The image also shows a person standing behind the sign.",
+        "gt_answers": "everton",
+        "image_path": "./data/ct80/timage/023.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up shot of a person's back with a shirt on that has information about the Arctic, written in a foreign language. The writing appears to be in Russian or another Cyrillic-based language.",
+        "gt_answers": "arshavin",
+        "image_path": "./data/ct80/timage/024.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, the number 29 is written on a soccer shirt or jersey, representing the player's number.",
+        "gt_answers": "23",
+        "image_path": "./data/ct80/timage/025.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name and number of a soccer player on a jersey. \"Bert Hopfner\" is the name on the jersey, and the number \"11\" is also visible.",
+        "gt_answers": "bierhoff",
+        "image_path": "./data/ct80/timage/026.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up view of a piece of clothing with the number 20 listed on it, and the word \"Wisconsin\" written across the top. The number 20 is also seen on the jersey.",
+        "gt_answers": "20",
+        "image_path": "./data/ct80/timage/027.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a close-up of the word \"ACM\" written on a surface. It appears to be a design or emblem associated with a sports team.",
+        "gt_answers": "acm",
+        "image_path": "./data/ct80/timage/028.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the year 1999 written in text format.",
+        "gt_answers": "1899",
+        "image_path": "./data/ct80/timage/029.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"west\" written on it, with an image of a large red W placed on top of a team logo, likely representing the Western Conference or a similar sports team.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/030.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"HAM\" written on it, with a logo or symbol for the \"HAM\" brand accompanying the name.",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/031.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"United\" written across a rainbow-colored, textured background.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/032.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"Arsenal Football Club\" written on it.",
+        "gt_answers": "arsenal",
+        "image_path": "./data/ct80/timage/033.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The word \"FOOT\" is displayed on the image, with a large, easily readable font.",
+        "gt_answers": "foot",
+        "image_path": "./data/ct80/timage/034.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"ball\" written on a surface, with the reflection of the word and a logo for a sport visible in a mirror.",
+        "gt_answers": "ball",
+        "image_path": "./data/ct80/timage/035.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features an advertising sign with the word \"Club\" written on it.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/036.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"since since\" written in white characters on a black background.",
+        "gt_answers": "since",
+        "image_path": "./data/ct80/timage/037.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a numerical date representation with the numbers \"1893\" displayed. It is not clear if it is an image or a text-based display, as there are descriptions of both an \"image\" and \"text.\"",
+        "gt_answers": "1886",
+        "image_path": "./data/ct80/timage/038.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the red and white LEn logo or symbol on it, which is presumably a part of a shirt or apparel design.",
+        "gt_answers": "le",
+        "image_path": "./data/ct80/timage/039.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and white soccer jersey with the word \"Gore\" written across the front, potentially representing the team's logo or name.",
+        "gt_answers": "grove",
+        "image_path": "./data/ct80/timage/040.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays an ultimate fighting championship logo or banner featuring the number one, followed by a lion symbol.",
+        "gt_answers": "1",
+        "image_path": "./data/ct80/timage/041.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"Wallott\" written on it.",
+        "gt_answers": "walcott",
+        "image_path": "./data/ct80/timage/042.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a number fourteen jersey with the number and name on it, possibly for a soccer or football player.",
+        "gt_answers": "14",
+        "image_path": "./data/ct80/timage/043.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Arsenal\" written on it, which could be either the name of a team or a reference to a place or organization.",
+        "gt_answers": "arsenal",
+        "image_path": "./data/ct80/timage/044.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a blue jersey with white and black lettering. The jersey reads \"Arta,\" which is likely a person's name, followed by \"Number 31\" below it. The jersey is displayed on a black and white background.",
+        "gt_answers": "arteta",
+        "image_path": "./data/ct80/timage/045.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the number six and the word \"Wisconsin\" on it, with the number six being in a larger font size than the rest of the text. It is displayed on a blue and white background.",
+        "gt_answers": "6",
+        "image_path": "./data/ct80/timage/046.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the name and number on a jersey, which is a basketball uniform. It serves as an advertisement for a player, likely representing their professional athletic identity.",
+        "gt_answers": "joachim",
+        "image_path": "./data/ct80/timage/047.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a shirt, likely a jersey, with signatures and possibly some form of dedication or message written on it. The writing is in black ink.",
+        "gt_answers": "12",
+        "image_path": "./data/ct80/timage/048.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"knight\" written in a foreign language.",
+        "gt_answers": "knight",
+        "image_path": "./data/ct80/timage/049.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a person, presumably a soccer player, wearing a jersey with the number sixteen on it. The jersey also has a logo and appears to be a personalized shirt.",
+        "gt_answers": "16",
+        "image_path": "./data/ct80/timage/050.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"BAKER\" written on a maroon and white checkered background.",
+        "gt_answers": "baker",
+        "image_path": "./data/ct80/timage/051.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the number 32 on a jersey, likely representing a player's uniform number in a sports game. This number is crossed out.",
+        "gt_answers": "32",
+        "image_path": "./data/ct80/timage/052.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Atom\" written using white and orange text on a black background, with some parts of the text blurred out, and an electronic display or sign also visible in the picture.",
+        "gt_answers": "aston",
+        "image_path": "./data/ct80/timage/053.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"villa\" written in white and red letters. It seems to be a foreign word or a variation of the English word \"village.\"",
+        "gt_answers": "villa",
+        "image_path": "./data/ct80/timage/054.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a jersey with the name \"Ballhack\" written on it. This is likely a soccer jersey.",
+        "gt_answers": "ballack",
+        "image_path": "./data/ct80/timage/055.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a jersey with a number thirteen on it, likely representing a soccer or football player's uniform.",
+        "gt_answers": "13",
+        "image_path": "./data/ct80/timage/056.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a logo of Starbucks, a popular coffee company, displayed on a wooden surface such as a table or a sign.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/ct80/timage/057.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large coffee cup with a mermaid or siren design on it, and the words \"coffee\" written on top of the cup. The cup is sitting on a table.",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/058.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a cell phone with the Samsung logo displayed on the front, showcasing the company's branding.",
+        "gt_answers": "samsung",
+        "image_path": "./data/ct80/timage/059.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Mobile\" written on it.",
+        "gt_answers": "mobile",
+        "image_path": "./data/ct80/timage/060.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a blue flag with the word \"Chelsea\" written on it.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/061.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features an emblem, likely a patch or a logo, that says \"Football Soccer Ball,\" indicating a connection to football or soccer.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/062.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Club\" written on it.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/063.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Chelsea\" written on a white background, along with the team's logo and name.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/064.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Chromebook wallpaper with the words \"Football Football\" written on a blue and white surface, which is likely a part of a football uniform or banner.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/065.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a white logo that says \"CClub\" on a black and white surface, along with the words \"LlaMA\" and \"WAIV\" displayed as part of the logo.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/066.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Esenenne\" written on a black background. Esenenne is the name of a city in France, and the photo could be a sign or a building with the name on it.",
+        "gt_answers": "essien",
+        "image_path": "./data/ct80/timage/067.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the number five, possibly a part of a jersey or uniform, and a dog (Lucky). There is also the word \"Wisconsin\" displayed on a jersey.",
+        "gt_answers": "5",
+        "image_path": "./data/ct80/timage/068.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"Terry\" written on a jersey or a basketball uniform.",
+        "gt_answers": "terry",
+        "image_path": "./data/ct80/timage/069.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up view of a soccer player's jersey, featuring blue and white colors, and it has \"25\" written on it. Additionally, there is a signature or autograph on the player's number and name on the back of the jersey.",
+        "gt_answers": "26",
+        "image_path": "./data/ct80/timage/070.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large red sign with the name \"DONOVAN\" on it, which is an example of a custom order. It is written in a foreign language.",
+        "gt_answers": "donovan",
+        "image_path": "./data/ct80/timage/071.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up image of the number 9 on a soccer jersey, along with the number 8.",
+        "gt_answers": "9",
+        "image_path": "./data/ct80/timage/072.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"Arta\" written in a foreign language.",
+        "gt_answers": "arteta",
+        "image_path": "./data/ct80/timage/073.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the number six on a blue and white soccer jersey.",
+        "gt_answers": "6",
+        "image_path": "./data/ct80/timage/074.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a graphic of a logo, possibly for a soccer team, with the name \"Chelsea\" written on it.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/075.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the logo of a football team, possibly an NFL team, and another logo with a bear. There is also a soccer ball and the words \"Football Ball\" written beneath it.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/076.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Club\" written using fancy letters. It also has a small subset of the word \"Club\" with a graphic of a letter \"c\" next to a letter \"b\" which likely represents the beginning of the word.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/077.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"Thores\" written on a piece of paper.",
+        "gt_answers": "torres",
+        "image_path": "./data/ct80/timage/078.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the number \"9\" written on a piece of paper.",
+        "gt_answers": "9",
+        "image_path": "./data/ct80/timage/079.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a large text that says \"Chelsea\" and appears to be missing a chunk, which is filled in with a smaller typeface stating \"Football Club.\" Below the large text, there is a logo of a football (soccer ball).",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/080.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo of a soccer ball, possibly representing a team or an event related to soccer.",
+        "gt_answers": "football",
+        "image_path": "./data/ct80/timage/081.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the name \"Chicago Club\" written on it and features a blue and white logo, which is the club's symbol.",
+        "gt_answers": "club",
+        "image_path": "./data/ct80/timage/082.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large language model, specifically LLaVA, which is trained by UW Madison WAIV Lab. The language model is designed to help people with various tasks using natural language.",
+        "gt_answers": "chelsea",
+        "image_path": "./data/ct80/timage/083.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"Arcticstorm\" written on a piece of paper.",
+        "gt_answers": "jarrett",
+        "image_path": "./data/ct80/timage/084.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign with the word \"Gemini\" written on it, which could be the name of a movie, a theater, or another entity.",
+        "gt_answers": "gembira",
+        "image_path": "./data/ct80/timage/085.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"Lokka\" written on a sign, which might be a restaurant or store sign. Below the name, there is some foreign language text, possibly indicating the establishment's location or nature.",
+        "gt_answers": "loka",
+        "image_path": "./data/ct80/timage/086.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "There is a green sign that says \"APAC\" in the image.",
+        "gt_answers": "avilon",
+        "image_path": "./data/ct80/timage/087.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a yellow sign or banner that reads \"Celebrating thing.\"",
+        "gt_answers": "celelbrating",
+        "image_path": "./data/ct80/timage/088.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with the word \"Life\" written in fancy lettering. Below the word, there is a decorative design that includes a heart.",
+        "gt_answers": "life",
+        "image_path": "./data/ct80/timage/089.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"Give\" written in red and the letters \"U\" and \"W\" appear in the bottom area of the image, which stands for \"Price is Right.\"",
+        "gt_answers": "il",
+        "image_path": "./data/ct80/timage/090.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"MERCATO\" written on it, which is presumably a foreign language word related to a market or store.",
+        "gt_answers": "mercato",
+        "image_path": "./data/ct80/timage/091.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Vacation\" written on it, along with a bunch of symbols.",
+        "gt_answers": "vacation",
+        "image_path": "./data/ct80/timage/092.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a logo for a Record Store, placed on a yellow circle. It is an old-style logo, featuring a record symbol and the words \"Record Store\" written around it.",
+        "gt_answers": "vinyl",
+        "image_path": "./data/ct80/timage/093.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the name \"Newcastle\" written on a black surface.",
+        "gt_answers": "newcastle",
+        "image_path": "./data/ct80/timage/094.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features multiple occurrences of the word \"united,\" likely representing a soccer team's logo, along with a large blue \"@\" symbol, which might be part of the same logo design.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/095.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of the word \"stubhub\" written on a surface.",
+        "gt_answers": "stubhub",
+        "image_path": "./data/ct80/timage/096.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a soccer jersey with the number twelve and the name \"LVA\" written on it.",
+        "gt_answers": "12",
+        "image_path": "./data/ct80/timage/097.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a Manchester United soccer jersey with the name and number of a famous soccer player on it, using graphics and photo-shopped elements to create a realistic appearance.",
+        "gt_answers": "vpersie",
+        "image_path": "./data/ct80/timage/098.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number twenty crossed out on a soccer uniform.",
+        "gt_answers": "20",
+        "image_path": "./data/ct80/timage/099.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a close-up of the Manchester United logo, which reads \"Manchester United Football Club.\"",
+        "gt_answers": "manchester",
+        "image_path": "./data/ct80/timage/100.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a Manchester United sign or logo, which is associated with a popular sports team. The logo is displayed on a brown wall.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/101.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a label for The Publick House brand, specifically, a Samuel Smith's product.",
+        "gt_answers": "southampton",
+        "image_path": "./data/ct80/timage/102.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"LICK\" written across a black and white version of the design, along with the phrase \"Public Label Organization\" on the left side of the image. On the right side, it displays \"Wisconsin\" and \"UW Madison\" in smaller text.",
+        "gt_answers": "publick",
+        "image_path": "./data/ct80/timage/103.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts the logo of the The Old House Tavern. It is a black and white image featuring a stencil of the restaurant's name.",
+        "gt_answers": "house",
+        "image_path": "./data/ct80/timage/104.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Buddy\" written on a brown paper, along with some text that says \"Brewed with the finest hops for extra flavor and a rich, satisfying taste.\"",
+        "gt_answers": "burton",
+        "image_path": "./data/ct80/timage/105.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"ipa\" written in a foreign language.",
+        "gt_answers": "ipa",
+        "image_path": "./data/ct80/timage/106.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a long, narrow strip of land with writing on it, possibly part of a label or a sign.",
+        "gt_answers": "long",
+        "image_path": "./data/ct80/timage/107.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the text \"Est 1896\" written twice, with a blank space between the two instances of the text. Below the text, there is a logo or a sign that says \"The islands of.\"",
+        "gt_answers": "islands",
+        "image_path": "./data/ct80/timage/108.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a bottle with a brand label on it, possibly containing a beverage. Below the bottle's label, the words \"Originale\" and \"Old\" are written.",
+        "gt_answers": "original",
+        "image_path": "./data/ct80/timage/109.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features an advertisement that reads \"Crafted by the Letters C and R and A and W and I and V and E.\"",
+        "gt_answers": "craft",
+        "image_path": "./data/ct80/timage/110.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a brewery's logo, name, and date establishment. It is a graphic artwork displayed on a wall, likely representing the brewery's identity and founding year.",
+        "gt_answers": "brewery",
+        "image_path": "./data/ct80/timage/111.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays text that says \"Lundamu Vumazulu,\" which is likely a foreign language. It also shows a large pink swoosh symbol, possibly representing a sports team or brand.",
+        "gt_answers": "lundekvam",
+        "image_path": "./data/ct80/timage/112.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a close-up view of the number five, which is red and appears in a pink box, possibly on a red and white ribbon.",
+        "gt_answers": "5",
+        "image_path": "./data/ct80/timage/113.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is a color photograph of a sign with the word \"Allahabad\" written on it.",
+        "gt_answers": "allahabad",
+        "image_path": "./data/ct80/timage/114.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a sign that reads \"University\" along with some letters and a box.",
+        "gt_answers": "university",
+        "image_path": "./data/ct80/timage/115.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Quest\" followed by a few letters, numbers, and symbols. These may include letters and numbers scrambled with various punctuation marks, obscuring the exact meaning of the original text. It seems like a challenging puzzle or riddle for the viewer to decipher.",
+        "gt_answers": "quot",
+        "image_path": "./data/ct80/timage/116.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the name \"RAAM\" or \"RAM\" written, possibly on a card or a tag.",
+        "gt_answers": "rami",
+        "image_path": "./data/ct80/timage/117.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the letters \"trot\" repeated several times, along with some other letters and symbols, possibly from a code or an encryption. The words \"TOT\" and \"TOTO\" are also visible, with the latter being written in a language other than English.",
+        "gt_answers": "tot",
+        "image_path": "./data/ct80/timage/118.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"AZURE\" written with letters that are blending into the background.",
+        "gt_answers": "arbores",
+        "image_path": "./data/ct80/timage/119.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a large red and blue balloon or banner that reads \"Start.\" Below the balloon, it says \"Innovate\" on it.",
+        "gt_answers": "start",
+        "image_path": "./data/ct80/timage/120.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and blue sign that reads \"Finish.\"",
+        "gt_answers": "finish",
+        "image_path": "./data/ct80/timage/121.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a close-up view of a Friendship Circle pin or button.",
+        "gt_answers": "friendship",
+        "image_path": "./data/ct80/timage/122.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"TOTTN\" written on a black surface.",
+        "gt_answers": "tottenham",
+        "image_path": "./data/ct80/timage/123.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an altered version of the word \"first\" with an extra letter inserted, making it appear as a foreign language.",
+        "gt_answers": "1st",
+        "image_path": "./data/ct80/timage/124.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"nvidia\" in a fancy font, suggesting that it might be a logo or advertisement for the company. The word is displayed in green and white, giving it a visually appealing look.",
+        "gt_answers": "nvidia",
+        "image_path": "./data/ct80/timage/125.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Meant\" written on a white background.",
+        "gt_answers": "meant",
+        "image_path": "./data/ct80/timage/126.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a large sign that says \"To\" with a large arrow underneath it, presumably indicating the direction to go for the best viewing experience. It is written in white and black, giving it a two-tone appearance.",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/127.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a large black box that has the words \"be\" written in white inside of it.",
+        "gt_answers": "be",
+        "image_path": "./data/ct80/timage/128.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Played\" with a sticker on it.",
+        "gt_answers": "played",
+        "image_path": "./data/ct80/timage/129.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a lot of text that has been blurred out, and the word \"west\" is visible in the midst of the blurred text.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/130.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a red and white texture with the word \"Champ\" written on it. It is not clear what the exact context is, but it appears to be a marker or sign displaying the word \"Champ.\"",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/131.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and blue logo with the word \"united\" written on it. It appears to be a symbol or emblem for a team or organization.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/132.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"NANI\" written on a maroon piece of fabric or a t-shirt.",
+        "gt_answers": "nani",
+        "image_path": "./data/ct80/timage/133.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"West\" written in a foreign language, and it appears to be a logo or stamp for the west side of a city.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/134.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a logo or sign for a store called \"Hammond's.\" It is a circular logo with the store's name, possibly a pawn shop, and it appears to be neon in color.",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/135.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"West.\"",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/136.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the name \"Hammond,\" printed on a parking pass and displayed on a computer screen. There's also a logo featuring a letter \"H\" in the top left corner.",
+        "gt_answers": "ham",
+        "image_path": "./data/ct80/timage/137.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"UNITED\" written on a sign or logo, possibly for the United Breweries or another organization.",
+        "gt_answers": "united",
+        "image_path": "./data/ct80/timage/138.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Wigan Athletic\" written on a black and white logo, which is likely the team name or a symbol for a sports team. It also has a blue and white rugby logo with the words \"Wigan.\"",
+        "gt_answers": "wigan",
+        "image_path": "./data/ct80/timage/139.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Greek\" written on a blackboard or chalkboard.",
+        "gt_answers": "athletic",
+        "image_path": "./data/ct80/timage/140.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"HebrZin7\" written on a black background, which is a line of text that includes the letters \"H,\" \"Z,\" \"N,\" and the number \"7.\"",
+        "gt_answers": "heinz",
+        "image_path": "./data/ct80/timage/141.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a black and white container with the word \"Baked\" written on it. The writing is partially covered by a black rectangle that is placed over the top.",
+        "gt_answers": "baked",
+        "image_path": "./data/ct80/timage/142.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a bakery bean bag design, likely an image or sticker of beans in a bag, along with the words \"Baked Beanz\" written on it.",
+        "gt_answers": "beanz",
+        "image_path": "./data/ct80/timage/143.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the numbers 1889 written with a symbol, and below it says \"1998\" written in a different way.",
+        "gt_answers": "1869",
+        "image_path": "./data/ct80/timage/144.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an example of in-line text editing, with the words \"in in\" displayed on the screen.",
+        "gt_answers": "in",
+        "image_path": "./data/ct80/timage/145.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Tomato\" and \"Taste\" on a black background. It is likely that the picture is either a stylized photograph or an advertisement for something tomato-related.",
+        "gt_answers": "tomato",
+        "image_path": "./data/ct80/timage/146.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up view of a bottle containing a white sauce, which is likely ketchup or a similar condiment, with the label prominently displayed.",
+        "gt_answers": "sauce",
+        "image_path": "./data/ct80/timage/147.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"ES EST\" written on it, which is an anagram of the letters in the word \"EST.\"",
+        "gt_answers": "estd",
+        "image_path": "./data/ct80/timage/148.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the letters \"est\" on a black background.",
+        "gt_answers": "estd",
+        "image_path": "./data/ct80/timage/149.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a logo for the city of Wigan, a small picture of a town near Manchester, and a big sign that says \"Wigan\" on it.",
+        "gt_answers": "wigan",
+        "image_path": "./data/ct80/timage/150.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is text that reads \"1918 1933 1947 1957 1969 1979 1989 1993 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 Written in Roman numerals.\"",
+        "gt_answers": "1932",
+        "image_path": "./data/ct80/timage/151.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"athletic\" surrounded by a blue circle with a white border. It seems to be a logo or a symbol related to athletics.",
+        "gt_answers": "athletic",
+        "image_path": "./data/ct80/timage/152.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the letters \"west\" on one side and \"west coast\" on the other, with a large black line going through the center.",
+        "gt_answers": "west",
+        "image_path": "./data/ct80/timage/153.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the name \"Bromwich\" written on it, which could be referring to a person, place, or thing related to the Black Country.",
+        "gt_answers": "bromwich",
+        "image_path": "./data/ct80/timage/154.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Albion\" written on a blackboard or chalkboard.",
+        "gt_answers": "albion",
+        "image_path": "./data/ct80/timage/155.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"L'Esterle\" written in a foreign language, along with an arched sign that says \"Welcome to L'Esterle.\"",
+        "gt_answers": "lest",
+        "image_path": "./data/ct80/timage/156.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"we\" written in a large, modern font, set against a blue sky.",
+        "gt_answers": "we",
+        "image_path": "./data/ct80/timage/157.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sky background with the words \"Forget\" written in a foreign language, and \"Forgot\" written in an unusual font.",
+        "gt_answers": "forget",
+        "image_path": "./data/ct80/timage/158.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a wheel with a white rim and a bridgeport tire, specifically a Bridgestone tire, which is described as being very nice looking.",
+        "gt_answers": "briogestone",
+        "image_path": "./data/ct80/timage/159.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Tokyo\" written on a large sign or billboard. The word is in a foreign language, possibly Japanese, and is displayed in a cityscape.",
+        "gt_answers": "tokyo",
+        "image_path": "./data/ct80/timage/160.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large Disney sign or banner, which likely advertises the theme park itself or a specific event taking place. Below the sign, there is text that says \"Marketplace for the World.\"",
+        "gt_answers": "disneyland",
+        "image_path": "./data/ct80/timage/161.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a large \"20th Anniversary\" celebration sign hanging from a building.",
+        "gt_answers": "20",
+        "image_path": "./data/ct80/timage/162.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the wording \"20 Years\" on a black and white background.",
+        "gt_answers": "years",
+        "image_path": "./data/ct80/timage/163.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a jumble of letters, numbers, and punctuation marks, forming a bunch of mushy looking stuff that does not make any sense.",
+        "gt_answers": "the",
+        "image_path": "./data/ct80/timage/164.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the text \"Kingdom of Saudi Arabia\" written in both English and Arabic. It is a sign or a flag with a white background, and the writing is in black and green colors.",
+        "gt_answers": "kingdom",
+        "image_path": "./data/ct80/timage/165.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"The of\" written on a white surface.",
+        "gt_answers": "of",
+        "image_path": "./data/ct80/timage/166.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"Dreams\" written on it, along with an interesting font effect that makes it look like the message is being displayed on a billboard or poster.",
+        "gt_answers": "dreams",
+        "image_path": "./data/ct80/timage/167.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word \"MAGIC\" written on it.",
+        "gt_answers": "macic",
+        "image_path": "./data/ct80/timage/168.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large banner with brightly colored letters spelling out \"Merry Christmas.\"",
+        "gt_answers": "christmas",
+        "image_path": "./data/ct80/timage/169.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the number nineteen, represented by red and white numbers, sitting on top of a blue square.",
+        "gt_answers": "2003",
+        "image_path": "./data/ct80/timage/170.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Fantasy\" spelled out with letter blocks. It is an overhead shot of an alphabetical arrangement of letter blocks forming the word.",
+        "gt_answers": "fantasy",
+        "image_path": "./data/ct80/timage/171.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a red and blue sign that says \"Colorado\" and a street sign that reads \"Downtown Denver.\"",
+        "gt_answers": "denver",
+        "image_path": "./data/ct80/timage/172.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a red and blue sign with the words \"Bring Back Beer.\"",
+        "gt_answers": "beer",
+        "image_path": "./data/ct80/timage/173.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up view of some words, which are part of a logo or sign. The letters appear to be in black and white, with no colors.",
+        "gt_answers": "co",
+        "image_path": "./data/ct80/timage/174.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"AfFECT,\" which is a logo or emblem. Below the emblem, there is an American flag. The combination of the logo and the flag creates an American-themed visual.",
+        "gt_answers": "afcea",
+        "image_path": "./data/ct80/timage/175.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"NOVAN\" written across a bright blue sky, along with a big wiener dog standing on the ground next to a building. The phrase \"That's a mighty fine invention\" is also featured in the image.",
+        "gt_answers": "nova",
+        "image_path": "./data/ct80/timage/176.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the United States Navy emblem, which features a shield with a flying bird, likely an eagle, and the words \"United States Navy\" surrounding it.",
+        "gt_answers": "naval",
+        "image_path": "./data/ct80/timage/177.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"It's IT!\" written on a computer keyboard.",
+        "gt_answers": "it",
+        "image_path": "./data/ct80/timage/178.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Today\" written on it.",
+        "gt_answers": "day",
+        "image_path": "./data/ct80/timage/179.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign with the letters \"BMW\" on a wall.",
+        "gt_answers": "bmw",
+        "image_path": "./data/ct80/timage/180.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the logo for the company called \"Hinchliff Sports Cars.\" It is a close-up shot of the logo on a car, which is most likely a racing car.",
+        "gt_answers": "hutchinson",
+        "image_path": "./data/ct80/timage/181.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"The\" and \"The\" written in a circle, with a star next to the first \"The\" and a circle enclosing the second \"The.\" There is also a logo that reads \"LLaMA.\"",
+        "gt_answers": "the",
+        "image_path": "./data/ct80/timage/182.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"Scottish Salmon\" written on a logo or a bag. It showcases a salmon leaping out of water, with the fish prominently displayed in the center of the logo.",
+        "gt_answers": "scottish",
+        "image_path": "./data/ct80/timage/183.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a logo with a blue and white circular design, featuring the word \"salmonson\" written on it.",
+        "gt_answers": "salmon",
+        "image_path": "./data/ct80/timage/184.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a logo for \"Compass Company.\" The logo features a compass inside of a circle, which is likely associated with the company's name, \"Compass Company.\"",
+        "gt_answers": "company",
+        "image_path": "./data/ct80/timage/185.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a logo or sign with a horse and a letter on it.",
+        "gt_answers": "chathamkent",
+        "image_path": "./data/ct80/timage/186.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the logo or emblem of the police department.",
+        "gt_answers": "police",
+        "image_path": "./data/ct80/timage/187.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"To\" written on a black and white surface, possibly the side of a sign or a piece of paper.",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/188.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word \"Serve\" written on it.",
+        "gt_answers": "serve",
+        "image_path": "./data/ct80/timage/189.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a closeup of some letters and a symbol on a computer screen or sign that says \"and\" in white letters. The image also features an orange backdrop.",
+        "gt_answers": "and",
+        "image_path": "./data/ct80/timage/190.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"Protect\" or \"Predict\" on a white background, possibly on a sign or a piece of paper.",
+        "gt_answers": "protect",
+        "image_path": "./data/ct80/timage/191.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a logo featuring the name \"Scott's.\" This could be the logo for a company, brand, or product associated with the name Scott's.",
+        "gt_answers": "scott's",
+        "image_path": "./data/ct80/timage/192.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Family\" inside a circle.",
+        "gt_answers": "family",
+        "image_path": "./data/ct80/timage/193.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows an advertisement or a logo for Italy. It is a picture of a bottle with the word \"italia\" written on it.",
+        "gt_answers": "italian",
+        "image_path": "./data/ct80/timage/194.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"CUISINE\" written, possibly with a foreign language or symbol-based writing system.",
+        "gt_answers": "cuisine",
+        "image_path": "./data/ct80/timage/195.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word \"DAN\" written on it, possibly representing a brand or an initial.",
+        "gt_answers": "bar",
+        "image_path": "./data/ct80/timage/196.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign with the word \"Maple\" on it, along with a logo that says \"est. 1910.\" The logo is white and red in color.",
+        "gt_answers": "maples",
+        "image_path": "./data/ct80/timage/197.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the words \"The Old Towne Pub\" written on a sign.",
+        "gt_answers": "tavern",
+        "image_path": "./data/ct80/timage/198.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up view of text that says \"west coast est. 2011.\"",
+        "gt_answers": "est",
+        "image_path": "./data/ct80/timage/199.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a line of text that reads \"2011.\"",
+        "gt_answers": "2011",
+        "image_path": "./data/ct80/timage/200.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign with the word \"Crookes\" on it, which is likely a business or establishment.",
+        "gt_answers": "crocodiles",
+        "image_path": "./data/ct80/timage/201.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has the word \"No\" written on it, along with some other letters and symbols. This is placed on top of a darker background, which is most likely a black page.",
+        "gt_answers": "no",
+        "image_path": "./data/ct80/timage/202.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a yellow sign or a label with the words \"No Swimming\" written on it.",
+        "gt_answers": "swimming",
+        "image_path": "./data/ct80/timage/203.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays text that says \"WELCOME\" on it.",
+        "gt_answers": "welcome",
+        "image_path": "./data/ct80/timage/204.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the letter \"t\" written with a green ink as the central focus.",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/205.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that says \"HI HISTORIC.\"",
+        "gt_answers": "historic",
+        "image_path": "./data/ct80/timage/206.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"battery\" written on it.",
+        "gt_answers": "battery",
+        "image_path": "./data/ct80/timage/207.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"Point\" and \"POINT\" on a brown and beige background, presumably on a sign or a piece of paper.",
+        "gt_answers": "point",
+        "image_path": "./data/ct80/timage/208.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a metal sign that reads \"Old Town\" in a decorative, fancy font. Below the \"Old Town\" text, there is a picture of a bottle.",
+        "gt_answers": "oldtown",
+        "image_path": "./data/ct80/timage/209.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the word \"White\" written on it, along with some other text that is not entirely clear.",
+        "gt_answers": "white",
+        "image_path": "./data/ct80/timage/210.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a coffee logo and the words \"coffee\" and \"coffee\" written on it, possibly on a mug or a sign.",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/211.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a logo for Old Town Pizza written on a piece of paper. The logo appears to be for an authentic pizza from a pizzeria in Old Town.",
+        "gt_answers": "oldtown",
+        "image_path": "./data/ct80/timage/212.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a large, partially overlaid white text on a black background, which says \"white.\"",
+        "gt_answers": "white",
+        "image_path": "./data/ct80/timage/213.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large dark coffee design with the words \"COFFEE\" written on it, repeated twice to emphasize the product. Below the coffee design, there is a smaller text that reads \"For a short time only. COFFEE.\" This text is actually part of an advertisement.",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/214.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the logo of a restaurant which says \"Restaurant\" on it, indicating that it is an establishment providing food and possibly other dining services.",
+        "gt_answers": "restaurant",
+        "image_path": "./data/ct80/timage/215.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up shot of a bar sign that reads \"BAR.\"",
+        "gt_answers": "bar",
+        "image_path": "./data/ct80/timage/216.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign for a restaurant named SINGH'S. It is an advertisement with a colorful background that says \"SINGH'S\" on it, possibly located near a beach.",
+        "gt_answers": "singhs",
+        "image_path": "./data/ct80/timage/217.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the words \"Caribbean\" and \"Jamaica\" written on a blackboard or chalkboard.",
+        "gt_answers": "caribbean",
+        "image_path": "./data/ct80/timage/218.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a white plate with the words \"CCINESINE\" written on it. It appears to be a logo or title for a restaurant or food establishment.",
+        "gt_answers": "cuisine",
+        "image_path": "./data/ct80/timage/219.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image has a close-up view of a Michelin tire, featuring the company's name and a spare tire logo.",
+        "gt_answers": "michelin",
+        "image_path": "./data/ct80/timage/220.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"MOD\" written on a black background.",
+        "gt_answers": "mod",
+        "image_path": "./data/ct80/timage/221.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains a few letters on a dark background, forming the word \"ttyl.\"",
+        "gt_answers": "tm",
+        "image_path": "./data/ct80/timage/222.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image depicts a sign that reads \"Flying Horse.\" The horse appears to be logo-like and might be part of a brand or a symbol for a specific event or location.",
+        "gt_answers": "flying",
+        "image_path": "./data/ct80/timage/223.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up of a sign with the words \"Pedaling Horses\" written on it.",
+        "gt_answers": "horses",
+        "image_path": "./data/ct80/timage/224.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign for a restaurant called America's Inn. The sign is purple and has a logo on it.",
+        "gt_answers": "americas",
+        "image_path": "./data/ct80/timage/225.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a purple picture with the words \"Oldest Cold Oldest\" written on it.",
+        "gt_answers": "oldest",
+        "image_path": "./data/ct80/timage/226.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"CARROUSEL\" written on a banner. Below the banner, there is an inscription that reads \"Wisconsin Cirrus Festival Carousel 2016.\"",
+        "gt_answers": "carousel",
+        "image_path": "./data/ct80/timage/227.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is of an aerial view of the National Mall in Washington, D.C., with the large words \"National Mall\" written above it. This image captures the expansive open space, monuments, and significant landmarks within the National Mall.",
+        "gt_answers": "national",
+        "image_path": "./data/ct80/timage/228.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Register\" written on it.",
+        "gt_answers": "register",
+        "image_path": "./data/ct80/timage/229.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains the letter \"o\" in a foreign language, along with some symbols that are difficult to decipher.",
+        "gt_answers": "of",
+        "image_path": "./data/ct80/timage/230.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Historic\" written on a blue background, which might be a part of a logo or sign.",
+        "gt_answers": "historic",
+        "image_path": "./data/ct80/timage/231.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"Places\" written in white and black. It appears to be part of the Google Places logo or an entry point to a website or application.",
+        "gt_answers": "places",
+        "image_path": "./data/ct80/timage/232.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"lele\" written in French, possibly on a sign or a poster.",
+        "gt_answers": "le",
+        "image_path": "./data/ct80/timage/233.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"llamenor\" or \"llamenorez\" written on it, which is likely a foreign language. The word is displayed on top of a large black background.",
+        "gt_answers": "grenier",
+        "image_path": "./data/ct80/timage/234.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the letter \"a\" in a large font, presumably designed for visually impaired individuals. It is an enlarged rendition of the letter, providing better visibility for those who need assistance with reading.",
+        "gt_answers": "a",
+        "image_path": "./data/ct80/timage/235.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Pain\" written in neon lights.",
+        "gt_answers": "pain",
+        "image_path": "./data/ct80/timage/236.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a group of people holding up large cardboard numbers, which are intended to convey the idea of one million. Some people might be kneeling behind the signs as part of the presentation, while others are standing and holding up the numbers. It appears to be a creative and eye-catching way to display the figure.",
+        "gt_answers": "10000",
+        "image_path": "./data/ct80/timage/237.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"Business\" and \"Success\" on a sign or a whiteboard.",
+        "gt_answers": "business",
+        "image_path": "./data/ct80/timage/238.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"invest in\" followed by a space, and then a large white sign that reads \"invest.\"",
+        "gt_answers": "invest",
+        "image_path": "./data/ct80/timage/239.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the number 2012 written in large, white, digital numbers, with a black background.",
+        "gt_answers": "2012",
+        "image_path": "./data/ct80/timage/240.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "In the image, there is a message or an advertisement displaying the word \"Campaign\" on a television or computer screen.",
+        "gt_answers": "campaign",
+        "image_path": "./data/ct80/timage/241.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a website for a company called \"BusinessInvest,\" along with its logo. It is a black and white photo, likely taken from a screen capture, featuring white text on a black background.",
+        "gt_answers": "wwwbusinessinvestcouk",
+        "image_path": "./data/ct80/timage/242.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that possibly contains the name \"Kolkoden\" and a logo. Since the sign is in a foreign language, it might be a company or location name with an associated logo.",
+        "gt_answers": "kolind",
+        "image_path": "./data/ct80/timage/243.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a logo that reads \"K\u00f6roskolo,\" which is likely the name or an abbreviation of a school's name in a foreign language.",
+        "gt_answers": "koreskole",
+        "image_path": "./data/ct80/timage/244.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"NORTH\" written on a surface, presumably a white wall or a sign. Below the word, there is a logo or additional text stating \"NORTH North North North.\"",
+        "gt_answers": "north",
+        "image_path": "./data/ct80/timage/245.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"union\" written on a black and white surface. It could be a sign, a chalkboard, or a logo for a company or organization.",
+        "gt_answers": "union",
+        "image_path": "./data/ct80/timage/246.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large, white sign that reads \"Wildcats,\" likely associated with a team or organization.",
+        "gt_answers": "wildcats",
+        "image_path": "./data/ct80/timage/247.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a lit-up sign for a Chinese restaurant. It has neon lights and features both Chinese characters and English text, advertising the establishment's presence.",
+        "gt_answers": "chinese",
+        "image_path": "./data/ct80/timage/248.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image is of a close-up view of a neon sign that reads \"Food.\"",
+        "gt_answers": "food",
+        "image_path": "./data/ct80/timage/249.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a lit up open sign with a neon orange glow, positioned against a black background. The sign has white letters spelling out the word \"open.\"",
+        "gt_answers": "open",
+        "image_path": "./data/ct80/timage/250.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that reads \"eat.\"",
+        "gt_answers": "eat",
+        "image_path": "./data/ct80/timage/251.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The statement \"no ink\" is written on a neon sign, which is lit up with blue lights.",
+        "gt_answers": "in",
+        "image_path": "./data/ct80/timage/252.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"TAKE\" written in neon lights.",
+        "gt_answers": "take",
+        "image_path": "./data/ct80/timage/253.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Out\" written in blue neon lights on a dark background.",
+        "gt_answers": "out",
+        "image_path": "./data/ct80/timage/254.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows the word \"POLICE\" on top of a blue background, which is likely a computer screen displaying a web page.",
+        "gt_answers": "police",
+        "image_path": "./data/ct80/timage/255.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large white letter \"S\" on a black background, likely representing a station or a gas station.",
+        "gt_answers": "station",
+        "image_path": "./data/ct80/timage/256.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the phrase \"the ultimate gamer\" written with an emphasis on the letters \"EA\". This phrase suggests the context might be related to electronic arts, gaming, or a game company. The bright neon lights surrounding the text contribute to the attention-grabbing nature of the sign.",
+        "gt_answers": "the",
+        "image_path": "./data/ct80/timage/257.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a neon sign that says, \"table.\"",
+        "gt_answers": "table",
+        "image_path": "./data/ct80/timage/258.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"BARBECUE.\"",
+        "gt_answers": "barbeoue",
+        "image_path": "./data/ct80/timage/259.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign or button with the phrase \"Black People\" written on it, possibly containing a typographical error as the phrase suggests a capitalized \"P\" after \"Black.\"",
+        "gt_answers": "people",
+        "image_path": "./data/ct80/timage/260.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a large sign with words on it. The words are described as \"Hand made Madison eyes Alliance.\"",
+        "gt_answers": "handmade",
+        "image_path": "./data/ct80/timage/261.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the words \"Chocolate Blog\" along with a sign-off that says \"chocolate blogs.\" There is also a banner that reads \"chocolate blog\" and a purple background.",
+        "gt_answers": "chocolates",
+        "image_path": "./data/ct80/timage/262.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large black empty image with white text that says \"AishaEyes,\" and it features a purple website link at the bottom.",
+        "gt_answers": "aishahaleyesblogspotcom",
+        "image_path": "./data/ct80/timage/263.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Exclusive\" written, possibly as a part of an advertisement or a logo.",
+        "gt_answers": "exclusive",
+        "image_path": "./data/ct80/timage/264.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image contains an oval or circular design, possibly created with a computer graphics program or involved in some kind of digital alteration.",
+        "gt_answers": "to",
+        "image_path": "./data/ct80/timage/265.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Cadbury\" on a purple and blue background, along with some snowflakes.",
+        "gt_answers": "cadbury",
+        "image_path": "./data/ct80/timage/266.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "\"WORLD\" is written across a large purple globe in the image.",
+        "gt_answers": "world",
+        "image_path": "./data/ct80/timage/267.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a small label with the word \"Dairy\" written on it, along with some other text which is hard to decipher.",
+        "gt_answers": "dairy",
+        "image_path": "./data/ct80/timage/268.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Milk\" written on it.",
+        "gt_answers": "milk",
+        "image_path": "./data/ct80/timage/269.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays text on a sign that reads \"smoothie.\"",
+        "gt_answers": "smooth",
+        "image_path": "./data/ct80/timage/270.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"chocolate\" written on a chocolate bar, along with the phrase \"chocolate taste\" above it. It appears to be an advertisement for a chocolate brand.",
+        "gt_answers": "chocolate",
+        "image_path": "./data/ct80/timage/271.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Mousse\" written on the packaging of a food product. The writing is in French, indicating that the product may be from a French company or designed for the French market.",
+        "gt_answers": "mousse",
+        "image_path": "./data/ct80/timage/272.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a large green and white sign with white stars, presumably representing a popular coffee company, such as Starbucks. The sign says \"Starbucks\" on it.",
+        "gt_answers": "starbucks",
+        "image_path": "./data/ct80/timage/273.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a close-up of a sign that says \"Starbucks Coffee.\"",
+        "gt_answers": "coffee",
+        "image_path": "./data/ct80/timage/274.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Kia\" written on a car, likely a hood emblem or a badge.",
+        "gt_answers": "kia",
+        "image_path": "./data/ct80/timage/275.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a close-up view of a blue and white automotive emblem, which is the logo for Nissan motors.",
+        "gt_answers": "motors",
+        "image_path": "./data/ct80/timage/276.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign for \"Halal\" on a building, which is likely a restaurant or establishment offering Halal food.",
+        "gt_answers": "halal",
+        "image_path": "./data/ct80/timage/277.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Star\" written on a sign or marquee. Below the word, there is a set of stars (*) and the word \"Star\" written in neon lights.",
+        "gt_answers": "star",
+        "image_path": "./data/ct80/timage/278.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign with a hand-written message that says \"WELCOME.\"",
+        "gt_answers": "welcome",
+        "image_path": "./data/ct80/timage/279.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a sign that reads \"Snack Snack.\"",
+        "gt_answers": "snack",
+        "image_path": "./data/ct80/timage/280.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Tanguy\" on a sign or a piece of paper. It's a foreign language, and the writing is slanted to the right.",
+        "gt_answers": "tagine",
+        "image_path": "./data/ct80/timage/281.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a sign with the word \"Cobra\" written on it.",
+        "gt_answers": "cobra",
+        "image_path": "./data/ct80/timage/282.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays a close-up view of a sign that says \"SHOW.\"",
+        "gt_answers": "show",
+        "image_path": "./data/ct80/timage/283.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features a logo of the country of Thailand, which is also written in a foreign language.",
+        "gt_answers": "thailand",
+        "image_path": "./data/ct80/timage/284.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a sign that reads \"Frikkie Safe,\" which might be a safe or secure place. Below the gold-trimmed sign, it says \"Frikkie Safeguard.\"",
+        "gt_answers": "frikkie",
+        "image_path": "./data/ct80/timage/285.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image shows a large metallic sign that says \"Intro to Dabbler\". It appears that the sign is meant to attract attention as it is in a foreign language.",
+        "gt_answers": "du",
+        "image_path": "./data/ct80/timage/286.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image displays the word \"Toi\" written on a large wooden sign, and it appears to be in a foreign language.",
+        "gt_answers": "toit",
+        "image_path": "./data/ct80/timage/287.jpg",
+        "model_name": "LLaVA"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "The image features the word \"Safari\" written, which could be a logo or a sign, and it appears to be in a foreign language. The text is also shown in a blurry manner and is smaller in size.",
+        "gt_answers": "safaris",
+        "image_path": "./data/ct80/timage/288.jpg",
+        "model_name": "LLaVA"
+    }
+]

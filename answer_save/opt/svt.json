@@ -1,0 +1,4531 @@
+[
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "door",
+        "image_path": "./data/svt/image/img_0001.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0002.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0003.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "triple",
+        "image_path": "./data/svt/image/img_0004.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0005.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "auto",
+        "image_path": "./data/svt/image/img_0006.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "magic",
+        "image_path": "./data/svt/image/img_0007.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "billiards",
+        "gt_answers": "billiards",
+        "image_path": "./data/svt/image/img_0008.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0009.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "south",
+        "image_path": "./data/svt/image/img_0010.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "market",
+        "image_path": "./data/svt/image/img_0011.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "meat",
+        "image_path": "./data/svt/image/img_0012.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "michoacana",
+        "image_path": "./data/svt/image/img_0013.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "taqueria",
+        "image_path": "./data/svt/image/img_0014.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "taqueria",
+        "image_path": "./data/svt/image/img_0015.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "motif",
+        "image_path": "./data/svt/image/img_0016.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0017.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "club",
+        "image_path": "./data/svt/image/img_0018.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "and",
+        "image_path": "./data/svt/image/img_0019.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "south",
+        "image_path": "./data/svt/image/img_0020.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0021.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "colorado",
+        "image_path": "./data/svt/image/img_0022.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "daily",
+        "gt_answers": "daily",
+        "image_path": "./data/svt/image/img_0023.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "college",
+        "gt_answers": "college",
+        "image_path": "./data/svt/image/img_0024.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "everest",
+        "gt_answers": "everest",
+        "image_path": "./data/svt/image/img_0025.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "allen",
+        "image_path": "./data/svt/image/img_0026.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hess",
+        "gt_answers": "hess",
+        "image_path": "./data/svt/image/img_0027.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0028.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "japanese",
+        "image_path": "./data/svt/image/img_0029.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0030.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "sakana",
+        "image_path": "./data/svt/image/img_0031.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the ice box",
+        "gt_answers": "icebox",
+        "image_path": "./data/svt/image/img_0032.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0033.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "claire",
+        "image_path": "./data/svt/image/img_0034.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "saint",
+        "gt_answers": "sainte",
+        "image_path": "./data/svt/image/img_0035.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0036.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "mission",
+        "gt_answers": "mission",
+        "image_path": "./data/svt/image/img_0037.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wheeler",
+        "gt_answers": "wheeler",
+        "image_path": "./data/svt/image/img_0038.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "gifts",
+        "image_path": "./data/svt/image/img_0039.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "jas",
+        "image_path": "./data/svt/image/img_0040.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pizza",
+        "image_path": "./data/svt/image/img_0041.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "man",
+        "image_path": "./data/svt/image/img_0042.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sopra",
+        "gt_answers": "sopra",
+        "image_path": "./data/svt/image/img_0043.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sotto",
+        "gt_answers": "sotto",
+        "image_path": "./data/svt/image/img_0044.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "airways",
+        "image_path": "./data/svt/image/img_0045.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0046.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "carroll",
+        "image_path": "./data/svt/image/img_0047.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "street",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0048.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "indiana",
+        "gt_answers": "indiana",
+        "image_path": "./data/svt/image/img_0049.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "repertory",
+        "image_path": "./data/svt/image/img_0050.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "theatre",
+        "gt_answers": "theatre",
+        "image_path": "./data/svt/image/img_0051.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "indiana",
+        "gt_answers": "indiana",
+        "image_path": "./data/svt/image/img_0052.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0053.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "loyal",
+        "image_path": "./data/svt/image/img_0054.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "western",
+        "image_path": "./data/svt/image/img_0055.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "best",
+        "image_path": "./data/svt/image/img_0056.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "paramount",
+        "image_path": "./data/svt/image/img_0057.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "kfc",
+        "image_path": "./data/svt/image/img_0058.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "muzeo",
+        "image_path": "./data/svt/image/img_0059.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "public",
+        "image_path": "./data/svt/image/img_0060.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "anaheim",
+        "image_path": "./data/svt/image/img_0061.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "trident",
+        "gt_answers": "trident",
+        "image_path": "./data/svt/image/img_0062.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "winbro",
+        "image_path": "./data/svt/image/img_0063.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grant",
+        "image_path": "./data/svt/image/img_0064.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "olin",
+        "image_path": "./data/svt/image/img_0065.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "best",
+        "image_path": "./data/svt/image/img_0066.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "executive inn",
+        "gt_answers": "executive",
+        "image_path": "./data/svt/image/img_0067.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0068.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "western",
+        "image_path": "./data/svt/image/img_0069.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "diego",
+        "image_path": "./data/svt/image/img_0070.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "excursion",
+        "image_path": "./data/svt/image/img_0071.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "harbor",
+        "image_path": "./data/svt/image/img_0072.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0073.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cortez",
+        "image_path": "./data/svt/image/img_0074.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0075.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0076.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "moore",
+        "image_path": "./data/svt/image/img_0077.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "moore",
+        "image_path": "./data/svt/image/img_0078.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0079.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "whitcomb",
+        "image_path": "./data/svt/image/img_0080.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fuddruckers",
+        "gt_answers": "fuddruckers",
+        "image_path": "./data/svt/image/img_0081.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0082.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0083.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0084.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "murphy",
+        "gt_answers": "murphy",
+        "image_path": "./data/svt/image/img_0085.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "moon",
+        "image_path": "./data/svt/image/img_0086.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "palace",
+        "gt_answers": "palace",
+        "image_path": "./data/svt/image/img_0087.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "colonial",
+        "gt_answers": "colonial",
+        "image_path": "./data/svt/image/img_0088.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hobby",
+        "gt_answers": "hobby",
+        "image_path": "./data/svt/image/img_0089.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "inc",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0090.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "photo",
+        "image_path": "./data/svt/image/img_0091.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "puff puff",
+        "gt_answers": "puff",
+        "image_path": "./data/svt/image/img_0092.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "stuff",
+        "image_path": "./data/svt/image/img_0093.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "michael",
+        "image_path": "./data/svt/image/img_0094.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "arts",
+        "image_path": "./data/svt/image/img_0095.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "crafts",
+        "image_path": "./data/svt/image/img_0096.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "world",
+        "image_path": "./data/svt/image/img_0097.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "market",
+        "image_path": "./data/svt/image/img_0098.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fitness",
+        "image_path": "./data/svt/image/img_0099.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shell",
+        "image_path": "./data/svt/image/img_0100.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shogun",
+        "image_path": "./data/svt/image/img_0101.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shogun",
+        "image_path": "./data/svt/image/img_0102.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sushi",
+        "gt_answers": "sushi",
+        "image_path": "./data/svt/image/img_0103.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sushi",
+        "gt_answers": "sushi",
+        "image_path": "./data/svt/image/img_0104.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pioneer",
+        "gt_answers": "pioneer",
+        "image_path": "./data/svt/image/img_0105.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "place",
+        "image_path": "./data/svt/image/img_0106.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "saks",
+        "image_path": "./data/svt/image/img_0107.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fifth",
+        "image_path": "./data/svt/image/img_0108.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "avenue",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0109.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grand",
+        "image_path": "./data/svt/image/img_0110.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "horton",
+        "image_path": "./data/svt/image/img_0111.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0112.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zula",
+        "image_path": "./data/svt/image/img_0113.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zula",
+        "image_path": "./data/svt/image/img_0114.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0115.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lion",
+        "gt_answers": "lion",
+        "image_path": "./data/svt/image/img_0116.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "red",
+        "gt_answers": "red",
+        "image_path": "./data/svt/image/img_0117.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "red",
+        "gt_answers": "red",
+        "image_path": "./data/svt/image/img_0118.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "square",
+        "gt_answers": "square",
+        "image_path": "./data/svt/image/img_0119.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "belvedere",
+        "gt_answers": "belvedere",
+        "image_path": "./data/svt/image/img_0120.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "orlando",
+        "image_path": "./data/svt/image/img_0121.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "sentinel",
+        "image_path": "./data/svt/image/img_0122.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "circles",
+        "image_path": "./data/svt/image/img_0123.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "tapes",
+        "image_path": "./data/svt/image/img_0124.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "city arts",
+        "gt_answers": "cityarts",
+        "image_path": "./data/svt/image/img_0125.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "factory",
+        "gt_answers": "factory",
+        "image_path": "./data/svt/image/img_0126.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hut",
+        "image_path": "./data/svt/image/img_0127.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pizza",
+        "image_path": "./data/svt/image/img_0128.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "garage",
+        "image_path": "./data/svt/image/img_0129.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "eye",
+        "gt_answers": "eye",
+        "image_path": "./data/svt/image/img_0130.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "lounge",
+        "image_path": "./data/svt/image/img_0131.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "jobsite",
+        "image_path": "./data/svt/image/img_0132.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "supply",
+        "image_path": "./data/svt/image/img_0133.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "work",
+        "image_path": "./data/svt/image/img_0134.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "chase",
+        "image_path": "./data/svt/image/img_0135.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "chase",
+        "image_path": "./data/svt/image/img_0136.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fireplace",
+        "image_path": "./data/svt/image/img_0137.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "box",
+        "gt_answers": "box",
+        "image_path": "./data/svt/image/img_0138.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "jewel",
+        "image_path": "./data/svt/image/img_0139.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tiny",
+        "gt_answers": "tiny",
+        "image_path": "./data/svt/image/img_0140.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "napasorn",
+        "image_path": "./data/svt/image/img_0141.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "parc",
+        "image_path": "./data/svt/image/img_0142.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0143.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "warwick",
+        "image_path": "./data/svt/image/img_0144.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "scooters",
+        "gt_answers": "scooters",
+        "image_path": "./data/svt/image/img_0145.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "sportique",
+        "image_path": "./data/svt/image/img_0146.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "spruce",
+        "image_path": "./data/svt/image/img_0147.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0148.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "wyndham",
+        "image_path": "./data/svt/image/img_0149.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "jererome",
+        "gt_answers": "jerome",
+        "image_path": "./data/svt/image/img_0150.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0151.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "lenscrafters",
+        "image_path": "./data/svt/image/img_0152.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fifth",
+        "image_path": "./data/svt/image/img_0153.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ave",
+        "gt_answers": "ave",
+        "image_path": "./data/svt/image/img_0154.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pike",
+        "gt_answers": "pike",
+        "image_path": "./data/svt/image/img_0155.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "western",
+        "gt_answers": "western",
+        "image_path": "./data/svt/image/img_0156.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "wine",
+        "image_path": "./data/svt/image/img_0157.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "domino",
+        "image_path": "./data/svt/image/img_0158.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "kyro",
+        "image_path": "./data/svt/image/img_0159.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pizza",
+        "gt_answers": "pizza",
+        "image_path": "./data/svt/image/img_0160.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "high",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0161.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "lincoln",
+        "image_path": "./data/svt/image/img_0162.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0163.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0164.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "california",
+        "image_path": "./data/svt/image/img_0165.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "eyes",
+        "gt_answers": "eyes",
+        "image_path": "./data/svt/image/img_0166.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "for",
+        "image_path": "./data/svt/image/img_0167.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shea",
+        "image_path": "./data/svt/image/img_0168.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chinese",
+        "gt_answers": "chinese",
+        "image_path": "./data/svt/image/img_0169.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "great",
+        "image_path": "./data/svt/image/img_0170.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "wall",
+        "gt_answers": "wall",
+        "image_path": "./data/svt/image/img_0171.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ortlieb",
+        "image_path": "./data/svt/image/img_0172.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "polish",
+        "gt_answers": "polish",
+        "image_path": "./data/svt/image/img_0173.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "salle",
+        "image_path": "./data/svt/image/img_0174.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fortune",
+        "gt_answers": "fortune",
+        "image_path": "./data/svt/image/img_0175.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "lucky",
+        "image_path": "./data/svt/image/img_0176.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0177.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "brasserie",
+        "image_path": "./data/svt/image/img_0178.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0179.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0180.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0181.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "boot",
+        "image_path": "./data/svt/image/img_0182.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fitting",
+        "image_path": "./data/svt/image/img_0183.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "larry",
+        "image_path": "./data/svt/image/img_0184.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fossil",
+        "gt_answers": "fossil",
+        "image_path": "./data/svt/image/img_0185.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fossil",
+        "gt_answers": "fossil",
+        "image_path": "./data/svt/image/img_0186.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "mart",
+        "image_path": "./data/svt/image/img_0187.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "mobil",
+        "image_path": "./data/svt/image/img_0188.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "mobil",
+        "image_path": "./data/svt/image/img_0189.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cinerama",
+        "image_path": "./data/svt/image/img_0190.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cinerama",
+        "image_path": "./data/svt/image/img_0191.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "dong",
+        "image_path": "./data/svt/image/img_0192.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "market",
+        "gt_answers": "market",
+        "image_path": "./data/svt/image/img_0193.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ymca",
+        "image_path": "./data/svt/image/img_0194.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "beads",
+        "gt_answers": "beads",
+        "image_path": "./data/svt/image/img_0195.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "beads",
+        "gt_answers": "beads",
+        "image_path": "./data/svt/image/img_0196.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "beads",
+        "gt_answers": "beads",
+        "image_path": "./data/svt/image/img_0197.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fox",
+        "image_path": "./data/svt/image/img_0198.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0199.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0200.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "max",
+        "gt_answers": "max",
+        "image_path": "./data/svt/image/img_0201.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hahm",
+        "image_path": "./data/svt/image/img_0202.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "motor sports",
+        "gt_answers": "motorsports",
+        "image_path": "./data/svt/image/img_0203.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "motorsports",
+        "image_path": "./data/svt/image/img_0204.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hahm",
+        "image_path": "./data/svt/image/img_0205.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "joe",
+        "gt_answers": "joe",
+        "image_path": "./data/svt/image/img_0206.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "trader",
+        "gt_answers": "trader",
+        "image_path": "./data/svt/image/img_0207.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "body",
+        "image_path": "./data/svt/image/img_0208.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shop",
+        "image_path": "./data/svt/image/img_0209.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "line",
+        "image_path": "./data/svt/image/img_0210.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "budget",
+        "gt_answers": "budget",
+        "image_path": "./data/svt/image/img_0211.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tribunali",
+        "gt_answers": "tribunali",
+        "image_path": "./data/svt/image/img_0212.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "viva",
+        "gt_answers": "via",
+        "image_path": "./data/svt/image/img_0213.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "angelo",
+        "image_path": "./data/svt/image/img_0214.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hamburgers",
+        "gt_answers": "hamburgers",
+        "image_path": "./data/svt/image/img_0215.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fox",
+        "image_path": "./data/svt/image/img_0216.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "game stop",
+        "gt_answers": "gamestop",
+        "image_path": "./data/svt/image/img_0217.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fabrics",
+        "image_path": "./data/svt/image/img_0218.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fishman",
+        "image_path": "./data/svt/image/img_0219.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0220.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0221.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "flats",
+        "image_path": "./data/svt/image/img_0222.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tijuana",
+        "gt_answers": "tijuana",
+        "image_path": "./data/svt/image/img_0223.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zou",
+        "image_path": "./data/svt/image/img_0224.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zou",
+        "image_path": "./data/svt/image/img_0225.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zou",
+        "image_path": "./data/svt/image/img_0226.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "dodge",
+        "image_path": "./data/svt/image/img_0227.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "phelps",
+        "image_path": "./data/svt/image/img_0228.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "tower",
+        "image_path": "./data/svt/image/img_0229.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ernst",
+        "image_path": "./data/svt/image/img_0230.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "young",
+        "gt_answers": "young",
+        "image_path": "./data/svt/image/img_0231.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0232.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pompei",
+        "image_path": "./data/svt/image/img_0233.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "donald",
+        "image_path": "./data/svt/image/img_0234.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "donald",
+        "image_path": "./data/svt/image/img_0235.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "ramada",
+        "gt_answers": "ramada",
+        "image_path": "./data/svt/image/img_0236.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0237.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "five",
+        "image_path": "./data/svt/image/img_0238.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "star",
+        "image_path": "./data/svt/image/img_0239.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grandstand",
+        "image_path": "./data/svt/image/img_0240.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grandstand",
+        "image_path": "./data/svt/image/img_0241.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "little",
+        "image_path": "./data/svt/image/img_0242.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "saigon",
+        "gt_answers": "saigon",
+        "image_path": "./data/svt/image/img_0243.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "capitol",
+        "gt_answers": "capitol",
+        "image_path": "./data/svt/image/img_0244.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "custom",
+        "image_path": "./data/svt/image/img_0245.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tailors",
+        "gt_answers": "tailors",
+        "image_path": "./data/svt/image/img_0246.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "jewelry",
+        "image_path": "./data/svt/image/img_0247.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bakery",
+        "image_path": "./data/svt/image/img_0248.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "watercourse",
+        "image_path": "./data/svt/image/img_0249.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "town",
+        "image_path": "./data/svt/image/img_0250.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "black",
+        "gt_answers": "black",
+        "image_path": "./data/svt/image/img_0251.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bottle",
+        "gt_answers": "bottle",
+        "image_path": "./data/svt/image/img_0252.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "vine",
+        "gt_answers": "vine",
+        "image_path": "./data/svt/image/img_0253.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "economics",
+        "gt_answers": "econo",
+        "image_path": "./data/svt/image/img_0254.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "lodge",
+        "image_path": "./data/svt/image/img_0255.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "avenue",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0256.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "theater",
+        "image_path": "./data/svt/image/img_0257.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0258.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cleaners",
+        "image_path": "./data/svt/image/img_0259.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "glenoaks",
+        "image_path": "./data/svt/image/img_0260.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "art",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0261.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "jose",
+        "gt_answers": "jose",
+        "image_path": "./data/svt/image/img_0262.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0263.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0264.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "david",
+        "gt_answers": "david",
+        "image_path": "./data/svt/image/img_0265.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "jean",
+        "image_path": "./data/svt/image/img_0266.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "louis vuitton",
+        "gt_answers": "louis",
+        "image_path": "./data/svt/image/img_0267.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "moser",
+        "gt_answers": "mosser",
+        "image_path": "./data/svt/image/img_0268.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "the",
+        "image_path": "./data/svt/image/img_0269.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cafe",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0270.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "met",
+        "gt_answers": "met",
+        "image_path": "./data/svt/image/img_0271.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "marriott",
+        "image_path": "./data/svt/image/img_0272.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "sandwich",
+        "image_path": "./data/svt/image/img_0273.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shop",
+        "image_path": "./data/svt/image/img_0274.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zero",
+        "image_path": "./data/svt/image/img_0275.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "happiness",
+        "gt_answers": "happiness",
+        "image_path": "./data/svt/image/img_0276.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "three",
+        "image_path": "./data/svt/image/img_0277.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "chinatown",
+        "image_path": "./data/svt/image/img_0278.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "plaza",
+        "gt_answers": "plaza",
+        "image_path": "./data/svt/image/img_0279.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shell",
+        "image_path": "./data/svt/image/img_0280.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "two",
+        "image_path": "./data/svt/image/img_0281.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "mobile",
+        "image_path": "./data/svt/image/img_0282.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "marriott",
+        "gt_answers": "marriott",
+        "image_path": "./data/svt/image/img_0283.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "marriott",
+        "image_path": "./data/svt/image/img_0284.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "higgins",
+        "gt_answers": "higgins",
+        "image_path": "./data/svt/image/img_0285.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "brexton",
+        "image_path": "./data/svt/image/img_0286.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "chase",
+        "image_path": "./data/svt/image/img_0287.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "health",
+        "gt_answers": "health",
+        "image_path": "./data/svt/image/img_0288.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "services",
+        "gt_answers": "services",
+        "image_path": "./data/svt/image/img_0289.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0290.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "feet",
+        "gt_answers": "feet",
+        "image_path": "./data/svt/image/img_0291.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "six",
+        "image_path": "./data/svt/image/img_0292.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "under",
+        "image_path": "./data/svt/image/img_0293.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "army",
+        "gt_answers": "army",
+        "image_path": "./data/svt/image/img_0294.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "store",
+        "gt_answers": "store",
+        "image_path": "./data/svt/image/img_0295.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "francis",
+        "gt_answers": "francis",
+        "image_path": "./data/svt/image/img_0296.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hospital",
+        "gt_answers": "hospital",
+        "image_path": "./data/svt/image/img_0297.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "memorial",
+        "image_path": "./data/svt/image/img_0298.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "saint",
+        "gt_answers": "saint",
+        "image_path": "./data/svt/image/img_0299.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "crush",
+        "gt_answers": "crush",
+        "image_path": "./data/svt/image/img_0300.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0301.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "magnolia",
+        "image_path": "./data/svt/image/img_0302.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "dunbar",
+        "image_path": "./data/svt/image/img_0303.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0304.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "laurence",
+        "image_path": "./data/svt/image/img_0305.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "paul",
+        "image_path": "./data/svt/image/img_0306.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0307.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "orleans",
+        "image_path": "./data/svt/image/img_0308.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "anodizing",
+        "image_path": "./data/svt/image/img_0309.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "industrial",
+        "image_path": "./data/svt/image/img_0310.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "dallas",
+        "image_path": "./data/svt/image/img_0311.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "seminary",
+        "image_path": "./data/svt/image/img_0312.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "theological",
+        "image_path": "./data/svt/image/img_0313.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "public",
+        "gt_answers": "public",
+        "image_path": "./data/svt/image/img_0314.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "storage",
+        "image_path": "./data/svt/image/img_0315.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0316.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0317.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "books",
+        "gt_answers": "books",
+        "image_path": "./data/svt/image/img_0318.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "books",
+        "image_path": "./data/svt/image/img_0319.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "for",
+        "image_path": "./data/svt/image/img_0320.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "for",
+        "image_path": "./data/svt/image/img_0321.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "mint",
+        "image_path": "./data/svt/image/img_0322.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "states",
+        "image_path": "./data/svt/image/img_0323.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "united",
+        "image_path": "./data/svt/image/img_0324.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "crest",
+        "image_path": "./data/svt/image/img_0325.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pine",
+        "image_path": "./data/svt/image/img_0326.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0327.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ford",
+        "image_path": "./data/svt/image/img_0328.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "welcome to mills",
+        "gt_answers": "mills",
+        "image_path": "./data/svt/image/img_0329.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "avenue",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0330.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sixteenth street",
+        "gt_answers": "sixth",
+        "image_path": "./data/svt/image/img_0331.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bar",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0332.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "grill",
+        "gt_answers": "grill",
+        "image_path": "./data/svt/image/img_0333.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "sixth",
+        "image_path": "./data/svt/image/img_0334.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grill",
+        "image_path": "./data/svt/image/img_0335.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "avenue",
+        "image_path": "./data/svt/image/img_0336.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0337.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0338.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "stewart",
+        "gt_answers": "stewart",
+        "image_path": "./data/svt/image/img_0339.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "forum",
+        "gt_answers": "forum",
+        "image_path": "./data/svt/image/img_0340.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "forum",
+        "image_path": "./data/svt/image/img_0341.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "heritage",
+        "image_path": "./data/svt/image/img_0342.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "heritage forum",
+        "gt_answers": "heritage",
+        "image_path": "./data/svt/image/img_0343.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0344.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grill",
+        "image_path": "./data/svt/image/img_0345.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "joint",
+        "image_path": "./data/svt/image/img_0346.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "juke",
+        "image_path": "./data/svt/image/img_0347.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "homewood",
+        "image_path": "./data/svt/image/img_0348.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "suites",
+        "gt_answers": "suites",
+        "image_path": "./data/svt/image/img_0349.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "kitchen",
+        "image_path": "./data/svt/image/img_0350.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "park",
+        "gt_answers": "park",
+        "image_path": "./data/svt/image/img_0351.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tavern",
+        "gt_answers": "tavern",
+        "image_path": "./data/svt/image/img_0352.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tavern",
+        "gt_answers": "tavern",
+        "image_path": "./data/svt/image/img_0353.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "williams",
+        "gt_answers": "williams",
+        "image_path": "./data/svt/image/img_0354.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "china",
+        "image_path": "./data/svt/image/img_0355.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "dollar",
+        "image_path": "./data/svt/image/img_0356.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inc",
+        "image_path": "./data/svt/image/img_0357.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "town",
+        "image_path": "./data/svt/image/img_0358.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ding",
+        "image_path": "./data/svt/image/img_0359.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cinema",
+        "gt_answers": "cinema",
+        "image_path": "./data/svt/image/img_0360.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "sub",
+        "image_path": "./data/svt/image/img_0361.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "church",
+        "image_path": "./data/svt/image/img_0362.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0363.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "methodist",
+        "image_path": "./data/svt/image/img_0364.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "united",
+        "image_path": "./data/svt/image/img_0365.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "starbucks",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0366.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0367.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "coffee",
+        "image_path": "./data/svt/image/img_0368.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "coffee",
+        "image_path": "./data/svt/image/img_0369.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "the casbah",
+        "gt_answers": "casbah",
+        "image_path": "./data/svt/image/img_0370.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0371.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "tara",
+        "image_path": "./data/svt/image/img_0372.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "brazil",
+        "gt_answers": "brazil",
+        "image_path": "./data/svt/image/img_0373.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "canto",
+        "gt_answers": "canto",
+        "image_path": "./data/svt/image/img_0374.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0375.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bicycle",
+        "image_path": "./data/svt/image/img_0376.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "express",
+        "image_path": "./data/svt/image/img_0377.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "car",
+        "image_path": "./data/svt/image/img_0378.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "enterprise",
+        "image_path": "./data/svt/image/img_0379.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "enterprise",
+        "image_path": "./data/svt/image/img_0380.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "rent",
+        "image_path": "./data/svt/image/img_0381.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "house",
+        "image_path": "./data/svt/image/img_0382.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "parliament",
+        "image_path": "./data/svt/image/img_0383.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "resort",
+        "gt_answers": "resort",
+        "image_path": "./data/svt/image/img_0384.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "agency",
+        "image_path": "./data/svt/image/img_0385.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "liquid",
+        "gt_answers": "liquid",
+        "image_path": "./data/svt/image/img_0386.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "liquid",
+        "gt_answers": "liquid",
+        "image_path": "./data/svt/image/img_0387.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "jones",
+        "gt_answers": "jones",
+        "image_path": "./data/svt/image/img_0388.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "mission",
+        "gt_answers": "mission",
+        "image_path": "./data/svt/image/img_0389.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0390.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "theatre",
+        "gt_answers": "theatre",
+        "image_path": "./data/svt/image/img_0391.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0392.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cherry",
+        "gt_answers": "cherry",
+        "image_path": "./data/svt/image/img_0393.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cherry",
+        "image_path": "./data/svt/image/img_0394.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chinese",
+        "gt_answers": "chinese",
+        "image_path": "./data/svt/image/img_0395.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "vegetarian",
+        "image_path": "./data/svt/image/img_0396.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "street",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0397.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "street",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0398.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cherry",
+        "image_path": "./data/svt/image/img_0399.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "chinese",
+        "image_path": "./data/svt/image/img_0400.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "vegetarian",
+        "image_path": "./data/svt/image/img_0401.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "fuji",
+        "gt_answers": "fuji",
+        "image_path": "./data/svt/image/img_0402.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "massage",
+        "gt_answers": "massage",
+        "image_path": "./data/svt/image/img_0403.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hard",
+        "image_path": "./data/svt/image/img_0404.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hard",
+        "image_path": "./data/svt/image/img_0405.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "rock",
+        "image_path": "./data/svt/image/img_0406.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "rock",
+        "image_path": "./data/svt/image/img_0407.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0408.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0409.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "neumos",
+        "image_path": "./data/svt/image/img_0410.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "neumos",
+        "image_path": "./data/svt/image/img_0411.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "central",
+        "gt_answers": "central",
+        "image_path": "./data/svt/image/img_0412.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grand",
+        "image_path": "./data/svt/image/img_0413.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "eager",
+        "image_path": "./data/svt/image/img_0414.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "imports",
+        "image_path": "./data/svt/image/img_0415.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "phil",
+        "image_path": "./data/svt/image/img_0416.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0417.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "convention",
+        "image_path": "./data/svt/image/img_0418.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "garfield",
+        "image_path": "./data/svt/image/img_0419.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0420.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0421.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "travelodge",
+        "image_path": "./data/svt/image/img_0422.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "goodwill",
+        "gt_answers": "goodwill",
+        "image_path": "./data/svt/image/img_0423.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "speed",
+        "image_path": "./data/svt/image/img_0424.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zone",
+        "image_path": "./data/svt/image/img_0425.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "auto",
+        "image_path": "./data/svt/image/img_0426.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "supply",
+        "image_path": "./data/svt/image/img_0427.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "locksmith",
+        "image_path": "./data/svt/image/img_0428.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "fahrenheit",
+        "image_path": "./data/svt/image/img_0429.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "lounge",
+        "image_path": "./data/svt/image/img_0430.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "capogiro",
+        "image_path": "./data/svt/image/img_0431.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "target",
+        "image_path": "./data/svt/image/img_0432.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "orpheum",
+        "image_path": "./data/svt/image/img_0433.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "theatre",
+        "gt_answers": "theatre",
+        "image_path": "./data/svt/image/img_0434.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "redwood",
+        "image_path": "./data/svt/image/img_0435.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "redwood",
+        "image_path": "./data/svt/image/img_0436.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "apartments",
+        "image_path": "./data/svt/image/img_0437.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bohemian rhapsody",
+        "gt_answers": "bohemian",
+        "image_path": "./data/svt/image/img_0438.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "grand",
+        "gt_answers": "grand",
+        "image_path": "./data/svt/image/img_0439.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0440.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "super",
+        "image_path": "./data/svt/image/img_0441.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "radio",
+        "image_path": "./data/svt/image/img_0442.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "shack",
+        "image_path": "./data/svt/image/img_0443.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "chanterelle",
+        "image_path": "./data/svt/image/img_0444.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "donald",
+        "image_path": "./data/svt/image/img_0445.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "high",
+        "gt_answers": "high",
+        "image_path": "./data/svt/image/img_0446.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lincoln",
+        "gt_answers": "lincoln",
+        "image_path": "./data/svt/image/img_0447.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0448.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0449.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "veron",
+        "gt_answers": "vernon",
+        "image_path": "./data/svt/image/img_0450.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0451.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "first",
+        "image_path": "./data/svt/image/img_0452.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chiropractic",
+        "gt_answers": "chiropractic",
+        "image_path": "./data/svt/image/img_0453.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "giulio",
+        "image_path": "./data/svt/image/img_0454.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0455.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0456.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "garny",
+        "image_path": "./data/svt/image/img_0457.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "roots",
+        "image_path": "./data/svt/image/img_0458.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "air",
+        "gt_answers": "air",
+        "image_path": "./data/svt/image/img_0459.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "museum",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0460.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "space",
+        "gt_answers": "space",
+        "image_path": "./data/svt/image/img_0461.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "leon",
+        "image_path": "./data/svt/image/img_0462.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "plaza",
+        "image_path": "./data/svt/image/img_0463.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0464.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0465.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "square",
+        "image_path": "./data/svt/image/img_0466.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "washington",
+        "gt_answers": "washington",
+        "image_path": "./data/svt/image/img_0467.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "embassy",
+        "gt_answers": "embassy",
+        "image_path": "./data/svt/image/img_0468.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "suites",
+        "gt_answers": "suites",
+        "image_path": "./data/svt/image/img_0469.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "parking",
+        "image_path": "./data/svt/image/img_0470.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0471.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "city",
+        "image_path": "./data/svt/image/img_0472.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "corner",
+        "image_path": "./data/svt/image/img_0473.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "martin",
+        "image_path": "./data/svt/image/img_0474.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0475.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0476.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "arts",
+        "image_path": "./data/svt/image/img_0477.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "modified",
+        "image_path": "./data/svt/image/img_0478.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "brothers",
+        "image_path": "./data/svt/image/img_0479.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "products",
+        "image_path": "./data/svt/image/img_0480.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zesco",
+        "image_path": "./data/svt/image/img_0481.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "zoll",
+        "image_path": "./data/svt/image/img_0482.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "goodwill",
+        "image_path": "./data/svt/image/img_0483.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "franky v",
+        "gt_answers": "frankly",
+        "image_path": "./data/svt/image/img_0484.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "wines",
+        "image_path": "./data/svt/image/img_0485.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "holiday",
+        "image_path": "./data/svt/image/img_0486.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0487.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0488.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bike",
+        "gt_answers": "bike",
+        "image_path": "./data/svt/image/img_0489.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "kyle",
+        "gt_answers": "kyle",
+        "image_path": "./data/svt/image/img_0490.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "shop",
+        "gt_answers": "shop",
+        "image_path": "./data/svt/image/img_0491.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0492.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "deli",
+        "image_path": "./data/svt/image/img_0493.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "kabob",
+        "image_path": "./data/svt/image/img_0494.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "kotayk",
+        "image_path": "./data/svt/image/img_0495.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "grocery",
+        "image_path": "./data/svt/image/img_0496.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "carlton",
+        "image_path": "./data/svt/image/img_0497.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hotel",
+        "gt_answers": "hotel",
+        "image_path": "./data/svt/image/img_0498.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "satyricon",
+        "gt_answers": "satyricon",
+        "image_path": "./data/svt/image/img_0499.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "anaheim",
+        "image_path": "./data/svt/image/img_0500.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "band",
+        "gt_answers": "band",
+        "image_path": "./data/svt/image/img_0501.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "instruments",
+        "image_path": "./data/svt/image/img_0502.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0503.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "dan",
+        "image_path": "./data/svt/image/img_0504.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "louis",
+        "gt_answers": "louis",
+        "image_path": "./data/svt/image/img_0505.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "oyster",
+        "image_path": "./data/svt/image/img_0506.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "castle",
+        "image_path": "./data/svt/image/img_0507.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "white",
+        "image_path": "./data/svt/image/img_0508.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "food",
+        "gt_answers": "food",
+        "image_path": "./data/svt/image/img_0509.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "what is written in the image",
+        "gt_answers": "jimmy",
+        "image_path": "./data/svt/image/img_0510.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "store",
+        "image_path": "./data/svt/image/img_0511.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hollywood",
+        "gt_answers": "hollywood",
+        "image_path": "./data/svt/image/img_0512.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "posters",
+        "gt_answers": "posters",
+        "image_path": "./data/svt/image/img_0513.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "palace",
+        "gt_answers": "palace",
+        "image_path": "./data/svt/image/img_0514.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "white",
+        "image_path": "./data/svt/image/img_0515.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "white",
+        "image_path": "./data/svt/image/img_0516.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "america",
+        "image_path": "./data/svt/image/img_0517.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "comfort inn",
+        "gt_answers": "comfort",
+        "image_path": "./data/svt/image/img_0518.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0519.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "scientology",
+        "image_path": "./data/svt/image/img_0520.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "church",
+        "image_path": "./data/svt/image/img_0521.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "jose",
+        "image_path": "./data/svt/image/img_0522.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0523.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "quilts",
+        "gt_answers": "quilts",
+        "image_path": "./data/svt/image/img_0524.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0525.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "textiles",
+        "gt_answers": "textiles",
+        "image_path": "./data/svt/image/img_0526.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "house",
+        "image_path": "./data/svt/image/img_0527.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tea",
+        "gt_answers": "tea",
+        "image_path": "./data/svt/image/img_0528.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pakistan",
+        "gt_answers": "pak",
+        "image_path": "./data/svt/image/img_0529.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "starbucks",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0530.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "burbank",
+        "gt_answers": "burbank",
+        "image_path": "./data/svt/image/img_0531.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "burbank",
+        "image_path": "./data/svt/image/img_0532.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "florist",
+        "image_path": "./data/svt/image/img_0533.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "gifts",
+        "image_path": "./data/svt/image/img_0534.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "check",
+        "gt_answers": "check",
+        "image_path": "./data/svt/image/img_0535.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bank",
+        "image_path": "./data/svt/image/img_0536.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "tabu",
+        "image_path": "./data/svt/image/img_0537.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "space",
+        "image_path": "./data/svt/image/img_0538.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "marlboro",
+        "image_path": "./data/svt/image/img_0539.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "houlihan",
+        "gt_answers": "houlihan",
+        "image_path": "./data/svt/image/img_0540.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "houlihan",
+        "image_path": "./data/svt/image/img_0541.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sheraton",
+        "gt_answers": "sheraton",
+        "image_path": "./data/svt/image/img_0542.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0543.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cellars",
+        "image_path": "./data/svt/image/img_0544.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "ten",
+        "image_path": "./data/svt/image/img_0545.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "times",
+        "image_path": "./data/svt/image/img_0546.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "accountancy",
+        "image_path": "./data/svt/image/img_0547.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "quiznos",
+        "image_path": "./data/svt/image/img_0548.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "salads",
+        "gt_answers": "salads",
+        "image_path": "./data/svt/image/img_0549.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "subs",
+        "image_path": "./data/svt/image/img_0550.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "jewel",
+        "gt_answers": "jewel",
+        "image_path": "./data/svt/image/img_0551.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "osco",
+        "gt_answers": "osco",
+        "image_path": "./data/svt/image/img_0552.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pickles",
+        "image_path": "./data/svt/image/img_0553.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pub",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0554.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pickles",
+        "image_path": "./data/svt/image/img_0555.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pub",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0556.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "spaghetti",
+        "image_path": "./data/svt/image/img_0557.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "warehouse",
+        "image_path": "./data/svt/image/img_0558.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "brewery",
+        "image_path": "./data/svt/image/img_0559.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pub",
+        "image_path": "./data/svt/image/img_0560.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "sun",
+        "image_path": "./data/svt/image/img_0561.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "mountain",
+        "image_path": "./data/svt/image/img_0562.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "simon",
+        "gt_answers": "simon",
+        "image_path": "./data/svt/image/img_0563.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "gallery",
+        "image_path": "./data/svt/image/img_0564.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "street",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0565.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "avis",
+        "gt_answers": "avis",
+        "image_path": "./data/svt/image/img_0566.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "himalayas",
+        "image_path": "./data/svt/image/img_0567.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0568.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "street",
+        "image_path": "./data/svt/image/img_0569.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "center",
+        "image_path": "./data/svt/image/img_0570.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "university",
+        "image_path": "./data/svt/image/img_0571.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "asu",
+        "image_path": "./data/svt/image/img_0572.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "days",
+        "image_path": "./data/svt/image/img_0573.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "inn",
+        "image_path": "./data/svt/image/img_0574.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sheraton",
+        "gt_answers": "sheraton",
+        "image_path": "./data/svt/image/img_0575.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "avante",
+        "image_path": "./data/svt/image/img_0576.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "florist",
+        "image_path": "./data/svt/image/img_0577.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "gardens",
+        "image_path": "./data/svt/image/img_0578.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "school",
+        "image_path": "./data/svt/image/img_0579.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "floral",
+        "image_path": "./data/svt/image/img_0580.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "design",
+        "image_path": "./data/svt/image/img_0581.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "starbucks",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0582.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "starbucks",
+        "image_path": "./data/svt/image/img_0583.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "cvs",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0584.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0585.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0586.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0587.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "pharmacy",
+        "gt_answers": "pharmacy",
+        "image_path": "./data/svt/image/img_0588.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0589.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cvs",
+        "image_path": "./data/svt/image/img_0590.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "barnsley",
+        "gt_answers": "barnsley",
+        "image_path": "./data/svt/image/img_0591.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "tire",
+        "gt_answers": "tire",
+        "image_path": "./data/svt/image/img_0592.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cafe",
+        "image_path": "./data/svt/image/img_0593.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "soleil",
+        "image_path": "./data/svt/image/img_0594.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0595.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0596.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "centre",
+        "gt_answers": "centre",
+        "image_path": "./data/svt/image/img_0597.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "circle",
+        "image_path": "./data/svt/image/img_0598.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "automotive",
+        "gt_answers": "automotive",
+        "image_path": "./data/svt/image/img_0599.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "diego",
+        "image_path": "./data/svt/image/img_0600.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0601.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "san",
+        "gt_answers": "san",
+        "image_path": "./data/svt/image/img_0602.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "common",
+        "image_path": "./data/svt/image/img_0603.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "threads",
+        "image_path": "./data/svt/image/img_0604.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "hatsu",
+        "image_path": "./data/svt/image/img_0605.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "sushi",
+        "gt_answers": "sushi",
+        "image_path": "./data/svt/image/img_0606.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0607.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0608.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "art",
+        "image_path": "./data/svt/image/img_0609.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "museum",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0610.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "museum",
+        "image_path": "./data/svt/image/img_0611.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "timken",
+        "image_path": "./data/svt/image/img_0612.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "timken",
+        "image_path": "./data/svt/image/img_0613.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bar",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0614.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "bar",
+        "gt_answers": "bar",
+        "image_path": "./data/svt/image/img_0615.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "central",
+        "gt_answers": "central",
+        "image_path": "./data/svt/image/img_0616.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "central",
+        "image_path": "./data/svt/image/img_0617.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "station",
+        "gt_answers": "station",
+        "image_path": "./data/svt/image/img_0618.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "station bar",
+        "gt_answers": "station",
+        "image_path": "./data/svt/image/img_0619.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "pasada",
+        "image_path": "./data/svt/image/img_0620.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "uptown",
+        "image_path": "./data/svt/image/img_0621.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "village",
+        "image_path": "./data/svt/image/img_0622.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "massa",
+        "image_path": "./data/svt/image/img_0623.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "hertz",
+        "gt_answers": "hertz",
+        "image_path": "./data/svt/image/img_0624.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "courtyard",
+        "image_path": "./data/svt/image/img_0625.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "jimmy",
+        "gt_answers": "jimmy",
+        "image_path": "./data/svt/image/img_0626.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "john",
+        "gt_answers": "john",
+        "image_path": "./data/svt/image/img_0627.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "chocolate",
+        "gt_answers": "chocolate",
+        "image_path": "./data/svt/image/img_0628.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "moose",
+        "gt_answers": "moose",
+        "image_path": "./data/svt/image/img_0629.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lounge",
+        "gt_answers": "lounge",
+        "image_path": "./data/svt/image/img_0630.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "anthropologie",
+        "image_path": "./data/svt/image/img_0631.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "colonial",
+        "gt_answers": "colonial",
+        "image_path": "./data/svt/image/img_0632.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0633.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "bookstore",
+        "image_path": "./data/svt/image/img_0634.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "city",
+        "image_path": "./data/svt/image/img_0635.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "city",
+        "image_path": "./data/svt/image/img_0636.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lights",
+        "gt_answers": "lights",
+        "image_path": "./data/svt/image/img_0637.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "lights",
+        "gt_answers": "lights",
+        "image_path": "./data/svt/image/img_0638.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "enterprise",
+        "image_path": "./data/svt/image/img_0639.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "embassy",
+        "image_path": "./data/svt/image/img_0640.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cheuvront",
+        "image_path": "./data/svt/image/img_0641.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "cheuvront",
+        "image_path": "./data/svt/image/img_0642.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "restaurant",
+        "image_path": "./data/svt/image/img_0643.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "eagle",
+        "image_path": "./data/svt/image/img_0644.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "eagle",
+        "image_path": "./data/svt/image/img_0645.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "",
+        "gt_answers": "medical",
+        "image_path": "./data/svt/image/img_0646.jpg",
+        "model_name": "BLIP2"
+    },
+    {
+        "question": "what is written in the image?",
+        "answer": "medical",
+        "gt_answers": "medical",
+        "image_path": "./data/svt/image/img_0647.jpg",
+        "model_name": "BLIP2"
+    }
+]
