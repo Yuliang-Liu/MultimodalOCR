@@ -49,6 +49,9 @@ eval on one dataset
 ```Shell
 python eval.py --model_name LLaVA --eval_TextVQA
 ```
+```Shell
+python eval.py --model_name LLaVA --eval_ocr --ocr_dataset_name "ct80 IIIT5K"
+```
 The results will be saved at answer folder.
 
 If you want to add a new model, please write its inference function under the folder "models", and update the get_model function in eval.py.
