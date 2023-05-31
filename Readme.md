@@ -51,7 +51,7 @@ python eval.py --model_name LLaVA --eval_TextVQA
 ```
 The results will be saved at answer folder.
 
-If you want to add a new model, please write its inference function under the "model" folder, and update the get_model function in eval.py.
+If you want to add a new model, please write its inference function under the folder "models", and update the get_model function in eval.py.
 
 ```Shell
 import torch
