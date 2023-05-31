@@ -13,7 +13,9 @@ results are available in answer_save folder
 ![image](https://github.com/echo840/MultimodalOCR/assets/87795401/523e0421-7eca-4d15-89f1-3f7348321055)
 
 # Dataset Download
+code:iwyn [text recognition](https://pan.baidu.com/s/1Ba950d94u8RQmtqvkLBk-A)
 
+TextVQA, KIE and HME will be updata soon
 
 # Usage
 
