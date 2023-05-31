@@ -21,8 +21,9 @@ eval on all datasets
 python eval.py --model_name LLaVA --eval_all
 ```
 
-eval on all datasets
+eval on one dataset
 ```Shell
-python eval.py --model_name LLaVA --eval_all
+python eval.py --model_name LLaVA --eval_TextVQA
 ```
 
+if you want to add a new model, 
