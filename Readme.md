@@ -54,7 +54,7 @@ python eval.py --model_name LLaVA --eval_ocr --ocr_dataset_name "ct80 IIIT5K"
 ```
 The results will be saved at answer folder.
 
-If you want to add a new model, please write its inference function under the folder "models", and update the get_model function in eval.py.
+If you want to add a new model, please write its inference function under the folder "models", and update the get_model function in eval.py. An example inference code is as follows：
 
 ```Shell
 import torch
@@ -86,3 +86,5 @@ class lavis:
         answer = self.model.predict_answers(samples={"image": image, "text_input": prompt}, inference_method="generate", max_len=48, min_len=1)[0]
         return answer
 ```
+
+# Related Projects
