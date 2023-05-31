@@ -31,7 +31,7 @@ data
 |_ IC15_1811
 |_ ...
 |_ ESTVQA
-|_ TextVQA
+|_ textVQA
 |_ ...
 |_ FUNSD
 |_ POIE
@@ -47,7 +47,7 @@ python eval.py --model_name LLaVA --eval_all
 
 eval on one dataset
 ```Shell
-python eval.py --model_name LLaVA --eval_TextVQA
+python eval.py --model_name LLaVA --eval_textVQA
 ```
 ```Shell
 python eval.py --model_name LLaVA --eval_ocr --ocr_dataset_name "ct80 IIIT5K"
