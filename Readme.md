@@ -1,7 +1,6 @@
 # On the Hidden Mystery of OCR in Large Multimodal Models
 [paper link] https://arxiv.org/abs/2305.07895
 
-
 Updating the instruction of evaluating large multimodal models on ocr tasks.
 
 Feel free to open issues for any suggestion or comment.
@@ -47,5 +46,7 @@ eval on one dataset
 ```Shell
 python eval.py --model_name LLaVA --eval_TextVQA
 ```
-The results will be saved at answer folder.
-if you want to add a new model, 
+The results will be saved at answer folder, 
+
+If you want to add a new model, please write its inference function under the "model" folder, and update the get_model function in eval.py.
+
