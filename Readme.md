@@ -16,8 +16,10 @@ Visualization results
 ![rvk](https://github.com/echo840/MultimodalOCR/assets/87795401/21982aba-d063-4a52-a045-8d16e0e98f71)
 
 
-# Dataset Download
-Text recognition datasets: [text recognition](https://pan.baidu.com/s/1Ba950d94u8RQmtqvkLBk-A) code:iwyn 
+# Data Download
+| Data file | Size |
+| --- | ---: |
+|[text recognition](https://pan.baidu.com/s/1Ba950d94u8RQmtqvkLBk-A) code:iwyn | 1.37GB |
 
 TextVQA, KIE and HME will be updated soon.
 
