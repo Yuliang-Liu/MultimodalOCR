@@ -87,4 +87,4 @@ class lavis:
 - [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4.git)
 - [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl.git)
 - [OpenFlamingo](https://github.com/mlfoundations/open_flamingo.git)
-- [Lavis](https://github.com/salesforce/LAVIS.git)
+- [LAVIS](https://github.com/salesforce/LAVIS.git)
