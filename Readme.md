@@ -1,9 +1,4 @@
-# On the Hidden Mystery of OCR in Large Multimodal Models
-[paper link] https://arxiv.org/abs/2305.07895
-
-Updating the instruction of evaluating large multimodal models on ocr tasks.
-
-Feel free to open issues for any suggestion or comment.
+[Paper](https://arxiv.org/pdf/2305.07895.pdf).
 
 # Results
 
