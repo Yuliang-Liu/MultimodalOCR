@@ -1,4 +1,4 @@
-[Paper](https://arxiv.org/pdf/2305.07895.pdf).
+[Paper](https://arxiv.org/pdf/2305.07895.pdf). The online evaluation pipeline is scheduled to release. 
 
 # Results
 
