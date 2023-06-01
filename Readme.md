@@ -2,7 +2,7 @@
 
 # Results
 
-Results are available in answer_save folder. 
+Results are available in answer_save folder. It should be noted that for BLIP2OPT, when using the inference code on Hugging Face, the accuracy of text recognition is high, but the model outputs nothing for the VQA tasks. Conversely, when using the LAVIS library for inference, the accuracy of text recognition is low, while the VQA accuracy is normal. We believe that the inference process of BLIP2OPT still needs to be optimized. In our experiments, we take the maximum value of the two methods as the final result.
 
 ![image](https://github.com/echo840/MultimodalOCR/assets/87795401/523e0421-7eca-4d15-89f1-3f7348321055)
 
