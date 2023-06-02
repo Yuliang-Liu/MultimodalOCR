@@ -17,6 +17,7 @@ Visualization results
 |[text recognition](https://pan.baidu.com/s/1Ba950d94u8RQmtqvkLBk-A) code:iwyn | 1.37GB |
 |[STVQA](https://rrc.cvc.uab.es/?ch=11&com=downloads) End-to-End Task-3 and Training images|1.88GB|
 |[ocrVQA](https://drive.google.com/drive/folders/1_GYPY5UkUy7HIcR0zq3ZCFgeZN7BAfm_)|--|
+|[textVQA](https://textvqa.org/dataset/) val set|6.6GB|
 |[docVQA](https://rrc.cvc.uab.es/?ch=17&com=downloads) Task 1 Validation set|0.8GB|
 |[ESTVQA](https://cloudstor.aarnet.edu.au/plus/s/LSishuuSE5DBKJp)|5.2GB|
 |[SROIE](https://rrc.cvc.uab.es/?ch=13&com=downloads) Task 3 test set|0.19GB|
