@@ -1,4 +1,6 @@
-[Paper](https://arxiv.org/pdf/2305.07895.pdf). The online evaluation pipeline is scheduled to release. 
+[[arXiv 2305.07895]](https://arxiv.org/pdf/2305.07895.pdf) On the Hidden Mystery of OCR in Large Multimodal Models.
+
+We conducted a comprehensive study of existing publicly available multimodal models, evaluating their performance in text recognition (document text, artistic text, handwritten text, scene text), text-based visual question answering (document text, scene text, and bilingual text), key information extraction (receipts, documents, and nutrition facts) and handwritten mathematical expression recognition. The baseline results showcased in this study could provide a foundational framework for the conception and assessment of innovative strategies targeted at enhancing zero-shot multimodal techniques. Online evaluation DEMO is available at this [link](http://124.220.17.244:7860/). 
 
 # Results
 
