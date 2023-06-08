@@ -20,7 +20,7 @@ Visualization results
 |[textVQA](https://textvqa.org/dataset/) val set|6.6GB|
 |[docVQA](https://rrc.cvc.uab.es/?ch=17&com=downloads) Task 1 Validation set|0.8GB|
 |[ESTVQA](https://cloudstor.aarnet.edu.au/plus/s/LSishuuSE5DBKJp)|5.2GB|
-|[SROIE](https://rrc.cvc.uab.es/?ch=13&com=downloads) Task 3 test set|0.19GB|
+|[SROIE](https://rrc.cvc.uab.es/?ch=13&com=downloads)|0.19GB|
 |[FUNSD](https://guillaumejaume.github.io/FUNSD/download/)|16MB|
 |[POIE](https://drive.google.com/file/d/1eEMNiVeLlD-b08XW_GfAGfPmmII-GDYs/view)|0.43GB|
 |[HME100K](https://ai.100tal.com/openData/formulaRecognition)|0.69GB|
