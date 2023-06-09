@@ -27,6 +27,7 @@ Visualization results
 |[FUNSD](https://guillaumejaume.github.io/FUNSD/download/)|16MB|
 |[POIE](https://drive.google.com/file/d/1eEMNiVeLlD-b08XW_GfAGfPmmII-GDYs/view)|0.43GB|
 |[HME100K](https://ai.100tal.com/openData/formulaRecognition)|0.69GB|
+|[Google cloud](https://drive.google.com/drive/folders/1plgZf4XIuiOGjx4b17E1rvTA2UKpZRe1?usp=drive_link)|9.38GB|
 
 
 We assume that your symlinked `data` directory has the following structure:
