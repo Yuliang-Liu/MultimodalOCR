@@ -6,11 +6,12 @@ We conducted a comprehensive study of existing publicly available multimodal mod
 
 Results are available in answer_save folder. It should be noted that for BLIP2OPT, when using the inference code on Hugging Face, the accuracy of text recognition is high, but the model outputs nothing for the VQA tasks. Conversely, when using the LAVIS library for inference, the accuracy of text recognition is low, while the VQA accuracy is normal. We believe that the inference process of BLIP2OPT still needs to be optimized. In our experiments, we take the maximum value of the two methods as the final result.
 
-![image](https://github.com/echo840/MultimodalOCR/assets/87795401/523e0421-7eca-4d15-89f1-3f7348321055)
+![table](https://github.com/echo840/MultimodalOCR/assets/87795401/b7cb6ab7-2e6c-462c-84ae-41b9d209ce48)
 
 Visualization results
+![修改](https://github.com/echo840/MultimodalOCR/assets/87795401/b74ff847-534c-49ca-a31e-8f8854380a34)
 
-![rvk](https://github.com/echo840/MultimodalOCR/assets/87795401/21982aba-d063-4a52-a045-8d16e0e98f71)
+![Multilingualism](https://github.com/echo840/MultimodalOCR/assets/87795401/8bf5c8ab-bec7-4b77-b2bb-7a319975a762)
 
 
 # Data Download
@@ -27,7 +28,6 @@ Visualization results
 |[POIE](https://drive.google.com/file/d/1eEMNiVeLlD-b08XW_GfAGfPmmII-GDYs/view)|0.43GB|
 |[HME100K](https://ai.100tal.com/openData/formulaRecognition)|0.69GB|
 
-TextVQA, KIE and HME will be updated soon.
 
 We assume that your symlinked `data` directory has the following structure:
 
