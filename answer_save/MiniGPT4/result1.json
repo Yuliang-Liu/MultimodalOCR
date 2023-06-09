@@ -11,5 +11,6 @@
     "HOST": 0.34519867549668876,
     "WOST": 0.4105960264900662,
     "WordArt":0.514228987425546,
+    "IAM": 0.289,
     "help":"we replace all special chars with \" \" instead of \"\", which is useful for MiniGPT4."
 }
