@@ -7,35 +7,36 @@ class SROIEDataset(Dataset):
         self,
         dir_path= "./data/SROIE",
     ):
+        dir_path = dir_path+'/ann'
         self.image_list = []
         self.question_list = []
         self.answer_list = []
         for file_name in os.listdir(dir_path):
             if file_name.endswith(".txt") and '(' not in file_name:
                 file_path = os.path.join(dir_path, file_name)
-                img_path = file_path.replace('.txt', '.jpg')
+                img_path = file_path.replace('.txt', '.jpg').replace('ann','image')
                 with open(file_path) as f:
                     content = f.read()
                     info = json.loads(content)
                     if 'company' in info.keys():
-                        self.question_list.append("what is the name of the company that issued this invoice?")#llava 0.12
+                        self.question_list.append("what is the name of the company that issued this receipt?")#llava 0.12
                         #self.question_list.append("what is the company information in the image?")#llava 0.08
                         self.answer_list.append(info['company'])
                         self.image_list.append(img_path)
                     if 'date' in info.keys():
-                        self.question_list.append("when was this invoice issued?")
+                        self.question_list.append("when was this receipt issued?")
                         #self.question_list.append("what is the date information in the image?")
                         self.answer_list.append(info['date'])
                         self.image_list.append(img_path)
 
                     if 'address' in info.keys():
-                        self.question_list.append("where was this invoice issued?")
+                        self.question_list.append("where was this receipt issued?")
                         #self.question_list.append("what is the address information in the image?")
                         self.answer_list.append(info['address'])
                         self.image_list.append(img_path)
 
                     if 'total' in info.keys():
-                        self.question_list.append("what is the total amount of this invoice?")
+                        self.question_list.append("what is the total amount of this receipt?")
                         #self.question_list.append("what is the total information in the image?")
                         self.answer_list.append(info['total'])
                         self.image_list.append(img_path)

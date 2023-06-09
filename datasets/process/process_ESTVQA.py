@@ -5,8 +5,8 @@ def has_chinese_characters(string):
     pattern = re.compile(r'[\u4e00-\u9fa5]')
     return bool(pattern.search(string))
 if __name__ == "__main__":
-    ann_file = "/home/zhangli/GPT4/MutimodelOCR/data/ESTVQA/annotations/train.json"
-    img_file = "/home/zhangli/GPT4/MutimodelOCR/data/ESTVQA/images/train"
+    ann_file = "/home/zhangli/OCRData/data/TextVQA/ESTVQA/annotations/train.json"
+    #img_file = "/home/zhangli/GPT4/MutimodelOCR/data/ESTVQA/images/train"
     cn_list = []
     en_list= []
     with open(ann_file,'r') as f:
