@@ -22,5 +22,16 @@ You can find the results of Large Multimodal Models in **[OCRBench Leaderboard](
 
 <img src="./images/GPT4V_Gemini.png" width="96%" height="96%">
 
+# Evaluation
+The test code for the testing models can be found in [scripts](./scripts). If you want to evaluate other models, please edit the "TODO" things in [example](./example.py).
+
+Example evaluation scripts:
+```python
+
+python ./scripts/monkey.py --image_folder ./data --OCRBench_file ./OCRBench/OCRBench.json --save_name Monkey_OCRBench --num_workers GPU_Nums # Test on OCRBench
+python ./scripts/monkey.py --image_folder ./data --OCRBench_file ./OCRBench/FullTest.json --save_name Monkey_FullTest --num_workers GPU_Nums # Full Test
+
+```
+
 
 
