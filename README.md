@@ -23,7 +23,7 @@ You can find the results of Large Multimodal Models in **[OCRBench Leaderboard](
 <img src="./images/GPT4V_Gemini.png" width="96%" height="96%">
 
 # Evaluation
-The test code for the testing models in paper can be found in [scripts](./scripts). If you want to evaluate other models, please edit the "TODO" things in [example](./example.py).
+The test code for evaluating models in the paper can be found in [scripts](./scripts). If you want to evaluate other models, please edit the "TODO" things in [example](./example.py).
 
 Example evaluation scripts:
 ```python
