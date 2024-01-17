@@ -33,5 +33,18 @@ python ./scripts/monkey.py --image_folder ./data --OCRBench_file ./OCRBench/Full
 
 ```
 
+# Citation
+If you wish to refer to the baseline results published here, please use the following BibTeX entries:
+```BibTeX
+@misc{liu2023hidden,
+      title={On the Hidden Mystery of OCR in Large Multimodal Models}, 
+      author={Yuliang Liu and Zhang Li and Hongliang Li and Wenwen Yu and Yang Liu and Biao Yang and Mingxin Huang and Dezhi Peng and Mingyu Liu and Mingrui Chen and Chunyuan Li and Xucheng Yin and Cheng-lin Liu and Lianwen Jin and Xiang Bai},
+      year={2023},
+      eprint={2305.07895},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 
 
