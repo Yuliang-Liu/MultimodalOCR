@@ -18,12 +18,12 @@
 
 OCRBench is a comprehensive evaluation benchmark designed to assess the OCR capabilities of Large Multimodal Models. It comprises five components: Text Recognition, SceneText-Centric VQA, Document-Oriented VQA, Key Information Extraction, and Handwritten Mathematical Expression Recognition. The benchmark includes 1000 question-answer pairs, and all the answers undergo manual verification and correction to ensure a more precise evaluation. 
 
-You can find the results of Large Multimodal Models in **[OCRBench Leaderboard](http://27.18.7.167:7682/)**, if you would like to include your model in the OCRBench leaderboard, please follow the evaluation instructions provided on Evaluation and feel free to contact us via email at zhangli123@hust.edu.cn. We will update the leaderboard in time.
+You can find the results of Large Multimodal Models in **[OCRBench Leaderboard](http://27.18.7.167:7682/)**, if you would like to include your model in the OCRBench leaderboard, please follow the evaluation instructions provided below and feel free to contact us via email at zhangli123@hust.edu.cn. We will update the leaderboard in time.
 
 <img src="./images/GPT4V_Gemini.png" width="96%" height="96%">
 
 # Evaluation
-The test code for the testing models can be found in [scripts](./scripts). If you want to evaluate other models, please edit the "TODO" things in [example](./example.py).
+The test code for the testing models in paper can be found in [scripts](./scripts). If you want to evaluate other models, please edit the "TODO" things in [example](./example.py).
 
 Example evaluation scripts:
 ```python
