@@ -9,10 +9,10 @@
 | Data | Link | Description |
 | --- | --- | --- |
 | Full Test Json | [Full Test](./OCRBench/FullTest.json) | This file contains the test data used in Table 1 and Table 2 from [Paper](https://arxiv.org/abs/2305.07895). |
-| OCRBench Json | [Full Test](./OCRBench/OCRBench.json) | This file contains the test data in OCRBench used in Table3 from [Paper](https://arxiv.org/abs/2305.07895). |
-| Full Test Images |[Full Images](https://drive.google.com/file/d/1U5AtLoJ7FrJe9yfcbssfeLmlKb7dTosc/view?usp=drive_link) | This file contains all the testing images used in [Paper](https://arxiv.org/abs/2305.07895), including OCRBench Images.|
+| OCRBench Json | [OCRBench](./OCRBench/OCRBench.json) | This file contains the test data in OCRBench used in Table3 from [Paper](https://arxiv.org/abs/2305.07895). |
+| All Test Images |[All Images](https://drive.google.com/file/d/1U5AtLoJ7FrJe9yfcbssfeLmlKb7dTosc/view?usp=drive_link) | This file contains all the testing images used in [Paper](https://arxiv.org/abs/2305.07895), including OCRBench Images.|
 | OCRBench Images | [OCRBench Images](https://drive.google.com/file/d/1a3VRJx3V3SdOmPr7499Ky0Ug8AwqGUHO/view?usp=drive_link) | This file only contains the images used in OCRBench. |
-| Test Results | [Test Results](https://drive.google.com/drive/folders/15XlHCuNTavI1Ihqm4G7u3J34BHpkaqyE?usp=drive_link) | This file file contains the result files for the testiong models. |
+| Test Results | [Test Results](https://drive.google.com/drive/folders/15XlHCuNTavI1Ihqm4G7u3J34BHpkaqyE?usp=drive_link) | This file file contains the result files for the test models. |
 
 # OCRBench
 
@@ -36,10 +36,10 @@ python ./scripts/monkey.py --image_folder ./data --OCRBench_file ./OCRBench/Full
 # Citation
 If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
-@misc{liu2023hidden,
+@misc{liu2024hidden,
       title={On the Hidden Mystery of OCR in Large Multimodal Models}, 
-      author={Yuliang Liu and Zhang Li and Hongliang Li and Wenwen Yu and Yang Liu and Biao Yang and Mingxin Huang and Dezhi Peng and Mingyu Liu and Mingrui Chen and Chunyuan Li and Xucheng Yin and Cheng-lin Liu and Lianwen Jin and Xiang Bai},
-      year={2023},
+      author={Yuliang Liu and Zhang Li and Biao Yang and Chunyuan Li and Xucheng Yin and Cheng-lin Liu and Lianwen Jin and Xiang Bai},
+      year={2024},
       eprint={2305.07895},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
