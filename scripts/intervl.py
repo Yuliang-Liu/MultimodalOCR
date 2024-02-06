@@ -8,14 +8,12 @@ from PIL import Image
 import math
 import multiprocessing
 from multiprocessing import Pool, Queue, Manager
+from PIL import Image
+from transformers import AutoModel, CLIPImageProcessor
+from transformers import AutoTokenizer
 
-from transformers import TextStreamer
-from mplug_owl2.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
-from mplug_owl2.conversation import conv_templates, SeparatorStyle
-from mplug_owl2.model.builder import load_pretrained_model
-from mplug_owl2.mm_utils import process_images, tokenizer_image_token, get_model_name_from_path, KeywordsStoppingCriteria
+#https://github.com/OpenGVLab/InternVL
 
-# https://github.com/X-PLUG/mPLUG-Owl/tree/main/mPLUG-Owl2
 def split_list(lst, n):
     length = len(lst)
     avg = length // n  # 每份的大小
@@ -34,11 +32,9 @@ def _get_args():
     parser.add_argument("--image_folder", type=str, default="./OCRBench_Images")
     parser.add_argument("--output_folder", type=str, default="./results")
     parser.add_argument("--OCRBench_file", type=str, default="./OCRBench/OCRBench.json")
-    parser.add_argument("--model_path", type=str, default="./model_weights/mplug-owl2")
-    parser.add_argument("--save_name", type=str, default="mplug-owl2")
-    parser.add_argument("--conv_mode", type=str, default="mplug_owl2")
-    parser.add_argument("--num_workers", type=int, default=8)
-    parser.add_argument("--temperature", type=float, default=0.0)
+    parser.add_argument("--model_path", type=str, default='OpenGVLab/InternVL-Chat-Chinese-V1-1')#TODO Set the address of your model's weights
+    parser.add_argument("--save_name", type=str, default="InternVL-Chat-Chinese-V1-1") #TODO Set the name of the JSON file you save in the output_folder.
+    parser.add_argument("--num_workers", type=int, default=1)
     args = parser.parse_args()
     return args
 
@@ -52,43 +48,33 @@ num_all = {"IIIT5K":0,"svt":0,"IC13_857":0,"IC15_1811":0,"svtp":0,"ct80":0,"coco
 
 def eval_worker(args, data, eval_id, output_queue):
     print(f"Process {eval_id} start.")
-    model_name = get_model_name_from_path(args.model_path)
-    tokenizer, model, image_processor, context_len = load_pretrained_model(args.model_path, None, model_name, load_8bit=False, load_4bit=False, device=f"cuda:{eval_id}")
+    checkpoint = args.model_path
+    model = AutoModel.from_pretrained(
+    checkpoint,
+    torch_dtype=torch.bfloat16,
+    low_cpu_mem_usage=True,
+    trust_remote_code=True,
+    device_map='cuda').eval()
+
+    tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+    
     for i in tqdm(range(len(data))):
         img_path = os.path.join(args.image_folder, data[i]['image_path'])
         qs = data[i]['question']
-        if data[i].get("predict", 0)!=0:
-            print(f"{img_path} predict exist, continue.")
-            continue
-        conv = conv_templates[args.conv_mode].copy()
-        roles = conv.roles
         image = Image.open(img_path).convert('RGB')
-        max_edge = max(image.size) # We recommand you to resize to squared image for BEST performance.
-        image = image.resize((max_edge, max_edge))
-        image_tensor = process_images([image], image_processor)
-        image_tensor = image_tensor.to(model.device, dtype=torch.float16)
+        image = image.resize((448, 448))
+        image_processor = CLIPImageProcessor.from_pretrained(checkpoint)
 
-        inp = DEFAULT_IMAGE_TOKEN + qs
-        conv.append_message(conv.roles[0], inp)
-        conv.append_message(conv.roles[1], None)
-        prompt = conv.get_prompt()
-        input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(model.device)
-        stop_str = conv.sep2
-        keywords = [stop_str]
-        stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
-        streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
-        with torch.inference_mode():
-            output_ids = model.generate(
-                input_ids,
-                images=image_tensor,
-                do_sample=False,
-                temperature=args.temperature,
-                max_new_tokens=100,
-                streamer=streamer,
-                use_cache=True,
-                stopping_criteria=[stopping_criteria])
-        outputs = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()    
-        data[i]['predict'] = outputs
+        pixel_values = image_processor(images=image, return_tensors='pt').pixel_values
+        pixel_values = pixel_values.to(torch.bfloat16).cuda()
+
+        generation_config = dict(
+            num_beams=1,
+            max_new_tokens=512,
+            do_sample=False,
+        )
+        response = model.chat(tokenizer, pixel_values, qs, generation_config)
+        data[i]['predict'] = response
     output_queue.put({eval_id: data})
     print(f"Process {eval_id} has completed.")
 
@@ -106,6 +92,7 @@ if __name__=="__main__":
         data = json.load(f)
     
     data_list = split_list(data, args.num_workers)
+
     output_queue = Manager().Queue()
 
     pool = Pool(processes=args.num_workers)

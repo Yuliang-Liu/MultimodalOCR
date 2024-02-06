@@ -23,7 +23,7 @@ def save_json(json_list,save_path):
         json.dump(json_list, file,indent=4)
 def _get_args():
     parser = ArgumentParser()
-    parser.add_argument("--image_folder", type=str, default="./data")
+    parser.add_argument("--image_folder", type=str, default="./OCRBench_Images")
     parser.add_argument("--output_path", type=str, default="./results")
     parser.add_argument("--OCRBench_file", type=str, default="./OCRBench/OCRBench.json")
     parser.add_argument("--OPENAI_API_KEY", type=str, default="")
