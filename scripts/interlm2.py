@@ -49,7 +49,7 @@ def eval_worker(args, data, eval_id, output_queue):
     torch.set_grad_enabled(False)
 
     # init model and tokenizer
-    model = AutoModel.from_pretrained(checkpoint, trust_remote_code=True).cuda().eval()
+    model = AutoModel.from_pretrained(checkpoint, trust_remote_code=True,device_map=f'cuda:{eval_id}').eval()
     tokenizer = AutoTokenizer.from_pretrained(checkpoint, trust_remote_code=True)
 
     for i in tqdm(range(len(data))):
