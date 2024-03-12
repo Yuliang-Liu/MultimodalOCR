@@ -29,7 +29,7 @@ def _get_args():
     parser.add_argument("--image_folder", type=str, default="./OCRBench_Images")
     parser.add_argument("--output_folder", type=str, default="./results")
     parser.add_argument("--OCRBench_file", type=str, default="./OCRBench/OCRBench.json")
-    parser.add_argument("--model_path", type=str, default="./model_weights/qwenvl")
+    parser.add_argument("--model_path", type=str, default="Qwen/Qwen-VL")
     parser.add_argument("--save_name", type=str, default="qwenvl")
     parser.add_argument("--num_workers", type=int, default=1)
     args = parser.parse_args()
