@@ -30,6 +30,8 @@ You can find the results of Large Multimodal Models in **[OCRBench Leaderboard](
 # Evaluation
 The test code for evaluating models in the paper can be found in [scripts](./scripts). Before conducting the evaluation, you need to configure the model weights and environment based on the official code link provided in the scripts. If you want to evaluate other models, please edit the "TODO" things in [example](./example.py).
 
+You can also use [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) for evaluation.
+
 Example evaluation scripts:
 ```python
 
