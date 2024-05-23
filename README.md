@@ -50,6 +50,8 @@ python ./scripts/monkey.py --image_folder ./OCRBench_Images --OCRBench_file ./OC
 | Swahili Dataset (ICDAR 2024) | [Link](https://arxiv.org/abs/2405.11437) | The First Swahili Language Scene Text Detection and Recognition Dataset. |
 | Urdu Dataset (ICDAR 2024) | [Link](https://arxiv.org/abs/2405.12533) | Dataset and Benchmark for Urdu Natural Scenes Text Detection, Recognition and Visual Question Answering. |
 | MTVQA (9 languages) | [Link](https://arxiv.org/abs/2405.11985) | MTVQA: Benchmarking Multilingual Text-Centric Visual Question Answering. |
+| EVOBC (Oracle Bone Script Evolution Dataset) | [Link](https://figshare.com/s/ce2cf55b35a2f8ecc4c6) | We systematically collected ancient characters from authoritative texts and websites spanning six historical stages. |
+| HUST-OBC (Oracle Bone Script Character Dataset) | [Link](https://figshare.com/s/8a9c0420312d94fc01e3) | For deciphering oracle bone script characters. |
 
 # Citation
 If you wish to refer to the baseline results published here, please use the following BibTeX entries:
