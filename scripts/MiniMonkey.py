@@ -195,9 +195,9 @@ def eval_worker(args, data, eval_id, output_queue):
         image_path = os.path.join(args.image_folder, data[i]['image_path'])
         qs = data[i]['question']
 
-        pixel_values, target_aspect_ratio = load_image(image_path, min_num=9, max_num=24)
+        pixel_values, target_aspect_ratio = load_image(image_path, min_num=12, max_num=24)
         pixel_values = pixel_values.to(f'cuda:{eval_id}').to(torch.bfloat16)
-        pixel_values2 = load_image2(image_path, target_aspect_ratio=target_aspect_ratio, min_num=5, max_num=8)
+        pixel_values2 = load_image2(image_path, target_aspect_ratio=target_aspect_ratio, min_num=3, max_num=11)
         pixel_values2 = pixel_values2.to(f'cuda:{eval_id}').to(torch.bfloat16)
         pixel_values = torch.cat((pixel_values[:-1],  pixel_values2[:-1], pixel_values[-1:]), 0)
 
