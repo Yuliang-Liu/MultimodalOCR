@@ -162,7 +162,7 @@ def save_json(json_list,save_path):
 def _get_args():
     parser = ArgumentParser()
     parser.add_argument("--image_folder", type=str, default="./OCRBench_Images")
-    parser.add_argument("--output_folder", type=str, default="./resutls")
+    parser.add_argument("--output_folder", type=str, default="./results")
     parser.add_argument("--OCRBench_file", type=str, default="./OCRBench/OCRBench.json")
     parser.add_argument("--model_path", type=str, default='mx262/MiniMokney')#TODO Set the address of your model's weights
     parser.add_argument("--save_name", type=str, default="MiniMokney") #TODO Set the name of the JSON file you save in the output_folder.
