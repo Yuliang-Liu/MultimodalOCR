@@ -2,7 +2,7 @@
 
 > Scoring the Optical Character Recognition (OCR) capabilities of Large Multimodal Models (LMMs) has witnessed growing interest recently. Existing benchmarks have highlighted the impressive performance of LMMs in text recognition; however, their abilities in certain challenging tasks, such as text localization, handwritten content extraction, and logical reasoning, remain underexplored. To bridge this gap, we introduce OCRBench v2, a large-scale bilingual text-centric benchmark with currently the most comprehensive set of tasks (4X more tasks than the previous multi-scene benchmark OCRBench), the widest coverage of scenarios (31 diverse scenarios including street scene, receipt, formula, diagram, and so on), and thorough evaluation metrics, with a total of 10,000 human-verified question-answering pairs and a high proportion of difficult samples. After carefully benchmarking state-of-the-art LMMs on OCRBench v2, we find that 36 out of 38 LMMs score below 50 (100 in total) and suffer from five-type limitations, including less frequently encountered text recognition, fine-grained perception, layout perception, complex element parsing, and logical reasoning.
 
-**[Project Page](https://github.com/Yuliang-Liu/MultimodalOCR)** | **Paper(Coming soon)** | **[OCRBench Leaderboard](https://huggingface.co/spaces/ling99/OCRBench-v2-leaderboard)**
+**[Project Page](https://github.com/Yuliang-Liu/MultimodalOCR)** | **Paper(Coming soon)** | **[OCRBench v2 Leaderboard](https://huggingface.co/spaces/ling99/OCRBench-v2-leaderboard)**
 
 <p align="center">
     <img src="https://v1.ax1x.com/2024/12/30/7VhCnP.jpg" width="88%" height="80%">
