@@ -68,13 +68,13 @@ python ./eval_scripts/get_score.py --json_file ./res_folder/internvl2_5_26b.json
 ## Performance of LMMs on English subsets
 
 <p align="center">
-    <img src="https://v1.ax1x.com/2024/12/30/7VG0YQ.png" width="88%" height="60%">
+    <img src="https://v1.ax1x.com/2024/12/30/7VGFm4.png" width="88%" height="60%">
 <p>
 
-## Performance of LMMs on English subsets
+## Performance of LMMs on Chinese subsets
 
 <p align="center">
-    <img src="https://v1.ax1x.com/2024/12/30/7VGLgO.png" width="88%" height="60%">
+    <img src="https://v1.ax1x.com/2024/12/30/7VGZ8h.png" width="88%" height="60%">
 <p>
 
 # Copyright Statement
