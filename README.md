@@ -38,17 +38,27 @@
 If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @article{Liu_2024,
-   title={OCRBench: on the hidden mystery of OCR in large multimodal models},
-   volume={67},
-   ISSN={1869-1919},
-   url={http://dx.doi.org/10.1007/s11432-024-4235-6},
-   DOI={10.1007/s11432-024-4235-6},
-   number={12},
-   journal={Science China Information Sciences},
-   publisher={Springer Science and Business Media LLC},
-   author={Liu, Yuliang and Li, Zhang and Huang, Mingxin and Yang, Biao and Yu, Wenwen and Li, Chunyuan and Yin, Xu-Cheng and Liu, Cheng-Lin and Jin, Lianwen and Bai, Xiang},
-   year={2024},
-   month=dec }
+    title={OCRBench: on the hidden mystery of OCR in large multimodal models},
+    volume={67},
+    ISSN={1869-1919},
+    url={http://dx.doi.org/10.1007/s11432-024-4235-6},
+    DOI={10.1007/s11432-024-4235-6},
+    number={12},
+    journal={Science China Information Sciences},
+    publisher={Springer Science and Business Media LLC},
+    author={Liu, Yuliang and Li, Zhang and Huang, Mingxin and Yang, Biao and Yu, Wenwen and Li, Chunyuan and Yin, Xu-Cheng and Liu, Cheng-Lin and Jin, Lianwen and Bai, Xiang},
+    year={2024},
+    month=dec }
+  
+@misc{fu2024ocrbenchv2improvedbenchmark,
+    title={OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning}, 
+    author={Ling Fu and Biao Yang and Zhebin Kuang and Jiajun Song and Yuzhe Li and Linghao Zhu and Qidi Luo and Xinyu Wang and Hao Lu and Mingxin Huang and Zhang Li and Guozhi Tang and Bin Shan and Chunhui Lin and Qi Liu and Binghong Wu and Hao Feng and Hao Liu and Can Huang and Jingqun Tang and Wei Chen and Lianwen Jin and Yuliang Liu and Xiang Bai},
+    year={2024},
+    eprint={2501.00321},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2501.00321}, 
+}
 ```
 
 
