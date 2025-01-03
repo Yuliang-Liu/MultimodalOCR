@@ -41,17 +41,17 @@ python ./scripts/monkey.py --image_folder ./OCRBench_Images --OCRBench_file ./OC
 If you wish to refer to the baseline results published here, please use the following BibTeX entries:
 ```BibTeX
 @article{Liu_2024,
-   title={OCRBench: on the hidden mystery of OCR in large multimodal models},
-   volume={67},
-   ISSN={1869-1919},
-   url={http://dx.doi.org/10.1007/s11432-024-4235-6},
-   DOI={10.1007/s11432-024-4235-6},
-   number={12},
-   journal={Science China Information Sciences},
-   publisher={Springer Science and Business Media LLC},
-   author={Liu, Yuliang and Li, Zhang and Huang, Mingxin and Yang, Biao and Yu, Wenwen and Li, Chunyuan and Yin, Xu-Cheng and Liu, Cheng-Lin and Jin, Lianwen and Bai, Xiang},
-   year={2024},
-   month=dec }
+    title={OCRBench: on the hidden mystery of OCR in large multimodal models},
+    volume={67},
+    ISSN={1869-1919},
+    url={http://dx.doi.org/10.1007/s11432-024-4235-6},
+    DOI={10.1007/s11432-024-4235-6},
+    number={12},
+    journal={Science China Information Sciences},
+    publisher={Springer Science and Business Media LLC},
+    author={Liu, Yuliang and Li, Zhang and Huang, Mingxin and Yang, Biao and Yu, Wenwen and Li, Chunyuan and Yin, Xu-Cheng and Liu, Cheng-Lin and Jin, Lianwen and Bai, Xiang},
+    year={2024},
+    month=dec }
 ```
 
 
