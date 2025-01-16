@@ -7,6 +7,7 @@
 
 
 # Data
+To reduce false positives, we filter out questions that have answers containing fewer than 4 symbols from all datasets.
 | Data | Link | Description |
 | --- | --- | --- |
 | Full Test Json | [Full Test](./OCRBench/FullTest.json) | This file contains the test data used in Table 1 and Table 2 from [Paper](https://arxiv.org/abs/2305.07895). |
