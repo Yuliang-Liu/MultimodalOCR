@@ -359,7 +359,7 @@ def process_predictions(input_path, output_path):
                 total_len += 1
                 mean_score += item["score"]
         
-        mean_score = mean_score / total_len
+        mean_score = mean_score / total_len if total_len > 0 else 0
         print(f"Task {task_name}, total instructions: {total_len}, average score: {mean_score:.3f}\n")
 
     with open(output_path, 'w', encoding='utf-8') as file:
