@@ -6,7 +6,6 @@
 <h1 align="center">
 OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning
 </h1>
-
   
 [![Leaderboard](https://img.shields.io/badge/Leaderboard-OCRBenchV2-blue.svg)](https://99franklin.github.io/ocrbench_v2/)
 [![arXiv](https://img.shields.io/badge/Arxiv-OCRBenchV2-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321)
@@ -21,8 +20,8 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 > Ling Fu, Zhebin Kuang, Jiajun Song, Mingxin Huang, Biao Yang, Yuzhe Li, Linghao Zhu, Qidi Luo, Xinyu Wang, Hao Lu, Zhang Li, Guozhi Tang, Bin Shan, Chunhui Lin, Qi Liu, Binghong Wu, Hao Feng, Hao Liu, Can Huang, Jingqun Tang, Wei Chen, Lianwen Jin, Yuliang Liu, Xiang Bai <br>
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321) 
 [![Source_code](https://img.shields.io/badge/Code-Available-white)](README.md)
-[![dataset](https://img.shields.io/badge/HuggingFace-gray)](https://arxiv.org/abs/2501.00321)
-[![dataset](https://img.shields.io/badge/Google Drive-green)](https://drive.google.com/file/d/1Hk1TMu--7nr5vJ7iaNwMQZ_Iw9W_KI3C/view?usp=sharing)
+[![dataset](https://img.shields.io/badge/HuggingFace-gray)](https://huggingface.co/datasets/ling99/OCRBench_v2)
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-green?logo=google-drive)](https://drive.google.com/file/d/1Hk1TMu--7nr5vJ7iaNwMQZ_Iw9W_KI3C/view?usp=sharing)
 
 
 
