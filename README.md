@@ -1,5 +1,3 @@
-# OCRBench & OCRBench v2
-
 **This is the repository of the [OCRBench](./OCRBench/README.md) & [OCRBench v2](./OCRBench_v2/README.md).**
 
 <div align="center" xmlns="http://www.w3.org/1999/html">
