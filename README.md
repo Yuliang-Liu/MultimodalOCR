@@ -19,7 +19,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 > **OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning**<br>
 > Ling Fu, Zhebin Kuang, Jiajun Song, Mingxin Huang, Biao Yang, Yuzhe Li, Linghao Zhu, Qidi Luo, Xinyu Wang, Hao Lu, Zhang Li, Guozhi Tang, Bin Shan, Chunhui Lin, Qi Liu, Binghong Wu, Hao Feng, Hao Liu, Can Huang, Jingqun Tang, Wei Chen, Lianwen Jin, Yuliang Liu, Xiang Bai <br>
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321) 
-[![dataset](https://img.shields.io/badge/HuggingFace-Dataset-gray?logo=huggingface)](https://huggingface.co/datasets/ling99/OCRBench_v2)
+[![dataset](https://img.shields.io/badge/HuggingFace-Download-green?logo=huggingface)](https://huggingface.co/datasets/ling99/OCRBench_v2)
 [![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-green?logo=google-drive)](https://drive.google.com/file/d/1Hk1TMu--7nr5vJ7iaNwMQZ_Iw9W_KI3C/view?usp=sharing)
 
 
