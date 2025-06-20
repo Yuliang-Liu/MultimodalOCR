@@ -13,7 +13,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 [![HuggingFace](https://img.shields.io/badge/dataset-black.svg?logo=HuggingFace)](https://huggingface.co/datasets/ling99/OCRBench_v2)
 [![GitHub issues](https://img.shields.io/github/issues/Yuliang-Liu/MultimodalOCR?color=critical&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aopen+is%3Aissue)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/Yuliang-Liu/MultimodalOCR?color=success&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub views](https://komarev.com/ghpvc/?username=Yuliang-Liu&repo=OCRBenchV2&color=brightgreen&label=Views)](https://github.com/Yuliang-Liu/MultimodalOCR)
+[![GitHub views](https://komarev.com/ghpvc/?username=Yuliang-Liu&repo=MultimodalOCR&color=brightgreen&label=Views)](https://github.com/Yuliang-Liu/MultimodalOCR)
 </div>
 
 
