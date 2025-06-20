@@ -8,12 +8,12 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 </h1>
 
   
-[![Leaderboard](https://99franklin.github.io/ocrbench_v2/)
-[![arXiv](https://img.shields.io/badge/Arxiv-MonkeyOCR-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace%20Weights-black.svg?logo=HuggingFace)](https://huggingface.co/datasets/ling99/OCRBench_v2)
-[![GitHub issues](https://img.shields.io/github/issues/Yuliang-Liu/MonkeyOCR?color=critical&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/Yuliang-Liu/MonkeyOCR?color=success&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aissue%20state%3Aclosed)
-[![GitHub views](https://komarev.com/ghpvc/?username=Yuliang-Liu&repo=MonkeyOCR&color=brightgreen&label=Views)](https://github.com/Yuliang-Liu/MultimodalOCR)
+[![Leaderboard(https://img.shields.io/badge/Leaderboard-OCRBenchV2-blue.svg)]](https://99franklin.github.io/ocrbench_v2/)
+[![arXiv](https://img.shields.io/badge/Arxiv-OCRBenchV2-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321)
+[![HuggingFace](https://img.shields.io/badge/dataset-black.svg?logo=HuggingFace)](https://huggingface.co/datasets/ling99/OCRBench_v2)
+[![GitHub issues](https://img.shields.io/github/issues/Yuliang-Liu/MultimodalOCR?color=critical&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/Yuliang-Liu/MultimodalOCR?color=success&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub views](https://komarev.com/ghpvc/?username=Yuliang-Liu&repo=OCRBenchV2&color=brightgreen&label=Views)](https://github.com/Yuliang-Liu/MultimodalOCR)
 </div>
 
 
@@ -22,7 +22,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321) 
 [![Source_code](https://img.shields.io/badge/Code-Available-white)](README.md)
 [![dataset](https://img.shields.io/badge/HuggingFace-gray)](https://arxiv.org/abs/2501.00321)
-[![ataset](https://img.shields.io/badge/Google Drive-green)](https://drive.google.com/file/d/1Hk1TMu--7nr5vJ7iaNwMQZ_Iw9W_KI3C/view?usp=sharing)
+[![dataset](https://img.shields.io/badge/Google Drive-green)](https://drive.google.com/file/d/1Hk1TMu--7nr5vJ7iaNwMQZ_Iw9W_KI3C/view?usp=sharing)
 
 
 
