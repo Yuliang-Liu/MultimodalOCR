@@ -30,7 +30,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 > **OCRBench: On the Hidden Mystery of OCR in Large Multimodal Models**<br>
 > Yuliang Liu, Zhang Li, Mingxin Huang, Biao Yang, Wenwen Yu, Chunyuan Li, Xucheng Yin, Cheng-lin Liu, Lianwen Jin, Xiang Bai <br>
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2305.07895) 
-[![Dataset](https://img.shields.io/badge/Dataset-Available-lightblue)](https://github.com/qywh2023/OCRbench/blob/main/OCRBench/README.md)
+[![Dataset](https://img.shields.io/badge/Dataset-Available-green)](https://github.com/qywh2023/OCRbench/blob/main/OCRBench/README.md)
 
 
 **OCRBench** is a comprehensive evaluation benchmark designed to assess the OCR capabilities of Large Multimodal Models. It comprises five components: Text Recognition, SceneText-Centric VQA, Document-Oriented VQA, Key Information Extraction, and Handwritten Mathematical Expression Recognition. The benchmark includes 1000 question-answer pairs, and all the answers undergo manual verification and correction to ensure a more precise evaluation. More details can be found in [OCRBench README](./OCRBench/README.md).
