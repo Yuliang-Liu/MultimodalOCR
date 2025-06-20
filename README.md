@@ -5,7 +5,7 @@
 OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning
 </h1>
   
-[![🏆 Leaderboard](https://img.shields.io/badge/Leaderboard-OCRBenchV2-blue.svg?logo=trophy)](https://99franklin.github.io/ocrbench_v2/)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-OCRBenchV2-blue.svg?logo=google-analytics)](https://99franklin.github.io/ocrbench_v2/)
 [![arXiv](https://img.shields.io/badge/Arxiv-OCRBenchV2-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2501.00321)
 [![HuggingFace](https://img.shields.io/badge/dataset-black.svg?logo=HuggingFace)](https://huggingface.co/datasets/ling99/OCRBench_v2)
 [![GitHub issues](https://img.shields.io/github/issues/Yuliang-Liu/MultimodalOCR?color=critical&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aopen+is%3Aissue)
