@@ -21,23 +21,17 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 [![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-green?logo=google-drive)](https://drive.google.com/file/d/1Hk1TMu--7nr5vJ7iaNwMQZ_Iw9W_KI3C/view?usp=sharing)
 
 
+**OCRBench v2** is a large-scale bilingual text-centric benchmark with currently the most comprehensive set of tasks (4× more tasks than the previous multi-scene benchmark OCRBench), the widest coverage of scenarios (31 diverse scenarios including street scene, receipt, formula, diagram, and so on), and thorough evaluation metrics, with a total of 10, 000 human-verified question-answering pairs and a high proportion of difficult samples. More details can be found in [OCRBench v2 README](./OCRBench_v2/README.md).
 
-
-# OCRBench & OCRBench v2
-
-**This is the repository of the [OCRBench](./OCRBench/README.md) & [OCRBench v2](./OCRBench_v2/README.md).**
+<p align="center">
+    <img src="https://v1.ax1x.com/2024/12/30/7VhCnP.jpg" width="88%" height="80%">
+<p>
 
 **OCRBench** is a comprehensive evaluation benchmark designed to assess the OCR capabilities of Large Multimodal Models. It comprises five components: Text Recognition, SceneText-Centric VQA, Document-Oriented VQA, Key Information Extraction, and Handwritten Mathematical Expression Recognition. The benchmark includes 1000 question-answer pairs, and all the answers undergo manual verification and correction to ensure a more precise evaluation. More details can be found in [OCRBench README](./OCRBench/README.md).
 
 <p align="center">
   <img src="./OCRBench/images/all_data.png" width="88%" height="80%">
 </p>
-
-**OCRBench v2** is a large-scale bilingual text-centric benchmark with currently the most comprehensive set of tasks (4× more tasks than the previous multi-scene benchmark OCRBench), the widest coverage of scenarios (31 diverse scenarios including street scene, receipt, formula, diagram, and so on), and thorough evaluation metrics, with a total of 10, 000 human-verified question-answering pairs and a high proportion of difficult samples. More details can be found in [OCRBench v2 README](./OCRBench_v2/README.md).
-
-<p align="center">
-    <img src="https://v1.ax1x.com/2024/12/30/7VhCnP.jpg" width="88%" height="80%">
-<p>
 
 # News 
 * ```2024.12.31``` 🚀 [OCRBench v2](./OCRBench_v2/README.md) is released.
