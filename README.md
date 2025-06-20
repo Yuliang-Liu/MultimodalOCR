@@ -10,7 +10,6 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 [![HuggingFace](https://img.shields.io/badge/dataset-black.svg?logo=HuggingFace)](https://huggingface.co/datasets/ling99/OCRBench_v2)
 [![GitHub issues](https://img.shields.io/github/issues/Yuliang-Liu/MultimodalOCR?color=critical&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aopen+is%3Aissue)
 [![GitHub closed issues](https://img.shields.io/github/issues-closed/Yuliang-Liu/MultimodalOCR?color=success&label=Issues)](https://github.com/Yuliang-Liu/MultimodalOCR/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub views](https://komarev.com/ghpvc/?username=Yuliang-Liu&repo=MultimodalOCR&color=brightgreen&label=Views)](https://github.com/Yuliang-Liu/MultimodalOCR)
 </div>
 
 
@@ -40,6 +39,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 </p>
 
 # News 
+* ```2025.6.21``` 🚀 We realese the private dataset of OCRBench v2 and  will update [Leaderboard](https://99franklin.github.io/ocrbench_v2/) every quarter.
 * ```2024.12.31``` 🚀 [OCRBench v2](./OCRBench_v2/README.md) is released.
 * ```2024.12.11``` 🚀 OCRBench has been accepted by [Science China Information Sciences](https://link.springer.com/article/10.1007/s11432-024-4235-6).
 * ```2024.5.19 ``` 🚀 We realese [DTVQA](https://github.com/ShuoZhang2003/DT-VQA), to explore the Capabilities of Large Multimodal Models on Dense Text.
