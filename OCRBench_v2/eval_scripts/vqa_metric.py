@@ -93,7 +93,7 @@ def cn_vqa_evaluation(predict, answers):
     else:
         answers = answers.lower().strip().replace("\n"," ").replace(" ", "")
         predict = predict.lower().strip().replace("\n"," ").replace(" ", "")
-        if len(answer.split(",")) < 4:
+        if len(answers.split(",")) < 4:
             if answers in predict:
                 score = 1
             else:
@@ -197,7 +197,7 @@ def counting_evaluation(predict, answers, eval_method):
         score = temp_score
 
     else:
-        answers = answers.lower().strip().replace("\n"," ")
+        answer = answers.lower().strip().replace("\n"," ")
         predict = predict.lower().strip().replace("\n"," ")
         if eval_method == "exact match":
             if answer in predict:
