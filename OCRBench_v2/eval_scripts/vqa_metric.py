@@ -53,14 +53,14 @@ def vqa_evaluation(predict, answers):
         if len(answers.split()) < 5:
             if answers in predict:
                 score = 1
-            else:
-                dist = levenshtein_distance(predict, answers)
-                length = max(len(predict), len(answers))
-                ANLS_value = 0.0 if length == 0 else float(dist) / float(length)
-                ANLS_value = 1 - ANLS_value
+        else:
+            dist = levenshtein_distance(predict, answers)
+            length = max(len(predict), len(answers))
+            ANLS_value = 0.0 if length == 0 else float(dist) / float(length)
+            ANLS_value = 1 - ANLS_value
 
-                if ANLS_value >= 0.5 and ANLS_value > score:
-                    score = ANLS_value
+            if ANLS_value >= 0.5 and ANLS_value > score:
+                score = ANLS_value
     
     return score
 
