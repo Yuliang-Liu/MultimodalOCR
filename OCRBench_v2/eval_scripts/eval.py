@@ -306,7 +306,7 @@ def process_predictions(input_path, output_path):
                 ) / 4
         elif data_item["type"] == "full-page OCR en":
             if not data_item["predict"]:
-                data_item["score"] == 0
+                data_item["score"] = 0
             else:
                 ocr_metric = cal_per_metrics(data_item["predict"], data_item["answers"][0])
                 data_item["score"] = (
