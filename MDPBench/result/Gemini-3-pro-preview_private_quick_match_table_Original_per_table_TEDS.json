@@ -1,0 +1,1170 @@
+{
+    "fr_magazine_49_indoor_light_top_wrinkle_shadow_[0]": {
+        "TEDS": 0.9398148148148148,
+        "TEDS_structure_only": 1.0
+    },
+    "fr_magazine_49_indoor_light_top_wrinkle_shadow_[1]": {
+        "TEDS": 0.9606481481481481,
+        "TEDS_structure_only": 1.0
+    },
+    "fr_magazine_49_indoor_light_top_bend-in_wrinkle_[0]": {
+        "TEDS": 0.9814814814814815,
+        "TEDS_structure_only": 1.0
+    },
+    "fr_magazine_49_indoor_light_top_bend-in_wrinkle_[1]": {
+        "TEDS": 0.9606481481481481,
+        "TEDS_structure_only": 1.0
+    },
+    "fr_magazine_49_[0]": {
+        "TEDS": 0.9814814814814815,
+        "TEDS_structure_only": 1.0
+    },
+    "fr_magazine_49_[1]": {
+        "TEDS": 0.9606481481481481,
+        "TEDS_structure_only": 1.0
+    },
+    "fr_magazine_49_outdoor_light_top_bend-in_wrinkle_[0]": {
+        "TEDS": 0.9814814814814815,
+        "TEDS_structure_only": 1.0
+    },
+    "fr_magazine_49_outdoor_light_top_bend-in_wrinkle_[1]": {
+        "TEDS": 0.9606481481481481,
+        "TEDS_structure_only": 1.0
+    },
+    "pt_magazine_25_[0]": {
+        "TEDS": 0.972972972972973,
+        "TEDS_structure_only": 0.972972972972973
+    },
+    "pt_magazine_25_outdoor_light_top_shadow_bend-in_crease_[0]": {
+        "TEDS": 0.9488320370673312,
+        "TEDS_structure_only": 0.972972972972973
+    },
+    "pt_magazine_25_indoor_light_top_crease_[0]": {
+        "TEDS": 0.9496269496269496,
+        "TEDS_structure_only": 0.972972972972973
+    },
+    "pt_magazine_25_indoor_light_oblique_shadow_bend-in_[0]": {
+        "TEDS": 0.972972972972973,
+        "TEDS_structure_only": 0.972972972972973
+    },
+    "en_newspaper_23_[0]": {
+        "TEDS": 0.09090909090909094,
+        "TEDS_structure_only": 0.5227272727272727
+    },
+    "en_newspaper_23_[1]": {
+        "TEDS": 0.7363981829851838,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_23_indoor_light_top_wrinkle_blur_[0]": {
+        "TEDS": 0.23107794367495027,
+        "TEDS_structure_only": 0.5
+    },
+    "en_newspaper_23_indoor_light_top_wrinkle_blur_[1]": {
+        "TEDS": 0.7528850505377214,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_23_indoor_light_top_bend-out_blur_[0]": {
+        "TEDS": 0.09090909090909094,
+        "TEDS_structure_only": 0.2272727272727273
+    },
+    "en_newspaper_23_indoor_light_top_bend-out_blur_[1]": {
+        "TEDS": 0.7455237509183884,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_23_outdoor_light_down_wrinkle_[0]": {
+        "TEDS": 0.09090909090909094,
+        "TEDS_structure_only": 0.5227272727272727
+    },
+    "en_newspaper_23_outdoor_light_down_wrinkle_[1]": {
+        "TEDS": 0.7519900522195853,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_22_indoor_light_top_bend-in_[0]": {
+        "TEDS": 0.9095584751738286,
+        "TEDS_structure_only": 0.9866666666666667
+    },
+    "en_newspaper_22_indoor_light_top_bend-in_[1]": {
+        "TEDS": 0.9162291183221786,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_22_indoor_light_top_crease_[0]": {
+        "TEDS": 0.9307295469527245,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_22_indoor_light_top_crease_[1]": {
+        "TEDS": 0.9218971174446915,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_22_[0]": {
+        "TEDS": 0.9499641020503573,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_22_[1]": {
+        "TEDS": 0.9467399523476623,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_22_outdoor_light_left_crease_[0]": {
+        "TEDS": 0.8669448814293976,
+        "TEDS_structure_only": 0.9571428571428572
+    },
+    "en_newspaper_22_outdoor_light_left_crease_[1]": {
+        "TEDS": 0.9219451431888545,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_24_[0]": {
+        "TEDS": 0.8841927462177985,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_24_indoor_irregular-light_top_[0]": {
+        "TEDS": 0.8892294894457654,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_24_indoor_irregular-light_top_crease_[0]": {
+        "TEDS": 0.8580906056711505,
+        "TEDS_structure_only": 1.0
+    },
+    "en_newspaper_24_outdoor_light_left_crease_[0]": {
+        "TEDS": 0.876611382252216,
+        "TEDS_structure_only": 1.0
+    },
+    "en_paper_43_indoor_light_top_bend-in_[0]": {
+        "TEDS": 0.4189507280645052,
+        "TEDS_structure_only": 0.5714285714285714
+    },
+    "en_paper_43_indoor_irregular-light_top_[0]": {
+        "TEDS": 0.429104789689155,
+        "TEDS_structure_only": 0.5714285714285714
+    },
+    "en_paper_43_outdoor_underexposure_flashlight-on_top_blur_[0]": {
+        "TEDS": 0.429104789689155,
+        "TEDS_structure_only": 0.5714285714285714
+    },
+    "en_paper_43_[0]": {
+        "TEDS": 0.9442110177404295,
+        "TEDS_structure_only": 1.0
+    },
+    "en_paper_44_indoor_light_down_bend-in_[0]": {
+        "TEDS": 0.5529752053003116,
+        "TEDS_structure_only": 0.7593984962406015
+    },
+    "en_paper_44_indoor_light_down_blur_[0]": {
+        "TEDS": 0.2039930368272178,
+        "TEDS_structure_only": 0.368421052631579
+    },
+    "en_paper_44_outdoor_underexposure_flashlight-on_down_blur_[0]": {
+        "TEDS": 0.20353259549216107,
+        "TEDS_structure_only": 0.368421052631579
+    },
+    "en_paper_44_[0]": {
+        "TEDS": 0.5639413236259212,
+        "TEDS_structure_only": 0.7293233082706767
+    },
+    "zh_slide_47_indoor_light_top_screen_[0]": {
+        "TEDS": 0.9985119047619048,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_slide_47_[0]": {
+        "TEDS": 0.9627976190476191,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_slide_47_indoor_light_shadow_down_wrinkle_[0]": {
+        "TEDS": 0.9866071428571429,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_slide_47_indoor_light_shadow_right_wrinkle_[0]": {
+        "TEDS": 0.9955357142857143,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_exampaper_37_indoor_light_top_crease_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_exampaper_37_indoor_light_right_wrinkle_[0]": {
+        "TEDS": 0.1875,
+        "TEDS_structure_only": 0.375
+    },
+    "zh_exampaper_37_indoor_light_top_screen_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_exampaper_37_[0]": {
+        "TEDS": 0.375,
+        "TEDS_structure_only": 0.625
+    },
+    "zh_note_13_[0]": {
+        "TEDS": 0.3906688790096212,
+        "TEDS_structure_only": 0.475
+    },
+    "zh_note_13_indoor_light_top_bend-out_[0]": {
+        "TEDS": 0.19477796202693332,
+        "TEDS_structure_only": 0.30000000000000004
+    },
+    "zh_note_13_indoor_light_top_wrinkle_bend-in_[0]": {
+        "TEDS": 0.1981138761759471,
+        "TEDS_structure_only": 0.30000000000000004
+    },
+    "zh_note_13_outdoor_light_down_wrinkle_bend-in_[0]": {
+        "TEDS": 0.19305473988400812,
+        "TEDS_structure_only": 0.30000000000000004
+    },
+    "zh_financialpaper_4_indoor_light_top_bend-out_[0]": {
+        "TEDS": 0.8,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_financialpaper_4_[0]": {
+        "TEDS": 0.8,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_financialpaper_4_indoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.7692307692307692,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_financialpaper_4_outdoor_underexposure_flashlight-off_top_wrinkle_bend-in_[0]": {
+        "TEDS": 0.6307692307692307,
+        "TEDS_structure_only": 0.9692307692307692
+    },
+    "zh_textbook_50_indoor_light_top_[0]": {
+        "TEDS": 0.7692307692307692,
+        "TEDS_structure_only": 0.7692307692307692
+    },
+    "zh_textbook_50_indoor_light_top_[1]": {
+        "TEDS": 0.9282407407407407,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_textbook_50_[0]": {
+        "TEDS": 0.9,
+        "TEDS_structure_only": 0.9
+    },
+    "zh_textbook_50_[1]": {
+        "TEDS": 0.9279471544715447,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_textbook_50_outdoor_light_left_[0]": {
+        "TEDS": 0.9,
+        "TEDS_structure_only": 0.9
+    },
+    "zh_textbook_50_outdoor_light_left_[1]": {
+        "TEDS": 0.9847560975609756,
+        "TEDS_structure_only": 1.0
+    },
+    "zh_textbook_50_indoor_light_top_bend-in_[0]": {
+        "TEDS": 0.9,
+        "TEDS_structure_only": 0.9
+    },
+    "zh_textbook_50_indoor_light_top_bend-in_[1]": {
+        "TEDS": 0.9837962962962963,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_outdoor_light_top_crease_bend-in_[0]": {
+        "TEDS": 0.912037037037037,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_outdoor_light_top_crease_bend-in_[1]": {
+        "TEDS": 0.984375,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_[0]": {
+        "TEDS": 0.912037037037037,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_[1]": {
+        "TEDS": 0.984375,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_indoor_light_down_crease_[0]": {
+        "TEDS": 0.912037037037037,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_indoor_light_down_crease_[1]": {
+        "TEDS": 0.984375,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_indoor_light_top_crease_bend-in_[0]": {
+        "TEDS": 0.6302910052910053,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_24_indoor_light_top_crease_bend-in_[1]": {
+        "TEDS": 0.9754464285714286,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_25_[0]": {
+        "TEDS": 0.9368253968253968,
+        "TEDS_structure_only": 1.0
+    },
+    "hi_book_25_indoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.4285714285714286,
+        "TEDS_structure_only": 0.4571428571428572
+    },
+    "hi_book_25_outdoor_light_left_bend-in_wrinkle_[0]": {
+        "TEDS": 0.4642857142857143,
+        "TEDS_structure_only": 0.5857142857142856
+    },
+    "hi_book_25_indoor_light_down_bend-out_[0]": {
+        "TEDS": 0.5428571428571429,
+        "TEDS_structure_only": 0.6
+    },
+    "de_financialreport_24_indoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.6349206349206349,
+        "TEDS_structure_only": 0.6666666666666667
+    },
+    "de_financialreport_24_indoor_light_top_wrinkle_[1]": {
+        "TEDS": 0.7831688311688312,
+        "TEDS_structure_only": 0.84
+    },
+    "de_financialreport_24_indoor_light_top_oblique_[0]": {
+        "TEDS": 0.6349206349206349,
+        "TEDS_structure_only": 0.6666666666666667
+    },
+    "de_financialreport_24_indoor_light_top_oblique_[1]": {
+        "TEDS": 0.7755260942760943,
+        "TEDS_structure_only": 1.0
+    },
+    "de_financialreport_24_[0]": {
+        "TEDS": 0.6349206349206349,
+        "TEDS_structure_only": 0.6666666666666667
+    },
+    "de_financialreport_24_[1]": {
+        "TEDS": 0.9916666666666667,
+        "TEDS_structure_only": 1.0
+    },
+    "de_financialreport_24_outdoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.6349206349206349,
+        "TEDS_structure_only": 0.6666666666666667
+    },
+    "de_financialreport_24_outdoor_light_top_wrinkle_[1]": {
+        "TEDS": 0.7902777777777777,
+        "TEDS_structure_only": 0.8333333333333334
+    },
+    "hi_book_9_outdoor_underexposure_flashlight-on_right_crease_[0]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "hi_book_9_[0]": {
+        "TEDS": 0.9189321686375982,
+        "TEDS_structure_only": 0.9565217391304348
+    },
+    "hi_book_9_indoor_light_top_crease_[0]": {
+        "TEDS": 0.8251823326722577,
+        "TEDS_structure_only": 0.8695652173913043
+    },
+    "hi_book_9_indoor_light_top_crease_bend-in_[0]": {
+        "TEDS": 0.7100334153702814,
+        "TEDS_structure_only": 0.75
+    },
+    "id_academicpaper_34_outdoor_light_shadow_top_wrinkle_[0]": {
+        "TEDS": 0.8475246894391149,
+        "TEDS_structure_only": 0.9191919191919192
+    },
+    "id_academicpaper_34_[0]": {
+        "TEDS": 0.9370743217057114,
+        "TEDS_structure_only": 1.0
+    },
+    "id_academicpaper_34_indoor_light_shadow_right_bend-in_[0]": {
+        "TEDS": 0.9378012883417689,
+        "TEDS_structure_only": 1.0
+    },
+    "id_academicpaper_34_indoor_light_shadow_top_bend-in_[0]": {
+        "TEDS": 0.9350541196855093,
+        "TEDS_structure_only": 1.0
+    },
+    "id_financialreport_11_indoor_light_top_shadow_[0]": {
+        "TEDS": 0.9635470139989842,
+        "TEDS_structure_only": 0.9672131147540983
+    },
+    "id_financialreport_11_[0]": {
+        "TEDS": 0.9541529734351291,
+        "TEDS_structure_only": 0.9672131147540983
+    },
+    "id_financialreport_11_indoor_light_top_bend-in_[0]": {
+        "TEDS": 0.8677038814082062,
+        "TEDS_structure_only": 0.9672131147540983
+    },
+    "id_financialreport_11_outdoor_light_top_shadow_bend-in_[0]": {
+        "TEDS": 0.5250135328919333,
+        "TEDS_structure_only": 0.6557377049180328
+    },
+    "id_newspaper_44_[0]": {
+        "TEDS": 0.8623321123321124,
+        "TEDS_structure_only": 1.0
+    },
+    "id_newspaper_44_indoor_light_top_crease_bend-in_blur_[0]": {
+        "TEDS": 0.8591269841269842,
+        "TEDS_structure_only": 1.0
+    },
+    "id_newspaper_44_outdoor_light_left_blur_[0]": {
+        "TEDS": 0.8418192918192918,
+        "TEDS_structure_only": 1.0
+    },
+    "id_newspaper_44_indoor_light_top_crease_blur_[0]": {
+        "TEDS": 0.8623321123321124,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_[0]": {
+        "TEDS": 0.9923076923076923,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_[1]": {
+        "TEDS": 0.9821428571428571,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_indoor_light_top_bend-out_[0]": {
+        "TEDS": 0.9923076923076923,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_indoor_light_top_bend-out_[1]": {
+        "TEDS": 0.9821428571428571,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_outdoor_underexposure_flashlight-on_top_[0]": {
+        "TEDS": 0.9923076923076923,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_outdoor_underexposure_flashlight-on_top_[1]": {
+        "TEDS": 0.9821428571428571,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_indoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.9923076923076923,
+        "TEDS_structure_only": 1.0
+    },
+    "id_textbook_21_indoor_light_top_wrinkle_[1]": {
+        "TEDS": 0.9821428571428571,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_indoor_light_top_hold_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_indoor_light_top_hold_[1]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_[1]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_outdoor_light_left_wrinkle_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_outdoor_light_left_wrinkle_[1]": {
+        "TEDS": 0.95,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_indoor_light_top_bend-in_blur_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "it_academicpaper_36_indoor_light_top_bend-in_blur_[1]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "it_financialreport_14_indoor_light_top_bend-in_wrinkle_[0]": {
+        "TEDS": 0.8782568319544884,
+        "TEDS_structure_only": 0.8959854014598541
+    },
+    "it_financialreport_14_indoor_light_shadow_top_blur_[0]": {
+        "TEDS": 0.897546493503082,
+        "TEDS_structure_only": 0.9251824817518248
+    },
+    "it_financialreport_14_[0]": {
+        "TEDS": 0.9122131256927646,
+        "TEDS_structure_only": 0.9215328467153284
+    },
+    "it_financialreport_14_outdoor_light_shadow_top_wrinkle_hold_[0]": {
+        "TEDS": 0.7311782345157298,
+        "TEDS_structure_only": 0.9124087591240876
+    },
+    "it_financialreport_15_indoor_light_top_screen_[0]": {
+        "TEDS": 0.85290586574567,
+        "TEDS_structure_only": 0.9027777777777778
+    },
+    "it_financialreport_15_outdoor_light_top_[0]": {
+        "TEDS": 0.8344034695450674,
+        "TEDS_structure_only": 0.905829596412556
+    },
+    "it_financialreport_15_indoor_light_top_[0]": {
+        "TEDS": 0.8291676149140343,
+        "TEDS_structure_only": 0.905829596412556
+    },
+    "it_financialreport_15_[0]": {
+        "TEDS": 0.8951212845971427,
+        "TEDS_structure_only": 0.966824644549763
+    },
+    "jp_academicpaper_35_indoor_light_top_shadow_wrinkle_[0]": {
+        "TEDS": 0.7013888888888888,
+        "TEDS_structure_only": 0.7037037037037037
+    },
+    "jp_academicpaper_35_indoor_light_top_shadow_wrinkle_[1]": {
+        "TEDS": 0.7132582188609353,
+        "TEDS_structure_only": 0.7419354838709677
+    },
+    "jp_academicpaper_35_[0]": {
+        "TEDS": 0.9962225274725275,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_academicpaper_35_[1]": {
+        "TEDS": 0.9880915524104379,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_academicpaper_35_indoor_underexposure_flashlight-on_top_wrinkle_bend-in_blur_[0]": {
+        "TEDS": 0.9222883597883598,
+        "TEDS_structure_only": 0.9259259259259259
+    },
+    "jp_academicpaper_35_indoor_underexposure_flashlight-on_top_wrinkle_bend-in_blur_[1]": {
+        "TEDS": 0.922218782249742,
+        "TEDS_structure_only": 0.9333333333333333
+    },
+    "jp_academicpaper_35_indoor_light_shadow_top_bend-out_[0]": {
+        "TEDS": 0.9962225274725275,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_academicpaper_35_indoor_light_shadow_top_bend-out_[1]": {
+        "TEDS": 0.9880915524104379,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_exampaper_26_indoor_light_top_wrinkle_bend-in_[0]": {
+        "TEDS": 0.5763888888888888,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_exampaper_26_[0]": {
+        "TEDS": 0.875,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_exampaper_26_outdoor_underexposure_flashlight-off_oblique_shadow_wrinkle_[0]": {
+        "TEDS": 0.4930555555555557,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_exampaper_26_indoor_light_top_bend-out_[0]": {
+        "TEDS": 0.875,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_financialreport_14_indoor_light_shadow_top_crease_[0]": {
+        "TEDS": 0.9358506154886246,
+        "TEDS_structure_only": 0.9615384615384616
+    },
+    "jp_financialreport_14_indoor_light_shadow_top_crease_[1]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_financialreport_14_[0]": {
+        "TEDS": 0.8972188183680119,
+        "TEDS_structure_only": 0.9484848484848485
+    },
+    "jp_financialreport_14_[1]": {
+        "TEDS": 0.8424908424908425,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_financialreport_14_indoor_light_shadow_top_bend-in_crease_[0]": {
+        "TEDS": 0.9337602802236449,
+        "TEDS_structure_only": 0.9606060606060606
+    },
+    "jp_financialreport_14_indoor_light_shadow_top_bend-in_crease_[1]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_financialreport_14_outdoor_light_top_crease_[0]": {
+        "TEDS": 0.9177668446073354,
+        "TEDS_structure_only": 0.9447852760736196
+    },
+    "jp_financialreport_14_outdoor_light_top_crease_[1]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_note_43_[0]": {
+        "TEDS": 0.32434656644095705,
+        "TEDS_structure_only": 0.4193548387096774
+    },
+    "jp_note_43_[1]": {
+        "TEDS": 0.7324542595769011,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_note_43_indoor_light_top_bend-in_crease_[0]": {
+        "TEDS": 0.3240993531316112,
+        "TEDS_structure_only": 0.4193548387096774
+    },
+    "jp_note_43_indoor_light_top_bend-in_crease_[1]": {
+        "TEDS": 0.7173433048433049,
+        "TEDS_structure_only": 0.9166666666666666
+    },
+    "jp_note_43_indoor_light_right_crease_[0]": {
+        "TEDS": 0.2924378635642517,
+        "TEDS_structure_only": 0.3870967741935484
+    },
+    "jp_note_43_indoor_light_right_crease_[1]": {
+        "TEDS": 0.8852201911092646,
+        "TEDS_structure_only": 1.0
+    },
+    "jp_note_43_outdoor_light_shadow_left_crease_bend-in_[0]": {
+        "TEDS": 0.34685050919287097,
+        "TEDS_structure_only": 0.5806451612903225
+    },
+    "jp_note_43_outdoor_light_shadow_left_crease_bend-in_[1]": {
+        "TEDS": 0.8682171387073347,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_academicpaper_37_[0]": {
+        "TEDS": 0.9861111111111112,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_academicpaper_37_indoor_underexposure_flashlight-on_top_[0]": {
+        "TEDS": 0.9861111111111112,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_academicpaper_37_outdoor_light_top_hold_[0]": {
+        "TEDS": 0.9861111111111112,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_academicpaper_37_indoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.9861111111111112,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_exampaper_23_indoor_light_top_bend-out_[0]": {
+        "TEDS": 0.8926767676767677,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_exampaper_23_outdoor_light_top_[0]": {
+        "TEDS": 0.8926767676767677,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_exampaper_23_underexposure_flashlight-off_light_top_[0]": {
+        "TEDS": 0.8926767676767677,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_exampaper_23_[0]": {
+        "TEDS": 0.4482323232323233,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_financialreport_16_indoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.9679878146544814,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_financialreport_16_outdoor_light_oblique_hold_[0]": {
+        "TEDS": 0.9655186788520121,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_financialreport_16_[0]": {
+        "TEDS": 0.9679878146544814,
+        "TEDS_structure_only": 1.0
+    },
+    "ko_financialreport_16_indoor_light_left_wrinkle_[0]": {
+        "TEDS": 0.9550248516915184,
+        "TEDS_structure_only": 0.9925925925925926
+    },
+    "ko_newspaper_47_indoor_light_top_[0]": {
+        "TEDS": 0.711190129919403,
+        "TEDS_structure_only": 0.8292682926829268
+    },
+    "ko_newspaper_47_outdoor_underexposure_flashlight-on_oblique_blur_[0]": {
+        "TEDS": 0.7423489303164987,
+        "TEDS_structure_only": 0.8442622950819672
+    },
+    "ko_newspaper_47_[0]": {
+        "TEDS": 0.7790962153750983,
+        "TEDS_structure_only": 0.8794326241134752
+    },
+    "ko_newspaper_47_indoor_light_top_bend-in_[0]": {
+        "TEDS": 0.40809741163267466,
+        "TEDS_structure_only": 0.4247787610619469
+    },
+    "nl_exampaper_24_outdoor_light_top_shadow_[0]": {
+        "TEDS": 0.75,
+        "TEDS_structure_only": 0.75
+    },
+    "nl_exampaper_24_outdoor_light_top_shadow_[1]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_exampaper_24_indoor_light_top_bend-in_hold_[0]": {
+        "TEDS": 0.75,
+        "TEDS_structure_only": 0.75
+    },
+    "nl_exampaper_24_indoor_light_top_bend-in_hold_[1]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_exampaper_24_indoor_light_top_bend-in_[0]": {
+        "TEDS": 0.75,
+        "TEDS_structure_only": 0.75
+    },
+    "nl_exampaper_24_indoor_light_top_bend-in_[1]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_exampaper_24_[0]": {
+        "TEDS": 0.75,
+        "TEDS_structure_only": 0.75
+    },
+    "nl_exampaper_24_[1]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_financialreport_11_outdoor_light_top_bend-out_shadow_wrinkle_[0]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_financialreport_11_outdoor_light_top_bend-out_shadow_wrinkle_[1]": {
+        "TEDS": 0.4334955739699995,
+        "TEDS_structure_only": 0.4859154929577465
+    },
+    "nl_financialreport_11_outdoor_light_top_bend-out_shadow_wrinkle_[2]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_financialreport_11_indoor_light_top_crease_[0]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_financialreport_11_indoor_light_top_crease_[1]": {
+        "TEDS": 0.44901624317630084,
+        "TEDS_structure_only": 0.5
+    },
+    "nl_financialreport_11_indoor_light_top_crease_[2]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_financialreport_11_[0]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_financialreport_11_[1]": {
+        "TEDS": 0.3643410852713178,
+        "TEDS_structure_only": 0.37209302325581395
+    },
+    "nl_financialreport_11_[2]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "nl_financialreport_11_indoor_light_top_crease_bend-in_[0]": {
+        "TEDS": 0.7945919612130282,
+        "TEDS_structure_only": 0.9534883720930233
+    },
+    "nl_financialreport_11_indoor_light_top_crease_bend-in_[1]": {
+        "TEDS": 0.6309829904598926,
+        "TEDS_structure_only": 0.875
+    },
+    "nl_financialreport_11_indoor_light_top_crease_bend-in_[2]": {
+        "TEDS": 0.7253458959341312,
+        "TEDS_structure_only": 0.8823529411764706
+    },
+    "nl_financialreport_15_outdoor_light_shadow_top_wrinkle_[0]": {
+        "TEDS": 0.8530037986327569,
+        "TEDS_structure_only": 0.9377593360995851
+    },
+    "nl_financialreport_15_[0]": {
+        "TEDS": 0.6285714285714286,
+        "TEDS_structure_only": 0.6607142857142857
+    },
+    "nl_financialreport_15_indoor_light_top_wrinkle_[0]": {
+        "TEDS": 0.5823477631062772,
+        "TEDS_structure_only": 0.722972972972973
+    },
+    "nl_financialreport_15_indoor_light_oblique_wrinkle_[0]": {
+        "TEDS": 0.4751959428307976,
+        "TEDS_structure_only": 0.5228215767634854
+    },
+    "pt_academicpaper_31_indoor_down_shadow_[0]": {
+        "TEDS": 0.8102742165242165,
+        "TEDS_structure_only": 0.875
+    },
+    "pt_academicpaper_31_outdoor_underexposure_flashlight-off_down_[0]": {
+        "TEDS": 0.8551868802440885,
+        "TEDS_structure_only": 1.0
+    },
+    "pt_academicpaper_31_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "pt_academicpaper_31_indoor_underexposure_flashlight-off_top_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "pt_academicpaper_38_indoor_top_crease_underexposure_flashlight-on_[0]": {
+        "TEDS": 0.9516539440203562,
+        "TEDS_structure_only": 0.9821882951653944
+    },
+    "pt_academicpaper_38_indoor_underexposure_flashlight-on_oblique_crease_blur_[0]": {
+        "TEDS": 0.9363867684478372,
+        "TEDS_structure_only": 0.9821882951653944
+    },
+    "pt_academicpaper_38_outdoor_underexposure_flashlight-off_left_hold_[0]": {
+        "TEDS": 0.7483663557417486,
+        "TEDS_structure_only": 0.8854961832061069
+    },
+    "pt_academicpaper_38_[0]": {
+        "TEDS": 0.9847328244274809,
+        "TEDS_structure_only": 0.9847328244274809
+    },
+    "pt_slide_21_indoor_oblique_crease_[0]": {
+        "TEDS": 0.5743518693608154,
+        "TEDS_structure_only": 0.625
+    },
+    "pt_slide_21_outdoor_top_crease_[0]": {
+        "TEDS": 0.5631871474294683,
+        "TEDS_structure_only": 0.5909090909090908
+    },
+    "pt_slide_21_[0]": {
+        "TEDS": 0.5634702116009318,
+        "TEDS_structure_only": 0.5909090909090908
+    },
+    "pt_slide_21_indoor_top_shadow_crease_[0]": {
+        "TEDS": 0.9914520219646918,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_indoor_light_crease_top_hold_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_indoor_light_crease_top_hold_[1]": {
+        "TEDS": 0.9840389826816802,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_indoor_light_crease_top_hold_[2]": {
+        "TEDS": 0.9968944099378882,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_outdoor_underexposure_flashlight-off_crease_top_hold_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_outdoor_underexposure_flashlight-off_crease_top_hold_[1]": {
+        "TEDS": 0.9874403432258979,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_outdoor_underexposure_flashlight-off_crease_top_hold_[2]": {
+        "TEDS": 0.9968944099378882,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_indoor_light_crease_oblique_[0]": {
+        "TEDS": 0.8452380952380952,
+        "TEDS_structure_only": 0.8571428571428572
+    },
+    "ru_academicpaper_17_indoor_light_crease_oblique_[1]": {
+        "TEDS": 0.7975475562742875,
+        "TEDS_structure_only": 0.9142857142857143
+    },
+    "ru_academicpaper_17_indoor_light_crease_oblique_[2]": {
+        "TEDS": 0.9492753623188406,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_[1]": {
+        "TEDS": 0.9840389826816802,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_academicpaper_17_[2]": {
+        "TEDS": 0.9968944099378882,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_financialreport_0_outdoor_light_bend-in_crease_top_shadow_hold_[0]": {
+        "TEDS": 0.9663139620215169,
+        "TEDS_structure_only": 0.97
+    },
+    "ru_financialreport_0_indoor_underexposure_flashlight-on_crease_left_hold_[0]": {
+        "TEDS": 0.9362771620498346,
+        "TEDS_structure_only": 0.97
+    },
+    "ru_financialreport_0_[0]": {
+        "TEDS": 0.9696101791901379,
+        "TEDS_structure_only": 0.97
+    },
+    "ru_financialreport_0_indoor_light_crease_oblique_hold_[0]": {
+        "TEDS": 0.8919911312456428,
+        "TEDS_structure_only": 0.97
+    },
+    "ru_magazine_14_[0]": {
+        "TEDS": 0.6486900901906043,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_magazine_14_[1]": {
+        "TEDS": 0.6251233375229457,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_magazine_14_[2]": {
+        "TEDS": 0.6197445515605802,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_magazine_14_indoor_light_bend-in_right_shadow_hold_[0]": {
+        "TEDS": 0.601581516669589,
+        "TEDS_structure_only": 0.9521640091116174
+    },
+    "ru_magazine_14_indoor_light_bend-in_right_shadow_hold_[1]": {
+        "TEDS": 0.5391753241913808,
+        "TEDS_structure_only": 0.8610478359908884
+    },
+    "ru_magazine_14_indoor_light_bend-in_right_shadow_hold_[2]": {
+        "TEDS": 0.5661428494892102,
+        "TEDS_structure_only": 0.949748743718593
+    },
+    "ru_magazine_14_outdoor_light_bend-in_top_blur_hold_[0]": {
+        "TEDS": 0.6480857019129125,
+        "TEDS_structure_only": 0.9564220183486238
+    },
+    "ru_magazine_14_outdoor_light_bend-in_top_blur_hold_[1]": {
+        "TEDS": 0.6475900893192353,
+        "TEDS_structure_only": 0.9544303797468354
+    },
+    "ru_magazine_14_outdoor_light_bend-in_top_blur_hold_[2]": {
+        "TEDS": 0.6789538917283588,
+        "TEDS_structure_only": 0.9544303797468354
+    },
+    "ru_magazine_14_indoor_light_bend-in_top_shadow_hold_[0]": {
+        "TEDS": 0.6940732026608727,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_magazine_14_indoor_light_bend-in_top_shadow_hold_[1]": {
+        "TEDS": 0.7091385282398235,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_magazine_14_indoor_light_bend-in_top_shadow_hold_[2]": {
+        "TEDS": 0.7084736756463172,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_magazine_45_indoor_light_top_screen_[0]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_indoor_light_top_screen_[1]": {
+        "TEDS": 0.6351851851851852,
+        "TEDS_structure_only": 0.6388888888888888
+    },
+    "ru_magazine_45_indoor_light_top_screen_[2]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_indoor_light_top_screen_[3]": {
+        "TEDS": 0.5210147382148868,
+        "TEDS_structure_only": 0.6164383561643836
+    },
+    "ru_magazine_45_indoor_light_top_screen_[4]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_outdoor_light_bend-in_top_hold_[0]": {
+        "TEDS": 0.8275277103848532,
+        "TEDS_structure_only": 0.9428571428571428
+    },
+    "ru_magazine_45_outdoor_light_bend-in_top_hold_[1]": {
+        "TEDS": 0.826779625603155,
+        "TEDS_structure_only": 0.9428571428571428
+    },
+    "ru_magazine_45_outdoor_light_bend-in_top_hold_[2]": {
+        "TEDS": 0.8108009923799397,
+        "TEDS_structure_only": 0.9333333333333333
+    },
+    "ru_magazine_45_outdoor_light_bend-in_top_hold_[3]": {
+        "TEDS": 0.924066818564402,
+        "TEDS_structure_only": 1.0
+    },
+    "ru_magazine_45_outdoor_light_bend-in_top_hold_[4]": {
+        "TEDS": 0.795,
+        "TEDS_structure_only": 0.9
+    },
+    "ru_magazine_45_indoor_light_bend-in_down_hold_[0]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_indoor_light_bend-in_down_hold_[1]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_indoor_light_bend-in_down_hold_[2]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_indoor_light_bend-in_down_hold_[3]": {
+        "TEDS": 0.18102594512240455,
+        "TEDS_structure_only": 0.25
+    },
+    "ru_magazine_45_indoor_light_bend-in_down_hold_[4]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_[0]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_[1]": {
+        "TEDS": 0.8950276243093923,
+        "TEDS_structure_only": 0.8950276243093923
+    },
+    "ru_magazine_45_[2]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_[3]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "ru_magazine_45_[4]": {
+        "TEDS": 0.0,
+        "TEDS_structure_only": 0.0
+    },
+    "th_academicpaper_35_indoor_light_shadow_top_blur_[0]": {
+        "TEDS": 0.884375,
+        "TEDS_structure_only": 1.0
+    },
+    "th_academicpaper_35_indoor_light_top_crease_bend-in_[0]": {
+        "TEDS": 0.884375,
+        "TEDS_structure_only": 1.0
+    },
+    "th_academicpaper_35_outdoor_light_top_hold_crease_[0]": {
+        "TEDS": 0.884375,
+        "TEDS_structure_only": 1.0
+    },
+    "th_academicpaper_35_[0]": {
+        "TEDS": 0.884375,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_academicpaper_23_bend-out_hold_indoor_shadow_wrinkle_top_[0]": {
+        "TEDS": 0.8618513625601301,
+        "TEDS_structure_only": 0.9259259259259259
+    },
+    "vi_academicpaper_23_bend-in_blur_hold_outdoor_shadow_wrinkle_top_[0]": {
+        "TEDS": 0.9945211693548387,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_academicpaper_23_bend-out_hold_indoor_wrinkle_top_[0]": {
+        "TEDS": 0.9924338487907112,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_academicpaper_23_[0]": {
+        "TEDS": 0.9977199074074075,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_bend-out_indoor_top_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_bend-out_indoor_top_[1]": {
+        "TEDS": 0.9880952380952381,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_[1]": {
+        "TEDS": 0.9880952380952381,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_blur_outdoor_shadow_light_top_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_blur_outdoor_shadow_light_top_[1]": {
+        "TEDS": 0.9880952380952381,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_blur_indoor_light_top_[0]": {
+        "TEDS": 1.0,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_book_48_blur_indoor_light_top_[1]": {
+        "TEDS": 0.9880952380952381,
+        "TEDS_structure_only": 1.0
+    },
+    "vi_exampaper_2_bend-out_blur_hold_indoor_left_shadow_light_[0]": {
+        "TEDS": 0.447811638533288,
+        "TEDS_structure_only": 0.5238095238095238
+    },
+    "vi_exampaper_2_[0]": {
+        "TEDS": 0.3878348214285714,
+        "TEDS_structure_only": 0.4545454545454546
+    },
+    "vi_exampaper_2_bend-in_hold_oblique_outdoor_light_top_[0]": {
+        "TEDS": 0.11537099629808467,
+        "TEDS_structure_only": 0.19999999999999996
+    },
+    "vi_exampaper_2_blur_indoor_oblique_screen_[0]": {
+        "TEDS": 0.11631237413291562,
+        "TEDS_structure_only": 0.19999999999999996
+    },
+    "zh-CHT_academicpaper_33_indoor_light_right_crease.JPEG_[0]": {
+        "TEDS": 0.870867673992674,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_academicpaper_33_indoor_light_top_crease_bend-in.JPEG_[0]": {
+        "TEDS": 0.9799012761432117,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_academicpaper_33_outdoor_light_top_bend-out_[0]": {
+        "TEDS": 0.9485378927840676,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_academicpaper_33_[0]": {
+        "TEDS": 0.8869047619047619,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_financialreport_3_[0]": {
+        "TEDS": 0.6411133406823062,
+        "TEDS_structure_only": 0.8269230769230769
+    },
+    "zh-CHT_financialreport_3_indoor_light_top_crease_bend-in_[0]": {
+        "TEDS": 0.6331376956376955,
+        "TEDS_structure_only": 0.8269230769230769
+    },
+    "zh-CHT_financialreport_3_indoor_light_top_crease_bend-out_[0]": {
+        "TEDS": 0.6878524253524254,
+        "TEDS_structure_only": 0.8076923076923077
+    },
+    "zh-CHT_financialreport_3_outdoor_light_shadow_top_bend-in_[0]": {
+        "TEDS": 0.6361596736596737,
+        "TEDS_structure_only": 0.8269230769230769
+    },
+    "zh-CHT_slide_13_[0]": {
+        "TEDS": 0.8818181818181818,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_slide_13_indoor_light_right_wrinkle_[0]": {
+        "TEDS": 0.9314285714285715,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_slide_13_outdoor_light_shadow_top_bend-in_[0]": {
+        "TEDS": 0.9593650793650794,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_slide_13_indoor_light_shadow_right_crease_bend-in_[0]": {
+        "TEDS": 0.9536507936507936,
+        "TEDS_structure_only": 1.0
+    },
+    "zh-CHT_textbook_21_[0]": {
+        "TEDS": 0.9027777777777778,
+        "TEDS_structure_only": 0.9166666666666666
+    },
+    "zh-CHT_textbook_21_indoor_light_oblique_crease_bend-in_[0]": {
+        "TEDS": 0.893719806763285,
+        "TEDS_structure_only": 0.9130434782608696
+    },
+    "zh-CHT_textbook_21_indoor_light_shadow_top_crease_[0]": {
+        "TEDS": 0.9027777777777778,
+        "TEDS_structure_only": 0.9166666666666666
+    },
+    "zh-CHT_textbook_21_outdoor_light_shadow_down_crease_blur_[0]": {
+        "TEDS": 0.7182934712346477,
+        "TEDS_structure_only": 0.9130434782608696
+    },
+    "es_exampaper_49_indoor_light_right_crease_[0]": {
+        "TEDS": 0.8861891195224528,
+        "TEDS_structure_only": 1.0
+    },
+    "es_exampaper_49_indoor_light_top_screen_[0]": {
+        "TEDS": 0.9312508479175146,
+        "TEDS_structure_only": 1.0
+    },
+    "es_exampaper_49_[0]": {
+        "TEDS": 0.9312508479175146,
+        "TEDS_structure_only": 1.0
+    },
+    "es_exampaper_49_outdoor_light_right_shadow_[0]": {
+        "TEDS": 0.9312508479175146,
+        "TEDS_structure_only": 1.0
+    }
+}

@@ -1,0 +1,3649 @@
+[
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "原式={\\frac{1} {2}} \\int_{0}^{\\frac{1} {2}} {\\frac{1} {2 t^{2}-2 t-4}} \\ \\mathrm{d} t={\\frac{1} {1 2}} \\int_{0}^{\\frac{1} {2}} \\left( {\\frac{1} {t-2}}-{\\frac{1} {t+1}} \\right) \\mathrm{d} t=-{\\frac{\\operatorname{l n} 2} {1 2}}",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[     \\text{原式} = \\frac{1}{2} \\int_0^{\\frac{1}{2}} \\frac{1}{2t^2 - 2t - 4} \\, \\mathrm{d}t = \\frac{1}{12} \\int_0^{\\frac{1}{2}} \\left( \\frac{1}{t-2} - \\frac{1}{t+1} \\right) \\mathrm{d}t = \\frac{\\ln 2}{12}     \\]",
+        "edit": 0.15,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 642,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_crease",
+        "norm_gt": "原式={\\frac{1}{2}}\\int_{0}^{\\frac{1}{2}}{\\frac{1}{2t^{2}-2t-4}}\\{d}t={\\frac{1}{12}}\\int_{0}^{\\frac{1}{2}}({\\frac{1}{t-2}}-{\\frac{1}{t+1}}){d}t=-{\\frac{{ln}2}{12}}",
+        "norm_pred": "{原式}=\\frac{1}{2}\\int_0^{\\frac{1}{2}}\\frac{1}{2t^2-2t-4}\\,{d}t=\\frac{1}{12}\\int_0^{\\frac{1}{2}}(\\frac{1}{t-2}-\\frac{1}{t+1}){d}t=\\frac{\\ln2}{12}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_crease",
+        "image_name": "zh_exampaper_37_indoor_light_top_crease",
+        "upper_len": 160,
+        "metric": {
+            "Edit_dist": 0.15,
+            "CDM": 0
+        },
+        "Edit_num": 24,
+        "img_id_cdm": "0"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "原式=2 \\iint_{D_{1}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\int_{0}^{x} \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} x \\operatorname{s i n} x^{2} \\ \\mathrm{d} x=2",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[     \\text{原式} = 2 \\iint_{D_1} \\sin x^2 \\, \\mathrm{d}x \\, \\mathrm{d}y = 2 \\int_0^{\\sqrt{\\pi}} \\sin x^2 \\, \\mathrm{d}x \\int_0^x \\mathrm{d}y = 2 \\int_0^{\\sqrt{\\pi}} x \\sin x^2 \\, \\mathrm{d}x = 2     \\]",
+        "edit": 0.21804511278195488,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 1147,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_crease",
+        "norm_gt": "原式=2\\iint_{d_{1}}{sin}x^{2}\\{d}x\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}{sin}x^{2}\\{d}x\\int_{0}^{x}\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}x{sin}x^{2}\\{d}x=2",
+        "norm_pred": "{原式}=2\\iint_{d_1}\\sinx^2\\,{d}x\\,{d}y=2\\int_0^{\\sqrt{\\pi}}\\sinx^2\\,{d}x\\int_0^x{d}y=2\\int_0^{\\sqrt{\\pi}}x\\sinx^2\\,{d}x=2",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_crease",
+        "image_name": "zh_exampaper_37_indoor_light_top_crease",
+        "upper_len": 133,
+        "metric": {
+            "Edit_dist": 0.21804511278195488,
+            "CDM": 0
+        },
+        "Edit_num": 29,
+        "img_id_cdm": "1"
+    },
+    {
+        "gt_idx": [
+            19
+        ],
+        "gt": "\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n ( 2 n+1 )}=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n}+2 \\sum_{n=1}^{\\infty} \\frac{(-1 )^{n}} {2 n+1}.",
+        "pred_idx": [
+            16
+        ],
+        "pred": "\\[     \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n(2n+1)} = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n} + 2 \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{2n+1}     \\]",
+        "edit": 0.015748031496062992,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            17
+        ],
+        "pred_position": 1468,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_crease",
+        "norm_gt": "\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}+2\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2n+1}",
+        "norm_pred": "\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}+2\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{2n+1}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_crease",
+        "image_name": "zh_exampaper_37_indoor_light_top_crease",
+        "upper_len": 127,
+        "metric": {
+            "Edit_dist": 0.015748031496062992,
+            "CDM": 0
+        },
+        "Edit_num": 2,
+        "img_id_cdm": "2"
+    },
+    {
+        "gt_idx": [
+            21
+        ],
+        "gt": "\\operatorname{l n} ( 1+x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n} x^{n}, x \\in(-1, 1 ]",
+        "pred_idx": [
+            17
+        ],
+        "pred": "\\[     \\ln(1+x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n} x^n, x \\in (-1, 1].     \\]",
+        "edit": 0.06153846153846154,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            19
+        ],
+        "pred_position": 1638,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_crease",
+        "norm_gt": "{ln}(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^{n},x\\in(-1,1]",
+        "norm_pred": "\\ln(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^n,x\\in(-1,1]",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_crease",
+        "image_name": "zh_exampaper_37_indoor_light_top_crease",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.06153846153846154,
+            "CDM": 0
+        },
+        "Edit_num": 4,
+        "img_id_cdm": "3"
+    },
+    {
+        "gt_idx": [
+            33
+        ],
+        "gt": "6 x-6 y-1 2 x y^{\\prime}-3 x^{2} y^{\\prime\\prime}-6 y \\left( y^{\\prime} \\right)^{2}-3 y^{2} y^{\\prime\\prime}+2-y^{\\prime\\prime}=0.",
+        "pred_idx": [
+            30
+        ],
+        "pred": "\\[     6x - 6y - 12xy' - 3x^2 y'' - 6y (y')^2 - 3y^2 y'' + 2 - y'' = 0.     \\]",
+        "edit": 0.6571428571428571,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            31
+        ],
+        "pred_position": 2504,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_crease",
+        "norm_gt": "6x-6y-12xy^{\\prime}-3x^{2}y^{\\prime\\prime}-6y(y^{\\prime})^{2}-3y^{2}y^{\\prime\\prime}+2-y^{\\prime\\prime}=0",
+        "norm_pred": "6x-6y-12xy'-3x^2y''-6y(y')^2-3y^2y''+2-y''=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_crease",
+        "image_name": "zh_exampaper_37_indoor_light_top_crease",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.6571428571428571,
+            "CDM": 0
+        },
+        "Edit_num": 69,
+        "img_id_cdm": "4"
+    },
+    {
+        "gt_idx": [
+            45
+        ],
+        "gt": "\\root n \\of{\\mathrm{e}}-1=\\frac{1} {n}+\\frac{1} {2 n^{2}}+o \\left( \\frac{1} {n^{2}} \\right),",
+        "pred_idx": [
+            37
+        ],
+        "pred": "\\[     \\sqrt[n]{e}-1 = \\frac{1}{n} + \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right),     \\]",
+        "edit": 0.2,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            43
+        ],
+        "pred_position": 3263,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_crease",
+        "norm_gt": "\\rootn\\of{{e}}-1=\\frac{1}{n}+\\frac{1}{2n^{2}}+o(\\frac{1}{n^{2}}),",
+        "norm_pred": "\\sqrt[n]{e}-1=\\frac{1}{n}+\\frac{1}{2n^2}+o(\\frac{1}{n^2}),",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_crease",
+        "image_name": "zh_exampaper_37_indoor_light_top_crease",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.2,
+            "CDM": 0
+        },
+        "Edit_num": 13,
+        "img_id_cdm": "5"
+    },
+    {
+        "gt_idx": [
+            47
+        ],
+        "gt": "原式=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} x_{n}-1-{\\frac{1} {2 n}} \\right)=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} {\\frac{\\mathrm{e}-r_{n}} {\\mathrm{e}}}-{\\frac{1} {2 n}} \\right)=-{\\frac{1} {2}}",
+        "pred_idx": [
+            38
+        ],
+        "pred": "\\[     \\text{原式} = \\lim_{n \\to \\infty} n \\left( \\ln x_n - 1 - \\frac{1}{2n} \\right) = \\lim_{n \\to \\infty} n \\left( \\ln \\frac{e-r_n}{e} - \\frac{1}{2n} \\right) = -\\frac{1}{2}     \\]",
+        "edit": 0.21374045801526717,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            45
+        ],
+        "pred_position": 3405,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_crease",
+        "norm_gt": "原式=*{lim}_{n\\to\\infty}n({ln}x_{n}-1-{\\frac{1}{2n}})=*{lim}_{n\\to\\infty}n({ln}{\\frac{{e}-r_{n}}{{e}}}-{\\frac{1}{2n}})=-{\\frac{1}{2}}",
+        "norm_pred": "{原式}=\\lim_{n\\to\\infty}n(\\lnx_n-1-\\frac{1}{2n})=\\lim_{n\\to\\infty}n(\\ln\\frac{e-r_n}{e}-\\frac{1}{2n})=-\\frac{1}{2}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_crease",
+        "image_name": "zh_exampaper_37_indoor_light_top_crease",
+        "upper_len": 131,
+        "metric": {
+            "Edit_dist": 0.21374045801526717,
+            "CDM": 0
+        },
+        "Edit_num": 28,
+        "img_id_cdm": "6"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "原式=2 \\iint_{D_{1}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\int_{0}^{x} \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} x \\operatorname{s i n} x^{2} \\ \\mathrm{d} x=2",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[    \\text{原式} = 2 \\iint_{D_1} \\sin x^2 dx dy = 2 \\int_{0}^{\\sqrt{\\pi}} dx \\int_{0}^{x} \\sin x^2 dy = 2 \\int_{0}^{\\sqrt{\\pi}} x \\sin x^2 dx = 2    \\]",
+        "edit": 0.3082706766917293,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 1773,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "原式=2\\iint_{d_{1}}{sin}x^{2}\\{d}x\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}{sin}x^{2}\\{d}x\\int_{0}^{x}\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}x{sin}x^{2}\\{d}x=2",
+        "norm_pred": "{原式}=2\\iint_{d_1}\\sinx^2dxdy=2\\int_{0}^{\\sqrt{\\pi}}dx\\int_{0}^{x}\\sinx^2dy=2\\int_{0}^{\\sqrt{\\pi}}x\\sinx^2dx=2",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 133,
+        "metric": {
+            "Edit_dist": 0.3082706766917293,
+            "CDM": 0
+        },
+        "Edit_num": 41,
+        "img_id_cdm": "7"
+    },
+    {
+        "gt_idx": [
+            21
+        ],
+        "gt": "\\operatorname{l n} ( 1+x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n} x^{n}, x \\in(-1, 1 ]",
+        "pred_idx": [
+            18
+        ],
+        "pred": "\\[    \\ln(1+x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n} x^n, x \\in (-1, 1]    \\]",
+        "edit": 0.06153846153846154,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            19
+        ],
+        "pred_position": 2436,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "{ln}(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^{n},x\\in(-1,1]",
+        "norm_pred": "\\ln(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^n,x\\in(-1,1]",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.06153846153846154,
+            "CDM": 0
+        },
+        "Edit_num": 4,
+        "img_id_cdm": "8"
+    },
+    {
+        "gt_idx": [
+            25
+        ],
+        "gt": "f^{\\prime} ( x )=\\sum_{n=1}^{\\infty} (-1 )^{n} x^{2 n}=-\\frac{x^{2}} {1+x^{2}}=\\frac{1} {1+x^{2}}-1, x \\in(-1, 1 ).",
+        "pred_idx": [
+            22
+        ],
+        "pred": "\\[    f'(x) = \\sum_{n=1}^{\\infty} (-1)^{n-1} x^{2n} = \\frac{1}{1+x^2}, \\quad x \\in (-1, 1).    \\]",
+        "edit": 0.3564356435643564,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            23
+        ],
+        "pred_position": 2712,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "f^{\\prime}(x)=\\sum_{n=1}^{\\infty}(-1)^{n}x^{2n}=-\\frac{x^{2}}{1+x^{2}}=\\frac{1}{1+x^{2}}-1,x\\in(-1,1)",
+        "norm_pred": "f'(x)=\\sum_{n=1}^{\\infty}(-1)^{n-1}x^{2n}=\\frac{1}{1+x^2},x\\in(-1,1)",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 101,
+        "metric": {
+            "Edit_dist": 0.3564356435643564,
+            "CDM": 0
+        },
+        "Edit_num": 36,
+        "img_id_cdm": "9"
+    },
+    {
+        "gt_idx": [
+            27
+        ],
+        "gt": "\\sum_{n=1}^{\\infty} {\\frac{(-1 )^{n-1}} {n ( 2 n+1 )}}=\\operatorname{l n} 2+2 f ( 1 )=\\operatorname{l n} 2+2 \\left( {\\frac{\\pi} {4}}-1 \\right)=\\operatorname{l n} 2+{\\frac{\\pi} {2}}-2",
+        "pred_idx": [
+            23
+        ],
+        "pred": "\\[    \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n(2n+1)} = \\ln 2 + 2f(1) = \\ln 2 + 2 \\left( \\frac{\\pi}{4} - 1 \\right) = \\ln 2 + \\frac{\\pi}{2} - 2    \\]",
+        "edit": 0.10909090909090909,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            25
+        ],
+        "pred_position": 2823,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}={ln}2+2f(1)={ln}2+2({\\frac{\\pi}{4}}-1)={ln}2+{\\frac{\\pi}{2}}-2",
+        "norm_pred": "\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\ln2+2f(1)=\\ln2+2(\\frac{\\pi}{4}-1)=\\ln2+\\frac{\\pi}{2}-2",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 110,
+        "metric": {
+            "Edit_dist": 0.10909090909090909,
+            "CDM": 0
+        },
+        "Edit_num": 12,
+        "img_id_cdm": "10"
+    },
+    {
+        "gt_idx": [
+            31
+        ],
+        "gt": "3 x^{2}-6 x y-3 x^{2} y^{\\prime}-3 y^{2} y^{\\prime}+2 x-y^{\\prime}=0.",
+        "pred_idx": [
+            24
+        ],
+        "pred": "\\[    3x^2 - 6xy - 3x^2y' - 3y^2y' + 2x - y' = 0.    \\]",
+        "edit": 0.55,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            29
+        ],
+        "pred_position": 2951,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "3x^{2}-6xy-3x^{2}y^{\\prime}-3y^{2}y^{\\prime}+2x-y^{\\prime}=0",
+        "norm_pred": "3x^2-6xy-3x^2y'-3y^2y'+2x-y'=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 60,
+        "metric": {
+            "Edit_dist": 0.55,
+            "CDM": 0
+        },
+        "Edit_num": 33,
+        "img_id_cdm": "11"
+    },
+    {
+        "gt_idx": [
+            33
+        ],
+        "gt": "6 x-6 y-1 2 x y^{\\prime}-3 x^{2} y^{\\prime\\prime}-6 y \\left( y^{\\prime} \\right)^{2}-3 y^{2} y^{\\prime\\prime}+2-y^{\\prime\\prime}=0.",
+        "pred_idx": [
+            25
+        ],
+        "pred": "\\[    6x - 6y - 12xy' - 3x^2y'' - 6yy'(y')^2 - 3y^2y'' + 2 - y'' = 0.    \\]",
+        "edit": 0.6666666666666666,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            31
+        ],
+        "pred_position": 3466,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "6x-6y-12xy^{\\prime}-3x^{2}y^{\\prime\\prime}-6y(y^{\\prime})^{2}-3y^{2}y^{\\prime\\prime}+2-y^{\\prime\\prime}=0",
+        "norm_pred": "6x-6y-12xy'-3x^2y''-6yy'(y')^2-3y^2y''+2-y''=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.6666666666666666,
+            "CDM": 0
+        },
+        "Edit_num": 70,
+        "img_id_cdm": "12"
+    },
+    {
+        "gt_idx": [
+            45
+        ],
+        "gt": "\\root n \\of{\\mathrm{e}}-1=\\frac{1} {n}+\\frac{1} {2 n^{2}}+o \\left( \\frac{1} {n^{2}} \\right),",
+        "pred_idx": [
+            31
+        ],
+        "pred": "\\[    \\sqrt{e} - 1 = \\frac{1}{n} + \\frac{1}{2n^2} + o(\\frac{1}{n^2}),    \\]",
+        "edit": 0.2,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            43
+        ],
+        "pred_position": 4117,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "\\rootn\\of{{e}}-1=\\frac{1}{n}+\\frac{1}{2n^{2}}+o(\\frac{1}{n^{2}}),",
+        "norm_pred": "\\sqrt{e}-1=\\frac{1}{n}+\\frac{1}{2n^2}+o(\\frac{1}{n^2}),",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.2,
+            "CDM": 0
+        },
+        "Edit_num": 13,
+        "img_id_cdm": "13"
+    },
+    {
+        "gt_idx": [
+            47
+        ],
+        "gt": "原式=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} x_{n}-1-{\\frac{1} {2 n}} \\right)=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} {\\frac{\\mathrm{e}-r_{n}} {\\mathrm{e}}}-{\\frac{1} {2 n}} \\right)=-{\\frac{1} {2}}",
+        "pred_idx": [
+            33
+        ],
+        "pred": "\\[    \\text{原式} = \\lim_{n \\to \\infty} n \\left( \\ln \\frac{2n}{n} - \\ln 2 \\right) = \\lim_{n \\to \\infty} n \\left( \\ln (1 - \\frac{1}{2n}) - \\ln 2 \\right) = -\\frac{1}{2}    \\]",
+        "edit": 0.44274809160305345,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            45
+        ],
+        "pred_position": 4235,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "norm_gt": "原式=*{lim}_{n\\to\\infty}n({ln}x_{n}-1-{\\frac{1}{2n}})=*{lim}_{n\\to\\infty}n({ln}{\\frac{{e}-r_{n}}{{e}}}-{\\frac{1}{2n}})=-{\\frac{1}{2}}",
+        "norm_pred": "{原式}=\\lim_{n\\to\\infty}n(\\ln\\frac{2n}{n}-\\ln2)=\\lim_{n\\to\\infty}n(\\ln(1-\\frac{1}{2n})-\\ln2)=-\\frac{1}{2}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "image_name": "zh_exampaper_37_indoor_light_right_wrinkle",
+        "upper_len": 131,
+        "metric": {
+            "Edit_dist": 0.44274809160305345,
+            "CDM": 0
+        },
+        "Edit_num": 58,
+        "img_id_cdm": "14"
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "原式={\\frac{1} {2}} \\int_{0}^{\\frac{1} {2}} {\\frac{1} {2 t^{2}-2 t-4}} \\ \\mathrm{d} t={\\frac{1} {1 2}} \\int_{0}^{\\frac{1} {2}} \\left( {\\frac{1} {t-2}}-{\\frac{1} {t+1}} \\right) \\mathrm{d} t=-{\\frac{\\operatorname{l n} 2} {1 2}}",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[    \\text{原式} = \\frac{1}{2} \\int_0^{\\frac{1}{2}} \\frac{1}{2t^2 - 2t - 4} \\, \\mathrm{d}t = \\frac{1}{12} \\int_0^{\\frac{1}{2}} \\left( \\frac{1}{t-2} - \\frac{1}{t+1} \\right) \\mathrm{d}t = - \\frac{\\ln 2}{12}    \\]",
+        "edit": 0.14375,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 619,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "原式={\\frac{1}{2}}\\int_{0}^{\\frac{1}{2}}{\\frac{1}{2t^{2}-2t-4}}\\{d}t={\\frac{1}{12}}\\int_{0}^{\\frac{1}{2}}({\\frac{1}{t-2}}-{\\frac{1}{t+1}}){d}t=-{\\frac{{ln}2}{12}}",
+        "norm_pred": "{原式}=\\frac{1}{2}\\int_0^{\\frac{1}{2}}\\frac{1}{2t^2-2t-4}\\,{d}t=\\frac{1}{12}\\int_0^{\\frac{1}{2}}(\\frac{1}{t-2}-\\frac{1}{t+1}){d}t=-\\frac{\\ln2}{12}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 160,
+        "metric": {
+            "Edit_dist": 0.14375,
+            "CDM": 0
+        },
+        "Edit_num": 23,
+        "img_id_cdm": "15"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "原式=2 \\iint_{D_{1}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\int_{0}^{x} \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} x \\operatorname{s i n} x^{2} \\ \\mathrm{d} x=2",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[    \\text{原式} = 2 \\iint_{D_1} \\sin x^2 \\, \\mathrm{d}x \\, \\mathrm{d}y = 2 \\int_0^{\\sqrt{\\pi}} \\sin x^2 \\, \\mathrm{d}x \\int_0^x \\mathrm{d}y = 2 \\int_0^{\\sqrt{\\pi}} x \\sin x^2 \\, \\mathrm{d}x = 2    \\]",
+        "edit": 0.21804511278195488,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 1120,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "原式=2\\iint_{d_{1}}{sin}x^{2}\\{d}x\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}{sin}x^{2}\\{d}x\\int_{0}^{x}\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}x{sin}x^{2}\\{d}x=2",
+        "norm_pred": "{原式}=2\\iint_{d_1}\\sinx^2\\,{d}x\\,{d}y=2\\int_0^{\\sqrt{\\pi}}\\sinx^2\\,{d}x\\int_0^x{d}y=2\\int_0^{\\sqrt{\\pi}}x\\sinx^2\\,{d}x=2",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 133,
+        "metric": {
+            "Edit_dist": 0.21804511278195488,
+            "CDM": 0
+        },
+        "Edit_num": 29,
+        "img_id_cdm": "16"
+    },
+    {
+        "gt_idx": [
+            19
+        ],
+        "gt": "\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n ( 2 n+1 )}=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n}+2 \\sum_{n=1}^{\\infty} \\frac{(-1 )^{n}} {2 n+1}.",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[    \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n(2n+1)} = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n} + 2 \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{2n+1}.    \\]",
+        "edit": 0.015748031496062992,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            17
+        ],
+        "pred_position": 1429,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}+2\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2n+1}",
+        "norm_pred": "\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}+2\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{2n+1}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 127,
+        "metric": {
+            "Edit_dist": 0.015748031496062992,
+            "CDM": 0
+        },
+        "Edit_num": 2,
+        "img_id_cdm": "17"
+    },
+    {
+        "gt_idx": [
+            21
+        ],
+        "gt": "\\operatorname{l n} ( 1+x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n} x^{n}, x \\in(-1, 1 ]",
+        "pred_idx": [
+            13
+        ],
+        "pred": "\\[    \\ln(1+x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n} x^n, x \\in (-1, 1].    \\]",
+        "edit": 0.06153846153846154,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            19
+        ],
+        "pred_position": 1586,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "{ln}(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^{n},x\\in(-1,1]",
+        "norm_pred": "\\ln(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^n,x\\in(-1,1]",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.06153846153846154,
+            "CDM": 0
+        },
+        "Edit_num": 4,
+        "img_id_cdm": "18"
+    },
+    {
+        "gt_idx": [
+            23
+        ],
+        "gt": "f ( x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n}} {2 n+1} x^{2 n+1}, x \\in[-1, 1 ].",
+        "pred_idx": [
+            15
+        ],
+        "pred": "\\[    f(x) = \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{2n+1} x^{2n+1}, x \\in [-1, 1].    \\]",
+        "edit": 0.03125,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            21
+        ],
+        "pred_position": 1679,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "f(x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2n+1}x^{2n+1},x\\in[-1,1]",
+        "norm_pred": "f(x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^n}{2n+1}x^{2n+1},x\\in[-1,1]",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 64,
+        "metric": {
+            "Edit_dist": 0.03125,
+            "CDM": 0
+        },
+        "Edit_num": 2,
+        "img_id_cdm": "19"
+    },
+    {
+        "gt_idx": [
+            25
+        ],
+        "gt": "f^{\\prime} ( x )=\\sum_{n=1}^{\\infty} (-1 )^{n} x^{2 n}=-\\frac{x^{2}} {1+x^{2}}=\\frac{1} {1+x^{2}}-1, x \\in(-1, 1 ).",
+        "pred_idx": [
+            16
+        ],
+        "pred": "\\[    f'(x) = \\sum_{n=1}^{\\infty} (-1)^n x^{2n} = -\\frac{x^2}{1+x^2} = -1 + \\frac{1}{1+x^2}, x \\in (-1, 1).    \\]",
+        "edit": 0.21782178217821782,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            23
+        ],
+        "pred_position": 1780,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "f^{\\prime}(x)=\\sum_{n=1}^{\\infty}(-1)^{n}x^{2n}=-\\frac{x^{2}}{1+x^{2}}=\\frac{1}{1+x^{2}}-1,x\\in(-1,1)",
+        "norm_pred": "f'(x)=\\sum_{n=1}^{\\infty}(-1)^nx^{2n}=-\\frac{x^2}{1+x^2}=-1+\\frac{1}{1+x^2},x\\in(-1,1)",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 101,
+        "metric": {
+            "Edit_dist": 0.21782178217821782,
+            "CDM": 0
+        },
+        "Edit_num": 22,
+        "img_id_cdm": "20"
+    },
+    {
+        "gt_idx": [
+            27
+        ],
+        "gt": "\\sum_{n=1}^{\\infty} {\\frac{(-1 )^{n-1}} {n ( 2 n+1 )}}=\\operatorname{l n} 2+2 f ( 1 )=\\operatorname{l n} 2+2 \\left( {\\frac{\\pi} {4}}-1 \\right)=\\operatorname{l n} 2+{\\frac{\\pi} {2}}-2",
+        "pred_idx": [
+            17
+        ],
+        "pred": "\\[    \\sum_{n=1}^{\\infty} \\frac{(-1)^{n-1}}{n(2n+1)} = \\ln 2 + 2f(1) = \\ln 2 + 2\\left(\\frac{\\pi}{4} - 1\\right) = \\ln 2 + \\frac{\\pi}{2} - 2    \\]",
+        "edit": 0.10909090909090909,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            25
+        ],
+        "pred_position": 1928,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}={ln}2+2f(1)={ln}2+2({\\frac{\\pi}{4}}-1)={ln}2+{\\frac{\\pi}{2}}-2",
+        "norm_pred": "\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\ln2+2f(1)=\\ln2+2(\\frac{\\pi}{4}-1)=\\ln2+\\frac{\\pi}{2}-2",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 110,
+        "metric": {
+            "Edit_dist": 0.10909090909090909,
+            "CDM": 0
+        },
+        "Edit_num": 12,
+        "img_id_cdm": "21"
+    },
+    {
+        "gt_idx": [
+            31
+        ],
+        "gt": "3 x^{2}-6 x y-3 x^{2} y^{\\prime}-3 y^{2} y^{\\prime}+2 x-y^{\\prime}=0.",
+        "pred_idx": [
+            20
+        ],
+        "pred": "\\[    3x^2 - 6xy - 3x^2y' - 3y^2y' + 2x - y' = 0.    \\]",
+        "edit": 0.55,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            29
+        ],
+        "pred_position": 2459,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "3x^{2}-6xy-3x^{2}y^{\\prime}-3y^{2}y^{\\prime}+2x-y^{\\prime}=0",
+        "norm_pred": "3x^2-6xy-3x^2y'-3y^2y'+2x-y'=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 60,
+        "metric": {
+            "Edit_dist": 0.55,
+            "CDM": 0
+        },
+        "Edit_num": 33,
+        "img_id_cdm": "22"
+    },
+    {
+        "gt_idx": [
+            33
+        ],
+        "gt": "6 x-6 y-1 2 x y^{\\prime}-3 x^{2} y^{\\prime\\prime}-6 y \\left( y^{\\prime} \\right)^{2}-3 y^{2} y^{\\prime\\prime}+2-y^{\\prime\\prime}=0.",
+        "pred_idx": [
+            21
+        ],
+        "pred": "\\[    6x - 6y - 12xy' - 3x^2y'' - 6y(y')^2 - 3y^2y'' + 2 - y'' = 0.    \\]",
+        "edit": 0.6571428571428571,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            31
+        ],
+        "pred_position": 2567,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "6x-6y-12xy^{\\prime}-3x^{2}y^{\\prime\\prime}-6y(y^{\\prime})^{2}-3y^{2}y^{\\prime\\prime}+2-y^{\\prime\\prime}=0",
+        "norm_pred": "6x-6y-12xy'-3x^2y''-6y(y')^2-3y^2y''+2-y''=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.6571428571428571,
+            "CDM": 0
+        },
+        "Edit_num": 69,
+        "img_id_cdm": "23"
+    },
+    {
+        "gt_idx": [
+            38
+        ],
+        "gt": "f ( y ) \\geqslant f ( x )+f^{\\prime} ( x ) ( y-x ),",
+        "pred_idx": [
+            24
+        ],
+        "pred": "\\[    f(y) \\geqslant f(x) + f'(x)(y-x),    \\]",
+        "edit": 0.24324324324324326,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            36
+        ],
+        "pred_position": 2835,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "f(y)\\geqslantf(x)+f^{\\prime}(x)(y-x),",
+        "norm_pred": "f(y)\\geqslantf(x)+f'(x)(y-x),",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 37,
+        "metric": {
+            "Edit_dist": 0.24324324324324326,
+            "CDM": 0
+        },
+        "Edit_num": 9,
+        "img_id_cdm": "24"
+    },
+    {
+        "gt_idx": [
+            43
+        ],
+        "gt": "x_{n}=\\mathrm{e}-\\sum_{k=n+1}^{\\infty} {\\frac{1} {k!}} \\stackrel{\\mathrm{d e f}} {=} \\mathrm{e}-r_{n}, \\operatorname* {l i m}_{n \\to\\infty} r_{n}=0.",
+        "pred_idx": [
+            27
+        ],
+        "pred": "\\[    x_n = e - \\sum_{k=n+1}^{\\infty} \\frac{1}{k!} \\stackrel{\\text{def}}{=} e - r_n, \\lim_{n \\to \\infty} r_n = 0.    \\]",
+        "edit": 0.15,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            41
+        ],
+        "pred_position": 3164,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "x_{n}={e}-\\sum_{k=n+1}^{\\infty}{\\frac{1}{k!}}\\stackrel{{def}}{=}{e}-r_{n},*{lim}_{n\\to\\infty}r_{n}=0",
+        "norm_pred": "x_n=e-\\sum_{k=n+1}^{\\infty}\\frac{1}{k!}\\stackrel{{def}}{=}e-r_n,\\lim_{n\\to\\infty}r_n=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 100,
+        "metric": {
+            "Edit_dist": 0.15,
+            "CDM": 0
+        },
+        "Edit_num": 15,
+        "img_id_cdm": "25"
+    },
+    {
+        "gt_idx": [
+            45
+        ],
+        "gt": "\\root n \\of{\\mathrm{e}}-1=\\frac{1} {n}+\\frac{1} {2 n^{2}}+o \\left( \\frac{1} {n^{2}} \\right),",
+        "pred_idx": [
+            28
+        ],
+        "pred": "\\[    \\sqrt[n]{e} - 1 = \\frac{1}{n} + \\frac{1}{2n^2} + o\\left(\\frac{1}{n^2}\\right),    \\]",
+        "edit": 0.2,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            43
+        ],
+        "pred_position": 3292,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "\\rootn\\of{{e}}-1=\\frac{1}{n}+\\frac{1}{2n^{2}}+o(\\frac{1}{n^{2}}),",
+        "norm_pred": "\\sqrt[n]{e}-1=\\frac{1}{n}+\\frac{1}{2n^2}+o(\\frac{1}{n^2}),",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.2,
+            "CDM": 0
+        },
+        "Edit_num": 13,
+        "img_id_cdm": "26"
+    },
+    {
+        "gt_idx": [
+            47
+        ],
+        "gt": "原式=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} x_{n}-1-{\\frac{1} {2 n}} \\right)=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} {\\frac{\\mathrm{e}-r_{n}} {\\mathrm{e}}}-{\\frac{1} {2 n}} \\right)=-{\\frac{1} {2}}",
+        "pred_idx": [
+            29
+        ],
+        "pred": "\\[    \\text{原式} = \\lim_{n \\to \\infty} n \\left( \\ln x_n - 1 - \\frac{1}{2n} \\right) = \\lim_{n \\to \\infty} n \\left( \\ln \\frac{e-r_n}{e} - \\frac{1}{2n} \\right) = -\\frac{1}{2}    \\]",
+        "edit": 0.21374045801526717,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            45
+        ],
+        "pred_position": 3390,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37_indoor_light_top_screen",
+        "norm_gt": "原式=*{lim}_{n\\to\\infty}n({ln}x_{n}-1-{\\frac{1}{2n}})=*{lim}_{n\\to\\infty}n({ln}{\\frac{{e}-r_{n}}{{e}}}-{\\frac{1}{2n}})=-{\\frac{1}{2}}",
+        "norm_pred": "{原式}=\\lim_{n\\to\\infty}n(\\lnx_n-1-\\frac{1}{2n})=\\lim_{n\\to\\infty}n(\\ln\\frac{e-r_n}{e}-\\frac{1}{2n})=-\\frac{1}{2}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37_indoor_light_top_screen",
+        "image_name": "zh_exampaper_37_indoor_light_top_screen",
+        "upper_len": 131,
+        "metric": {
+            "Edit_dist": 0.21374045801526717,
+            "CDM": 0
+        },
+        "Edit_num": 28,
+        "img_id_cdm": "27"
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "原式={\\frac{1} {2}} \\int_{0}^{\\frac{1} {2}} {\\frac{1} {2 t^{2}-2 t-4}} \\ \\mathrm{d} t={\\frac{1} {1 2}} \\int_{0}^{\\frac{1} {2}} \\left( {\\frac{1} {t-2}}-{\\frac{1} {t+1}} \\right) \\mathrm{d} t=-{\\frac{\\operatorname{l n} 2} {1 2}}",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[     \\text{原式} = \\frac{1}{2} \\int_0^{\\frac{1}{2}} \\frac{1}{2t^2 - 2t - 4} \\, \\mathrm{d}t = \\frac{1}{12} \\int_0^{\\frac{1}{2}} \\left( \\frac{1}{t-2} - \\frac{1}{t+1} \\right) \\mathrm{d}t = -\\frac{\\ln 2}{12}     \\]",
+        "edit": 0.14375,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 751,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "原式={\\frac{1}{2}}\\int_{0}^{\\frac{1}{2}}{\\frac{1}{2t^{2}-2t-4}}\\{d}t={\\frac{1}{12}}\\int_{0}^{\\frac{1}{2}}({\\frac{1}{t-2}}-{\\frac{1}{t+1}}){d}t=-{\\frac{{ln}2}{12}}",
+        "norm_pred": "{原式}=\\frac{1}{2}\\int_0^{\\frac{1}{2}}\\frac{1}{2t^2-2t-4}\\,{d}t=\\frac{1}{12}\\int_0^{\\frac{1}{2}}(\\frac{1}{t-2}-\\frac{1}{t+1}){d}t=-\\frac{\\ln2}{12}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 160,
+        "metric": {
+            "Edit_dist": 0.14375,
+            "CDM": 0
+        },
+        "Edit_num": 23,
+        "img_id_cdm": "28"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "原式=2 \\iint_{D_{1}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} \\operatorname{s i n} x^{2} \\ \\mathrm{d} x \\int_{0}^{x} \\ \\mathrm{d} y=2 \\int_{0}^{\\sqrt{\\pi}} x \\operatorname{s i n} x^{2} \\ \\mathrm{d} x=2",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[     \\text{原式} = 2 \\iint_{D_1} \\sin x^2 \\, \\mathrm{d}x \\, \\mathrm{d}y = 2 \\int_0^{\\sqrt{\\pi}} \\sin x^2 \\, \\mathrm{d}x \\int_0^x \\mathrm{d}y = 2 \\int_0^{\\sqrt{\\pi}} x \\sin x^2 \\, \\mathrm{d}x = 2     \\]",
+        "edit": 0.21804511278195488,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            13
+        ],
+        "pred_position": 1264,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "原式=2\\iint_{d_{1}}{sin}x^{2}\\{d}x\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}{sin}x^{2}\\{d}x\\int_{0}^{x}\\{d}y=2\\int_{0}^{\\sqrt{\\pi}}x{sin}x^{2}\\{d}x=2",
+        "norm_pred": "{原式}=2\\iint_{d_1}\\sinx^2\\,{d}x\\,{d}y=2\\int_0^{\\sqrt{\\pi}}\\sinx^2\\,{d}x\\int_0^x{d}y=2\\int_0^{\\sqrt{\\pi}}x\\sinx^2\\,{d}x=2",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 133,
+        "metric": {
+            "Edit_dist": 0.21804511278195488,
+            "CDM": 0
+        },
+        "Edit_num": 29,
+        "img_id_cdm": "29"
+    },
+    {
+        "gt_idx": [
+            19
+        ],
+        "gt": "\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n ( 2 n+1 )}=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n}+2 \\sum_{n=1}^{\\infty} \\frac{(-1 )^{n}} {2 n+1}.",
+        "pred_idx": [
+            14
+        ],
+        "pred": "\\[     \\sum_{n=1}^\\infty \\frac{(-1)^{n-1}}{n(2n+1)} = \\sum_{n=1}^\\infty \\frac{(-1)^{n-1}}{n} + 2 \\sum_{n=1}^\\infty \\frac{(-1)^n}{2n+1}.     \\]",
+        "edit": 0.06299212598425197,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            17
+        ],
+        "pred_position": 1577,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n(2n+1)}=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}+2\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2n+1}",
+        "norm_pred": "\\sum_{n=1}^\\infty\\frac{(-1)^{n-1}}{n(2n+1)}=\\sum_{n=1}^\\infty\\frac{(-1)^{n-1}}{n}+2\\sum_{n=1}^\\infty\\frac{(-1)^n}{2n+1}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 127,
+        "metric": {
+            "Edit_dist": 0.06299212598425197,
+            "CDM": 0
+        },
+        "Edit_num": 8,
+        "img_id_cdm": "30"
+    },
+    {
+        "gt_idx": [
+            21
+        ],
+        "gt": "\\operatorname{l n} ( 1+x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n-1}} {n} x^{n}, x \\in(-1, 1 ]",
+        "pred_idx": [
+            15
+        ],
+        "pred": "\\[     \\ln(1+x) = \\sum_{n=1}^\\infty \\frac{(-1)^{n-1}}{n} x^n, x \\in (-1, 1].     \\]",
+        "edit": 0.09230769230769231,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            19
+        ],
+        "pred_position": 1732,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "{ln}(1+x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n-1}}{n}x^{n},x\\in(-1,1]",
+        "norm_pred": "\\ln(1+x)=\\sum_{n=1}^\\infty\\frac{(-1)^{n-1}}{n}x^n,x\\in(-1,1]",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.09230769230769231,
+            "CDM": 0
+        },
+        "Edit_num": 6,
+        "img_id_cdm": "31"
+    },
+    {
+        "gt_idx": [
+            23
+        ],
+        "gt": "f ( x )=\\sum_{n=1}^{\\infty} \\frac{(-1 )^{n}} {2 n+1} x^{2 n+1}, x \\in[-1, 1 ].",
+        "pred_idx": [
+            16
+        ],
+        "pred": "\\[     f(x) = \\sum_{n=1}^\\infty \\frac{(-1)^n}{2n+1} x^{2n+1}, x \\in [-1, 1].     \\]",
+        "edit": 0.0625,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            21
+        ],
+        "pred_position": 1826,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "f(x)=\\sum_{n=1}^{\\infty}\\frac{(-1)^{n}}{2n+1}x^{2n+1},x\\in[-1,1]",
+        "norm_pred": "f(x)=\\sum_{n=1}^\\infty\\frac{(-1)^n}{2n+1}x^{2n+1},x\\in[-1,1]",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 64,
+        "metric": {
+            "Edit_dist": 0.0625,
+            "CDM": 0
+        },
+        "Edit_num": 4,
+        "img_id_cdm": "32"
+    },
+    {
+        "gt_idx": [
+            25
+        ],
+        "gt": "f^{\\prime} ( x )=\\sum_{n=1}^{\\infty} (-1 )^{n} x^{2 n}=-\\frac{x^{2}} {1+x^{2}}=\\frac{1} {1+x^{2}}-1, x \\in(-1, 1 ).",
+        "pred_idx": [
+            17
+        ],
+        "pred": "\\[     f'(x) = \\sum_{n=1}^\\infty (-1)^n x^{2n} = -\\frac{x^2}{1+x^2} = \\frac{1}{1+x^2} - 1, x \\in (-1, 1).     \\]",
+        "edit": 0.18811881188118812,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            23
+        ],
+        "pred_position": 1929,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "f^{\\prime}(x)=\\sum_{n=1}^{\\infty}(-1)^{n}x^{2n}=-\\frac{x^{2}}{1+x^{2}}=\\frac{1}{1+x^{2}}-1,x\\in(-1,1)",
+        "norm_pred": "f'(x)=\\sum_{n=1}^\\infty(-1)^nx^{2n}=-\\frac{x^2}{1+x^2}=\\frac{1}{1+x^2}-1,x\\in(-1,1)",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 101,
+        "metric": {
+            "Edit_dist": 0.18811881188118812,
+            "CDM": 0
+        },
+        "Edit_num": 19,
+        "img_id_cdm": "33"
+    },
+    {
+        "gt_idx": [
+            27
+        ],
+        "gt": "\\sum_{n=1}^{\\infty} {\\frac{(-1 )^{n-1}} {n ( 2 n+1 )}}=\\operatorname{l n} 2+2 f ( 1 )=\\operatorname{l n} 2+2 \\left( {\\frac{\\pi} {4}}-1 \\right)=\\operatorname{l n} 2+{\\frac{\\pi} {2}}-2",
+        "pred_idx": [
+            18
+        ],
+        "pred": "\\[     \\sum_{n=1}^\\infty \\frac{(-1)^{n-1}}{n(2n+1)} = \\ln 2 + 2f(1) = \\ln 2 + 2 \\left( \\frac{\\pi}{4} - 1 \\right) = \\ln 2 + \\frac{\\pi}{2} - 2     \\]",
+        "edit": 0.12727272727272726,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            25
+        ],
+        "pred_position": 2078,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "\\sum_{n=1}^{\\infty}{\\frac{(-1)^{n-1}}{n(2n+1)}}={ln}2+2f(1)={ln}2+2({\\frac{\\pi}{4}}-1)={ln}2+{\\frac{\\pi}{2}}-2",
+        "norm_pred": "\\sum_{n=1}^\\infty\\frac{(-1)^{n-1}}{n(2n+1)}=\\ln2+2f(1)=\\ln2+2(\\frac{\\pi}{4}-1)=\\ln2+\\frac{\\pi}{2}-2",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 110,
+        "metric": {
+            "Edit_dist": 0.12727272727272726,
+            "CDM": 0
+        },
+        "Edit_num": 14,
+        "img_id_cdm": "34"
+    },
+    {
+        "gt_idx": [
+            31
+        ],
+        "gt": "3 x^{2}-6 x y-3 x^{2} y^{\\prime}-3 y^{2} y^{\\prime}+2 x-y^{\\prime}=0.",
+        "pred_idx": [
+            21
+        ],
+        "pred": "\\[     3x^2 - 6xy - 3x^2y' - 3y^2y' + 2x - y' = 0.     \\]",
+        "edit": 0.55,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            29
+        ],
+        "pred_position": 2618,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "3x^{2}-6xy-3x^{2}y^{\\prime}-3y^{2}y^{\\prime}+2x-y^{\\prime}=0",
+        "norm_pred": "3x^2-6xy-3x^2y'-3y^2y'+2x-y'=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 60,
+        "metric": {
+            "Edit_dist": 0.55,
+            "CDM": 0
+        },
+        "Edit_num": 33,
+        "img_id_cdm": "35"
+    },
+    {
+        "gt_idx": [
+            33
+        ],
+        "gt": "6 x-6 y-1 2 x y^{\\prime}-3 x^{2} y^{\\prime\\prime}-6 y \\left( y^{\\prime} \\right)^{2}-3 y^{2} y^{\\prime\\prime}+2-y^{\\prime\\prime}=0.",
+        "pred_idx": [
+            22
+        ],
+        "pred": "\\[     6x - 6y - 12xy' - 3x^2y'' - 6y(y')^2 - 3y^2y'' + 2 - y'' = 0.     \\]",
+        "edit": 0.6571428571428571,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            31
+        ],
+        "pred_position": 2736,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "6x-6y-12xy^{\\prime}-3x^{2}y^{\\prime\\prime}-6y(y^{\\prime})^{2}-3y^{2}y^{\\prime\\prime}+2-y^{\\prime\\prime}=0",
+        "norm_pred": "6x-6y-12xy'-3x^2y''-6y(y')^2-3y^2y''+2-y''=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.6571428571428571,
+            "CDM": 0
+        },
+        "Edit_num": 69,
+        "img_id_cdm": "36"
+    },
+    {
+        "gt_idx": [
+            38
+        ],
+        "gt": "f ( y ) \\geqslant f ( x )+f^{\\prime} ( x ) ( y-x ),",
+        "pred_idx": [
+            25
+        ],
+        "pred": "\\[     f(y) \\geqslant f(x) + f'(x)(y-x),     \\]",
+        "edit": 0.24324324324324326,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            36
+        ],
+        "pred_position": 3030,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "f(y)\\geqslantf(x)+f^{\\prime}(x)(y-x),",
+        "norm_pred": "f(y)\\geqslantf(x)+f'(x)(y-x),",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 37,
+        "metric": {
+            "Edit_dist": 0.24324324324324326,
+            "CDM": 0
+        },
+        "Edit_num": 9,
+        "img_id_cdm": "37"
+    },
+    {
+        "gt_idx": [
+            43
+        ],
+        "gt": "x_{n}=\\mathrm{e}-\\sum_{k=n+1}^{\\infty} {\\frac{1} {k!}} \\stackrel{\\mathrm{d e f}} {=} \\mathrm{e}-r_{n}, \\operatorname* {l i m}_{n \\to\\infty} r_{n}=0.",
+        "pred_idx": [
+            28
+        ],
+        "pred": "\\[     x_n = e - \\sum_{k=n+1}^\\infty \\frac{1}{k!} \\stackrel{\\text{def}}{=} e - r_n, \\lim_{n \\to \\infty} r_n = 0.     \\]",
+        "edit": 0.17,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            41
+        ],
+        "pred_position": 3397,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "x_{n}={e}-\\sum_{k=n+1}^{\\infty}{\\frac{1}{k!}}\\stackrel{{def}}{=}{e}-r_{n},*{lim}_{n\\to\\infty}r_{n}=0",
+        "norm_pred": "x_n=e-\\sum_{k=n+1}^\\infty\\frac{1}{k!}\\stackrel{{def}}{=}e-r_n,\\lim_{n\\to\\infty}r_n=0",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 100,
+        "metric": {
+            "Edit_dist": 0.17,
+            "CDM": 0
+        },
+        "Edit_num": 17,
+        "img_id_cdm": "38"
+    },
+    {
+        "gt_idx": [
+            45
+        ],
+        "gt": "\\root n \\of{\\mathrm{e}}-1=\\frac{1} {n}+\\frac{1} {2 n^{2}}+o \\left( \\frac{1} {n^{2}} \\right),",
+        "pred_idx": [
+            29
+        ],
+        "pred": "\\[     \\sqrt[n]{e} - 1 = \\frac{1}{n} + \\frac{1}{2n^2} + o\\left( \\frac{1}{n^2} \\right),     \\]",
+        "edit": 0.2,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            43
+        ],
+        "pred_position": 3527,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_en"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "\\rootn\\of{{e}}-1=\\frac{1}{n}+\\frac{1}{2n^{2}}+o(\\frac{1}{n^{2}}),",
+        "norm_pred": "\\sqrt[n]{e}-1=\\frac{1}{n}+\\frac{1}{2n^2}+o(\\frac{1}{n^2}),",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.2,
+            "CDM": 0
+        },
+        "Edit_num": 13,
+        "img_id_cdm": "39"
+    },
+    {
+        "gt_idx": [
+            47
+        ],
+        "gt": "原式=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} x_{n}-1-{\\frac{1} {2 n}} \\right)=\\operatorname* {l i m}_{n \\to\\infty} n \\left( \\operatorname{l n} {\\frac{\\mathrm{e}-r_{n}} {\\mathrm{e}}}-{\\frac{1} {2 n}} \\right)=-{\\frac{1} {2}}",
+        "pred_idx": [
+            30
+        ],
+        "pred": "\\[     \\text{原式} = \\lim_{n \\to \\infty} n \\left( \\ln x_n - 1 - \\frac{1}{2n} \\right) = \\lim_{n \\to \\infty} n \\left( \\ln \\frac{e - r_n}{e} - \\frac{1}{2n} \\right) = -\\frac{1}{2}     \\]",
+        "edit": 0.21374045801526717,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            45
+        ],
+        "pred_position": 3631,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "formula_type": "print",
+                "equation_language": "equation_ch"
+            }
+        ],
+        "img_id": "zh_exampaper_37",
+        "norm_gt": "原式=*{lim}_{n\\to\\infty}n({ln}x_{n}-1-{\\frac{1}{2n}})=*{lim}_{n\\to\\infty}n({ln}{\\frac{{e}-r_{n}}{{e}}}-{\\frac{1}{2n}})=-{\\frac{1}{2}}",
+        "norm_pred": "{原式}=\\lim_{n\\to\\infty}n(\\lnx_n-1-\\frac{1}{2n})=\\lim_{n\\to\\infty}n(\\ln\\frac{e-r_n}{e}-\\frac{1}{2n})=-\\frac{1}{2}",
+        "is_original": true,
+        "page_id": "zh_exampaper_37",
+        "image_name": "zh_exampaper_37",
+        "upper_len": 131,
+        "metric": {
+            "Edit_dist": 0.21374045801526717,
+            "CDM": 0
+        },
+        "Edit_num": 28,
+        "img_id_cdm": "40"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "[a] = [b] = [c] = [\\ell],",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ [a] = [b] = [c] = [\\ell] \\ , \\]",
+        "edit": 0.05,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 262,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22",
+        "norm_gt": "[a]=[b]=[c]=[\\ell],",
+        "norm_pred": "[a]=[b]=[c]=[\\ell]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22",
+        "image_name": "it_exampaper_22",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.05,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "41"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "[V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3],",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ [V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3] \\ , \\]",
+        "edit": 0.01694915254237288,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 492,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22",
+        "norm_gt": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3],",
+        "norm_pred": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22",
+        "image_name": "it_exampaper_22",
+        "upper_len": 59,
+        "metric": {
+            "Edit_dist": 0.01694915254237288,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "42"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "[d] = \\left[\\frac{m}{V}\\right] = \\left[\\frac{m}{\\ell^3}\\right] = [m \\cdot \\ell^{-3}],",
+        "pred_idx": [
+            5
+        ],
+        "pred": "\\[ [d] = \\left[ \\frac{m}{V} \\right] = \\left[ \\frac{m}{\\ell^3} \\right] = \\left[ m \\cdot \\ell^{-3} \\right] \\ , \\]",
+        "edit": 0.017857142857142856,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 948,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22",
+        "norm_gt": "[d]=[\\frac{m}{v}]=[\\frac{m}{\\ell^3}]=[m\\cdot\\ell^{-3}],",
+        "norm_pred": "[d]=[\\frac{m}{v}]=[\\frac{m}{\\ell^3}]=[m\\cdot\\ell^{-3}]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22",
+        "image_name": "it_exampaper_22",
+        "upper_len": 56,
+        "metric": {
+            "Edit_dist": 0.017857142857142856,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "43"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "[d \\cdot L] = \\left[\\frac{m}{\\ell^3} \\cdot L\\right] = \\left[\\frac{m}{\\ell^2}\\right] = [m \\cdot \\ell^{-2}],",
+        "pred_idx": [
+            8
+        ],
+        "pred": "\\[ [d \\cdot L] = \\left[ \\frac{m}{\\ell^3} \\cdot L \\right] = \\left[ \\frac{m}{\\ell^2} \\right] = \\left[ m \\cdot \\ell^{-2} \\right] \\ , \\]",
+        "edit": 0.0136986301369863,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 1611,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22",
+        "norm_gt": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}],",
+        "norm_pred": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22",
+        "image_name": "it_exampaper_22",
+        "upper_len": 73,
+        "metric": {
+            "Edit_dist": 0.0136986301369863,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "44"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "[a] = [b] = [c] = [\\ell],",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[    [a] = [b] = [c] = [\\ell] \\ ,    \\]",
+        "edit": 0.05,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 254,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "norm_gt": "[a]=[b]=[c]=[\\ell],",
+        "norm_pred": "[a]=[b]=[c]=[\\ell]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "image_name": "it_exampaper_22_indoor_light_top_wrinkle",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.05,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "45"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "[V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3],",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[    [V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3] \\ ,    \\]",
+        "edit": 0.01694915254237288,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 480,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "norm_gt": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3],",
+        "norm_pred": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "image_name": "it_exampaper_22_indoor_light_top_wrinkle",
+        "upper_len": 59,
+        "metric": {
+            "Edit_dist": 0.01694915254237288,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "46"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "[d] = \\left[\\frac{m}{V}\\right] = \\left[\\frac{m}{\\ell^3}\\right] = [m \\cdot \\ell^{-3}],",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[    [d] = \\left[ \\frac{m}{V} \\right] = \\left[ \\frac{m}{\\ell^3} \\right] = [m \\cdot \\ell^{-3}] \\ ,    \\]",
+        "edit": 0.017857142857142856,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 930,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "norm_gt": "[d]=[\\frac{m}{v}]=[\\frac{m}{\\ell^3}]=[m\\cdot\\ell^{-3}],",
+        "norm_pred": "[d]=[\\frac{m}{v}]=[\\frac{m}{\\ell^3}]=[m\\cdot\\ell^{-3}]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "image_name": "it_exampaper_22_indoor_light_top_wrinkle",
+        "upper_len": 56,
+        "metric": {
+            "Edit_dist": 0.017857142857142856,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "47"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "[d \\cdot L] = \\left[\\frac{m}{\\ell^3} \\cdot L\\right] = \\left[\\frac{m}{\\ell^2}\\right] = [m \\cdot \\ell^{-2}],",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[    [d \\cdot L] = \\left[ \\frac{m}{\\ell^3} \\cdot L \\right] = \\left[ \\frac{m}{\\ell^2} \\right] = [m \\cdot \\ell^{-2}] \\ ,    \\]",
+        "edit": 0.0136986301369863,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 1556,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "norm_gt": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}],",
+        "norm_pred": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_top_wrinkle",
+        "image_name": "it_exampaper_22_indoor_light_top_wrinkle",
+        "upper_len": 73,
+        "metric": {
+            "Edit_dist": 0.0136986301369863,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "48"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "[a] = [b] = [c] = [\\ell],",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[[a] = [b] = [c] = [\\ell]\\ ,\\]",
+        "edit": 0.05,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 260,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "norm_gt": "[a]=[b]=[c]=[\\ell],",
+        "norm_pred": "[a]=[b]=[c]=[\\ell]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "image_name": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.05,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "49"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "[V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3],",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[[V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3]\\ ,\\]",
+        "edit": 0.01694915254237288,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 483,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "norm_gt": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3],",
+        "norm_pred": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "image_name": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "upper_len": 59,
+        "metric": {
+            "Edit_dist": 0.01694915254237288,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "50"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "[d] = \\left[\\frac{m}{V}\\right] = \\left[\\frac{m}{\\ell^3}\\right] = [m \\cdot \\ell^{-3}],",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[[d] = \\left[ \\frac{m}{V} \\right] = \\left[ \\frac{m}{\\ell^3} \\right] = [m \\cdot \\ell^{-3}]\\ ,\\]",
+        "edit": 0.017857142857142856,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 928,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "norm_gt": "[d]=[\\frac{m}{v}]=[\\frac{m}{\\ell^3}]=[m\\cdot\\ell^{-3}],",
+        "norm_pred": "[d]=[\\frac{m}{v}]=[\\frac{m}{\\ell^3}]=[m\\cdot\\ell^{-3}]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "image_name": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "upper_len": 56,
+        "metric": {
+            "Edit_dist": 0.017857142857142856,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "51"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "[d \\cdot L] = \\left[\\frac{m}{\\ell^3} \\cdot L\\right] = \\left[\\frac{m}{\\ell^2}\\right] = [m \\cdot \\ell^{-2}],",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[[d \\cdot L] = \\left[ \\frac{m}{\\ell^3} \\cdot L \\right] = \\left[ \\frac{m}{\\ell^2} \\right] = [m \\cdot \\ell^{-2}]\\ ,\\]",
+        "edit": 0.0136986301369863,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 1550,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "norm_gt": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}],",
+        "norm_pred": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "image_name": "it_exampaper_22_indoor_light_shadow_top_bend-in",
+        "upper_len": 73,
+        "metric": {
+            "Edit_dist": 0.0136986301369863,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "52"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "[a] = [b] = [c] = [\\ell],",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[     [a] = [b] = [c] = [\\ell] \\ ,     \\]",
+        "edit": 0.05,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 257,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "norm_gt": "[a]=[b]=[c]=[\\ell],",
+        "norm_pred": "[a]=[b]=[c]=[\\ell]\\,",
+        "is_original": true,
+        "page_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "image_name": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.05,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "53"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "[V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3],",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[     [V] = [a \\cdot b \\cdot c] = [\\ell] \\cdot [\\ell] \\cdot [\\ell] = [\\ell^3]     \\]",
+        "edit": 0.017241379310344827,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            5
+        ],
+        "pred_position": 483,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "norm_gt": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3],",
+        "norm_pred": "[v]=[a\\cdotb\\cdotc]=[\\ell]\\cdot[\\ell]\\cdot[\\ell]=[\\ell^3]",
+        "is_original": true,
+        "page_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "image_name": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "upper_len": 58,
+        "metric": {
+            "Edit_dist": 0.017241379310344827,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "54"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "[d] = \\left[\\frac{m}{V}\\right] = \\left[\\frac{m}{\\ell^3}\\right] = [m \\cdot \\ell^{-3}],",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[     [d] = \\left[\\frac{m}{V}\\right] = \\frac{[m]}{[\\ell^3]} = [m \\cdot \\ell^{-3}]     \\]",
+        "edit": 0.125,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 933,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "norm_gt": "[d]=[\\frac{m}{v}]=[\\frac{m}{\\ell^3}]=[m\\cdot\\ell^{-3}],",
+        "norm_pred": "[d]=[\\frac{m}{v}]=\\frac{[m]}{[\\ell^3]}=[m\\cdot\\ell^{-3}]",
+        "is_original": true,
+        "page_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "image_name": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "upper_len": 56,
+        "metric": {
+            "Edit_dist": 0.125,
+            "CDM": 0
+        },
+        "Edit_num": 7,
+        "img_id_cdm": "55"
+    },
+    {
+        "gt_idx": [
+            15
+        ],
+        "gt": "[d \\cdot L] = \\left[\\frac{m}{\\ell^3} \\cdot L\\right] = \\left[\\frac{m}{\\ell^2}\\right] = [m \\cdot \\ell^{-2}],",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[     [d \\cdot L] = \\left[\\frac{m}{\\ell^3} \\cdot L\\right] = \\left[\\frac{m}{\\ell^2}\\right] = [m \\cdot \\ell^{-2}]     \\]",
+        "edit": 0.013888888888888888,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            14
+        ],
+        "pred_position": 1547,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "norm_gt": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}],",
+        "norm_pred": "[d\\cdotl]=[\\frac{m}{\\ell^3}\\cdotl]=[\\frac{m}{\\ell^2}]=[m\\cdot\\ell^{-2}]",
+        "is_original": true,
+        "page_id": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "image_name": "it_exampaper_22_outdoor_light_left_bend-in_wrinkle",
+        "upper_len": 72,
+        "metric": {
+            "Edit_dist": 0.013888888888888888,
+            "CDM": 0
+        },
+        "Edit_num": 1,
+        "img_id_cdm": "56"
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "y = mx + q",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[y = mx + q\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 124,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "y=mx+q",
+        "norm_pred": "y=mx+q",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 6,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "57"
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\frac{f(x)}{x} \\to \\lim_{x \\to \\infty} f(x) \\cdot \\frac{1}{x}",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[m = \\lim_{x \\to \\infty} \\frac{f(x)}{x} \\rightarrow \\lim_{x \\to \\infty} f(x) \\cdot \\frac{1}{x}\\]",
+        "edit": 0.05333333333333334,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 140,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}\\to\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "norm_pred": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}arrow\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 75,
+        "metric": {
+            "Edit_dist": 0.05333333333333334,
+            "CDM": 0
+        },
+        "Edit_num": 4,
+        "img_id_cdm": "58"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} (f(x) - mx)",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[q = \\lim_{x \\to \\infty} (f(x) - mx)\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 239,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "59"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "y = \\frac{x^2 - 2x}{x - 3}",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[y = \\frac{x^2 - 2x}{x - 3}\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 289,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "y=\\frac{x^2-2x}{x-3}",
+        "norm_pred": "y=\\frac{x^2-2x}{x-3}",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "60"
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "\\lim_{x \\to \\infty} \\frac{x^2 - 2x}{x - 3} = \\frac{\\infty}{\\infty} \\lim_{x \\to \\infty} \\frac{x^{\\cancel{2}}}{x} = \\infty",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[\\lim_{x \\to \\infty} \\frac{x^2 - 2x}{x - 3} = \\frac{\\infty}{\\infty} \\rightarrow \\lim_{x \\to \\infty} \\frac{x^2}{x} = \\infty\\]",
+        "edit": 0.1523809523809524,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 321,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}\\lim_{x\\to\\infty}\\frac{x^{\\cancel{2}}}{x}=\\infty",
+        "norm_pred": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}arrow\\lim_{x\\to\\infty}\\frac{x^2}{x}=\\infty",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.1523809523809524,
+            "CDM": 0
+        },
+        "Edit_num": 16,
+        "img_id_cdm": "61"
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} \\cdot \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x}(x - 2)}{x - 3} \\cdot \\frac{1}{\\cancel{x}} =",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[m = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} \\cdot \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} \\frac{x(x - 2)}{x(x - 3)} = \\frac{\\infty}{\\infty}\\]",
+        "edit": 0.25396825396825395,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 482,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{\\cancel{x}(x-2)}{x-3}\\cdot\\frac{1}{\\cancel{x}}=",
+        "norm_pred": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{x(x-2)}{x(x-3)}=\\frac{\\infty}{\\infty}",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 126,
+        "metric": {
+            "Edit_dist": 0.25396825396825395,
+            "CDM": 0
+        },
+        "Edit_num": 32,
+        "img_id_cdm": "62"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x - 2}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1 \\qquad m = 1",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[= \\lim_{x \\to \\infty} \\frac{x - 2}{x - 3} = \\frac{\\infty}{\\infty} \\rightarrow 1 \\rightarrow m = 1\\]",
+        "edit": 0.08571428571428572,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 639,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1m=1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}arrow1arrowm=1",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 70,
+        "metric": {
+            "Edit_dist": 0.08571428571428572,
+            "CDM": 0
+        },
+        "Edit_num": 6,
+        "img_id_cdm": "63"
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} - 1 \\cdot x \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x^2} - 2x - \\cancel{x^2} + 3x}{x - 3} =",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[q = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} - 1 \\cdot x \\right) = \\lim_{x \\to \\infty} \\frac{x^2 - 2x - x^2 + 3x}{x - 3} =\\]",
+        "edit": 0.1651376146788991,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 742,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{\\cancel{x^2}-2x-\\cancel{x^2}+3x}{x-3}=",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{x^2-2x-x^2+3x}{x-3}=",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 109,
+        "metric": {
+            "Edit_dist": 0.1651376146788991,
+            "CDM": 0
+        },
+        "Edit_num": 18,
+        "img_id_cdm": "64"
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[= \\lim_{x \\to \\infty} \\frac{x}{x - 3} = \\frac{\\infty}{\\infty} \\rightarrow 1\\]",
+        "edit": 0.09230769230769231,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 879,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}arrow1",
+        "is_original": true,
+        "page_id": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "image_name": "it_note_40_outdoor_underexposure_flashlight-off_left_crease_bend-in",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.09230769230769231,
+            "CDM": 0
+        },
+        "Edit_num": 6,
+        "img_id_cdm": "65"
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "y = mx + q",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ y = mx + q \\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 125,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "y=mx+q",
+        "norm_pred": "y=mx+q",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 6,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "66"
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\frac{f(x)}{x} \\to \\lim_{x \\to \\infty} f(x) \\cdot \\frac{1}{x}",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[ m = \\lim_{x \\to \\infty} \\frac{f(x)}{x} \\longrightarrow \\lim_{x \\to \\infty} f(x) \\cdot \\frac{1}{x} \\]",
+        "edit": 0.1411764705882353,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 143,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}\\to\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "norm_pred": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}\\longrightarrow\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 85,
+        "metric": {
+            "Edit_dist": 0.1411764705882353,
+            "CDM": 0
+        },
+        "Edit_num": 12,
+        "img_id_cdm": "67"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} (f(x) - mx)",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[ q = \\lim_{x \\to \\infty} (f(x) - mx) \\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 248,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "68"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "y = \\frac{x^2 - 2x}{x - 3}",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[ y = \\frac{x^2 - 2x}{x - 3} \\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 304,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "y=\\frac{x^2-2x}{x-3}",
+        "norm_pred": "y=\\frac{x^2-2x}{x-3}",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "69"
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "\\lim_{x \\to \\infty} \\frac{x^2 - 2x}{x - 3} = \\frac{\\infty}{\\infty} \\lim_{x \\to \\infty} \\frac{x^{\\cancel{2}}}{x} = \\infty",
+        "pred_idx": [
+            7,
+            8
+        ],
+        "pred": "\\begin{array}{l} {\\[ \\lim_{x \\to \\infty} \\frac{x^2 - 2x}{x - 3} = \\frac{\\infty}{\\infty} \\]} \\\\ {\\[ \\lim_{x \\to \\infty} \\frac{x^2}{x} = \\infty \\]} \\end{array}",
+        "edit": 0.11428571428571428,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 338,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}\\lim_{x\\to\\infty}\\frac{x^{\\cancel{2}}}{x}=\\infty",
+        "norm_pred": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}\\lim_{x\\to\\infty}\\frac{x^2}{x}=\\infty",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.10476190476190476,
+            "CDM": 0
+        },
+        "Edit_num": 11,
+        "img_id_cdm": "70"
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} \\cdot \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x}(x - 2)}{x - 3} \\cdot \\frac{1}{\\cancel{x}} =",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[ m = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} \\cdot \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} \\frac{x(x - 2)}{x - 3} \\cdot \\frac{1}{x} = \\]",
+        "edit": 0.14285714285714285,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 497,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{\\cancel{x}(x-2)}{x-3}\\cdot\\frac{1}{\\cancel{x}}=",
+        "norm_pred": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{x(x-2)}{x-3}\\cdot\\frac{1}{x}=",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 126,
+        "metric": {
+            "Edit_dist": 0.14285714285714285,
+            "CDM": 0
+        },
+        "Edit_num": 18,
+        "img_id_cdm": "71"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x - 2}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1 \\qquad m = 1",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[ = \\lim_{x \\to \\infty} \\frac{x - 2}{x - 3} = \\frac{\\infty}{\\infty} \\rightarrow 1 \\]",
+        "edit": 0.12857142857142856,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 648,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1m=1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}arrow1",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 70,
+        "metric": {
+            "Edit_dist": 0.12857142857142856,
+            "CDM": 0
+        },
+        "Edit_num": 9,
+        "img_id_cdm": "72"
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} - 1 \\cdot x \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x^2} - 2x - \\cancel{x^2} + 3x}{x - 3} =",
+        "pred_idx": [
+            13
+        ],
+        "pred": "\\[ q = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} - 1 \\cdot x \\right) = \\lim_{x \\to \\infty} \\frac{x^2 - 2x - x^2 + 3x}{x - 3} = \\]",
+        "edit": 0.1651376146788991,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 747,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{\\cancel{x^2}-2x-\\cancel{x^2}+3x}{x-3}=",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{x^2-2x-x^2+3x}{x-3}=",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 109,
+        "metric": {
+            "Edit_dist": 0.1651376146788991,
+            "CDM": 0
+        },
+        "Edit_num": 18,
+        "img_id_cdm": "73"
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1",
+        "pred_idx": [
+            14
+        ],
+        "pred": "\\[ = \\lim_{x \\to \\infty} \\frac{x}{x - 3} = \\frac{\\infty}{\\infty} \\longrightarrow 1 \\]",
+        "edit": 0.057971014492753624,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 885,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_right_crease",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}\\longrightarrow1",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_right_crease",
+        "image_name": "it_note_40_indoor_light_right_crease",
+        "upper_len": 69,
+        "metric": {
+            "Edit_dist": 0.057971014492753624,
+            "CDM": 0
+        },
+        "Edit_num": 4,
+        "img_id_cdm": "74"
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "y = mx + q",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[y = mx + q\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 124,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "y=mx+q",
+        "norm_pred": "y=mx+q",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 6,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "75"
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\frac{f(x)}{x} \\to \\lim_{x \\to \\infty} f(x) \\cdot \\frac{1}{x}",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[m = \\lim_{x\\to \\infty} \\frac{f(x)}{x} \\rightarrow \\lim_{x\\to \\infty} f(x) \\cdot \\frac{1}{x}\\]",
+        "edit": 0.05333333333333334,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 140,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}\\to\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "norm_pred": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}arrow\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 75,
+        "metric": {
+            "Edit_dist": 0.05333333333333334,
+            "CDM": 0
+        },
+        "Edit_num": 4,
+        "img_id_cdm": "76"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} (f(x) - mx)",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[q = \\lim_{x\\to \\infty} (f(x) - mx)\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 237,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "77"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "y = \\frac{x^2 - 2x}{x - 3}",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[y = \\frac{x^2 - 2x}{x-3}\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 290,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "y=\\frac{x^2-2x}{x-3}",
+        "norm_pred": "y=\\frac{x^2-2x}{x-3}",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "78"
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "\\lim_{x \\to \\infty} \\frac{x^2 - 2x}{x - 3} = \\frac{\\infty}{\\infty} \\lim_{x \\to \\infty} \\frac{x^{\\cancel{2}}}{x} = \\infty",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[\\lim_{x\\to \\infty} \\frac{x^2 - 2x}{x-3} = \\frac{\\infty}{\\infty} \\quad \\lim_{x\\to \\infty} \\frac{x^2}{x} = \\infty\\]",
+        "edit": 0.10476190476190476,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 320,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}\\lim_{x\\to\\infty}\\frac{x^{\\cancel{2}}}{x}=\\infty",
+        "norm_pred": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}\\lim_{x\\to\\infty}\\frac{x^2}{x}=\\infty",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.10476190476190476,
+            "CDM": 0
+        },
+        "Edit_num": 11,
+        "img_id_cdm": "79"
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} \\cdot \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x}(x - 2)}{x - 3} \\cdot \\frac{1}{\\cancel{x}} =",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[m = \\lim_{x\\to \\infty} \\left( \\frac{x^2 - 2x}{x-3} \\cdot \\frac{1}{x} \\right) = \\lim_{x\\to \\infty} \\frac{x(x-2)}{x-3} \\cdot \\frac{1}{x} =\\]",
+        "edit": 0.14285714285714285,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 471,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{\\cancel{x}(x-2)}{x-3}\\cdot\\frac{1}{\\cancel{x}}=",
+        "norm_pred": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{x(x-2)}{x-3}\\cdot\\frac{1}{x}=",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 126,
+        "metric": {
+            "Edit_dist": 0.14285714285714285,
+            "CDM": 0
+        },
+        "Edit_num": 18,
+        "img_id_cdm": "80"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x - 2}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1 \\qquad m = 1",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[= \\lim_{x\\to \\infty} \\frac{x-2}{x-3} = \\frac{\\infty}{\\infty} \\rightarrow 1 \\qquad m = 1\\]",
+        "edit": 0.08571428571428572,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 613,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1m=1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}arrow1m=1",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 70,
+        "metric": {
+            "Edit_dist": 0.08571428571428572,
+            "CDM": 0
+        },
+        "Edit_num": 6,
+        "img_id_cdm": "81"
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} - 1 \\cdot x \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x^2} - 2x - \\cancel{x^2} + 3x}{x - 3} =",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[q = \\lim_{x\\to \\infty} \\left( \\frac{x^2 - 2x}{x-3} - 1 \\cdot x \\right) = \\lim_{x\\to \\infty} \\frac{x^2 - 2x - x^2 + 3x}{x-3} =\\]",
+        "edit": 0.1651376146788991,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 706,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{\\cancel{x^2}-2x-\\cancel{x^2}+3x}{x-3}=",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{x^2-2x-x^2+3x}{x-3}=",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 109,
+        "metric": {
+            "Edit_dist": 0.1651376146788991,
+            "CDM": 0
+        },
+        "Edit_num": 18,
+        "img_id_cdm": "82"
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[= \\lim_{x\\to \\infty} \\frac{x}{x-3} = \\frac{\\infty}{\\infty} \\rightarrow 1\\]",
+        "edit": 0.09230769230769231,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 837,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}arrow1",
+        "is_original": true,
+        "page_id": "it_note_40_indoor_light_top_crease_bend-in",
+        "image_name": "it_note_40_indoor_light_top_crease_bend-in",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.09230769230769231,
+            "CDM": 0
+        },
+        "Edit_num": 6,
+        "img_id_cdm": "83"
+    },
+    {
+        "gt_idx": [
+            2
+        ],
+        "gt": "y = mx + q",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[y = mx + q\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": 122,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "y=mx+q",
+        "norm_pred": "y=mx+q",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 6,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "84"
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\frac{f(x)}{x} \\to \\lim_{x \\to \\infty} f(x) \\cdot \\frac{1}{x}",
+        "pred_idx": [
+            3
+        ],
+        "pred": "\\[m = \\lim_{x \\to \\infty} \\frac{f(x)}{x} \\to \\lim_{x \\to \\infty} f(x) \\cdot \\frac{1}{x}\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 138,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}\\to\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "norm_pred": "m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}\\to\\lim_{x\\to\\infty}f(x)\\cdot\\frac{1}{x}",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 73,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "85"
+    },
+    {
+        "gt_idx": [
+            4
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} (f(x) - mx)",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[q = \\lim_{x \\to \\infty} (f(x) - mx)\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            4
+        ],
+        "pred_position": 229,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(f(x)-mx)",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 28,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "86"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "y = \\frac{x^2 - 2x}{x - 3}",
+        "pred_idx": [
+            6
+        ],
+        "pred": "\\[y = \\frac{x^2 - 2x}{x - 3}\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 283,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "y=\\frac{x^2-2x}{x-3}",
+        "norm_pred": "y=\\frac{x^2-2x}{x-3}",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 20,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "87"
+    },
+    {
+        "gt_idx": [
+            7
+        ],
+        "gt": "\\lim_{x \\to \\infty} \\frac{x^2 - 2x}{x - 3} = \\frac{\\infty}{\\infty} \\lim_{x \\to \\infty} \\frac{x^{\\cancel{2}}}{x} = \\infty",
+        "pred_idx": [
+            7
+        ],
+        "pred": "\\[\\lim_{x \\to \\infty} \\frac{x^2 - 2x}{x - 3} = \\frac{\\infty}{\\infty} \\quad \\lim_{x \\to \\infty} \\frac{x^2}{x} = \\infty\\]",
+        "edit": 0.10476190476190476,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            7
+        ],
+        "pred_position": 315,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}\\lim_{x\\to\\infty}\\frac{x^{\\cancel{2}}}{x}=\\infty",
+        "norm_pred": "\\lim_{x\\to\\infty}\\frac{x^2-2x}{x-3}=\\frac{\\infty}{\\infty}\\lim_{x\\to\\infty}\\frac{x^2}{x}=\\infty",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 105,
+        "metric": {
+            "Edit_dist": 0.10476190476190476,
+            "CDM": 0
+        },
+        "Edit_num": 11,
+        "img_id_cdm": "88"
+    },
+    {
+        "gt_idx": [
+            9
+        ],
+        "gt": "m = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} \\cdot \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x}(x - 2)}{x - 3} \\cdot \\frac{1}{\\cancel{x}} =",
+        "pred_idx": [
+            9
+        ],
+        "pred": "\\[m = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} \\cdot \\frac{1}{x} \\right) = \\lim_{x \\to \\infty} \\frac{x(x - 2)}{x - 3} \\cdot \\frac{1}{x} =\\]",
+        "edit": 0.14285714285714285,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            9
+        ],
+        "pred_position": 470,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{\\cancel{x}(x-2)}{x-3}\\cdot\\frac{1}{\\cancel{x}}=",
+        "norm_pred": "m=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}\\cdot\\frac{1}{x})=\\lim_{x\\to\\infty}\\frac{x(x-2)}{x-3}\\cdot\\frac{1}{x}=",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 126,
+        "metric": {
+            "Edit_dist": 0.14285714285714285,
+            "CDM": 0
+        },
+        "Edit_num": 18,
+        "img_id_cdm": "89"
+    },
+    {
+        "gt_idx": [
+            10
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x - 2}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1 \\qquad m = 1",
+        "pred_idx": [
+            10
+        ],
+        "pred": "\\[= \\lim_{x \\to \\infty} \\frac{x - 2}{x - 3} = \\frac{\\infty}{\\infty} \\to 1 \\qquad m = 1\\]",
+        "edit": 0.11428571428571428,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            10
+        ],
+        "pred_position": 620,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1m=1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x-2}{x-3}=\\frac{\\infty}{\\infty}\\to1m=1",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 70,
+        "metric": {
+            "Edit_dist": 0.11428571428571428,
+            "CDM": 0
+        },
+        "Edit_num": 8,
+        "img_id_cdm": "90"
+    },
+    {
+        "gt_idx": [
+            11
+        ],
+        "gt": "q = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} - 1 \\cdot x \\right) = \\lim_{x \\to \\infty} \\frac{\\cancel{x^2} - 2x - \\cancel{x^2} + 3x}{x - 3} =",
+        "pred_idx": [
+            11
+        ],
+        "pred": "\\[q = \\lim_{x \\to \\infty} \\left( \\frac{x^2 - 2x}{x - 3} - 1 \\cdot x \\right) = \\lim_{x \\to \\infty} \\frac{x^2 - 2x - x^2 + 3x}{x - 3} =\\]",
+        "edit": 0.1651376146788991,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            11
+        ],
+        "pred_position": 710,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{\\cancel{x^2}-2x-\\cancel{x^2}+3x}{x-3}=",
+        "norm_pred": "q=\\lim_{x\\to\\infty}(\\frac{x^2-2x}{x-3}-1\\cdotx)=\\lim_{x\\to\\infty}\\frac{x^2-2x-x^2+3x}{x-3}=",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 109,
+        "metric": {
+            "Edit_dist": 0.1651376146788991,
+            "CDM": 0
+        },
+        "Edit_num": 18,
+        "img_id_cdm": "91"
+    },
+    {
+        "gt_idx": [
+            12
+        ],
+        "gt": "= \\lim_{x \\to \\infty} \\frac{x}{x - 3} = \\frac{\\infty}{\\infty} \\Rightarrow 1",
+        "pred_idx": [
+            12
+        ],
+        "pred": "\\[= \\lim_{x \\to \\infty} \\frac{x}{x - 3} = \\frac{\\infty}{\\infty} \\to 1\\]",
+        "edit": 0.12307692307692308,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            12
+        ],
+        "pred_position": 847,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Italian"
+            }
+        ],
+        "img_id": "it_note_40",
+        "norm_gt": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}\\rightarrow1",
+        "norm_pred": "=\\lim_{x\\to\\infty}\\frac{x}{x-3}=\\frac{\\infty}{\\infty}\\to1",
+        "is_original": true,
+        "page_id": "it_note_40",
+        "image_name": "it_note_40",
+        "upper_len": 65,
+        "metric": {
+            "Edit_dist": 0.12307692307692308,
+            "CDM": 0
+        },
+        "Edit_num": 8,
+        "img_id_cdm": "92"
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "\\mathrm{H}_2\\overset{+}{\\mathrm{C}}-\\mathrm{CH}=\\mathrm{CH}_2 \\longleftrightarrow \\mathrm{H}_2\\mathrm{C}=\\overset{+}{\\mathrm{CH}}-\\mathrm{CH}_2",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ \\mathrm{H}_{2}\\overset{+}{\\mathrm{C}}-\\mathrm{CH}=\\mathrm{CH}_{2} \\longleftrightarrow \\mathrm{H}_{2}\\mathrm{C}=\\overset{+}{\\mathrm{CH}}-\\mathrm{CH}_{2} \\]",
+        "edit": 0.08602150537634409,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 66,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Japanese"
+            }
+        ],
+        "img_id": "jp_note_43",
+        "norm_gt": "{h}_2\\overset{+}{{c}}-{ch}={ch}_2\\longleftrightarrow{h}_2{c}=\\overset{+}{{ch}}-{ch}_2",
+        "norm_pred": "{h}_{2}\\overset{+}{{c}}-{ch}={ch}_{2}\\longleftrightarrow{h}_{2}{c}=\\overset{+}{{ch}}-{ch}_{2}",
+        "is_original": true,
+        "page_id": "jp_note_43",
+        "image_name": "jp_note_43",
+        "upper_len": 93,
+        "metric": {
+            "Edit_dist": 0.08602150537634409,
+            "CDM": 0
+        },
+        "Edit_num": 8,
+        "img_id_cdm": "93"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "\\mathrm{H}_{2}\\overset{-}{\\mathrm{C}}- \\mathrm{CH}=\\mathrm{CH}_{2}\\longleftrightarrow\\mathrm{H}_{2}\\mathrm{C}=\\mathrm{CH}-\\overset{-}{\\mathrm{C}}\\mathrm{H}_{2}",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[ \\mathrm{H}_{2}\\overset{-}{\\mathrm{C}}-\\mathrm{CH}=\\mathrm{CH}_{2} \\longleftrightarrow \\mathrm{H}_{2}\\mathrm{C}=\\mathrm{CH}-\\overset{-}{\\mathrm{CH}}_{2} \\]",
+        "edit": 0.031578947368421054,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 240,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Japanese"
+            }
+        ],
+        "img_id": "jp_note_43",
+        "norm_gt": "{h}_{2}\\overset{-}{{c}}-{ch}={ch}_{2}\\longleftrightarrow{h}_{2}{c}={ch}-\\overset{-}{{c}}{h}_{2}",
+        "norm_pred": "{h}_{2}\\overset{-}{{c}}-{ch}={ch}_{2}\\longleftrightarrow{h}_{2}{c}={ch}-\\overset{-}{{ch}}_{2}",
+        "is_original": true,
+        "page_id": "jp_note_43",
+        "image_name": "jp_note_43",
+        "upper_len": 95,
+        "metric": {
+            "Edit_dist": 0.031578947368421054,
+            "CDM": 0
+        },
+        "Edit_num": 3,
+        "img_id_cdm": "94"
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "\\mathrm{H}_2\\overset{+}{\\mathrm{C}}-\\mathrm{CH}=\\mathrm{CH}_2 \\longleftrightarrow \\mathrm{H}_2\\mathrm{C}=\\overset{+}{\\mathrm{CH}}-\\mathrm{CH}_2",
+        "pred_idx": [
+            2
+        ],
+        "pred": "\\[ \\text{H}_2\\overset{+}{\\text{C}}-\\text{CH}=\\text{CH}_2 \\longleftrightarrow \\text{H}_2\\text{C}=\\text{CH}-\\overset{+}{\\text{CH}_2} \\]",
+        "edit": 0.1411764705882353,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 64,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Japanese"
+            }
+        ],
+        "img_id": "jp_note_43_indoor_light_top_bend-in_crease",
+        "norm_gt": "{h}_2\\overset{+}{{c}}-{ch}={ch}_2\\longleftrightarrow{h}_2{c}=\\overset{+}{{ch}}-{ch}_2",
+        "norm_pred": "{h}_2\\overset{+}{{c}}-{ch}={ch}_2\\longleftrightarrow{h}_2{c}={ch}-\\overset{+}{{ch}_2}",
+        "is_original": true,
+        "page_id": "jp_note_43_indoor_light_top_bend-in_crease",
+        "image_name": "jp_note_43_indoor_light_top_bend-in_crease",
+        "upper_len": 85,
+        "metric": {
+            "Edit_dist": 0.1411764705882353,
+            "CDM": 0
+        },
+        "Edit_num": 12,
+        "img_id_cdm": "95"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "\\mathrm{H}_{2}\\overset{-}{\\mathrm{C}}- \\mathrm{CH}=\\mathrm{CH}_{2}\\longleftrightarrow\\mathrm{H}_{2}\\mathrm{C}=\\mathrm{CH}-\\overset{-}{\\mathrm{C}}\\mathrm{H}_{2}",
+        "pred_idx": [
+            4
+        ],
+        "pred": "\\[ \\text{H}_2\\bar{\\text{C}}-\\text{CH}=\\text{CH}_2 \\longleftrightarrow \\text{H}_2\\text{C}=\\text{CH}-\\bar{\\text{CH}_2} \\]",
+        "edit": 0.29473684210526313,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 212,
+        "pred_category_type": "equation_isolated",
+        "gt_attribute": [
+            {
+                "text_language": "Japanese"
+            }
+        ],
+        "img_id": "jp_note_43_indoor_light_top_bend-in_crease",
+        "norm_gt": "{h}_{2}\\overset{-}{{c}}-{ch}={ch}_{2}\\longleftrightarrow{h}_{2}{c}={ch}-\\overset{-}{{c}}{h}_{2}",
+        "norm_pred": "{h}_2\\bar{{c}}-{ch}={ch}_2\\longleftrightarrow{h}_2{c}={ch}-\\bar{{ch}_2}",
+        "is_original": true,
+        "page_id": "jp_note_43_indoor_light_top_bend-in_crease",
+        "image_name": "jp_note_43_indoor_light_top_bend-in_crease",
+        "upper_len": 95,
+        "metric": {
+            "Edit_dist": 0.29473684210526313,
+            "CDM": 0
+        },
+        "Edit_num": 28,
+        "img_id_cdm": "96"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "\\mathrm{H}_{2}\\overset{-}{\\mathrm{C}}- \\mathrm{CH}=\\mathrm{CH}_{2}\\longleftrightarrow\\mathrm{H}_{2}\\mathrm{C}=\\mathrm{CH}-\\overset{-}{\\mathrm{C}}\\mathrm{H}_{2}",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "edit": 1,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": "",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {
+                "text_language": "Japanese"
+            }
+        ],
+        "img_id": "jp_note_43_indoor_light_right_crease",
+        "norm_gt": "{h}_{2}\\overset{-}{{c}}-{ch}={ch}_{2}\\longleftrightarrow{h}_{2}{c}={ch}-\\overset{-}{{c}}{h}_{2}",
+        "norm_pred": "",
+        "is_original": true,
+        "page_id": "jp_note_43_indoor_light_right_crease",
+        "image_name": "jp_note_43_indoor_light_right_crease",
+        "upper_len": 95,
+        "metric": {
+            "Edit_dist": 1.0,
+            "CDM": 0
+        },
+        "Edit_num": 95,
+        "img_id_cdm": "97"
+    },
+    {
+        "gt_idx": [
+            3
+        ],
+        "gt": "\\mathrm{H}_2\\overset{+}{\\mathrm{C}}-\\mathrm{CH}=\\mathrm{CH}_2 \\longleftrightarrow \\mathrm{H}_2\\mathrm{C}=\\overset{+}{\\mathrm{CH}}-\\mathrm{CH}_2",
+        "pred_idx": [
+            13
+        ],
+        "pred": "\\[H_2\\overset{+}{C} - CH = CH_2 \\longleftrightarrow H_2C = CH - \\overset{+}{C}H_2\\]",
+        "edit": 0.24705882352941178,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            3
+        ],
+        "pred_position": 124,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "text_language": "Japanese"
+            }
+        ],
+        "img_id": "jp_note_43_outdoor_light_shadow_left_crease_bend-in",
+        "norm_gt": "{h}_2\\overset{+}{{c}}-{ch}={ch}_2\\longleftrightarrow{h}_2{c}=\\overset{+}{{ch}}-{ch}_2",
+        "norm_pred": "h_2\\overset{+}{c}-ch=ch_2\\longleftrightarrowh_2c=ch-\\overset{+}{c}h_2",
+        "is_original": true,
+        "page_id": "jp_note_43_outdoor_light_shadow_left_crease_bend-in",
+        "image_name": "jp_note_43_outdoor_light_shadow_left_crease_bend-in",
+        "upper_len": 85,
+        "metric": {
+            "Edit_dist": 0.24705882352941178,
+            "CDM": 0
+        },
+        "Edit_num": 21,
+        "img_id_cdm": "98"
+    },
+    {
+        "gt_idx": [
+            6
+        ],
+        "gt": "\\mathrm{H}_{2}\\overset{-}{\\mathrm{C}}- \\mathrm{CH}=\\mathrm{CH}_{2}\\longleftrightarrow\\mathrm{H}_{2}\\mathrm{C}=\\mathrm{CH}-\\overset{-}{\\mathrm{C}}\\mathrm{H}_{2}",
+        "pred_idx": [
+            15
+        ],
+        "pred": "\\[H_2\\overset{-}{C} - CH = CH_2 \\longleftrightarrow H_2C = CH - \\overset{-}{C}H_2\\]",
+        "edit": 0.2736842105263158,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            6
+        ],
+        "pred_position": 219,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "text_language": "Japanese"
+            }
+        ],
+        "img_id": "jp_note_43_outdoor_light_shadow_left_crease_bend-in",
+        "norm_gt": "{h}_{2}\\overset{-}{{c}}-{ch}={ch}_{2}\\longleftrightarrow{h}_{2}{c}={ch}-\\overset{-}{{c}}{h}_{2}",
+        "norm_pred": "h_2\\overset{-}{c}-ch=ch_2\\longleftrightarrowh_2c=ch-\\overset{-}{c}h_2",
+        "is_original": true,
+        "page_id": "jp_note_43_outdoor_light_shadow_left_crease_bend-in",
+        "image_name": "jp_note_43_outdoor_light_shadow_left_crease_bend-in",
+        "upper_len": 95,
+        "metric": {
+            "Edit_dist": 0.2736842105263158,
+            "CDM": 0
+        },
+        "Edit_num": 26,
+        "img_id_cdm": "99"
+    },
+    {
+        "gt_idx": [
+            36
+        ],
+        "gt": "f(x) = 2^x, \\quad g(x) = \\left(\\frac{1}{2}\\right)^{2x}",
+        "pred_idx": [
+            46
+        ],
+        "pred": "\\[f(x) = 2^x, \\quad g(x) = \\left(\\frac{1}{2}\\right)^{2x}\\]",
+        "edit": 0.0,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            33
+        ],
+        "pred_position": 625,
+        "pred_category_type": "equation_inline",
+        "gt_attribute": [
+            {
+                "text_language": "Korean"
+            }
+        ],
+        "img_id": "ko_exampaper_27_outdoor_light_top_hold",
+        "norm_gt": "f(x)=2^x,g(x)=(\\frac{1}{2})^{2x}",
+        "norm_pred": "f(x)=2^x,g(x)=(\\frac{1}{2})^{2x}",
+        "is_original": true,
+        "page_id": "ko_exampaper_27_outdoor_light_top_hold",
+        "image_name": "ko_exampaper_27_outdoor_light_top_hold",
+        "upper_len": 32,
+        "metric": {
+            "Edit_dist": 0.0,
+            "CDM": 0
+        },
+        "Edit_num": 0,
+        "img_id_cdm": "100"
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "20\\times21=420",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "edit": 1,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": "",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {
+                "text_language": "Traditional-Chinese"
+            }
+        ],
+        "img_id": "zh-CHT_exampaper_25",
+        "norm_gt": "20\\times21=420",
+        "norm_pred": "",
+        "is_original": true,
+        "page_id": "zh-CHT_exampaper_25",
+        "image_name": "zh-CHT_exampaper_25",
+        "upper_len": 14,
+        "metric": {
+            "Edit_dist": 1.0,
+            "CDM": 0
+        },
+        "Edit_num": 14,
+        "img_id_cdm": "101"
+    },
+    {
+        "gt_idx": [
+            5
+        ],
+        "gt": "20\\times21=420",
+        "pred_idx": [
+            ""
+        ],
+        "pred": "",
+        "edit": 1,
+        "gt_category_type": "equation_isolated",
+        "gt_position": [
+            2
+        ],
+        "pred_position": "",
+        "pred_category_type": "",
+        "gt_attribute": [
+            {
+                "text_language": "Traditional-Chinese"
+            }
+        ],
+        "img_id": "zh-CHT_exampaper_25_indoor_light_down_wrinkle_bend-out",
+        "norm_gt": "20\\times21=420",
+        "norm_pred": "",
+        "is_original": true,
+        "page_id": "zh-CHT_exampaper_25_indoor_light_down_wrinkle_bend-out",
+        "image_name": "zh-CHT_exampaper_25_indoor_light_down_wrinkle_bend-out",
+        "upper_len": 14,
+        "metric": {
+            "Edit_dist": 1.0,
+            "CDM": 0
+        },
+        "Edit_num": 14,
+        "img_id_cdm": "102"
+    }
+]

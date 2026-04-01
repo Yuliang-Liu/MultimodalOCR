@@ -1,0 +1,734 @@
+<h1 align="center">
+MDPBench
+</h1>
+
+<div align="center">
+English | <a href="./README_zh-CN.md">简体中文</a>
+<br>
+
+[\[📜 arXiv\]](#) | [[Dataset (🤗Hugging Face)]](#) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
+
+</div>
+
+**MDPBench (Multilingual Document Parsing Benchmark)** is the first benchmark for multilingual photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted pages in a handful of dominant languages. MDPBench bridges the evaluation gap for real-world scenarios across diverse scripts and low-resource languages.
+
+The benchmark features the following characteristics:
+- **Multilingual Support**: Comprises 3,400 document images spanning 17 languages (Simplified Chinese, Traditional Chinese, English, Arabic, German, Spanish, French, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese).
+- **Varied Conditions**: Contains 850 digital-born documents and 2,550 photographed documents, capturing diverse scripts and varied real-world photographic conditions.
+- **High-Quality Annotations**: Produced through a rigorous pipeline of expert model labeling, manual correction, and human verification to test open-source and closed-source models comprehensively.
+- **Fair Evaluation splits**: Maintains separate public and private evaluation splits to ensure fair comparison and prevent data leakage.
+- **Comprehensive Evaluation**: Analyzes reading order (Normalized Edit Distance), formula syntax (CDM / Edit Distance), table structure (TEDS / Edit Distance), and text/character error rates across digital and non-Latin photographed pages.
+
+## Table of Contents
+- [Benchmark Introduction](#benchmark-introduction)
+- [Main Results](#main-results)
+- [Evaluation](#evaluation)
+  - [Environment Setup and Running](#environment-setup-and-running)
+  - [End-to-End Evaluation](#end-to-end-evaluation)
+  - [Tools](#tools)
+- [Citation](#citation)
+
+## Benchmark Introduction
+
+This benchmark includes 3,400 document images, covering 17 languages (across both Latin and non-Latin scripts) and 2 major scenario origins (digital-born documents and real-world photographed conditions). MDPBench features rich document variations, capturing complex real-world photographic distortions such as page bending, folding, illumination changes, and varied camera angles. Every document page contains comprehensive annotations to support in-depth document parsing evaluations, which include reading order sequences, detailed text recognition annotations, LaTeX/HTML formats for mathematical formulas and table structures. Through these attributes and rich annotations, MDPBench is tailored to effectively expose and comprehensively evaluate diverse parsing challenges found in current vision-language models—such as reading order confusion, layout dropping out, language misclassifications, and severe character hallucinations on low-resource typography.
+
+## Main Results
+
+The table below shows the overall performance comparison of general VLMs, specialized VLMs, and pipeline tools on MDPBench. The evaluation is broken down by Digital/Photographed scenarios, and Latin/Non-Latin scripts.
+
+<table style="width:100%; border-collapse: collapse; text-align: center;">
+    <caption>Performance of general VLMs, specialized VLMs, and pipeline tools on MDPBench.</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Model Type</th>
+            <th rowspan="2">Model</th>
+            <th colspan="3">Overall</th>
+            <th colspan="10">Latin</th>
+            <th colspan="9">Non-Latin</th>
+            <th colspan="1">Private</th>
+        </tr>
+        <tr>
+            <th>All</th>
+            <th>Digit.</th>
+            <th>Photo.</th>
+            <th>Avg.</th>
+            <th>DE</th>
+            <th>EN</th>
+            <th>ES</th>
+            <th>FR</th>
+            <th>ID</th>
+            <th>IT</th>
+            <th>NL</th>
+            <th>PT</th>
+            <th>VI</th>
+            <th>Avg.</th>
+            <th>AR</th>
+            <th>HI</th>
+            <th>JP</th>
+            <th>KO</th>
+            <th>RU</th>
+            <th>TH</th>
+            <th>ZH</th>
+            <th>ZH-T</th>
+            <th>All</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="8"><strong>General</strong><br><strong>VLMs</strong></td>
+            <td>Gemini-3-pro-preview</td>
+            <td><strong>86.4</strong></td>
+            <td><ins>90.4</ins></td>
+            <td><strong>85.1</strong></td>
+            <td><strong>88.4</strong></td>
+            <td><strong>91.2</strong></td>
+            <td><strong>90.6</strong></td>
+            <td><strong>83.4</strong></td>
+            <td><strong>82.7</strong></td>
+            <td><strong>91.5</strong></td>
+            <td><strong>91.6</strong></td>
+            <td><strong>87.7</strong></td>
+            <td><strong>91.4</strong></td>
+            <td><ins>85.9</ins></td>
+            <td><strong>84.1</strong></td>
+            <td><strong>89.4</strong></td>
+            <td><strong>90.4</strong></td>
+            <td><ins>74.8</ins></td>
+            <td><ins>85.5</ins></td>
+            <td><strong>84.9</strong></td>
+            <td><strong>80.6</strong></td>
+            <td><strong>85.1</strong></td>
+            <td><strong>82.1</strong></td>
+            <td><strong>89.8</strong></td>
+        </tr>
+        <tr>
+            <td>kimi-K2.5</td>
+            <td>77.5</td>
+            <td>85.0</td>
+            <td>75.0</td>
+            <td>81.6</td>
+            <td><ins>85.9</ins></td>
+            <td>86.2</td>
+            <td>72.7</td>
+            <td>71.0</td>
+            <td>80.6</td>
+            <td>86.6</td>
+            <td>77.4</td>
+            <td>87.6</td>
+            <td><strong>86.2</strong></td>
+            <td>72.9</td>
+            <td>75.8</td>
+            <td>74.5</td>
+            <td>72.5</td>
+            <td>70.9</td>
+            <td>61.8</td>
+            <td>67.0</td>
+            <td>81.7</td>
+            <td>78.6</td>
+            <td>81.2</td>
+        </tr>
+        <tr>
+            <td>Doubao-2.0-pro</td>
+            <td>74.2</td>
+            <td>78.9</td>
+            <td>72.8</td>
+            <td>75.7</td>
+            <td>82.8</td>
+            <td>74.4</td>
+            <td>69.0</td>
+            <td>70.0</td>
+            <td>73.3</td>
+            <td>82.0</td>
+            <td>69.9</td>
+            <td>83.4</td>
+            <td>76.5</td>
+            <td>72.5</td>
+            <td>81.3</td>
+            <td>75.7</td>
+            <td>65.8</td>
+            <td>74.7</td>
+            <td>63.3</td>
+            <td>71.9</td>
+            <td>71.9</td>
+            <td>75.2</td>
+            <td>79.5</td>
+        </tr>
+        <tr>
+            <td>Claude-Sonnet-4.6</td>
+            <td>73.1</td>
+            <td>85.0</td>
+            <td>69.3</td>
+            <td>79.2</td>
+            <td>79.8</td>
+            <td>80.6</td>
+            <td>72.8</td>
+            <td>66.5</td>
+            <td>82.3</td>
+            <td>83.3</td>
+            <td>76.7</td>
+            <td>88.0</td>
+            <td>83.1</td>
+            <td>66.2</td>
+            <td>67.8</td>
+            <td>71.7</td>
+            <td>63.4</td>
+            <td>64.3</td>
+            <td>70.8</td>
+            <td>65.2</td>
+            <td>61.3</td>
+            <td>65.1</td>
+            <td>77.6</td>
+        </tr>
+        <tr>
+            <td>ChatGPT-5.2-2025-12-11</td>
+            <td>68.6</td>
+            <td>85.6</td>
+            <td>63.0</td>
+            <td>75.2</td>
+            <td>70.8</td>
+            <td>79.4</td>
+            <td>71.4</td>
+            <td>60.0</td>
+            <td>77.7</td>
+            <td>78.5</td>
+            <td>71.6</td>
+            <td>85.0</td>
+            <td>82.1</td>
+            <td>61.1</td>
+            <td>64.9</td>
+            <td>63.4</td>
+            <td>55.8</td>
+            <td>65.4</td>
+            <td>60.7</td>
+            <td>63.8</td>
+            <td>56.3</td>
+            <td>58.7</td>
+            <td>74.0</td>
+        </tr>
+        <tr>
+            <td>Qwen3-VL-Instruct-8b</td>
+            <td>68.3</td>
+            <td>78.4</td>
+            <td>65.0</td>
+            <td>73.6</td>
+            <td>73.7</td>
+            <td>71.4</td>
+            <td>69.3</td>
+            <td>66.2</td>
+            <td>68.5</td>
+            <td>79.1</td>
+            <td>78.3</td>
+            <td>82.2</td>
+            <td>73.4</td>
+            <td>62.5</td>
+            <td>63.1</td>
+            <td>58.4</td>
+            <td>59.9</td>
+            <td>61.9</td>
+            <td>57.9</td>
+            <td>62.0</td>
+            <td>62.6</td>
+            <td>73.8</td>
+            <td>70.8</td>
+        </tr>
+        <tr>
+            <td>Qwen3.5-Instruct-9B</td>
+            <td>65.7</td>
+            <td>74.8</td>
+            <td>62.7</td>
+            <td>72.5</td>
+            <td>72.8</td>
+            <td>72.0</td>
+            <td>72.0</td>
+            <td>64.4</td>
+            <td>66.2</td>
+            <td>77.6</td>
+            <td>74.5</td>
+            <td>79.1</td>
+            <td>74.0</td>
+            <td>58.2</td>
+            <td>53.4</td>
+            <td>56.2</td>
+            <td>55.7</td>
+            <td>60.3</td>
+            <td>54.7</td>
+            <td>56.7</td>
+            <td>60.8</td>
+            <td>67.5</td>
+            <td>68.9</td>
+        </tr>
+        <tr>
+            <td>InternVL-3.5-8B</td>
+            <td>42.7</td>
+            <td>59.7</td>
+            <td>37.0</td>
+            <td>53.4</td>
+            <td>39.8</td>
+            <td>64.2</td>
+            <td>47.5</td>
+            <td>42.7</td>
+            <td>53.8</td>
+            <td>60.6</td>
+            <td>52.2</td>
+            <td>63.2</td>
+            <td>57.0</td>
+            <td>30.6</td>
+            <td>8.2</td>
+            <td>9.0</td>
+            <td>45.6</td>
+            <td>30.3</td>
+            <td>26.1</td>
+            <td>10.8</td>
+            <td>55.3</td>
+            <td>59.3</td>
+            <td>45.3</td>
+        </tr>
+        <tr>
+            <td rowspan="13"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td>dots.mocr</td>
+            <td><ins>80.5</ins></td>
+            <td><strong>90.5</strong></td>
+            <td><ins>77.2</ins></td>
+            <td><ins>81.7</ins></td>
+            <td>82.6</td>
+            <td><ins>87.4</ins></td>
+            <td>71.3</td>
+            <td>70.1</td>
+            <td><ins>84.5</ins></td>
+            <td><ins>89.3</ins></td>
+            <td><ins>83.2</ins></td>
+            <td>86.8</td>
+            <td>79.9</td>
+            <td><ins>79.2</ins></td>
+            <td><ins>83.3</ins></td>
+            <td><ins>83.6</ins></td>
+            <td><strong>75.0</strong></td>
+            <td>78.7</td>
+            <td>71.2</td>
+            <td><ins>77.9</ins></td>
+            <td>84.6</td>
+            <td><ins>79.6</ins></td>
+            <td><ins>82.8</ins></td>
+        </tr>
+        <tr>
+            <td>PaddleOCR-VL-1.5</td>
+            <td>78.3</td>
+            <td>87.4</td>
+            <td>75.2</td>
+            <td>81.2</td>
+            <td>84.8</td>
+            <td>83.0</td>
+            <td>75.7</td>
+            <td><ins>78.1</ins></td>
+            <td>83.9</td>
+            <td>85.2</td>
+            <td>80.6</td>
+            <td>80.2</td>
+            <td>78.9</td>
+            <td>74.9</td>
+            <td>71.3</td>
+            <td>67.7</td>
+            <td>69.5</td>
+            <td><strong>86.0</strong></td>
+            <td><ins>76.0</ins></td>
+            <td>68.4</td>
+            <td><ins>84.8</ins></td>
+            <td>75.7</td>
+            <td>80.7</td>
+        </tr>
+        <tr>
+            <td>dots.ocr</td>
+            <td>76.5</td>
+            <td>88.8</td>
+            <td>72.3</td>
+            <td>79.1</td>
+            <td>79.7</td>
+            <td>81.2</td>
+            <td>69.2</td>
+            <td>67.1</td>
+            <td>82.5</td>
+            <td>87.8</td>
+            <td>78.8</td>
+            <td>86.9</td>
+            <td>79.1</td>
+            <td>73.5</td>
+            <td>75.9</td>
+            <td>77.3</td>
+            <td>70.6</td>
+            <td>68.5</td>
+            <td>66.8</td>
+            <td>73.3</td>
+            <td>79.1</td>
+            <td>76.2</td>
+            <td>79.7</td>
+        </tr>
+        <tr>
+            <td>olmOCR2</td>
+            <td>70.4</td>
+            <td>79.9</td>
+            <td>67.2</td>
+            <td>76.7</td>
+            <td>75.7</td>
+            <td>77.3</td>
+            <td>72.5</td>
+            <td>68.9</td>
+            <td>70.6</td>
+            <td>81.0</td>
+            <td>72.0</td>
+            <td><ins>88.0</ins></td>
+            <td>84.0</td>
+            <td>63.3</td>
+            <td>59.0</td>
+            <td>60.8</td>
+            <td>59.4</td>
+            <td>70.6</td>
+            <td>65.8</td>
+            <td>59.2</td>
+            <td>68.6</td>
+            <td>63.4</td>
+            <td>76.1</td>
+        </tr>
+        <tr>
+            <td>PaddleOCR-VL</td>
+            <td>69.6</td>
+            <td>87.6</td>
+            <td>63.6</td>
+            <td>72.1</td>
+            <td>78.2</td>
+            <td>79.3</td>
+            <td>62.9</td>
+            <td>66.0</td>
+            <td>77.4</td>
+            <td>78.4</td>
+            <td>67.9</td>
+            <td>72.0</td>
+            <td>66.6</td>
+            <td>66.7</td>
+            <td>65.8</td>
+            <td>68.4</td>
+            <td>59.9</td>
+            <td>77.8</td>
+            <td>56.9</td>
+            <td>57.8</td>
+            <td>78.2</td>
+            <td>68.5</td>
+            <td>70.9</td>
+        </tr>
+        <tr>
+            <td>HunyuanOCR</td>
+            <td>68.3</td>
+            <td>80.2</td>
+            <td>64.3</td>
+            <td>72.4</td>
+            <td>75.0</td>
+            <td>73.1</td>
+            <td>63.0</td>
+            <td>66.1</td>
+            <td>69.9</td>
+            <td>80.3</td>
+            <td>61.4</td>
+            <td>81.9</td>
+            <td>80.6</td>
+            <td>63.7</td>
+            <td>68.3</td>
+            <td>73.1</td>
+            <td>55.6</td>
+            <td>68.9</td>
+            <td>52.2</td>
+            <td>60.7</td>
+            <td>66.8</td>
+            <td>64.2</td>
+            <td>68.6</td>
+        </tr>
+        <tr>
+            <td>GLM-OCR</td>
+            <td>67.3</td>
+            <td>77.9</td>
+            <td>63.7</td>
+            <td>78.7</td>
+            <td>82.7</td>
+            <td>84.5</td>
+            <td><ins>75.8</ins></td>
+            <td>76.2</td>
+            <td>79.7</td>
+            <td>82.8</td>
+            <td>80.2</td>
+            <td>77.4</td>
+            <td>69.2</td>
+            <td>54.3</td>
+            <td>21.7</td>
+            <td>39.6</td>
+            <td>65.5</td>
+            <td>61.2</td>
+            <td>64.2</td>
+            <td>27.4</td>
+            <td>78.5</td>
+            <td>76.7</td>
+            <td>68.8</td>
+        </tr>
+        <tr>
+            <td>MonkeyOCRv1.5</td>
+            <td>65.0</td>
+            <td>84.3</td>
+            <td>58.6</td>
+            <td>67.4</td>
+            <td>70.8</td>
+            <td>74.9</td>
+            <td>55.6</td>
+            <td>60.3</td>
+            <td>73.8</td>
+            <td>75.9</td>
+            <td>66.3</td>
+            <td>67.2</td>
+            <td>61.4</td>
+            <td>62.4</td>
+            <td>60.1</td>
+            <td>56.8</td>
+            <td>57.0</td>
+            <td>78.9</td>
+            <td>51.7</td>
+            <td>55.6</td>
+            <td>74.8</td>
+            <td>64.1</td>
+            <td>69.0</td>
+        </tr>
+        <tr>
+            <td>Nanonets-ocr2-3B</td>
+            <td>64.2</td>
+            <td>79.2</td>
+            <td>59.3</td>
+            <td>71.4</td>
+            <td>76.7</td>
+            <td>76.4</td>
+            <td>61.8</td>
+            <td>66.1</td>
+            <td>68.4</td>
+            <td>78.5</td>
+            <td>74.1</td>
+            <td>74.2</td>
+            <td>66.0</td>
+            <td>56.2</td>
+            <td>60.2</td>
+            <td>59.2</td>
+            <td>52.1</td>
+            <td>54.7</td>
+            <td>45.5</td>
+            <td>44.6</td>
+            <td>68.3</td>
+            <td>65.1</td>
+            <td>67.6</td>
+        </tr>
+        <tr>
+            <td>Nanonets-OCR-s</td>
+            <td>63.7</td>
+            <td>78.8</td>
+            <td>58.7</td>
+            <td>71.3</td>
+            <td>75.1</td>
+            <td>78.5</td>
+            <td>61.2</td>
+            <td>62.5</td>
+            <td>70.3</td>
+            <td>81.0</td>
+            <td>69.6</td>
+            <td>75.9</td>
+            <td>67.5</td>
+            <td>55.0</td>
+            <td>59.5</td>
+            <td>61.8</td>
+            <td>55.9</td>
+            <td>51.2</td>
+            <td>43.5</td>
+            <td>39.5</td>
+            <td>67.4</td>
+            <td>61.5</td>
+            <td>66.6</td>
+        </tr>
+        <tr>
+            <td>MonkeyOCR-pro-3B</td>
+            <td>52.2</td>
+            <td>68.0</td>
+            <td>47.0</td>
+            <td>65.1</td>
+            <td>71.7</td>
+            <td>77.9</td>
+            <td>55.9</td>
+            <td>62.1</td>
+            <td>66.2</td>
+            <td>74.5</td>
+            <td>66.3</td>
+            <td>71.1</td>
+            <td>40.2</td>
+            <td>37.6</td>
+            <td>4.6</td>
+            <td>4.2</td>
+            <td>55.2</td>
+            <td>60.5</td>
+            <td>42.6</td>
+            <td>9.1</td>
+            <td>72.2</td>
+            <td>52.4</td>
+            <td>53.6</td>
+        </tr>
+        <tr>
+            <td>DeepSeek-OCR</td>
+            <td>51.8</td>
+            <td>80.7</td>
+            <td>42.2</td>
+            <td>54.5</td>
+            <td>55.0</td>
+            <td>58.3</td>
+            <td>44.1</td>
+            <td>43.2</td>
+            <td>60.9</td>
+            <td>69.3</td>
+            <td>52.4</td>
+            <td>53.0</td>
+            <td>54.1</td>
+            <td>48.9</td>
+            <td>56.9</td>
+            <td>52.2</td>
+            <td>49.1</td>
+            <td>28.2</td>
+            <td>36.2</td>
+            <td>49.4</td>
+            <td>59.7</td>
+            <td>59.2</td>
+            <td>54.5</td>
+        </tr>
+        <tr>
+            <td>MinerU-2.5-VLM</td>
+            <td>46.3</td>
+            <td>61.9</td>
+            <td>40.8</td>
+            <td>63.0</td>
+            <td>68.8</td>
+            <td>78.4</td>
+            <td>54.7</td>
+            <td>57.3</td>
+            <td>67.5</td>
+            <td>75.2</td>
+            <td>60.4</td>
+            <td>58.8</td>
+            <td>46.0</td>
+            <td>27.4</td>
+            <td>1.3</td>
+            <td>9.0</td>
+            <td>39.1</td>
+            <td>14.7</td>
+            <td>8.6</td>
+            <td>11.3</td>
+            <td>72.9</td>
+            <td>62.2</td>
+            <td>48.7</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><strong>Pipeline</strong><br><strong>Tools</strong></td>
+            <td>PP-StructureV3</td>
+            <td>45.4</td>
+            <td>56.2</td>
+            <td>41.7</td>
+            <td>59.8</td>
+            <td>60.4</td>
+            <td>68.7</td>
+            <td>54.4</td>
+            <td>49.8</td>
+            <td>69.6</td>
+            <td>68.9</td>
+            <td>55.5</td>
+            <td>58.4</td>
+            <td>52.7</td>
+            <td>28.9</td>
+            <td>1.0</td>
+            <td>7.7</td>
+            <td>56.2</td>
+            <td>15.4</td>
+            <td>7.5</td>
+            <td>11.9</td>
+            <td>72.2</td>
+            <td>59.1</td>
+            <td>49.6</td>
+        </tr>
+        <tr>
+            <td>MinerU-2.5-pipeline</td>
+            <td>33.5</td>
+            <td>57.6</td>
+            <td>25.4</td>
+            <td>46.5</td>
+            <td>54.3</td>
+            <td>58.3</td>
+            <td>38.4</td>
+            <td>43.6</td>
+            <td>51.9</td>
+            <td>56.5</td>
+            <td>43.9</td>
+            <td>44.0</td>
+            <td>27.6</td>
+            <td>18.7</td>
+            <td>1.2</td>
+            <td>5.3</td>
+            <td>24.5</td>
+            <td>6.8</td>
+            <td>4.2</td>
+            <td>6.4</td>
+            <td>53.9</td>
+            <td>47.2</td>
+            <td>36.2</td>
+        </tr>
+    </tbody>
+</table>
+
+## Evaluation
+
+### Environment Setup and Running
+
+Please follow the steps below to configure your required environment:
+
+```bash
+git clone https://github.com/Yuliang-Liu/MultimodalOCR.git
+cd MultimodalOCR/MDPBench
+
+# Recommendation: Create a virtual environment first
+conda create -n mdpbench python=3.10
+conda activate mdpbench
+
+# Install required dependencies
+pip install -r requirements.txt
+```
+
+#### CDM Configuration for Formula Evaluation
+If you want to evaluate formulas using the CDM metric, you need to ensure the local CDM execution environment is available. `metrics/cdm` directory provides the specific dependencies required.
+
+### End-to-End Evaluation
+
+The primary task for document parsing is evaluated end-to-end to capture layout, reading order, formula, table and text accuracy.
+The benchmark evaluates these using Normalized Edit Distance (for text structure, reading order), TEDS (for tables), and CDM (for mathematical formulas).
+
+To run the evaluation, you need to point your model's prediction directories or JSON output results in the configuration file (like `configs/end2end.yaml`), then run the validation script:
+
+```bash
+python pdf_validation.py --config ./configs/end2end.yaml
+```
+
+The script reads the predicted outputs specified in the config, compares them against the ground truth, and outputs detailed metrics mapping to `dataset`, `task`, `metrics`, and `registry` modules.
+
+### Tools
+
+We provide standard Jupyter Notebook scripts to process metrics logic and compile the results easily.
+After getting the results, you can generate structured summary tables of the results:
+
+```bash
+jupyter notebook tools/generate_result_tables.ipynb
+```
+Using the interactive cells inside `generate_result_tables.ipynb`, you can aggregate different experimental runs and export formatted result tables (CSV, Markdown, Excel) mapping exactly to the main results presentation for your papers or reports.
+
+## Citation
+If you find this benchmark useful, please cite:
+```bibtex
+@misc{MDPBench2024,
+      title={MDPBench: A Multilingual Benchmark for Photographed Document Parsing},
+      author={First Author and Second Author and Third Author},
+      year={2024},
+      url={https://github.com/Yuliang-Liu/MultimodalOCR}
+}
+```
