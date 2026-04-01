@@ -210,8 +210,15 @@ def lang_from_img_id(img_id: str) -> str:
 def compute_present_tasks_overall(pages: pd.DataFrame, *, empty_policy: str = "nan") -> pd.DataFrame:
     df = pages.copy()
     for k in ["text", "formula", "table"]:
-        df[f"n_{k}"] = df.get(f"n_{k}", 0).fillna(0).astype(float)
-        df[f"s_{k}"] = df.get(f"s_{k}", np.nan).astype(float)
+        if f"n_{k}" not in df:
+            df[f"n_{k}"] = 0.0
+        else:
+            df[f"n_{k}"] = df[f"n_{k}"].fillna(0).astype(float)
+        
+        if f"s_{k}" not in df:
+            df[f"s_{k}"] = np.nan
+        else:
+            df[f"s_{k}"] = df[f"s_{k}"].astype(float)
 
     use_text = (df["n_text"] > 0) & df["s_text"].notna()
     use_formula = (df["n_formula"] > 0) & df["s_formula"].notna()
