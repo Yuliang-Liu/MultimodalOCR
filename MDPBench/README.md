@@ -6,16 +6,16 @@ MDPBench
 English | <a href="./README_zh-CN.md">简体中文</a>
 <br>
 
-[\[📜 arXiv\]](#) | [[Dataset (🤗Hugging Face)]](#) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
+[\[📜 arXiv\]](https://arxiv.org/abs/2603.28130) | [[Dataset (🤗Hugging Face)]](https://huggingface.co/datasets/Delores-Lin/MDPBench) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
 
 </div>
 
-**MDPBench (Multilingual Document Parsing Benchmark)** is the first benchmark for multilingual photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted pages in a handful of dominant languages. MDPBench bridges the evaluation gap for real-world scenarios across diverse scripts and low-resource languages.
+**MDPBench (Multilingual Document Parsing Benchmark)** is the first benchmark for multilingual digital and photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted pages in a handful of dominant languages. MDPBench bridges the evaluation gap for real-world scenarios across diverse scripts and low-resource languages.
 
 The benchmark features the following characteristics:
 - **Multilingual Support**: Comprises 3,400 document images spanning 17 languages (Simplified Chinese, Traditional Chinese, English, Arabic, German, Spanish, French, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese).
 - **Varied Conditions**: Contains 850 digital-born documents and 2,550 photographed documents, capturing diverse scripts and varied real-world photographic conditions.
-- **High-Quality Annotations**: Produced through a rigorous pipeline of expert model labeling, manual correction, and human verification to test open-source and closed-source models comprehensively.
+- **Annotations**: Produced through a rigorous pipeline of expert model labeling, manual correction, and human verification to test open-source and closed-source models comprehensively.
 - **Fair Evaluation splits**: Maintains separate public and private evaluation splits to ensure fair comparison and prevent data leakage.
 - **Comprehensive Evaluation**: Analyzes reading order (Normalized Edit Distance), formula syntax (CDM / Edit Distance), table structure (TEDS / Edit Distance), and text/character error rates across digital and non-Latin photographed pages.
 
@@ -30,7 +30,8 @@ The benchmark features the following characteristics:
 
 ## Benchmark Introduction
 
-This benchmark includes 3,400 document images, covering 17 languages (across both Latin and non-Latin scripts) and 2 major scenario origins (digital-born documents and real-world photographed conditions). MDPBench features rich document variations, capturing complex real-world photographic distortions such as page bending, folding, illumination changes, and varied camera angles. Every document page contains comprehensive annotations to support in-depth document parsing evaluations, which include reading order sequences, detailed text recognition annotations, LaTeX/HTML formats for mathematical formulas and table structures. Through these attributes and rich annotations, MDPBench is tailored to effectively expose and comprehensively evaluate diverse parsing challenges found in current vision-language models—such as reading order confusion, layout dropping out, language misclassifications, and severe character hallucinations on low-resource typography.
+MDPBench includes 3,400 document images, covering 17 languages (across both Latin and non-Latin scripts) and 2 major scenario origins (digital-born documents and real-world photographed conditions). MDPBench features rich document variations, capturing complex real-world photographic distortions such as page bending, folding, illumination changes, and varied camera angles. Every document page contains comprehensive annotations to support in-depth document parsing evaluations, which include reading order sequences, detailed text recognition annotations, LaTeX/HTML formats for mathematical formulas and table structures. Through these attributes and rich annotations, MDPBench is tailored to expose and evaluate diverse parsing challenges found in current vision-language models—such as reading order confusion, layout dropping out, language misclassifications, and severe character hallucinations on low-resource typography.
+
 
 ## Main Results
 
@@ -697,20 +698,114 @@ pip install -r requirements.txt
 ```
 
 #### CDM Configuration for Formula Evaluation
-If you want to evaluate formulas using the CDM metric, you need to ensure the local CDM execution environment is available. `metrics/cdm` directory provides the specific dependencies required.
+If you want to evaluate formulas using the CDM metric, you need to ensure the local CDM execution environment is available. [metrics/cdm](./metrics/cdm/) directory provides the specific dependencies required.
 
 ### End-to-End Evaluation
 
+
+
 The primary task for document parsing is evaluated end-to-end to capture layout, reading order, formula, table and text accuracy.
+
 The benchmark evaluates these using Normalized Edit Distance (for text structure, reading order), TEDS (for tables), and CDM (for mathematical formulas).
 
-To run the evaluation, you need to point your model's prediction directories or JSON output results in the configuration file (like `configs/end2end.yaml`), then run the validation script:
+
+
+#### Step 1: Download the dataset
+
+
+
+You can use the [tools/download_dataset.py](./tools/download_dataset.py) script to download the datasets from Hugging Face Hub.
 
 ```bash
-python pdf_validation.py --config ./configs/end2end.yaml
+
+python tools/download_dataset.py --dataset_repo "Delores-Lin/MDPBench" --local_dir "dataset"
+
 ```
 
-The script reads the predicted outputs specified in the config, compares them against the ground truth, and outputs detailed metrics mapping to `dataset`, `task`, `metrics`, and `registry` modules.
+
+
+#### Step 2: Run Model Inference
+
+
+
+Run the model inference with images. The model inference results should be in markdown format and stored in the directory with the file name same as the image filename but with the .md extension. Using Gemini-3.1-pro-preview as an example:
+
+
+
+```bash
+
+python batch_process_gemini-3-pro-preview.py
+
+```
+
+
+
+This script will read the source files and output markdown files containing the prediction results, typically saved in a directory like [Gemini3-pro-preview_demo_result](./demo_data/Gemini3-pro-preview_demo_result/).
+
+
+
+#### Step 3: Configure Evaluation
+
+
+
+All evaluation inputs are configured through config files. We provide templates for each task under the `configs` directory, and we will explain the contents of the config files in detail in the following sections.
+
+
+
+Simply, for end2end evaluation, you should provide the path to `MDPBench_public.json` in `data_path` of `ground_truth` and the path to the directory containing the model inference results in `data_path` of `prediction` in [configs/end2end.yaml](./configs/end2end.yaml) as follows:
+
+
+
+```yaml
+
+# ----- Here are the lines to be modified -----
+
+  dataset:
+
+    dataset_name: end2end_dataset
+
+    ground_truth:
+
+      data_path: ./MDPBench_public.json
+
+    prediction:
+
+      data_path: ./Gemini3-pro-preview_demo_result
+
+```
+
+
+
+#### Step 4: Run Validation Loop
+
+
+
+Run the validation script to compute the metrics comparing the prediction with the ground truth dataset:
+
+
+
+```bash
+
+python pdf_validation.py --config ./configs/end2end.yaml
+
+```
+
+
+
+#### Step 5: Calculate Final Scores
+
+
+
+You can use [tools/calculate_scores.py](./tools/calculate_scores.py) to parse the JSON metrics file into a summary score table:
+
+```bash
+
+python tools/calculate_scores.py ./result_v4/gemini-3-pro-preview.json
+
+```
+
+This automatically prints the formatted table contents.
+
 
 ### Tools
 
@@ -720,15 +815,25 @@ After getting the results, you can generate structured summary tables of the res
 ```bash
 jupyter notebook tools/generate_result_tables.ipynb
 ```
-Using the interactive cells inside `generate_result_tables.ipynb`, you can aggregate different experimental runs and export formatted result tables (CSV, Markdown, Excel) mapping exactly to the main results presentation for your papers or reports.
+Using the interactive cells inside [generate_result_tables.ipynb](./tools/generate_result_tables.ipynb), you can aggregate different experimental runs and export formatted result tables (CSV, Markdown, Excel) mapping exactly to the main results presentation for your papers or reports.
+
+## Acknowledgements
+
+
+
+MDPBench is built upon the solid foundation provided by [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git). We sincerely appreciate their outstanding contributions and open-source spirit to the document parsing community!
+
 
 ## Citation
 If you find this benchmark useful, please cite:
 ```bibtex
-@misc{MDPBench2024,
-      title={MDPBench: A Multilingual Benchmark for Photographed Document Parsing},
-      author={First Author and Second Author and Third Author},
-      year={2024},
-      url={https://github.com/Yuliang-Liu/MultimodalOCR}
+@misc{li2026mdpbenchbenchmarkmultilingualdocument,
+      title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
+      author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
+      year={2026},
+      eprint={2603.28130},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.28130}, 
 }
 ```

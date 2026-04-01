@@ -36,7 +36,7 @@ def _worker_loop(conn, pipeline_kwargs: dict) -> None:
         image_path = msg["image_path"]
         output_dir = msg["output_dir"]
         try:
-            # 支持传入 predict 级别的可选参数（如只启用公式识别）
+            # Support passing predict-level optional parameters (e.g., only enabling formula recognition)
             predict_kwargs = msg.get("predict_kwargs") or {}
             output = pipeline.predict(image_path, **predict_kwargs)
             for res in output:
@@ -57,41 +57,41 @@ def _start_worker(pipeline_kwargs: dict, predict_kwargs: dict):
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="PPStructureV3 batch inference")
-    parser.add_argument("--input", required=True, help="输入：图片文件或包含图片的文件夹")
-    parser.add_argument("--output", required=True, help="输出文件夹（每张图一个子目录）")
-    parser.add_argument("--device", default=None, help="推理设备，例如 cpu / gpu。为空则使用默认")
-    parser.add_argument("--lang", default=None, help="语言，例如 en。为空则使用默认")
+    parser.add_argument("--input", required=True, help="Input: image file or folder containing images")
+    parser.add_argument("--output", required=True, help="Output folder (one subdirectory per image)")
+    parser.add_argument("--device", default=None, help="Inference device, e.g., cpu / gpu. Leave empty to use default")
+    parser.add_argument("--lang", default=None, help="Language, e.g., en. Leave empty to use default")
     parser.add_argument(
         "--timeout",
         type=float,
         default=60.0,
-        help="单张图片推理超时秒数，>0 则超时跳过并重启 worker（用于避免卡死）",
+        help="Timeout in seconds for single image inference, >0 skips and restarts worker on timeout (to prevent hanging)",
     )
     parser.add_argument(
         "--resume",
         action="store_true",
-        help="开启断点续传：如果输出文件夹中已存在处理结果，则跳过该图片",
+        help="Enable resume: skip image if processing results already exist in output folder",
     )
     parser.add_argument(
         "--restart-every",
         type=int,
         default=0,
-        help="每处理 N 张图片重启一次 worker（0 表示不主动重启）",
+        help="Restart worker every N images processed (0 means no proactive restart)",
     )
     parser.add_argument(
         "--fail-list",
         default=True,
-        help="保存失败/超时图片路径的 txt 文件（可选）",
+        help="txt file to save failed/timeout image paths (optional)",
     )
     parser.add_argument(
         "--recursive",
         action="store_true",
-        help="递归遍历输入文件夹（包含子文件夹）",
+        help="Recursively traverse input folder (including subfolders)",
     )
     parser.add_argument(
         "--formula-only",
         action="store_true",
-        help="只运行公式识别模块（其它模块将被禁用）",
+        help="Only run formula recognition module (other modules will be disabled)",
     )
     args = parser.parse_args()
 
@@ -106,10 +106,8 @@ def main() -> int:
         pipeline_kwargs["lang"] = args.lang
     pipeline_kwargs["use_doc_unwarping"] = True
 
-    # 构建 predict 级别的 kwargs（例如只运行公式识别）
     predict_kwargs: dict = {}
     if getattr(args, "formula_only", False):
-        # 传递自定义 yaml 配置文件以在此基础上禁用特定的模型加载（如：layout）
         pipeline_kwargs["paddlex_config"] = "/home/zhangli/Multy-lingualOCRBench/scripts/PP-StructureV3.yaml"
         predict_kwargs.update(
             {
@@ -140,10 +138,8 @@ def main() -> int:
         per_image_out.mkdir(parents=True, exist_ok=True)
 
         if getattr(args, "resume", False) and per_image_out.exists():
-            # 检查文件夹内是否已经存在 .json 或 .md 文件
-            # 这里的判断标准可以根据 PPStructure 实际生成的文件名进行调整
             if any(per_image_out.glob("*.json")) or any(per_image_out.glob("*.md")):
-                print(f"[{i}/{len(images)}] 已处理过，跳过: {image_path}")
+                print(f"[{i}/{len(images)}] Already processed, skipping: {image_path}")
                 continue
 
         if not worker_proc.is_alive():
@@ -154,7 +150,6 @@ def main() -> int:
             worker_proc, worker_conn = _start_worker(pipeline_kwargs, predict_kwargs)
             processed_since_restart = 0
 
-        # 将 predict 级别的 kwargs 一并发送给 worker
         worker_conn.send(
             {
                 "image_path": str(image_path),
@@ -201,6 +196,6 @@ def main() -> int:
     print(f"Done. Outputs saved to: {output_root}")
     return 0
 
-
 if __name__ == "__main__":
-    raise SystemExit(main())
+    import sys
+    sys.exit(main())

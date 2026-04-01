@@ -1,0 +1,17 @@
+**/__pycache__/
+# check_data/
+**/.ipynb_checkpoints/
+.ipynb_checkpoints
+**log
+debug.py
+test.py
+run_cal_metric.py
+output/
+old_results
+det_test
+old_configs
+check_data
+trace
+result/*
+!result/.gitkeep
+__pycache__/

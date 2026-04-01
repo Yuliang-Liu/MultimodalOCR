@@ -6,14 +6,12 @@ import threading
 from google import genai
 from google.genai import types
 
-# 尝试导入 tqdm 用于显示进度条，如果没有安装则使用普通 range
 try:
     from tqdm import tqdm
 except ImportError:
     def tqdm(iterable, desc=None):
         return iterable
 
-# 设置默认的Prompt
 DEFAULT_PROMPT = """
 You are an advanced hybrid OCR engine capable of processing multilingual text mixed with mathematical notation. Your goal is to transcribe the content with high fidelity. Strict Rules:
 
@@ -33,15 +31,10 @@ You are an advanced hybrid OCR engine capable of processing multilingual text mi
 """
 
 def gemini3(client, img_path, prompt):
-    """
-    调用 Gemini 3 模型处理单个图片
-    """
-    # 根据文件扩展名猜测 MIME 类型
     mime_type, _ = mimetypes.guess_type(img_path)
     if mime_type is None:
-        mime_type = 'image/jpeg' # 默认回退到 jpeg
+        mime_type = 'image/jpeg'
 
-    # 读取图片数据
     try:
         with open(img_path, "rb") as image_file:
             image_bytes = image_file.read()
@@ -85,26 +78,19 @@ def gemini3(client, img_path, prompt):
         return None
 
 def process_folder(input_folder, output_folder, prompt, recursive=False):
-    """
-    遍历文件夹处理图片
-    """
-    # 确保输出文件夹存在
     os.makedirs(output_folder, exist_ok=True)
 
-    # 初始化客户端
     print("Initializing Gemini Client...")
     client = genai.Client(
-        api_key= os.getenv("CLOSEAI_API_KEY"),
-        vertexai=True, # 优先使用vertexai协议访问，稳定性更高
+        api_key= os.getenv("API_KEY"),
+        vertexai=True,
         http_options={
-            "base_url": "https://api.openai-proxy.org/google"
+            "base_url": os.getenv("BASE_URL")
         },
     )
 
-    # 支持的图片扩展名
     valid_extensions = {'.jpg', '.jpeg', '.png', '.bmp', '.webp', '.tiff', '.JPEG', '.JPG', '.PNG'}
 
-    # 收集图片: recursive=False 仅当前目录；recursive=True 包含子目录
     image_files = []
     if recursive:
         for root, _, files in os.walk(input_folder):
@@ -136,12 +122,9 @@ def process_folder(input_folder, output_folder, prompt, recursive=False):
         output_filename = os.path.basename(output_path)
         display_name = relative_path
         
-        # 如果输出文件已存在，跳过（支持断点续传）
         if os.path.exists(output_path):
-            # print(f"Skipping {filename}, output already exists.") # 减少刷屏，如需调试可取消注释
             continue
         
-        # 处理图片
         print(f"Processing: {display_name}")
         result = gemini3(client, img_path, prompt)
         
@@ -152,7 +135,6 @@ def process_folder(input_folder, output_folder, prompt, recursive=False):
         else:
             print(f"Failed to process: {display_name}")
         
-        # 避免请求过于频繁，稍微sleep一下
         time.sleep(1)
 
 if __name__ == '__main__':

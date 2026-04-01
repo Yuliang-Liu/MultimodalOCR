@@ -19,11 +19,9 @@ end2end_eval:
   dataset:
     dataset_name: end2end_dataset
     ground_truth:
-      # data_path: demo_data/Multy-lingualOCRBench_damo.json
-      data_path: /home/zhibolin/Multy-lingualOCRBench/demo_data/Multy-lingualOCRBench_private.json
+      data_path: demo_data/MDPBench_demo.json
     prediction:
-      # data_path: demo_data/Gemini-3-pro-preview
-      data_path: /home/zhibolin/Multy-lingualOCRBench/model_results/Gemini-3-pro-preview_private
+      data_path: demo_data/Gemini3-pro-preview_demo_result
     match_method: quick_match
     # filter: 
     #   language: english

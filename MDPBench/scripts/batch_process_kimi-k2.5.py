@@ -31,7 +31,6 @@ def kimi_ocr(client, model_name, img_path: str, prompt: str) -> Optional[str]:
     try:
         base64_image = encode_image(img_path)
         
-        # Determine image type for data URI
         ext = os.path.splitext(img_path)[1].lower()
         if ext in ['.jpg', '.jpeg']:
             mime_type = "image/jpeg"
@@ -40,9 +39,8 @@ def kimi_ocr(client, model_name, img_path: str, prompt: str) -> Optional[str]:
         elif ext == '.webp':
             mime_type = "image/webp"
         else:
-            mime_type = "image/jpeg" # Default fallback
+            mime_type = "image/jpeg" 
             
-        # Kimi expects the base64 URL format: data:image/xxx;base64,xxx
         image_url = f"data:{mime_type};base64,{base64_image}"
 
         response = client.chat.completions.create(
@@ -75,13 +73,13 @@ def process_folder(input_folder: str, output_folder: str, prompt: str, model_nam
     os.makedirs(output_folder, exist_ok=True)
 
     print("Initializing Kimi client...")
-    api_key = os.getenv('MOONSHOT_API_KEY')
+    api_key = os.getenv('API_KEY')
     if not api_key:
         print("Error: MOONSHOT_API_KEY environment variable is not set.")
         return
 
     client = OpenAI(
-        base_url="https://api.moonshot.cn/v1",
+        base_url=os.getenv('BASE_URL'),
         api_key=api_key,
     )
 
@@ -95,7 +93,6 @@ def process_folder(input_folder: str, output_folder: str, prompt: str, model_nam
     total_files = len(image_files)
     print(f"Found {total_files} images in {input_folder}")
 
-    # Simple progress loop without tqdm if not installed
     try:
         from tqdm import tqdm
         iterator = tqdm(image_files, desc="Processing Images")

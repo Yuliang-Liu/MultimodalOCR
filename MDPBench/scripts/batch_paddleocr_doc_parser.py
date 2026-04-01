@@ -37,13 +37,11 @@ def iter_images(input_dir: Path, recursive: bool, exts: tuple[str, ...]):
 
 
 def safe_rel_stem(path: Path, base_dir: Path) -> Path:
-    """Return a safe relative stem path (no extension), preserving subdirs."""
     rel = path.relative_to(base_dir)
     return rel.with_suffix("")
 
 
 def has_any_output_files(out_dir: Path, marker_name: str) -> bool:
-    """Heuristic: output dir is considered non-empty if it has files other than marker."""
     if not out_dir.exists() or not out_dir.is_dir():
         return False
     for p in out_dir.iterdir():
@@ -72,7 +70,6 @@ def main() -> int:
         help="PaddleOCR-VL pipeline version (v1.5 is default)",
     )
 
-    # VL recognition (VLM) server-related args
     parser.add_argument("--vl_rec_backend", default="vllm-server", help="e.g. vllm-server")
     parser.add_argument("--vl_rec_server_url", default="http://127.0.0.1:8080/v1", help="e.g. http://127.0.0.1:8080/v1")
     parser.add_argument("--vl_rec_max_concurrency", type=int, default=None)
@@ -122,9 +119,6 @@ def main() -> int:
         out_subdir.mkdir(parents=True, exist_ok=True)
         marker_path = out_subdir / args.resume_marker_name
 
-        # Resume logic:
-        # 1) marker exists => definitely completed
-        # 2) optional compatibility mode: non-empty output dir => treated as completed
         if args.resume:
             done_by_marker = marker_path.exists()
             done_by_non_empty = (not args.strict_resume_marker) and has_any_output_files(
@@ -169,8 +163,6 @@ def main() -> int:
             continue
 
         env = os.environ.copy()
-        # Optional: speed up startup by skipping model-source connectivity check
-        # env.setdefault("PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK", "True")
 
         try:
             subprocess.run(cmd, check=True, env=env)

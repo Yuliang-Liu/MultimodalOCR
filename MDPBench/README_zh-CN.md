@@ -6,17 +6,17 @@ MDPBench
 <a href="./README.md">English</a> | 简体中文
 <br>
 
-[\[📜 arXiv\]](#) | [[Dataset (🤗Hugging Face)]](#) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
+[\[📜 arXiv\]](https://arxiv.org/abs/2603.28130) | [[Dataset (🤗Hugging Face)]](https://huggingface.co/datasets/Delores-Lin/MDPBench) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
 
 </div>
 
-**MDPBench (Multilingual Document Parsing Benchmark)** 是首个专门针对多语言拍照文档解析构建的基准测试台。尽管现有的文档解析技术已取得显著进展，但大多数测试验证仍局限于格式纯净、排版工整且由主流语言（如数字扫描版）构成的页面上。MDPBench 的出现填补了多样化语种与资源匮乏语言在真实世界拍照场景下的评估空白。
+**MDPBench (Multilingual Document Parsing Benchmark)** 是首个专门针对多语言电子原生以及拍照文档解析构建的评测基准。尽管现有的文档解析技术已取得显著进展，但大多数测试验证仍局限于格式纯净、排版工整且由主流语言（如数字扫描版）构成的页面上。MDPBench 的出现填补了多样化语种与资源匮乏语言在真实世界拍照场景下的评估空白。
 
 该基准测试台具备以下主要特征：
-- **广泛的多语言支持**：包含 3,400 张文档图像，覆盖多达 17 种语言（简体中文、繁体中文、英语、阿拉伯语、德语、西班牙语、法语、印地语、印尼语、意大利语、日语、韩语、葡萄牙语、俄语、泰语、越南语）。
-- **多样化的真实条件**：包含 850 份基于纯数字生成的原生文档页面与 2,550 份通过真实世界复杂条件拍摄的文档图像（每份数字版对应衍生包含多种变形与不同视角的3张照片），充分反映了各种非拉丁语系和长尾字符分布形态。
-- **高标注质量**：数据首先由专家模型进行了标注生成，随后通过多轮人工校验纠正和复合审查保证了极高的真值（Ground Truth）水准。它专为评估大量开源及闭源视觉大模型的能力而设置。
-- **合理的验证划分机制**：内部严格分离了公开（Public）和私有（Private）双轨评估集合。这能有效防止评测试题泄露以提供公平准确的指标比对。
+- **广泛的多语言支持**：包含 3,400 张文档图像，覆盖 17 种语言（简体中文、繁体中文、英语、阿拉伯语、德语、西班牙语、法语、印地语、印尼语、意大利语、日语、韩语、葡萄牙语、俄语、泰语、越南语）。
+- **多样化的真实条件**：包含 850 份基于纯数字生成的原生文档页面与 2,550 份通过真实世界复杂条件拍摄的文档图像（每份数字版对应衍生包含多种变形与不同视角的3张照片）。
+- **高标注质量**：数据首先由专家模型进行了标注生成，随后通过多轮人工校验纠正和复合审查以保证Ground Truth质量。它专为评估大量开源及闭源视觉大模型的能力而准备。
+- **合理的验证划分机制**：内部严格分离了公开（Public）和私有（Private）双轨评估集合。
 - **多维度端到端评估**：涵盖从宏观页面结构的阅读顺序（Reading Order）恢复，到具体的版面元素检测（Layout Detection），以及精细的字符识别错误率（Normalized Edit Distance）及符号错误分析指标。
 
 ## 目录
@@ -30,7 +30,7 @@ MDPBench
 
 ## 基准测试介绍
 
-该基准测试共计涉及 3,400 份文档图像，涵盖了 17 种不同语言（包含拉丁语系与非拉丁语系）以及 2 大主要文档场景（原生数字版与现实拍摄版）。MDPBench 具备极高的文档多样性与复杂的现实条件，全面涵盖了真实世界拍摄中常见的纸张弯折、形变折叠、光照不均以及不同视角的拍摄干扰。且所有原生数字图像页面均配备了详尽的高质量全量标注，支持对文档内的文本段落阅读顺序（Reading order）、高精度 OCR 文本识别、数学公式的 LaTeX 文本以及表格区（LaTeX和HTML结构）在内的各个要素模块进行深度评测。依托这些详尽的场景划分与标注属性，MDPBench 能够帮助使用者更有效地评估并定位当下多模态大模型在由于真实物理降质以及低资源多语言跨距所频繁导致的各种短板问题——诸如阅读顺序混乱、元素版面丢失、罕见语种错误分类以及严重的字符幻觉（Hallucinations）等乱象。
+MDPBench共计涉及 3,400 份文档图像，涵盖了 17 种不同语言（包含拉丁语系与非拉丁语系）以及 2 大主要文档场景（原生数字版与现实拍摄版）。MDPBench 具备极高的文档多样性与复杂的现实条件，全面涵盖了真实世界拍摄中常见的纸张弯折、形变折叠、光照不均以及不同视角的拍摄干扰。且所有原生数字图像页面均配备了详尽的高质量全量标注，支持对文档内的文本段落阅读顺序（Reading order）、高精度 OCR 文本识别、数学公式的 LaTeX 文本以及表格区（LaTeX和HTML结构）在内的各个要素模块进行深度评测。依托这些详尽的场景划分与标注属性，MDPBench 能够帮助使用者更有效地评估并定位当下多模态大模型在由于真实物理降质以及低资源多语言跨距所频繁导致的各种短板问题——诸如阅读顺序混乱、元素版面丢失、罕见语种错误分类以及严重的字符幻觉（Hallucinations）等乱象。
 
 ## 核心实验结果
 
@@ -682,7 +682,7 @@ MDPBench
 
 ### 环境配置与运行
 
-请严格按照以下步骤准备验证环境：
+请按照以下步骤准备评测环境：
 
 ```bash
 git clone https://github.com/Yuliang-Liu/MultimodalOCR.git
@@ -702,15 +702,111 @@ pip install -r requirements.txt
 
 ### 端到端评测
 
+
+
 对于文档总体提取效果的评估，测试脚本在不同层面上会调用以下典型指标：计算文本阅读序列完整度的 **归一化编辑距离(Normalized Edit Distance)**，结构还原效果的 **TEDS (用于表格)** 以及 **CDM及编辑距离 (用于行内/独立公式)**。
 
-若要开启评估，您只需将待评测模型的预测 json 数据集或结果目录配置进如 `configs/end2end.yaml` 此类的参数文件内，然后一键运行：
+
+
+#### Step 1: 下载数据集 (Download the dataset)
+
+
+
+你可以使用 [tools/download_dataset.py](./tools/download_dataset.py) 脚本从Hugging Face Hub下载数据集。
 
 ```bash
-python pdf_validation.py --config ./configs/end2end.yaml
+
+python scripts/download_dataset.py --dataset_repo "YOUR_ORG/YOUR_DATASET" --local_dir "dataset"
+
 ```
 
-脚本将自动抓集配置中所列的模型输出路径与官方地面真值 Ground Truth 对比交汇，依据内部 `dataset`, `task`, `metrics` 和 `registry` 相关模块快速运算出各模态的具体指标得分。
+
+
+#### Step 2: 运行模型推理 (Run Model Inference)
+
+
+
+允许使用图像或 PDF 运行模型推理。模型推理结果应为 markdown 格式，并且存储在与图像文件名相同但扩展名为 .md 的文件目录中。以使用 Gemini-3.1-pro-preview 为例：
+
+
+
+```bash
+
+python batch_process_gemini-3-pro-preview.py
+
+```
+
+
+
+这个脚本会读取源文件输出包含预测结果的 markdown 文件，通常保存在诸如 [Gemini3-pro-preview_demo_result](./demo_data/Gemini3-pro-preview_demo_result/) 这样的目录中。
+
+
+
+#### Step 3: 配置评测 (Configure Evaluation)
+
+
+
+所有的评估输入都是通过配置文件进行配置的。我们在 `configs` 目录下为每项任务提供了模板，我们将在后续部分详细解释配置文件的内容。
+
+
+
+简单来说，对于端到端评测 (end2end evaluation)，您需要在 `configs/end2end.yaml` 中的 `ground_truth` 的 `data_path` 中提供 `OmniDocBench.json` 的路径，在 `prediction` 的 `data_path` 中提供包含模型推理结果的目录路径，如下所示：
+
+
+
+```yaml
+
+# ----- Here are the lines to be modified -----
+
+  dataset:
+
+    dataset_name: end2end_dataset
+
+    ground_truth:
+
+      data_path: ./OmniDocBench.json
+
+    prediction:
+
+      data_path: ./Gemini3-pro-preview_demo_result
+
+```
+
+
+
+#### Step 4: 运行评测脚本 (Run Validation Loop)
+
+
+
+运行验证脚本，比较预测结果与地面真实数据集来计算指标：
+
+
+
+```bash
+
+python pdf_validation.py --config ./configs/end2end.yaml
+
+```
+
+脚本将自动读取配置中所列的模型输出路径与官方地面真值 Ground Truth 进行对比，根据内部 `dataset`, `task`, `metrics` 和 `registry` 相关模块将详细的 JSON 指标结果输出到你的 `save_dir` 目录下。
+
+
+
+#### Step 5: 计算最终分数 (Calculate Final Scores)
+
+
+
+你可以使用 `tools/calculate_scores.py` 将 JSON 指标文件读取为一个分数概览表格：
+
+```bash
+
+python tools/calculate_scores.py ./result_v4/gemini-3-pro-preview.json
+
+```
+
+这会自动打印格式化好的表格内容。
+
+
 
 ### 辅助脚本工具
 
@@ -721,13 +817,23 @@ jupyter notebook tools/generate_result_tables.ipynb
 ```
 在打开的 `generate_result_tables.ipynb` 内逐一运行代码块，您便能够自动提取各个维度的分数日志，并自动将其编排输出成可直接用于学术论文展示的聚合表格形式（以 CSV, Markdown 或者 Pandas DataFrame 等形式返回汇总对比）。与主结果展示表格完美匹配。
 
+## 致谢
+
+
+
+MDPBench 的开发建立在 [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git) 扎实的基础之上。我们衷心感谢他们对文档解析社区所做出的杰出贡献以及开源精神！
+
+
 ## 引用
 如果该基准测试工具对您有所启迪或帮助，请在您的工作中引入以下文献：
 ```bibtex
-@misc{MDPBench2024,
-      title={MDPBench: A Multilingual Benchmark for Photographed Document Parsing},
-      author={First Author and Second Author and Third Author},
-      year={2024},
-      url={https://github.com/Yuliang-Liu/MultimodalOCR}
+@misc{li2026mdpbenchbenchmarkmultilingualdocument,
+      title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
+      author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
+      year={2026},
+      eprint={2603.28130},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.28130}, 
 }
 ```

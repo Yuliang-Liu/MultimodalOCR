@@ -36,8 +36,8 @@ def encode_image(image_path):
     with Image.open(image_path) as img:
         img_format = img.format if img.format in SUPPORTED_FORMATS else 'JPEG'
         
-        MAX_PIXELS = 35_000_000  # Safe margin below 36,000,000
-        MAX_SIZE = 8 * 1024 * 1024  # 8MB safe limit
+        MAX_PIXELS = 35_000_000  
+        MAX_SIZE = 8 * 1024 * 1024 
         file_size = os.path.getsize(image_path)
         
         current_pixels = img.width * img.height
@@ -53,9 +53,7 @@ def encode_image(image_path):
         quality = 95
         scale_factor = 1.0
         
-        # Calculate initial scale factor to bring pixels under MAX_PIXELS
         if current_pixels > MAX_PIXELS:
-            # Add a slight extra margin while scaling
             scale_factor = (MAX_PIXELS / current_pixels) ** 0.5 * 0.95
         
         while True:
@@ -76,7 +74,6 @@ def encode_image(image_path):
                 
             size_bytes = buffer.tell()
             
-            # Check both byte size and pixel limit (we already clamped pixel limit above, so just file size loop)
             if size_bytes <= MAX_SIZE:
                 buffer.seek(0)
                 return base64.b64encode(buffer.read()).decode("utf-8"), SUPPORTED_FORMATS[img_format]
@@ -126,7 +123,7 @@ def process_folder(input_folder: str, output_folder: str, prompt: str, model_nam
         return
 
     client = OpenAI(
-        base_url="https://ark.cn-beijing.volces.com/api/v3",
+        base_url=os.getenv('BASE_URL'),
         api_key=api_key,
     )
 
@@ -140,7 +137,6 @@ def process_folder(input_folder: str, output_folder: str, prompt: str, model_nam
     total_files = len(image_files)
     print(f"Found {total_files} images in {input_folder}")
 
-    # Simple progress loop without tqdm if not installed, but try to use if available
     try:
         from tqdm import tqdm
         iterator = tqdm(image_files, desc="Processing Images")

@@ -13,7 +13,23 @@ except ImportError:
     def tqdm(iterable, desc=None):
         return iterable
 
-DEFAULT_PROMPT = "You are an advanced hybrid OCR engine capable of processing multilingual text mixed with mathematical notation. Your goal is to transcribe the content with high fidelity.Strict Rules: 1. Multilingual Precision: Transcribe text exactly as it appears in the original language. Do not translate, summarize, or correct original spelling errors. 2. Math Formatting: Identify all mathematical expressions and convert them into LaTeX. 3. Use single dollar signs ($x$) for inline math (formulas within a sentence). 4. Use double dollar signs ($$x$$) for display math (standalone formulas on their own lines). 5. Layout & Structure: Use Markdown to preserve the visual structure (headers, paragraphs, lists). 6. Output Only: Output the transcribed text directly without any conversational filler."
+DEFAULT_PROMPT = """
+You are an advanced hybrid OCR engine capable of processing multilingual text mixed with mathematical notation. Your goal is to transcribe the content with high fidelity. Strict Rules:
+
+1. Multilingual Precision: Transcribe text exactly as it appears in the original language. Do not translate, summarize, or correct original spelling errors.
+
+2. Math Formatting: Identify all mathematical expressions and convert them into LaTeX.
+
+3. Inline Math: Use single dollar signs ($x$) for inline math (formulas within a sentence).
+
+4. Display Math: Use double dollar signs ($$x$$) for display math (standalone formulas on their own lines).
+
+5. Layout & Structure: Use Markdown to preserve the visual structure (headers, paragraphs, lists).
+
+6. Table Formatting: Use HTML tags (e.g., <table>, <tr>, <th>, <td>) to generate any tables found in the text.
+
+7. Output Only: Output the transcribed text directly without any conversational filler.
+"""
 
 
 def load_model(model_path: str):

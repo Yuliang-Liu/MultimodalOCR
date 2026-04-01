@@ -50,19 +50,18 @@ class End2EndDataset():
         return self.samples[cat_name][idx]
     
 
-    # 匹配元素 处理文本截断问题，将截断的文本块合并，并将元素按类别存储在字典中
     def get_page_elements(self, selected_annos):
         
-        saved_element_dict = defaultdict(list) #存储元素
-        related_truncated = [] #存储需要合并的截断文本块列表
-        truncated_all = {} #存储截断文本块信息
-        for relation in selected_annos["extra"]["relation"]:   # Handle truncated text issues
+        saved_element_dict = defaultdict(list) 
+        related_truncated = [] 
+        truncated_all = {} 
+        for relation in selected_annos["extra"]["relation"]:   
             if relation["relation_type"] == 'truncated':
                 truncated_all[relation["source_anno_id"]] = ""
                 truncated_all[relation["target_anno_id"]] = ""
                 exist_flag = False
                 for merge_list in related_truncated:
-                    if relation["source_anno_id"] in merge_list or relation["target_anno_id"] in merge_list:  # Consider cases where three text blocks may need to be merged
+                    if relation["source_anno_id"] in merge_list or relation["target_anno_id"] in merge_list: 
                         merge_list.append(relation["source_anno_id"])
                         merge_list.append(relation["target_anno_id"])
                         exist_flag = True
@@ -82,18 +81,16 @@ class End2EndDataset():
             for block in sorted_block:
                 text += block['text']
             merged_block = {
-                "category_type": sorted_block[0]["category_type"], # Directly use information from the first block
+                "category_type": sorted_block[0]["category_type"], 
                 "order": sorted_block[0]["order"],
                 "anno_id": sorted_block[0]["anno_id"],   
                 "text": text,
                 "merge_list": sorted_block
             }
             saved_element_dict[sorted_block[0]["category_type"]].append(merged_block)
-            # print('Merged truncated')
-
+            
         return saved_element_dict
     
-    # 根据类别列表 category_list 从 gt_page_elements 中提取元素，并将它们合并到一个列表中
     def get_page_elements_list(self, gt_page_elements, category_list):
         element_list = []
         for category_type in category_list:
@@ -101,9 +98,7 @@ class End2EndDataset():
                 element_list.extend(gt_page_elements[category_type])
         return element_list
 
-    # 根据元素的 order 字段对元素列表进行排序，并返回排序后的元素列表。
     def get_sorted_text_list(self, selected_annos):
-        # txt_type: text, latex, html
         text_list = []
         for item in selected_annos:
             if item.get('order'):
@@ -114,7 +109,6 @@ class End2EndDataset():
         sorted_text_list = sorted(text_list, key=lambda x: x[0])
         return [_[1] for _ in sorted_text_list]
     
-    # 从元素列表 items 中过滤掉 gt_category_type 在 ignore_category_list 中的元素。
     def filtered_out_ignore(self, items, ignore_category_list):
         filted_items = []
         for item in items:
@@ -122,7 +116,6 @@ class End2EndDataset():
                 filted_items.append(item)
         return filted_items
 
-    # 计算预测结果和地面真值的阅读顺序之间的编辑距离，并返回包含相关信息的字典。
     def get_order_paired(self, order_match_s, img_name):
         matched = [(item['gt_position'], item['pred_position']) for item in order_match_s if (item['gt_position'] != [""] and item['pred_position'] != "")]
         gt_idx_all = [item['gt_position'] for item in order_match_s if (item['gt_position'] != [""])]
@@ -143,14 +136,13 @@ class End2EndDataset():
         else:
             return {}  # If both GT and pred are empty for the page, return empty
 
-    # 为公式匹配结果添加 img_id 信息。
     def formula_format(self, formula_matches, img_name):
         # formated_list = []
         for i, item in enumerate(formula_matches):
             item["img_id"] = img_name + '_' + str(i)
         return formula_matches
 
-    # 对gt和预测结果进行匹配，调用 process_get_matched_elements 函数进行匹配处理，最终将匹配结果整理成一个字典返回
+
     def get_matched_elements(self, gt_samples, pred_folder):
         plain_text_match = []
         display_formula_match = []
@@ -202,13 +194,11 @@ class End2EndDataset():
                 # Determine if this is the original file
                 is_digit = len([p for p in current_img_id.split("_") if p]) == 3
 
-                # 对单个样本匹配，根据不同的元素类型（如文本块、显示公式、表格等），使用指定的匹配方法将gt与预测结果进行匹配，并返回匹配结果
+                
                 result = self.process_get_matched_elements(sample, pred_content, current_img_id, save_time, is_digit) # Don't use timeout logic
 
                 [plain_text_match_clean, formated_display_formula, latex_table_match_s, html_table_match_s, order_match_single] = result
 
-                # if img_name == 'docstructbench_dianzishu_zhongwenzaixian-o.O-63674848.pdf_101.jpg':
-                #     pdb.set_trace()
                 if order_match_single:
                     order_match.append(order_match_single)
                 if plain_text_match_clean:
@@ -223,19 +213,14 @@ class End2EndDataset():
         display_formula_match_clean,display_formula_match_others = [],[]
         for item in display_formula_match:
             pred_category_type = item.get("pred_category_type",None)
-            # if pred_category_type == 'equation_inline':
-            #     print(item)
             if pred_category_type not in ['equation_inline','equation_isolated', '']:
                 gt = item.get('gt',None)
                 norm_gt = item.get('norm_gt',None)
-                ## latex2unicode
                 try:
                     item['gt'] = LatexNodes2Text().latex_to_text(gt)
                 except Exception as e:
                     logger.warning(f"Failed to convert latex to text: {gt[:50]}... Error: {e}")
                 
-                # item['norm_gt'] = LatexNodes2Text().latex_to_text(norm_gt)  # 错了，这里的norm gt是跑的normalized_formula函数，所以再跑latex2unicode会报错
-                # 这里的norm_gt应该是跑文本的nrom了
                 item['norm_gt'] = clean_string(item['gt'])
                 display_formula_match_others.append(item)
             else:
@@ -244,7 +229,6 @@ class End2EndDataset():
         if display_formula_match_others and plain_text_match:
             plain_text_match.extend(display_formula_match_others)
             
-        #  将latex合并到html 全量428
         if latex_table_match:
             latex_to_html = []
             for latex_table in latex_table_match:
@@ -256,17 +240,13 @@ class End2EndDataset():
             html_table_match.extend(latex_to_html)
         
         
-        if len(latex_table_match) > len(html_table_match): # Assume model won't randomly output both latex and html, but will choose one
+        if len(latex_table_match) > len(html_table_match): 
             table_match = latex_table_match
             table_format = 'latex'
         else:
             table_match = html_table_match
             table_format = 'html'
             
-        # with open('./qwen_latex_table_match.json','w',encoding='utf-8') as f:
-        #     json.dump(latex_table_match,f,indent=4,ensure_ascii=False)
-        # with open('./qwen_html_table_match.json','w',encoding='utf-8') as f:
-        #     json.dump(html_table_match,f,indent=4,ensure_ascii=False)
 
 
         matched_samples_all = {
@@ -279,7 +259,7 @@ class End2EndDataset():
 
         return matched_samples_all
     
-    #0403 提取gt的table跟pred的table进行匹配 -> 未匹配上的pred_table 去掉html格式然后丢进去混合匹配
+
     def process_get_matched_elements(self, sample, pred_content, img_name, save_time, is_digit=True):
         if self.match_method == 'simple_match':   # add match choice
             match_gt2pred = match_gt2pred_simple
@@ -298,9 +278,6 @@ class End2EndDataset():
         for category in pred_dataset:
             if category not in ['html_table','latex_table','md2html_table']:
                 pred_dataset_mix.extend(pred_dataset[category])
-        # for category in gt_page_elements:
-        #     if category not in ['table']:
-        #         gt_mix.extend(gt_page_elements[category])
         gt_mix = self.get_page_elements_list(gt_page_elements, ['text_block', 'title', 'code_txt', 'code_txt_caption', 'reference', 'equation_caption',
                                                 'figure_caption', 'figure_footnote', 'table_caption', 'table_footnote', 'code_algorithm', 'code_algorithm_caption',
                                                 'header', 'footer', 'page_footnote', 'page_number', 'equation_isolated'])
