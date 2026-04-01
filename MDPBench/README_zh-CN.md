@@ -800,22 +800,12 @@ python pdf_validation.py --config ./configs/end2end.yaml
 
 ```bash
 
-python tools/calculate_scores.py ./result_v4/gemini-3-pro-preview.json
+cd tools && python calculate_scores.py gemini-3-pro-preview_private
 
 ```
 
 这会自动打印格式化好的表格内容。
 
-
-
-### 辅助脚本工具
-
-您评估得出的细粒度指标集可能会稍显繁杂，为此我们在工程目录下提供了内置的 Jupyter 交互式聚合脚本：
-
-```bash
-jupyter notebook tools/generate_result_tables.ipynb
-```
-在打开的 `generate_result_tables.ipynb` 内逐一运行代码块，您便能够自动提取各个维度的分数日志，并自动将其编排输出成可直接用于学术论文展示的聚合表格形式（以 CSV, Markdown 或者 Pandas DataFrame 等形式返回汇总对比）。与主结果展示表格完美匹配。
 
 ## 致谢
 

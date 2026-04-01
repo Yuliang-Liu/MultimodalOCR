@@ -800,22 +800,13 @@ You can use [tools/calculate_scores.py](./tools/calculate_scores.py) to parse th
 
 ```bash
 
-python tools/calculate_scores.py ./result_v4/gemini-3-pro-preview.json
+cd tools && python calculate_scores.py gemini-3-pro-preview_private
 
 ```
 
 This automatically prints the formatted table contents.
 
 
-### Tools
-
-We provide standard Jupyter Notebook scripts to process metrics logic and compile the results easily.
-After getting the results, you can generate structured summary tables of the results:
-
-```bash
-jupyter notebook tools/generate_result_tables.ipynb
-```
-Using the interactive cells inside [generate_result_tables.ipynb](./tools/generate_result_tables.ipynb), you can aggregate different experimental runs and export formatted result tables (CSV, Markdown, Excel) mapping exactly to the main results presentation for your papers or reports.
 
 ## Acknowledgements
 
