@@ -672,7 +672,7 @@ pip install -r requirements.txt
 ```
 For CDM, you need to set up the CDM environment according to the [README](./metrics/cdm/).
 
-### End-to-End Evaluation
+### End-to-End Evaluation on Public Set
 
 Please follow the steps below to conduct the evaluation.
 
@@ -744,16 +744,18 @@ python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview
 
 ```
 
+### End-to-End Evaluation on Private Set
+We welcome any suggestions that can help us improve this benchmark. If you would like to evaluate your model on MDPBench Private Set, please open an issue or contact us at [zhangli123@hust.edu.cn](mailto:zhangli123@hust.edu.cn), and please also provide your model’s inference code and the corresponding weight links.
+
+
 
 
 ## Acknowledgements
 
+We would like to express our sincere appreciation to [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git) for providing the evaluation pipeline!
 
 
-MDPBench is built upon the solid foundation provided by [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git). We sincerely appreciate their outstanding contributions and open-source spirit to the document parsing community!
-
-
-## Citation
+## Citing MDPBench
 If you find this benchmark useful, please cite:
 ```bibtex
 @misc{li2026mdpbenchbenchmarkmultilingualdocument,
