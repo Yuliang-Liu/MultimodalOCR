@@ -763,7 +763,7 @@ python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_datase
 
     ground_truth:
 
-      data_path: ./demo_data/MDPBench_demo.json
+      data_path: ./MDPBench_dataset/MDPBench_public.json
 
     prediction:
 
