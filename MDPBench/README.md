@@ -745,14 +745,14 @@ python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview
 ```
 
 ### End-to-End Evaluation on Private Set
-We welcome any suggestions that can help us improve this benchmark. If you would like to evaluate your model on MDPBench Private Set, please open an issue or contact us at [zhangli123@hust.edu.cn](mailto:zhangli123@hust.edu.cn), and please also provide your model’s inference code and the corresponding weight links.
+To prevent data leakage and avoid sample-specific fine-tuning, we choose not to release the Private Set. If you would like to evaluate your model on MDPBench Private, please open an issue or contact us at [zhangli123@hust.edu.cn](mailto:zhangli123@hust.edu.cn), and please also provide your model’s inference code and the corresponding weight links.
 
 
 
 
 ## Acknowledgements
 
-We would like to express our sincere appreciation to [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git) for providing the evaluation pipeline!
+We would like to express our sincere appreciation to [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git) for providing the evaluation pipeline! We also welcome any suggestions that can help us improve this benchmark.
 
 
 ## Citing MDPBench
