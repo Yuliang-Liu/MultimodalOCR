@@ -15,3 +15,5 @@ trace
 result/*
 !result/.gitkeep
 __pycache__/
+MDPBench_dataset
+model_results
