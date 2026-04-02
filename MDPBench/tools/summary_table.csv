@@ -1,0 +1,4 @@
+Category,Latin,Latin,Latin,Latin,Latin,Latin,Latin,Latin,Latin,Latin,Non-Latin,Non-Latin,Non-Latin,Non-Latin,Non-Latin,Non-Latin,Non-Latin,Non-Latin,Non-Latin,Overall,Overall,Overall
+Language/Split,DE,EN,ES,FR,ID,IT,NL,PT,VI,Avg,AR,HI,JP,KO,RU,TH,ZH,ZH-T,Avg,All,Digit.,Photo.
+OCR_Model,,,,,,,,,,,,,,,,,,,,,,
+Gemini-3-pro-preview,65.9,92.9,25.7,91.9,93.0,97.6,84.4,98.4,90.6,82.3,83.4,98.3,65.7,91.3,97.4,97.2,99.2,4.7,79.7,82.2,94.5,78.3

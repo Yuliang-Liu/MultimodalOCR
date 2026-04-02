@@ -1,0 +1,27 @@
+end2end_eval:
+  metrics:
+    text_block:
+      metric:
+        - Edit_dist
+        # - BLEU
+        # - METEOR
+    display_formula:
+      metric:
+        - Edit_dist
+        - CDM  # CDM can be calculated directly by calling CDM in config file if you have CDM environment
+    table:
+      metric:
+        - TEDS
+        - Edit_dist
+    reading_order:
+      metric:
+        - Edit_dist
+  dataset:
+    dataset_name: end2end_dataset
+    ground_truth:
+      data_path: MDPBench_dataset/MDPBench_public.json
+    prediction:
+      data_path: result/Gemini3-pro-preview
+    match_method: quick_match
+    # filter: 
+    #   language: english

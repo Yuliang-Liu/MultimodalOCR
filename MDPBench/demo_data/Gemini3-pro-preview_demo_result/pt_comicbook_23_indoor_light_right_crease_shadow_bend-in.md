@@ -1,0 +1,70 @@
+**APÓS UMA INCURSÃO DE**
+**SABOTAGEM FRACASSADA**
+**NUM ARMAZÉM DO QUAL**
+**SAÍ POR MILAGRE,**
+**ENCONTREI-ME COM O**
+**RESTO DOS MEUS HOMENS**
+**A LESTE DE WAYNESBORO,**
+**EM BRIERCREEK \***
+\* VER O PREÇO DO SANGUE
+
+**MAS QUANDO**
+**CHEGUEI AO LOCAL.**
+
+**BLOODY**
+**HELL!**
+
+**O QUE É**
+**QUE ISTO**
+**SIGNIFICA!**
+
+**É... É UMA**
+**VERDADEIRA**
+**CARNIFICINA!!**
+
+**AAAH...**
+**TEN...**
+**TENENTE...**
+
+**HEY...**
+**GABI O QUE**
+**ACONTECEU**
+**AQUI?**
+
+**NÓS... NÓS**
+**ENCONTRAMOS UM**
+**FORTE GRUPO DE**
+**REBELDES... E... E...**
+
+**ELE MORREU NOS**
+**MEUS BRAÇOS...**
+**VOCÊ SABE O QUE**
+**EU SINTO,**
+**ESTOU FURIOSO**
+**POR NÃO PODER**
+**FAZER NADA**
+**PARA SALVAR OS**
+**MEUS...**
+**CAMARADAS**
+
+**MEU**
+**TENENTE...**
+**E!! MEU**
+**TENENTE!!**
+
+**OS OUTROS... ONDE**
+**ESTÃO OS OUTROS...**
+**HOMER, O SARGENTO**
+**GRAYSON.**
+
+**PRI...**
+**PRISIONEIROS**
+**EM ATLANTA...**
+
+**SIM... E COM**
+**CERTEZA**
+**NÃO É O**
+**CAPITÃO**
+**MASON QUE**
+**VAI**
+**AJUDÁ-LO.**
