@@ -104,6 +104,17 @@ If you wish to refer to the baseline results published here, please use the foll
     primaryClass={cs.CV},
     url={https://arxiv.org/abs/2501.00321}, 
 }
+
+
+@misc{li2026mdpbenchbenchmarkmultilingualdocument,
+      title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
+      author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
+      year={2026},
+      eprint={2603.28130},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.28130}, 
+}
 ```
 
 
