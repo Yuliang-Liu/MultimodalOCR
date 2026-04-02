@@ -21,7 +21,7 @@ end2end_eval:
     ground_truth:
       data_path: MDPBench_dataset/MDPBench_public.json
     prediction:
-      data_path: model_results/Gemini3-pro-preview
+      data_path: result/Gemini3-pro-preview
     match_method: quick_match
     # filter: 
     #   language: english

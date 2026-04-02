@@ -48,9 +48,9 @@ if __name__ == '__main__':
         val_task = EVAL_TASK_REGISTRY.get(task)
         # val_task(val_dataset, metrics_list)
         if cfg[task]['dataset']['prediction'].get('data_path'):
-            save_name = os.path.basename(cfg[task]['dataset']['prediction']['data_path'].rstrip('/'))
+            save_name = os.path.basename(cfg[task]['dataset']['prediction']['data_path'].rstrip('/')) + '_result'
         else:
-            save_name = os.path.basename(cfg[task]['dataset']['ground_truth']['data_path']).split('.')[0]
+            save_name = os.path.basename(cfg[task]['dataset']['ground_truth']['data_path']).split('.')[0] + '_result'
         print('###### Process: ', save_name)
         if cfg[task]['dataset']['ground_truth'].get('page_info'):
             val_task(val_dataset, metrics_list, cfg[task]['dataset']['ground_truth']['page_info'], save_name)  # 按页面区分

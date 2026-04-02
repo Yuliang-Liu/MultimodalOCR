@@ -696,8 +696,7 @@ conda activate mdpbench
 pip install -r requirements.txt
 ```
 
-#### 用于公式验证的 CDM 指标配置
-如果您希望在端到端评估中通过 CDM (Character Detection Metric 或类似基于 AST 渲染的指标) 高精度审核数学公式，您必须确保本地环境能够运行 NodeJS 的验证依赖（相关执行文件位于 `metrics/cdm` 中）
+对于公式，MDPBench使用CDM进行评测，请前往[README](./metrics/cdm/)中按照相应的教程配置CDM环境。
 
 
 ### 端到端评测
@@ -708,7 +707,7 @@ pip install -r requirements.txt
 
 
 
-#### Step 1: 下载数据集 (Download the dataset)
+#### Step 1: 下载数据集
 
 
 
@@ -722,34 +721,22 @@ python tools/download_dataset.py
 
 
 
-#### Step 2: 运行模型推理 (Run Model Inference)
+#### Step 2: 运行模型推理
 
 首先，你可以使用 MDPBench [scripts](./scripts/)下提供的脚本对相应的模型进行推理
 ```bash
 
 export API_KEY="YOUR_API_KEY"
 export BASE_URL="YOUR_BASE_URL"
-python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_dataset/MDPBench_img_public --output_dir model_results/gemini-3-pro-preview
+python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_dataset/MDPBench_img_public --output_dir result/gemini-3-pro-preview
 
 ```
 
 此外，在评测MonkeyOCR等其他模型时可以用官方的脚本对数据集的图片进行推理。模型推理结果应为 markdown 格式，并且存储在与图像文件名相同但扩展名为 .md 的文件目录中。
 
+#### Step 3: 配置评测
 
-
-这个脚本会读取源文件输出包含预测结果的 markdown 文件，通常保存在诸如 [Gemini3-pro-preview_demo_result](./demo_data/Gemini3-pro-preview_demo_result/) 这样的目录中。
-
-
-
-#### Step 3: 配置评测 (Configure Evaluation)
-
-
-
-所有的评估输入都是通过配置文件进行配置的。我们在 `configs` 目录下为每项任务提供了模板，我们将在后续部分详细解释配置文件的内容。
-
-
-
-简单来说，对于端到端评测 (end2end evaluation)，您需要在 `configs/end2end.yaml` 中的 `ground_truth` 的 `data_path` 中提供 `MDPBench_public.json` 的路径，在 `prediction` 的 `data_path` 中提供包含模型推理结果的目录路径，如下所示：
+在运行评测脚本之前，您需要在 [configs/end2end.yaml](./configs/end2end.yaml) 中的 `ground_truth` 的 `data_path` 中提供 `MDPBench_public.json` 的路径，在 `prediction` 的 `data_path` 中提供包含模型推理结果的目录路径，如下所示：
 
 
 
@@ -767,19 +754,15 @@ python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_datase
 
     prediction:
 
-      data_path: ./model_results/Gemini3-pro-preview
+      data_path: ./result/Gemini3-pro-preview
 
 ```
 
 
 
-#### Step 4: 运行评测脚本 (Run Validation Loop)
+#### Step 4: 运行评测脚本
 
-
-
-运行验证脚本，比较预测结果与地面真实数据集来计算指标：
-
-
+运行下面的命令进行评测
 
 ```bash
 
@@ -787,30 +770,29 @@ python pdf_validation.py --config ./configs/end2end.yaml
 
 ```
 
-脚本将自动读取配置中所列的模型输出路径与官方地面真值 Ground Truth 进行对比，根据内部 `dataset`, `task`, `metrics` 和 `registry` 相关模块将详细的 JSON 指标结果输出到 [result](./result/) 目录下。
+脚本将自动读取配置中所列的模型输出路径与官方 Ground Truth 进行对比，根据内部 `dataset`, `task`, `metrics` 和 `registry` 相关模块输出详细的 JSON 指标结果。
 
 
 
-#### Step 5: 计算最终分数 (Calculate Final Scores)
+#### Step 5: 计算最终分数 
 
 
-
-你可以使用 [tools/calculate_scores.py](./tools/calculate_scores.py) 将 JSON 指标文件读取为一个分数概览表格：
+评测完成后，MDPBench会在result文件夹下新增一个带`_result`后缀带文件夹用来存放评测结果。
+你可以使用 [tools/calculate_scores.py](./tools/calculate_scores.py) 计算最终的各项得分，并输出为概览表格：
 
 ```bash
 
-python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview
+python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview_result
 
 ```
 
-这会自动打印格式化好的表格内容。
 
 
 ## 致谢
 
 
 
-MDPBench 的开发建立在 [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git) 扎实的基础之上。我们衷心感谢他们对文档解析社区所做出的杰出贡献以及开源精神！
+我们衷心感谢 [OmniDocBench](https://github.com/opendatalab/OmniDocBench.git) 提供的评测pipline！同时，我们也欢迎任何能够帮助我们改进该基准测试的建议。
 
 
 ## 引用

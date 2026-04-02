@@ -694,7 +694,7 @@ If you use the official code of a document parsing model for inference, please e
 
 export API_KEY="YOUR_API_KEY"
 export BASE_URL="YOUR_BASE_URL"
-python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_dataset/MDPBench_img_public --output_dir model_results/Gemini3-pro-preview
+python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_dataset/MDPBench_img_public --output_dir result/Gemini3-pro-preview
 
 ```
 
@@ -712,11 +712,11 @@ You should set `prediction.data_path` in [configs/end2end.yaml](./configs/end2en
 
     ground_truth:
 
-      data_path: ./MDPBench_dataset/MDPBench_demo.json
+      data_path: ./MDPBench_dataset/MDPBench_public.json
 
     prediction:
 
-      data_path: ./model_results/Gemini3-pro-preview
+      data_path: ./result/Gemini3-pro-preview
 
 ```
 
@@ -724,7 +724,7 @@ You should set `prediction.data_path` in [configs/end2end.yaml](./configs/end2en
 
 #### Step 4: Compute the metrics for each file.
 
-Run the following command to compute the score for each prediction. The results will be saved in the `./result/Gemini3-pro-preview-pred` directory.
+Run the following command to compute the score for each prediction.
 
 ```bash
 
@@ -736,11 +736,12 @@ python pdf_validation.py --config ./configs/end2end.yaml
 
 #### Step 5: Calculate Final Scores
 
+Upon completion of the evaluation, MDPBench will create a new folder in the result directory with the `_result` suffix to store the evaluation results.
 Run the following command to obtain the overall scores of the model across different languages.
 
 ```bash
 
-python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview
+python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview_result
 
 ```
 
