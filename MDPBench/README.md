@@ -718,7 +718,7 @@ You can use the [tools/download_dataset.py](./tools/download_dataset.py) script 
 
 ```bash
 
-python tools/download_dataset.py --dataset_repo "Delores-Lin/MDPBench" --local_dir "dataset"
+python tools/download_dataset.py
 
 ```
 
@@ -734,7 +734,9 @@ Run the model inference with images. The model inference results should be in ma
 
 ```bash
 
-python batch_process_gemini-3-pro-preview.py
+export API_KEY="YOUR_API_KEY"
+export BASE_URL="YOUR_BASE_URL"
+python scripts/batch_process_gemini-3-pro-preview.py --input_dir demo_data/MDPBench_demo --output_dir demo_data/Gemini3-pro-preview_demo_result
 
 ```
 
@@ -766,11 +768,11 @@ Simply, for end2end evaluation, you should provide the path to `MDPBench_public.
 
     ground_truth:
 
-      data_path: ./MDPBench_public.json
+      data_path: ./demo_data/MDPBench_demo.json
 
     prediction:
 
-      data_path: ./Gemini3-pro-preview_demo_result
+      data_path: ./demo_data/Gemini3-pro-preview_demo_result
 
 ```
 
@@ -786,7 +788,7 @@ Run the validation script to compute the metrics comparing the prediction with t
 
 ```bash
 
-python pdf_validation.py --config ./configs/end2end.yaml
+python pdf_validation.py 
 
 ```
 
@@ -800,7 +802,7 @@ You can use [tools/calculate_scores.py](./tools/calculate_scores.py) to parse th
 
 ```bash
 
-cd tools && python calculate_scores.py gemini-3-pro-preview_private
+python tools/calculate_scores.py Gemini3-pro-preview_demo_result --result_folder result
 
 ```
 

@@ -716,7 +716,7 @@ pip install -r requirements.txt
 
 ```bash
 
-python scripts/download_dataset.py --dataset_repo "YOUR_ORG/YOUR_DATASET" --local_dir "dataset"
+python tools/download_dataset.py
 
 ```
 
@@ -732,7 +732,9 @@ python scripts/download_dataset.py --dataset_repo "YOUR_ORG/YOUR_DATASET" --loca
 
 ```bash
 
-python batch_process_gemini-3-pro-preview.py
+export API_KEY="YOUR_API_KEY"
+export BASE_URL="YOUR_BASE_URL"
+python scripts/batch_process_gemini-3-pro-preview.py --input_dir demo_data/MDPBench_demo --output_dir demo_data/Gemini3-pro-preview_demo_result
 
 ```
 
@@ -764,11 +766,11 @@ python batch_process_gemini-3-pro-preview.py
 
     ground_truth:
 
-      data_path: ./OmniDocBench.json
+      data_path: ./demo_data/MDPBench_demo.json
 
     prediction:
 
-      data_path: ./Gemini3-pro-preview_demo_result
+      data_path: ./demo_data/Gemini3-pro-preview_demo_result
 
 ```
 
@@ -784,7 +786,7 @@ python batch_process_gemini-3-pro-preview.py
 
 ```bash
 
-python pdf_validation.py --config ./configs/end2end.yaml
+python pdf_validation.py
 
 ```
 
@@ -796,11 +798,11 @@ python pdf_validation.py --config ./configs/end2end.yaml
 
 
 
-你可以使用 `tools/calculate_scores.py` 将 JSON 指标文件读取为一个分数概览表格：
+你可以使用 [tools/calculate_scores.py](./tools/calculate_scores.py) 将 JSON 指标文件读取为一个分数概览表格：
 
 ```bash
 
-cd tools && python calculate_scores.py gemini-3-pro-preview_private
+python tools/calculate_scores.py Gemini-3-pro-preview_demo_result --result_folder result
 
 ```
 
