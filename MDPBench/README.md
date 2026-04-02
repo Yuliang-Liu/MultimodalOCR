@@ -698,7 +698,7 @@ python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_datase
 
 ```
 
-#### Step 3:Edit the Configuration File
+#### Step 3: Edit the Configuration File
 
 You should set `prediction.data_path` in [configs/end2end.yaml](./configs/end2end.yaml) to the directory where the model’s Markdown outputs are stored.
 
