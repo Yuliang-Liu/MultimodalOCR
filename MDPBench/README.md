@@ -25,7 +25,7 @@ The benchmark features the following characteristics:
 - [Evaluation](#evaluation)
   - [Environment Setup and Running](#environment-setup-and-running)
   - [End-to-End Evaluation](#end-to-end-evaluation)
-  - [Tools](#tools)
+- [Acknowledgements](#acknowledgements)
 - [Citation](#citation)
 
 ## Benchmark Introduction
