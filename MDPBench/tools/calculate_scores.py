@@ -54,17 +54,17 @@ def iter_json_array(path: Path, *, chunk_size: int = 1 << 20):
             yield obj
             buf = buf[end:]
 
-def load_text_scores_and_counts(*, result_folder: Path, ocr_prefix: str, match_name: str, split_tag: str = "All"):
+def load_text_scores_and_counts(*, result_folder: Path, ocr_prefix: str, split_tag: str = "All"):
     try:
         per_page_edit = _first_existing([
-            result_folder / f"{ocr_prefix}_{match_name}_text_block_{split_tag}_per_page_edit.json",
-            result_folder / f"{ocr_prefix}_{match_name}_text_block_per_page_edit.json",
+            result_folder / f"{ocr_prefix}_text_block_{split_tag}_per_page_edit.json",
+            result_folder / f"{ocr_prefix}_text_block_per_page_edit.json",
         ])
     except FileNotFoundError:
         return pd.DataFrame(), pd.Series(dtype=int)
 
     text_block_result_path = _first_existing([
-        result_folder / f"{ocr_prefix}_{match_name}_text_block_result.json",
+        result_folder / f"{ocr_prefix}_text_block_result.json",
     ])
 
     with per_page_edit.open("r", encoding="utf-8") as f:
@@ -100,17 +100,17 @@ def load_text_scores_and_counts(*, result_folder: Path, ocr_prefix: str, match_n
     n_text = n_text[n_text.index.isin(text_df.index)]
     return text_df, n_text
 
-def load_formula_scores_and_counts(*, result_folder: Path, ocr_prefix: str, match_name: str, split_tag: str = "All"):
+def load_formula_scores_and_counts(*, result_folder: Path, ocr_prefix: str, split_tag: str = "All"):
     try:
         per_sample_cdm = _first_existing([
-            result_folder / f"{ocr_prefix}_{match_name}_display_formula_{split_tag}_per_sample_CDM.json",
-            result_folder / f"{ocr_prefix}_{match_name}_display_formula_per_sample_CDM.json",
+            result_folder / f"{ocr_prefix}_display_formula_{split_tag}_per_sample_CDM.json",
+            result_folder / f"{ocr_prefix}_display_formula_per_sample_CDM.json",
         ])
     except FileNotFoundError:
         return pd.DataFrame(), pd.Series(dtype=int)
 
     formula_result_path = _first_existing([
-        result_folder / f"{ocr_prefix}_{match_name}_display_formula_result.json",
+        result_folder / f"{ocr_prefix}_display_formula_result.json",
     ])
 
     with per_sample_cdm.open("r", encoding="utf-8") as f:
@@ -151,17 +151,17 @@ def load_formula_scores_and_counts(*, result_folder: Path, ocr_prefix: str, matc
     n_formula = pd.Series(cnts, name="n_formula").astype(int)
     return s_formula.to_frame(), n_formula
 
-def load_table_scores_and_counts(*, result_folder: Path, ocr_prefix: str, match_name: str, split_tag: str = "All", metric: str = "TEDS"):
+def load_table_scores_and_counts(*, result_folder: Path, ocr_prefix: str, split_tag: str = "All", metric: str = "TEDS"):
     try:
         per_table = _first_existing([
-            result_folder / f"{ocr_prefix}_{match_name}_table_{split_tag}_per_table_TEDS.json",
-            result_folder / f"{ocr_prefix}_{match_name}_table_per_table_TEDS.json",
+            result_folder / f"{ocr_prefix}_table_{split_tag}_per_table_TEDS.json",
+            result_folder / f"{ocr_prefix}_table_per_table_TEDS.json",
         ])
     except FileNotFoundError:
         return pd.DataFrame(), pd.Series(dtype=int)
 
     table_result_path = _first_existing([
-        result_folder / f"{ocr_prefix}_{match_name}_table_result.json",
+        result_folder / f"{ocr_prefix}_table_result.json",
     ])
     
     want_is_digit = None
@@ -241,15 +241,13 @@ def compute_present_tasks_overall(pages: pd.DataFrame, *, empty_policy: str = "n
 
 def main():
     parser = argparse.ArgumentParser(description="Compute OCR metrics matching generate_result_tables.ipynb cell 3.")
-    parser.add_argument("prefix", type=str, help="Model result prefix, e.g., Gemini-3-pro-preview_private")
-    parser.add_argument("--result_folder", type=str, default="../result", help="Path to the result folder")
-    parser.add_argument("--match_name", type=str, default="quick_match", help="Match name used in result files")
+    parser.add_argument("--result_folder", type=str, required=True, help="Path to the result folder")
     
     args = parser.parse_args()
 
     result_folder = Path(args.result_folder)
-    prefix = args.prefix
-    match_name = args.match_name
+    result_folder = Path(args.result_folder)
+    prefix = result_folder.name
 
     split_tags = ["All", "digit", "photo"]
     split_rename_map = {"digit": "Digit.", "photo": "Photo.", "All": "All"}
@@ -265,13 +263,13 @@ def main():
     for split in split_tags:
         try:
             text_s, n_text = load_text_scores_and_counts(
-                result_folder=result_folder, ocr_prefix=prefix, match_name=match_name, split_tag=split
+                result_folder=result_folder, ocr_prefix=prefix, split_tag=split
             )
             formula_s, n_formula = load_formula_scores_and_counts(
-                result_folder=result_folder, ocr_prefix=prefix, match_name=match_name, split_tag=split
+                result_folder=result_folder, ocr_prefix=prefix, split_tag=split
             )
             table_s, n_table = load_table_scores_and_counts(
-                result_folder=result_folder, ocr_prefix=prefix, match_name=match_name, split_tag=split, metric="TEDS"
+                result_folder=result_folder, ocr_prefix=prefix, split_tag=split, metric="TEDS"
             )
 
             pages = pd.DataFrame()

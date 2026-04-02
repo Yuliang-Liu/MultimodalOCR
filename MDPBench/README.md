@@ -736,7 +736,7 @@ Run the model inference with images. The model inference results should be in ma
 
 export API_KEY="YOUR_API_KEY"
 export BASE_URL="YOUR_BASE_URL"
-python scripts/batch_process_gemini-3-pro-preview.py --input_dir demo_data/MDPBench_demo --output_dir demo_data/Gemini3-pro-preview_demo_result
+python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_dataset/MDPBench_img_public --output_dir model_results/Gemini3-pro-preview
 
 ```
 
@@ -768,11 +768,11 @@ Simply, for end2end evaluation, you should provide the path to `MDPBench_public.
 
     ground_truth:
 
-      data_path: ./demo_data/MDPBench_demo.json
+      data_path: ./MDPBench_dataset/MDPBench_demo.json
 
     prediction:
 
-      data_path: ./demo_data/Gemini3-pro-preview_demo_result
+      data_path: ./model_results/Gemini3-pro-preview
 
 ```
 
@@ -788,9 +788,11 @@ Run the validation script to compute the metrics comparing the prediction with t
 
 ```bash
 
-python pdf_validation.py 
+python pdf_validation.py --config ./configs/end2end.yaml
 
 ```
+
+The script will automatically read the model output paths listed in the configuration and compare them with the official Ground Truth. It will output detailed JSON metric results to the [result](./result/) directory based on the internal `dataset`, `task`, `metrics`, and `registry` modules.
 
 
 
@@ -802,7 +804,7 @@ You can use [tools/calculate_scores.py](./tools/calculate_scores.py) to parse th
 
 ```bash
 
-python tools/calculate_scores.py Gemini3-pro-preview_demo_result --result_folder result
+python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview
 
 ```
 

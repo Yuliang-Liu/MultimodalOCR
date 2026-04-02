@@ -11,6 +11,9 @@ class End2EndEval():
     def __init__(self, dataset, metrics_list, page_info_path, save_name):
         result_all = {}
         page_info = {}
+        if not os.path.exists(f'./result/{save_name}'):
+            os.makedirs(f'./result/{save_name}')
+
         if os.path.isdir(page_info_path):
             md_flag = True
         else:
@@ -72,7 +75,7 @@ class End2EndEval():
                 for metric in metrics_list[element]['metric']:
                     metric_val = METRIC_REGISTRY.get(metric)
                     # evaluate returns (samples, result_dict)
-                    group_samples, result_s = metric_val(group_samples).evaluate(group_info, f"{save_name}_{element}_{group_name}")
+                    group_samples, result_s = metric_val(group_samples).evaluate(group_info, save_name, f"{element}_{group_name}")
                     if result_s:
                         result.update(result_s)
                 
@@ -99,15 +102,15 @@ class End2EndEval():
             samples = samples_all_obj # Restore for saving
             # pdb.set_trace()
 
-            if not os.path.exists('./result'):
-                os.makedirs('./result')
+            if not os.path.exists(f'./result/{save_name}'):
+                os.makedirs(f'./result/{save_name}')
             if isinstance(samples, list):
                 saved_samples = samples
             else:
                 saved_samples = samples.samples
             try:
 
-                with open(f'./result/{save_name}_{element}_result.json', 'w', encoding='utf-8') as f:
+                with open(f'./result/{save_name}/{save_name}_{element}_result.json', 'w', encoding='utf-8') as f:
                     json.dump(saved_samples, f, indent=4, ensure_ascii=False)
             except TypeError as e:
                 print(f"JSON 序列化错误: {e}")
@@ -133,6 +136,6 @@ class End2EndEval():
                 find_non_serializable(saved_samples)
 
 
-        with open(f'./result/{save_name}_metric_result.json', 'w', encoding='utf-8') as f:
+        with open(f'./result/{save_name}/{save_name}_metric_result.json', 'w', encoding='utf-8') as f:
             json.dump(result_all, f, indent=4, ensure_ascii=False)
     

@@ -724,19 +724,16 @@ python tools/download_dataset.py
 
 #### Step 2: 运行模型推理 (Run Model Inference)
 
-
-
-允许使用图像或 PDF 运行模型推理。模型推理结果应为 markdown 格式，并且存储在与图像文件名相同但扩展名为 .md 的文件目录中。以使用 Gemini-3.1-pro-preview 为例：
-
-
-
+首先，你可以使用 MDPBench [scripts](./scripts/)下提供的脚本对相应的模型进行推理
 ```bash
 
 export API_KEY="YOUR_API_KEY"
 export BASE_URL="YOUR_BASE_URL"
-python scripts/batch_process_gemini-3-pro-preview.py --input_dir demo_data/MDPBench_demo --output_dir demo_data/Gemini3-pro-preview_demo_result
+python scripts/batch_process_gemini-3-pro-preview.py --input_dir MDPBench_dataset/MDPBench_img_public --output_dir model_results/gemini-3-pro-preview
 
 ```
+
+此外，在评测MonkeyOCR等其他模型时可以用官方的脚本对数据集的图片进行推理。模型推理结果应为 markdown 格式，并且存储在与图像文件名相同但扩展名为 .md 的文件目录中。
 
 
 
@@ -752,7 +749,7 @@ python scripts/batch_process_gemini-3-pro-preview.py --input_dir demo_data/MDPBe
 
 
 
-简单来说，对于端到端评测 (end2end evaluation)，您需要在 `configs/end2end.yaml` 中的 `ground_truth` 的 `data_path` 中提供 `OmniDocBench.json` 的路径，在 `prediction` 的 `data_path` 中提供包含模型推理结果的目录路径，如下所示：
+简单来说，对于端到端评测 (end2end evaluation)，您需要在 `configs/end2end.yaml` 中的 `ground_truth` 的 `data_path` 中提供 `MDPBench_public.json` 的路径，在 `prediction` 的 `data_path` 中提供包含模型推理结果的目录路径，如下所示：
 
 
 
@@ -770,7 +767,7 @@ python scripts/batch_process_gemini-3-pro-preview.py --input_dir demo_data/MDPBe
 
     prediction:
 
-      data_path: ./demo_data/Gemini3-pro-preview_demo_result
+      data_path: ./model_results/Gemini3-pro-preview
 
 ```
 
@@ -786,11 +783,11 @@ python scripts/batch_process_gemini-3-pro-preview.py --input_dir demo_data/MDPBe
 
 ```bash
 
-python pdf_validation.py
+python pdf_validation.py --config ./configs/end2end.yaml
 
 ```
 
-脚本将自动读取配置中所列的模型输出路径与官方地面真值 Ground Truth 进行对比，根据内部 `dataset`, `task`, `metrics` 和 `registry` 相关模块将详细的 JSON 指标结果输出到你的 `save_dir` 目录下。
+脚本将自动读取配置中所列的模型输出路径与官方地面真值 Ground Truth 进行对比，根据内部 `dataset`, `task`, `metrics` 和 `registry` 相关模块将详细的 JSON 指标结果输出到 [result](./result/) 目录下。
 
 
 
@@ -802,7 +799,7 @@ python pdf_validation.py
 
 ```bash
 
-python tools/calculate_scores.py Gemini-3-pro-preview_demo_result --result_folder result
+python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview
 
 ```
 

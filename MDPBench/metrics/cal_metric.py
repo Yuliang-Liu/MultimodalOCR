@@ -38,7 +38,7 @@ def get_groups(samples, group_info):
 class call_TEDS():
     def __init__(self, samples):
         self.samples = samples
-    def evaluate(self, group_info=[], save_name='default'):
+    def evaluate(self, group_info=[], save_name='default', metric_suffix=''):
         teds = TEDS(structure_only=False)
         teds_structure_only = TEDS(structure_only=True)
         group_scores = defaultdict(list)
@@ -76,7 +76,7 @@ class call_TEDS():
                             select_flag = False
                 if select_flag:
                     group_scores[str(group)].append(score)
-        with open(f'./result/{save_name}_per_table_TEDS.json', 'w', encoding='utf-8') as f:
+        with open(f'./result/{save_name}/{save_name}_{metric_suffix}_per_table_TEDS.json', 'w', encoding='utf-8') as f:
             json.dump(per_table_score, f, indent=4, ensure_ascii=False)
         result = {}
         for group_name, scores in group_scores.items():
@@ -101,7 +101,7 @@ class call_TEDS():
 class call_BLEU():
     def __init__(self, samples):
         self.samples = samples
-    def evaluate(self, group_info=[], save_name='default'):
+    def evaluate(self, group_info=[], save_name='default', metric_suffix=''):
         group_samples = get_groups(self.samples, group_info)
         result = {}
         for group_name, samples in group_samples.items():
@@ -121,7 +121,7 @@ class call_BLEU():
 class call_METEOR():
     def __init__(self, samples):
         self.samples = samples
-    def evaluate(self, group_info=[], save_name='default'):
+    def evaluate(self, group_info=[], save_name='default', metric_suffix=''):
         group_samples = get_groups(self.samples, group_info)
         result = {}
         for group_name, samples in group_samples.items():
@@ -141,7 +141,7 @@ class call_METEOR():
 class call_Edit_dist():
     def __init__(self, samples):
         self.samples = samples
-    def evaluate(self, group_info=[], save_name='default'):
+    def evaluate(self, group_info=[], save_name='default', metric_suffix=''):
         samples = self.samples
         for sample in samples:
             if sample.get('page_id'):
@@ -209,7 +209,7 @@ class call_Edit_dist():
         all_total_avg = df['Edit_num'].sum() / df['upper_len'].sum()
         # all_total_avg = df["Edit_dist"].mean()
         per_img_score = up_total_avg.to_dict()
-        with open(f'./result/{save_name}_per_page_edit.json', 'w', encoding='utf-8') as f:
+        with open(f'./result/{save_name}/{save_name}_{metric_suffix}_per_page_edit.json', 'w', encoding='utf-8') as f:
             json.dump(per_img_score, f, indent=4, ensure_ascii=False)        
         
         # if 'display_formula' in save_name:
@@ -273,9 +273,9 @@ def _process_single_cdm_sample(args):
 class call_CDM():
     def __init__(self, samples):
         self.samples = samples
-    def evaluate(self, group_info=[], save_name='default', max_workers=32):
+    def evaluate(self, group_info=[], save_name='default', metric_suffix='', max_workers=32):
         group_scores = defaultdict(list)
-        output_root = f"result/{save_name}/CDM"
+        output_root = f'./result/{save_name}/CDM'
         
         if isinstance(self.samples, list):
             original_samples = self.samples
@@ -337,10 +337,10 @@ class call_CDM():
                 group_scores[group_name].append(cdm_score)
 
         # Save results to files
-        with open(f'./result/{save_name}_per_sample_CDM.json', 'w', encoding='utf-8') as f:
+        with open(f'./result/{save_name}/{save_name}_{metric_suffix}_per_sample_CDM.json', 'w', encoding='utf-8') as f:
             json.dump(per_sample_score, f, indent=4, ensure_ascii=False)
 
-        with open(f'result/{save_name}_result.json', 'w', encoding='utf-8') as f:
+        with open(f'./result/{save_name}/{save_name}_{metric_suffix}_result.json', 'w', encoding='utf-8') as f:
             json.dump(cdm_samples, f, indent=4, ensure_ascii=False)
 
         # Calculate final results
@@ -359,7 +359,7 @@ class call_CDM():
 class call_CDM_plain():
     def __init__(self, samples):
         self.samples = samples
-    def evaluate(self, group_info=[], save_name='default'):
+    def evaluate(self, group_info=[], save_name='default', metric_suffix=''):
         if isinstance(self.samples, list):
             cdm_samples = copy.deepcopy(self.samples)
         else:
@@ -372,6 +372,6 @@ class call_CDM_plain():
             sample['pred'] = sample['pred'].lstrip("$$").rstrip("$$").strip()
 
         # time_stap = time.time()
-        with open(f'result/{save_name}_formula.json', 'w', encoding='utf-8') as f:
+        with open(f'./result/{save_name}/{save_name}_{metric_suffix}_formula.json', 'w', encoding='utf-8') as f:
             json.dump(cdm_samples, f, indent=4, ensure_ascii=False)
         return self.samples, False

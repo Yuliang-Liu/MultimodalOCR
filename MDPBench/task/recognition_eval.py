@@ -31,7 +31,7 @@ class RecognitionBaseEval():
 
         for metric in metrics_list:
             metric_val = METRIC_REGISTRY.get(metric)
-            samples, result = metric_val(samples).evaluate({}, save_name)
+            samples, result = metric_val(samples).evaluate({}, save_name, metric)
             if result:
                 p_scores.update(result) 
         # score_table = [[k,v] for k,v in p_scores.items()]
@@ -54,8 +54,10 @@ class RecognitionBaseEval():
             'group':  group_result,
             'page': page_result
         }
+        if not os.path.exists(f'./result/{save_name}'):
+            os.makedirs(f'./result/{save_name}')
 
-        with open(f'./result/{save_name}_metric_result.json', 'w', encoding='utf-8') as f:
+        with open(f'./result/{save_name}/{save_name}_metric_result.json', 'w', encoding='utf-8') as f:
             json.dump(result_all, f, indent=4, ensure_ascii=False)
 
 
