@@ -777,7 +777,7 @@ python pdf_validation.py --config ./configs/end2end.yaml
 #### Step 5: 计算最终分数 
 
 
-评测完成后，MDPBench会在result文件夹下新增一个带`_result`后缀带文件夹用来存放评测结果。
+评测完成后，MDPBench会在result文件夹下新增一个带`_result`后缀的文件夹用来存放评测结果。
 你可以使用 [tools/calculate_scores.py](./tools/calculate_scores.py) 计算最终的各项得分，并输出为概览表格：
 
 ```bash
