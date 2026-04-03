@@ -1,4 +1,20 @@
-**This is the repository of the [OCRBench](./OCRBench/README.md) & [OCRBench v2](./OCRBench_v2/README.md).**
+**This is the repository of the [OCRBench](./OCRBench/README.md) & [OCRBench v2](./OCRBench_v2/README.md) & [MDPBench](./MDPBench/README.md).**
+
+<h1 align="center">
+MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios
+</h1>
+
+<div align="center">
+English | <a href="./README_zh-CN.md">简体中文</a>
+<br>
+
+[\[📜 arXiv\]](https://arxiv.org/abs/2603.28130) | [[Dataset (🤗Hugging Face)]](https://huggingface.co/datasets/Delores-Lin/MDPBench) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
+
+</div>
+We introduce Multilingual Document Parsing Benchmark, the first benchmark for multilingual digital and photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted pages in a handful of dominant languages. No systematic benchmark exists to evaluate how models perform on digital and photographed documents across diverse scripts and low-resource languages. MDPBench comprises 3,400 document images spanning 17 languages (Simplified Chinese, Traditional Chinese, English, Arabic, German, Spanish, French, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese), diverse scripts, and varied photographic conditions, with high-quality annotations produced through a rigorous pipeline of expert model labeling, manual correction, and human verification. To ensure fair comparison and prevent data leakage, we maintain separate public and private evaluation splits. Our comprehensive evaluation of both open-source and closed-source models uncovers a striking finding: while closed-source models (notably Gemini3-Pro) prove relatively robust, open-source alternatives suffer dramatic performance collapse, particularly on non-Latin scripts and real-world photographed documents, with an average drop of 17.8% on photographed documents and 14.0% on non-Latin scripts. These results reveal significant performance imbalances across languages and conditions, and point to concrete directions for building more inclusive, deployment-ready parsing systems.
+
+
+
 
 <div align="center" xmlns="http://www.w3.org/1999/html">
 <h1 align="center">
@@ -39,6 +55,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 </p>
 
 # News 
+* ```2026.04.01``` 🚀 We realese [MDPBench](./MDPBench/README.md), a benchmark for multilingual document parsing in real-world scenarios.
 * ```2026.03.31``` 🚀 The leaderboard has been updated to the latest release [Leaderboard](https://99franklin.github.io/ocrbench_v2/) (2026.03).
 * ```2025.09.30``` 🚀 The leaderboard has been updated (2025.09).
 * ```2025.09.18``` 🚀 OCRBench v2 has been accepted by [NeurIPS 2025 Datasets & Benchmarks Track](https://neurips.cc/virtual/2025/loc/mexico-city/poster/121614).
@@ -86,6 +103,17 @@ If you wish to refer to the baseline results published here, please use the foll
     archivePrefix={arXiv},
     primaryClass={cs.CV},
     url={https://arxiv.org/abs/2501.00321}, 
+}
+
+
+@misc{li2026mdpbenchbenchmarkmultilingualdocument,
+      title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
+      author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
+      year={2026},
+      eprint={2603.28130},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.28130}, 
 }
 ```
 
