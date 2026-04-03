@@ -98,13 +98,9 @@ If you wish to refer to the baseline results published here, please use the foll
 @misc{fu2024ocrbenchv2improvedbenchmark,
     title={OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Visual Text Localization and Reasoning}, 
     author={Ling Fu and Biao Yang and Zhebin Kuang and Jiajun Song and Yuzhe Li and Linghao Zhu and Qidi Luo and Xinyu Wang and Hao Lu and Mingxin Huang and Zhang Li and Guozhi Tang and Bin Shan and Chunhui Lin and Qi Liu and Binghong Wu and Hao Feng and Hao Liu and Can Huang and Jingqun Tang and Wei Chen and Lianwen Jin and Yuliang Liu and Xiang Bai},
-    year={2024},
-    eprint={2501.00321},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV},
-    url={https://arxiv.org/abs/2501.00321}, 
+    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    year={2025}
 }
-
 
 @misc{li2026mdpbenchbenchmarkmultilingualdocument,
       title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
