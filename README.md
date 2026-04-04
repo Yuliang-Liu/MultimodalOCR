@@ -5,7 +5,7 @@ MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios
 </h1>
 
 <div align="center">
-English | <a href="./README_zh-CN.md">简体中文</a>
+English | <a href="./MDPBench/README_zh-CN.md">简体中文</a>
 <br>
 
 [\[📜 arXiv\]](https://arxiv.org/abs/2603.28130) | [[Dataset (🤗Hugging Face)]](https://huggingface.co/datasets/Delores-Lin/MDPBench) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
