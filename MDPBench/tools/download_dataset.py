@@ -28,7 +28,8 @@ def main():
     elif args.source == "modelscope":
         from modelscope import snapshot_download
         snapshot_download(
-            dataset_id=args.repo_id,
+            repo_id=args.repo_id,
+            repo_type=args.repo_type,
             local_dir=args.local_dir
         )
         
