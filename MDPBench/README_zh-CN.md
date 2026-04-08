@@ -693,12 +693,14 @@ pip install -r requirements.txt
 
 
 
-你可以使用 [tools/download_dataset.py](./tools/download_dataset.py) 脚本从Hugging Face Hub下载数据集。
+你可以使用 [tools/download_dataset.py](./tools/download_dataset.py) 脚本从Hugging Face Hub或ModelScope下载数据集。
 
 ```bash
-
+# 从 Hugging Face 下载（默认）
 python tools/download_dataset.py
 
+# 从 ModelScope 下载
+python tools/download_dataset.py --source modelscope
 ```
 
 
