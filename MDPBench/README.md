@@ -678,14 +678,19 @@ Please follow the steps below to conduct the evaluation.
 
 #### Step 1: Download the dataset
 
-Download MDPBench (public) from Hugging Face.
+Download MDPBench (public) from Hugging Face or ModelScope.
 Please install the required packages before downloading:
 
 ```bash
 # Download from Hugging Face (default)
 pip install huggingface_hub
 python tools/download_dataset.py
+```
 
+```bash
+# Download from ModelScope
+pip install modelscope
+python tools/download_dataset.py --source modelscope
 ```
 
 #### Step 2: Run Model Inference

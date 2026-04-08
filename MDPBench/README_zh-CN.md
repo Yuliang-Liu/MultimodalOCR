@@ -699,7 +699,8 @@ pip install -r requirements.txt
 # 从 Hugging Face 下载（默认）
 pip install huggingface_hub
 python tools/download_dataset.py
-
+```
+```bash
 # 从 ModelScope 下载
 pip install modelscope
 python tools/download_dataset.py --source modelscope
