@@ -6,7 +6,9 @@ MDPBench
 <a href="./README.md">English</a> | 简体中文
 <br>
 
-[\[📜 arXiv\]](https://arxiv.org/abs/2603.28130) | [[Dataset (🤗Hugging Face)]](https://huggingface.co/datasets/Delores-Lin/MDPBench) | [[Source Code]](https://github.com/Yuliang-Liu/MultimodalOCR)
+[![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2603.28130) 
+[![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/Delores-Lin/MDPBench)
+[![ModelScope](https://img.shields.io/badge/Dataset-ModelScope-blue.svg)](https://modelscope.cn/datasets/DeloresLin/MDPBench)
 
 </div>
 
