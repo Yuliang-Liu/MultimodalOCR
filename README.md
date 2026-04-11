@@ -47,6 +47,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2305.07895) 
 [![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/echo840/OCRBench)
 [![Leaderboard](https://img.shields.io/badge/Leaderboard-OCRBench-blue.svg?logo=google-analytics)](https://huggingface.co/spaces/echo840/ocrbench-leaderboard)
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-Download-green?logo=google-drive)](https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench#Data)
 
 **OCRBench** is a comprehensive evaluation benchmark designed to assess the OCR capabilities of Large Multimodal Models. It comprises five components: Text Recognition, SceneText-Centric VQA, Document-Oriented VQA, Key Information Extraction, and Handwritten Mathematical Expression Recognition. The benchmark includes 1000 question-answer pairs, and all the answers undergo manual verification and correction to ensure a more precise evaluation. More details can be found in [OCRBench README](./OCRBench/README.md).
 
