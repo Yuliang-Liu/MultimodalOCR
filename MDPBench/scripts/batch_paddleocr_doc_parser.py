@@ -143,10 +143,6 @@ def main() -> int:
             args.pipeline_version,
             "--vl_rec_backend",
             args.vl_rec_backend,
-            "--use_layout_detection",
-            "False",
-            "--prompt_label",
-            "formula",
         ]
         if args.vl_rec_server_url:
             cmd += ["--vl_rec_server_url", args.vl_rec_server_url]
