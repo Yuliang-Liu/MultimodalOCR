@@ -2,7 +2,7 @@
 """Batch wrapper for `paddleocr doc_parser`.
 
 Example:
-  /home/zhangli/miniconda3/envs/paddleocrvl/bin/python batch_paddleocr_doc_parser.py \
+  python batch_paddleocr_doc_parser.py \
     --input_dir /path/to/images \
     --output_dir /path/to/out \
     --pipeline_version v1.5 \
