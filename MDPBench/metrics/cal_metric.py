@@ -232,7 +232,9 @@ def _process_single_cdm_sample(args):
     
     # Prepare sample data
     sample_copy = copy.deepcopy(sample)
-    sample_copy['img_id_cdm'] = str(idx)
+    gt_idx = sample_copy['gt_idx']
+    gt_idx_str = str(gt_idx[0]) if isinstance(gt_idx, list) else str(gt_idx)
+    sample_copy['img_id_cdm'] = sample_copy['img_id'] + '_' + gt_idx_str
     sample_copy['gt'] = sample_copy['gt'].lstrip("$$").rstrip("$$").strip()
     sample_copy['gt'] = sample_copy['gt'].lstrip("$").rstrip("$").strip()
     sample_copy['pred'] = sample_copy['pred'].split("```latex")[-1].split("```")[0]
@@ -306,7 +308,9 @@ class call_CDM():
                     print(f'Sample {idx} generated an exception: {exc}')
                     # Create a default result for failed samples
                     sample_copy = copy.deepcopy(original_samples[idx])
-                    sample_copy['img_id_cdm'] = str(idx)
+                    gt_idx = sample_copy['gt_idx']
+                    gt_idx_str = str(gt_idx[0]) if isinstance(gt_idx, list) else str(gt_idx)
+                    sample_copy['img_id_cdm'] = sample_copy['img_id'] + '_' + gt_idx_str
                     if not sample_copy.get('metric'):
                         sample_copy['metric'] = {}
                     sample_copy['metric']['CDM'] = 0.0
