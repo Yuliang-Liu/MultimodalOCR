@@ -265,7 +265,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="13"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="14"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>dots.mocr</td>
             <td><ins>80.5</ins></td>
             <td><strong>90.5</strong></td>
