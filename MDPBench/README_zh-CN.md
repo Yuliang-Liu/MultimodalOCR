@@ -505,6 +505,32 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>67.6</td>
         </tr>
         <tr>
+            <td>LightOnOCR-2-1B</td>
+            <td>63.9</td>
+            <td>80.2</td>
+            <td>58.5</td>
+            <td>73.7</td>
+            <td>72.4</td>
+            <td>79.1</td>
+            <td>65.0</td>
+            <td>62.1</td>
+            <td>72.9</td>
+            <td>82.9</td>
+            <td>70.2</td>
+            <td>83.8</td>
+            <td>74.9</td>
+            <td>52.8</td>
+            <td>64.2</td>
+            <td>59.0</td>
+            <td>50.5</td>
+            <td>41.9</td>
+            <td>54.3</td>
+            <td>51.4</td>
+            <td>46.6</td>
+            <td>54.7</td>
+            <td>68.1</td>
+        </tr>
+        <tr>
             <td>Nanonets-OCR-s</td>
             <td>63.7</td>
             <td>78.8</td>
