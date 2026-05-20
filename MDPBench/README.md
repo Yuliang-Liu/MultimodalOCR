@@ -716,10 +716,15 @@ python tools/download_dataset.py
 ```
 
 ```bash
-# Download from ModelScope
+# Download TSV from ModelScope and convert it to the original dataset layout
 pip install modelscope
 python tools/download_dataset.py --source modelscope
 ```
+
+The ModelScope path downloads `DeloresLin/MDPBench_tsv` and automatically converts
+`MDPBench_public.tsv` into `MDPBench_public.json` plus `MDPBench_img_public/`.
+The TSV is verified with MD5 before conversion. Use `--md5 <checksum>` to override
+the expected value, or `--skip_md5` to disable verification.
 
 #### Step 2: Run Model Inference
 
