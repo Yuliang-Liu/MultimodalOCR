@@ -729,10 +729,15 @@ pip install huggingface_hub
 python tools/download_dataset.py
 ```
 ```bash
-# 从 ModelScope 下载
+# 从 ModelScope 下载 TSV，并自动转换成原始数据目录结构
 pip install modelscope
 python tools/download_dataset.py --source modelscope
 ```
+
+ModelScope 路径会下载 `DeloresLin/MDPBench_tsv`，并自动将 `MDPBench_public.tsv`
+转换为 `MDPBench_public.json` 和 `MDPBench_img_public/`。
+转换前会对 TSV 做 MD5 校验。可以用 `--md5 <checksum>` 覆盖默认值，
+或用 `--skip_md5` 跳过校验。
 
 
 
