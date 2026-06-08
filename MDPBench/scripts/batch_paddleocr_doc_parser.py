@@ -65,9 +65,9 @@ def main() -> int:
 
     parser.add_argument(
         "--pipeline_version",
-        default="v1.5",
-        choices=["v1", "v1.5"],
-        help="PaddleOCR-VL pipeline version (v1.5 is default)",
+        default="v1.6",
+        choices=["v1", "v1.5", "v1.6"],
+        help="PaddleOCR-VL pipeline version (v1.6 is default)",
     )
 
     parser.add_argument("--vl_rec_backend", default="vllm-server", help="e.g. vllm-server")

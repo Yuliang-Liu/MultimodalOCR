@@ -270,7 +270,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="14"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="16"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>dots.mocr</td>
             <td><ins>80.5</ins></td>
             <td><strong>90.5</strong></td>
@@ -295,6 +295,32 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>84.6</td>
             <td><ins>79.6</ins></td>
             <td><ins>82.8</ins></td>
+        </tr>
+        <tr>
+            <td>chandra-ocr-2</td>
+            <td>79.7</td>
+            <td>87.8</td>
+            <td>77.1</td>
+            <td>82.7</td>
+            <td>86.6</td>
+            <td>86.5</td>
+            <td>69.7</td>
+            <td>70.3</td>
+            <td>84.6</td>
+            <td>87.4</td>
+            <td>82.7</td>
+            <td>90.7</td>
+            <td>85.6</td>
+            <td>76.4</td>
+            <td>78.2</td>
+            <td>81.1</td>
+            <td>68.8</td>
+            <td>80.3</td>
+            <td>74.0</td>
+            <td>78.5</td>
+            <td>73.8</td>
+            <td>76.3</td>
+            <td>82.4</td>
         </tr>
         <tr>
             <td>PaddleOCR-VL-1.5</td>
@@ -347,6 +373,32 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>79.1</td>
             <td>76.2</td>
             <td>79.7</td>
+        </tr>
+        <tr>
+            <td>PaddleOCR-VL-1.6</td>
+            <td>75.0</td>
+            <td>82.8</td>
+            <td>72.6</td>
+            <td>78.0</td>
+            <td>84.1</td>
+            <td>79.7</td>
+            <td>69.2</td>
+            <td>74.8</td>
+            <td>81.6</td>
+            <td>82.0</td>
+            <td>74.7</td>
+            <td>76.4</td>
+            <td>79.3</td>
+            <td>71.6</td>
+            <td>69.4</td>
+            <td>65.6</td>
+            <td>68.7</td>
+            <td>82.5</td>
+            <td>70.7</td>
+            <td>62.3</td>
+            <td>78.0</td>
+            <td>75.7</td>
+            <td>77.0</td>
         </tr>
         <tr>
             <td>olmOCR2</td>
