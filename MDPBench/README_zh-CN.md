@@ -270,7 +270,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="16"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="17"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>dots.mocr</td>
             <td><ins>80.5</ins></td>
             <td><strong>90.5</strong></td>
@@ -607,6 +607,32 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>67.4</td>
             <td>61.5</td>
             <td>66.6</td>
+        </tr>
+        <tr>
+            <td>FalconOCR</td>
+            <td>56.3</td>
+            <td>72.4</td>
+            <td>51.1</td>
+            <td>69.3</td>
+            <td>72.4</td>
+            <td>75.0</td>
+            <td>60.9</td>
+            <td>61.8</td>
+            <td>69.6</td>
+            <td>74.7</td>
+            <td>71.6</td>
+            <td>70.3</td>
+            <td>67.8</td>
+            <td>41.6</td>
+            <td>37.9</td>
+            <td>61.3</td>
+            <td>39.6</td>
+            <td>29.6</td>
+            <td>54.0</td>
+            <td>24.8</td>
+            <td>39.7</td>
+            <td>45.6</td>
+            <td>58.5</td>
         </tr>
         <tr>
             <td>MonkeyOCR-pro-3B</td>
