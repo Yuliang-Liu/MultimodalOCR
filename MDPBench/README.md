@@ -265,7 +265,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="17"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="18"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>dots.mocr</td>
             <td><ins>80.5</ins></td>
             <td><strong>90.5</strong></td>
@@ -394,6 +394,32 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>78.0</td>
             <td>75.7</td>
             <td>77.0</td>
+        </tr>
+        <tr>
+            <td>MinerU-2.5-Pro-1.2B</td>
+            <td>71.0</td>
+            <td>86.2</td>
+            <td>66.1</td>
+            <td>74.6</td>
+            <td>78.3</td>
+            <td>79.5</td>
+            <td>63.4</td>
+            <td>67.4</td>
+            <td>78.0</td>
+            <td>79.7</td>
+            <td>72.1</td>
+            <td>78.6</td>
+            <td>74.2</td>
+            <td>67.0</td>
+            <td>56.6</td>
+            <td>72.2</td>
+            <td>59.1</td>
+            <td>77.6</td>
+            <td>62.6</td>
+            <td>61.8</td>
+            <td>76.5</td>
+            <td>69.7</td>
+            <td>74.3</td>
         </tr>
         <tr>
             <td>olmOCR2</td>
