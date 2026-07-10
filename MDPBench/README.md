@@ -344,7 +344,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>80.7</td>
         </tr>
         <tr>
-            <td>HunyuanOCR_v1-5</td>
+            <td>HunyuanOCR-1.5</td>
             <td>76.8</td>
             <td>86.2</td>
             <td>73.6</td>
