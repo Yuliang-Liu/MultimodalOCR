@@ -270,7 +270,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="18"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="19"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>dots.mocr</td>
             <td><ins>80.5</ins></td>
             <td><strong>90.5</strong></td>
@@ -347,6 +347,32 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td><ins>84.8</ins></td>
             <td>75.7</td>
             <td>80.7</td>
+        </tr>
+        <tr>
+            <td>HunyuanOCR_v1-5</td>
+            <td>76.8</td>
+            <td>86.2</td>
+            <td>73.6</td>
+            <td>79.7</td>
+            <td>79.6</td>
+            <td>80.4</td>
+            <td>74.2</td>
+            <td>70.0</td>
+            <td>81.5</td>
+            <td>84.5</td>
+            <td>78.4</td>
+            <td>86.4</td>
+            <td>82.4</td>
+            <td>73.5</td>
+            <td>71.8</td>
+            <td>71.6</td>
+            <td>65.5</td>
+            <td>75.7</td>
+            <td>67.4</td>
+            <td>77.7</td>
+            <td>80.8</td>
+            <td>77.2</td>
+            <td>81.2</td>
         </tr>
         <tr>
             <td>dots.ocr</td>
