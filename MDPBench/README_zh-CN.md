@@ -270,7 +270,59 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="19"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="21"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td>MonkeyOCRv2-B-Parsing</td>
+            <td>83.3</td>
+            <td>88.1</td>
+            <td>81.7</td>
+            <td>84.2</td>
+            <td>87.7</td>
+            <td>84.5</td>
+            <td>75.2</td>
+            <td>78.4</td>
+            <td>86.5</td>
+            <td>88.6</td>
+            <td>86.1</td>
+            <td>87.9</td>
+            <td>83.2</td>
+            <td>82.1</td>
+            <td>90.7</td>
+            <td>87.2</td>
+            <td>71.9</td>
+            <td>87.6</td>
+            <td>80.1</td>
+            <td>80.8</td>
+            <td>83.6</td>
+            <td>75.3</td>
+            <td>84.7</td>
+        </tr>
+        <tr>
+            <td>MonkeyOCRv2-S-Parsing</td>
+            <td>82.5</td>
+            <td>87.9</td>
+            <td>80.7</td>
+            <td>83.2</td>
+            <td>87.3</td>
+            <td>83.6</td>
+            <td>76.8</td>
+            <td>73.6</td>
+            <td>85.4</td>
+            <td>87.2</td>
+            <td>85.5</td>
+            <td>87.4</td>
+            <td>81.9</td>
+            <td>81.7</td>
+            <td>91.2</td>
+            <td>87.1</td>
+            <td>69.9</td>
+            <td>88.7</td>
+            <td>78.0</td>
+            <td>79.8</td>
+            <td>84.4</td>
+            <td>74.7</td>
+            <td>84.0</td>
+        </tr>
+        <tr>
             <td>dots.mocr</td>
             <td><ins>80.5</ins></td>
             <td><strong>90.5</strong></td>
