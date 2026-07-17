@@ -64,7 +64,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td rowspan="8"><strong>General</strong><br><strong>VLMs</strong></td>
             <td>Gemini-3-pro-preview</td>
             <td><strong>86.4</strong></td>
-            <td><ins>90.4</ins></td>
+            <td><u>90.4</u></td>
             <td><strong>85.1</strong></td>
             <td><strong>88.4</strong></td>
             <td><strong>91.2</strong></td>
@@ -75,14 +75,14 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td><strong>91.6</strong></td>
             <td><strong>87.7</strong></td>
             <td><strong>91.4</strong></td>
-            <td><ins>85.9</ins></td>
+            <td><u>85.9</u></td>
             <td><strong>84.1</strong></td>
             <td>89.4</td>
             <td><strong>90.4</strong></td>
-            <td><ins>74.8</ins></td>
+            <td><u>74.8</u></td>
             <td>85.5</td>
             <td><strong>84.9</strong></td>
-            <td><ins>80.6</ins></td>
+            <td><u>80.6</u></td>
             <td><strong>85.1</strong></td>
             <td><strong>82.1</strong></td>
             <td><strong>89.8</strong></td>
@@ -272,29 +272,29 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
         <tr>
             <td rowspan="21"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>MonkeyOCRv2-B-Parsing</td>
-            <td><ins>83.3</ins></td>
+            <td><u>83.3</u></td>
             <td>88.1</td>
-            <td><ins>81.7</ins></td>
-            <td><ins>84.2</ins></td>
-            <td><ins>87.7</ins></td>
+            <td><u>81.7</u></td>
+            <td><u>84.2</u></td>
+            <td><u>87.7</u></td>
             <td>84.5</td>
             <td>75.2</td>
-            <td><ins>78.4</ins></td>
-            <td><ins>86.5</ins></td>
+            <td><u>78.4</u></td>
+            <td><u>86.5</u></td>
             <td>88.6</td>
-            <td><ins>86.1</ins></td>
+            <td><u>86.1</u></td>
             <td>87.9</td>
             <td>83.2</td>
-            <td><ins>82.1</ins></td>
-            <td><ins>90.7</ins></td>
-            <td><ins>87.2</ins></td>
+            <td><u>82.1</u></td>
+            <td><u>90.7</u></td>
+            <td><u>87.2</u></td>
             <td>71.9</td>
-            <td><ins>87.6</ins></td>
-            <td><ins>80.1</ins></td>
+            <td><u>87.6</u></td>
+            <td><u>80.1</u></td>
             <td><strong>80.8</strong></td>
             <td>83.6</td>
             <td>75.3</td>
-            <td><ins>84.7</ins></td>
+            <td><u>84.7</u></td>
         </tr>
         <tr>
             <td>MonkeyOCRv2-S-Parsing</td>
@@ -304,7 +304,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>83.2</td>
             <td>87.3</td>
             <td>83.6</td>
-            <td><ins>76.8</ins></td>
+            <td><u>76.8</u></td>
             <td>73.6</td>
             <td>85.4</td>
             <td>87.2</td>
@@ -329,11 +329,11 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>77.2</td>
             <td>81.7</td>
             <td>82.6</td>
-            <td><ins>87.4</ins></td>
+            <td><u>87.4</u></td>
             <td>71.3</td>
             <td>70.1</td>
             <td>84.5</td>
-            <td><ins>89.3</ins></td>
+            <td><u>89.3</u></td>
             <td>83.2</td>
             <td>86.8</td>
             <td>79.9</td>
@@ -345,7 +345,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>71.2</td>
             <td>77.9</td>
             <td>84.6</td>
-            <td><ins>79.6</ins></td>
+            <td><u>79.6</u></td>
             <td>82.8</td>
         </tr>
         <tr>
@@ -361,7 +361,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>84.6</td>
             <td>87.4</td>
             <td>82.7</td>
-            <td><ins>90.7</ins></td>
+            <td><u>90.7</u></td>
             <td>85.6</td>
             <td>76.4</td>
             <td>78.2</td>
@@ -396,7 +396,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>86.0</td>
             <td>76.0</td>
             <td>68.4</td>
-            <td><ins>84.8</ins></td>
+            <td><u>84.8</u></td>
             <td>75.7</td>
             <td>80.7</td>
         </tr>
