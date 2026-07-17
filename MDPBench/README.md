@@ -72,12 +72,12 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td><strong>91.4</strong></td>
             <td><ins>85.9</ins></td>
             <td><strong>84.1</strong></td>
-            <td><strong>89.4</strong></td>
+            <td>89.4</td>
             <td><strong>90.4</strong></td>
             <td><ins>74.8</ins></td>
-            <td><ins>85.5</ins></td>
+            <td>85.5</td>
             <td><strong>84.9</strong></td>
-            <td><strong>80.6</strong></td>
+            <td><ins>80.6</ins></td>
             <td><strong>85.1</strong></td>
             <td><strong>82.1</strong></td>
             <td><strong>89.8</strong></td>
@@ -88,7 +88,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>85.0</td>
             <td>75.0</td>
             <td>81.6</td>
-            <td><ins>85.9</ins></td>
+            <td>85.9</td>
             <td>86.2</td>
             <td>72.7</td>
             <td>71.0</td>
@@ -267,29 +267,29 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
         <tr>
             <td rowspan="21"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>MonkeyOCRv2-B-Parsing</td>
-            <td>83.3</td>
+            <td><ins>83.3</ins></td>
             <td>88.1</td>
-            <td>81.7</td>
-            <td>84.2</td>
-            <td>87.7</td>
+            <td><ins>81.7</ins></td>
+            <td><ins>84.2</ins></td>
+            <td><ins>87.7</ins></td>
             <td>84.5</td>
             <td>75.2</td>
-            <td>78.4</td>
-            <td>86.5</td>
+            <td><ins>78.4</ins></td>
+            <td><ins>86.5</ins></td>
             <td>88.6</td>
-            <td>86.1</td>
+            <td><ins>86.1</ins></td>
             <td>87.9</td>
             <td>83.2</td>
-            <td>82.1</td>
-            <td>90.7</td>
-            <td>87.2</td>
+            <td><ins>82.1</ins></td>
+            <td><ins>90.7</ins></td>
+            <td><ins>87.2</ins></td>
             <td>71.9</td>
-            <td>87.6</td>
-            <td>80.1</td>
-            <td>80.8</td>
+            <td><ins>87.6</ins></td>
+            <td><ins>80.1</ins></td>
+            <td><strong>80.8</strong></td>
             <td>83.6</td>
             <td>75.3</td>
-            <td>84.7</td>
+            <td><ins>84.7</ins></td>
         </tr>
         <tr>
             <td>MonkeyOCRv2-S-Parsing</td>
@@ -299,7 +299,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>83.2</td>
             <td>87.3</td>
             <td>83.6</td>
-            <td>76.8</td>
+            <td><ins>76.8</ins></td>
             <td>73.6</td>
             <td>85.4</td>
             <td>87.2</td>
@@ -307,10 +307,10 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>87.4</td>
             <td>81.9</td>
             <td>81.7</td>
-            <td>91.2</td>
+            <td><strong>91.2</strong></td>
             <td>87.1</td>
             <td>69.9</td>
-            <td>88.7</td>
+            <td><strong>88.7</strong></td>
             <td>78.0</td>
             <td>79.8</td>
             <td>84.4</td>
@@ -319,29 +319,29 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
         </tr>
         <tr>
             <td>dots.mocr</td>
-            <td><ins>80.5</ins></td>
+            <td>80.5</td>
             <td><strong>90.5</strong></td>
-            <td><ins>77.2</ins></td>
-            <td><ins>81.7</ins></td>
+            <td>77.2</td>
+            <td>81.7</td>
             <td>82.6</td>
             <td><ins>87.4</ins></td>
             <td>71.3</td>
             <td>70.1</td>
-            <td><ins>84.5</ins></td>
+            <td>84.5</td>
             <td><ins>89.3</ins></td>
-            <td><ins>83.2</ins></td>
+            <td>83.2</td>
             <td>86.8</td>
             <td>79.9</td>
-            <td><ins>79.2</ins></td>
-            <td><ins>83.3</ins></td>
-            <td><ins>83.6</ins></td>
+            <td>79.2</td>
+            <td>83.3</td>
+            <td>83.6</td>
             <td><strong>75.0</strong></td>
             <td>78.7</td>
             <td>71.2</td>
-            <td><ins>77.9</ins></td>
+            <td>77.9</td>
             <td>84.6</td>
             <td><ins>79.6</ins></td>
-            <td><ins>82.8</ins></td>
+            <td>82.8</td>
         </tr>
         <tr>
             <td>chandra-ocr-2</td>
@@ -356,7 +356,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>84.6</td>
             <td>87.4</td>
             <td>82.7</td>
-            <td>90.7</td>
+            <td><ins>90.7</ins></td>
             <td>85.6</td>
             <td>76.4</td>
             <td>78.2</td>
@@ -378,7 +378,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>84.8</td>
             <td>83.0</td>
             <td>75.7</td>
-            <td><ins>78.1</ins></td>
+            <td>78.1</td>
             <td>83.9</td>
             <td>85.2</td>
             <td>80.6</td>
@@ -388,8 +388,8 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>71.3</td>
             <td>67.7</td>
             <td>69.5</td>
-            <td><strong>86.0</strong></td>
-            <td><ins>76.0</ins></td>
+            <td>86.0</td>
+            <td>76.0</td>
             <td>68.4</td>
             <td><ins>84.8</ins></td>
             <td>75.7</td>
@@ -512,7 +512,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>70.6</td>
             <td>81.0</td>
             <td>72.0</td>
-            <td><ins>88.0</ins></td>
+            <td>88.0</td>
             <td>84.0</td>
             <td>63.3</td>
             <td>59.0</td>
@@ -585,7 +585,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>78.7</td>
             <td>82.7</td>
             <td>84.5</td>
-            <td><ins>75.8</ins></td>
+            <td>75.8</td>
             <td>76.2</td>
             <td>79.7</td>
             <td>82.8</td>
