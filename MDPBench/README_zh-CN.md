@@ -1,4 +1,4 @@
-<h1 align="center">
+<img width="1026" height="213" alt="image" src="https://github.com/user-attachments/assets/0cdbb251-8207-42d0-96bb-f9f48aa4f131" /><h1 align="center">
 MDPBench
 </h1>
 
@@ -9,6 +9,7 @@ MDPBench
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2603.28130) 
 [![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/Delores-Lin/MDPBench)
 [![ModelScope](https://img.shields.io/badge/Dataset-ModelScope-blue.svg)](https://modelscope.cn/datasets/DeloresLin/MDPBench)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-MDPBench-2563eb.svg?logo=huggingface)](https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard)
 
 </div>
 
