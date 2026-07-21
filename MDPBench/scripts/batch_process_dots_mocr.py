@@ -2,6 +2,9 @@
 """Run dots.mocr through a vLLM server and write MDPBench-compatible Markdown.
 
 Start the server first, for example:
+For MDPBench evaluation, use the compatible environment image:
+  docker pull sunyuefeng/omnidocbench-env:v1.5
+
   vllm serve /path/to/dots-mocr/weights/DotsMOCR --served-model-name dots-mocr ...
 
 The script deliberately uses DotsMOCRParser's official post-processing.  Its
