@@ -1,15 +1,8 @@
 #!/usr/bin/env python3
-"""Run dots.mocr through a vLLM server and write MDPBench-compatible Markdown.
-
-Start the server first, for example:
+"""
+Run dots.mocr through a vLLM server.
 For MDPBench evaluation, use the compatible environment image:
   docker pull sunyuefeng/omnidocbench-env:v1.5
-
-  vllm serve /path/to/dots-mocr/weights/DotsMOCR --served-model-name dots-mocr ...
-
-The script deliberately uses DotsMOCRParser's official post-processing.  Its
-layout JSON is converted to Markdown, rather than being written directly as a
-prediction file.
 """
 
 from __future__ import annotations
