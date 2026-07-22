@@ -1,5 +1,47 @@
 **This is the repository of the [OCRBench](./OCRBench/README.md) & [OCRBench v2](./OCRBench_v2/README.md) & [MDPBench](./MDPBench/README.md).**
 
+## 🏆 Latest Leaderboard Highlights
+
+### MDPBench — Updated July 20, 2026
+
+<p align="center">
+  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/MDPBench">
+    <img
+      src="https://github.com/user-attachments/assets/f939bf03-3b0b-4c9b-abf0-202d690a9eb6"
+      width="850"
+      alt="MDPBench Leaderboard Highlight"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/MDPBench">
+    <b>View MDPBench and the full leaderboard →</b>
+  </a>
+</p>
+
+<br>
+
+### OCRBench v2 — Updated June 2026
+
+<p align="center">
+  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench_v2">
+    <img
+      src="https://github.com/user-attachments/assets/bd132bf5-7767-45f8-88bf-d029c54bda61"
+      width="850"
+      alt="OCRBench v2 Leaderboard Highlight"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench_v2">
+    <b>View OCRBench v2 and the full leaderboard →</b>
+  </a>
+</p>
+
+---
+
 
 > **MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios**<br>
 > Zhang Li*, Zhibo Lin*, Qiang Liu, Ziyang Zhang, Shuo Zhang, Zidun Guo, Jiajun Song, Jiarui Zhang, Xiang Bai, Yuliang Liu <br>
