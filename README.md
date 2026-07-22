@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/MDPBench">
+  <a href="https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard">
     <b>View MDPBench and the full leaderboard →</b>
   </a>
 </p>
@@ -25,7 +25,7 @@
 ### OCRBench v2 — Updated June 2026
 
 <p align="center">
-  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench_v2">
+  <a href="https://99franklin.github.io/ocrbench_v2/">
     <img
       src="https://github.com/user-attachments/assets/bd132bf5-7767-45f8-88bf-d029c54bda61"
       width="850"
