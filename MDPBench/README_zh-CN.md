@@ -10,6 +10,7 @@ MDPBench
 [![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/Delores-Lin/MDPBench)
 [![ModelScope](https://img.shields.io/badge/Dataset-ModelScope-blue.svg)](https://modelscope.cn/datasets/DeloresLin/MDPBench)
 [![Leaderboard](https://img.shields.io/badge/Leaderboard-MDPBench-2563eb.svg?logo=huggingface)](https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard)
+[![lmms-eval](https://img.shields.io/badge/Evaluation-lmms--eval-4c6ef5.svg)](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/mdpbench)
 
 </div>
 
@@ -874,6 +875,41 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
 </table>
 
 ## 评估流程
+
+### 使用 lmms-eval 评测
+
+MDPBench 已正式集成至
+[lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/mdpbench)。
+该适配会自动加载公开的
+[`Delores-Lin/MDPBench-VLMEvalKit`](https://huggingface.co/datasets/Delores-Lin/MDPBench-VLMEvalKit)
+数据集，并沿用参考实现中的评测提示词、预测解析、元素匹配和指标聚合方法。
+框架会输出文本编辑距离、公式 CDM、表格 TEDS、总分，以及按语言和图像采集类型划分的分项结果。
+
+安装 `lmms-eval` 及 MDPBench 任务依赖：
+
+```bash
+git clone https://github.com/EvolvingLMMs-Lab/lmms-eval.git
+cd lmms-eval
+uv sync
+uv pip install -r lmms_eval/tasks/mdpbench/requirements.txt
+```
+
+然后选择任意受 `lmms-eval` 支持的模型后端运行评测：
+
+```bash
+uv run python -m lmms_eval \
+  --model <model> \
+  --model_args <model_arguments> \
+  --tasks mdpbench \
+  --batch_size 1 \
+  --output_path ./logs/mdpbench
+```
+
+公式 CDM 评测还需要 Node.js 16 或更高版本、带有 `xeCJK` 和思源黑体的
+XeLaTeX，以及提供 `magick` 命令的 ImageMagick 7。最新的依赖和运行说明请参阅
+[官方任务 README](https://github.com/EvolvingLMMs-Lab/lmms-eval/blob/main/lmms_eval/tasks/mdpbench/README.md)。
+
+本仓库原有的独立评测流程仍可继续使用，具体步骤如下。
 
 ### 环境配置
 
