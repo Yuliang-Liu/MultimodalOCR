@@ -1,14 +1,57 @@
 **This is the repository of the [OCRBench](./OCRBench/README.md) & [OCRBench v2](./OCRBench_v2/README.md) & [MDPBench](./MDPBench/README.md).**
 
+## 🏆 Latest Leaderboard Highlights
+
+### MDPBench — Updated July 20, 2026
+
+<p align="center">
+  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/MDPBench">
+    <img
+      src="https://github.com/user-attachments/assets/f939bf03-3b0b-4c9b-abf0-202d690a9eb6"
+      width="850"
+      alt="MDPBench Leaderboard Highlight"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard">
+    <b>View MDPBench and the full leaderboard →</b>
+  </a>
+</p>
+
+<br>
+
+### OCRBench v2 — Updated June 2026
+
+<p align="center">
+  <a href="https://99franklin.github.io/ocrbench_v2/">
+    <img
+      src="https://github.com/user-attachments/assets/bd132bf5-7767-45f8-88bf-d029c54bda61"
+      width="850"
+      alt="OCRBench v2 Leaderboard Highlight"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench_v2">
+    <b>View OCRBench v2 and the full leaderboard →</b>
+  </a>
+</p>
+
+---
+
 
 > **MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios**<br>
 > Zhang Li*, Zhibo Lin*, Qiang Liu, Ziyang Zhang, Shuo Zhang, Zidun Guo, Jiajun Song, Jiarui Zhang, Xiang Bai, Yuliang Liu <br>
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2603.28130) 
 [![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/Delores-Lin/MDPBench)
 [![ModelScope](https://img.shields.io/badge/Dataset-ModelScope-blue.svg)](https://modelscope.cn/datasets/DeloresLin/MDPBench)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-MDPBench-2563eb.svg?logo=huggingface)](https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard)
   
 **MDPBench** is the first benchmark for multilingual digital and photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted pages in a handful of dominant languages. No systematic benchmark exists to evaluate how models perform on digital and photographed documents across diverse scripts and low-resource languages. MDPBench comprises 3,400 document images spanning 17 languages (Simplified Chinese, Traditional Chinese, English, Arabic, German, Spanish, French, Hindi, Indonesian, Italian, Japanese, Korean, Portuguese, Russian, Thai, Vietnamese), diverse scripts, and varied photographic conditions, with high-quality annotations produced through a rigorous pipeline of expert model labeling, manual correction, and human verification. To ensure fair comparison and prevent data leakage, we maintain separate public and private evaluation splits. Our comprehensive evaluation of both open-source and closed-source models uncovers a striking finding: while closed-source models (notably Gemini3-Pro) prove relatively robust, open-source alternatives suffer dramatic performance collapse, particularly on non-Latin scripts and real-world photographed documents, with an average drop of 17.8% on photographed documents and 14.0% on non-Latin scripts. These results reveal significant performance imbalances across languages and conditions, and point to concrete directions for building more inclusive, deployment-ready parsing systems.
-
+More details can be found in [MDPBench README](./MDPBench/README.md).
 
 <p align="center">
     <img src="MDPBench/demo_data/MDPBench.jpg" width="80%" height="100%">

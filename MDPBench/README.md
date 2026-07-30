@@ -9,6 +9,7 @@ English | <a href="./README_zh-CN.md">简体中文</a>
 [![arXiv](https://img.shields.io/badge/Arxiv-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2603.28130) 
 [![HuggingFace](https://img.shields.io/badge/Dataset-HuggingFace-ffd21e.svg?logo=huggingface)](https://huggingface.co/datasets/Delores-Lin/MDPBench)
 [![ModelScope](https://img.shields.io/badge/Dataset-ModelScope-blue.svg)](https://modelscope.cn/datasets/DeloresLin/MDPBench)
+[![Leaderboard](https://img.shields.io/badge/Leaderboard-MDPBench-2563eb.svg?logo=huggingface)](https://huggingface.co/spaces/Delores-Lin/MDPBench-leaderboard)
 [![lmms-eval](https://img.shields.io/badge/Evaluation-lmms--eval-4c6ef5.svg)](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks/mdpbench)
 
 </div>
