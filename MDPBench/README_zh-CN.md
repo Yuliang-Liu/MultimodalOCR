@@ -75,7 +75,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td><strong>91.6</strong></td>
             <td><strong>87.7</strong></td>
             <td><strong>91.4</strong></td>
-            <td><ins>85.9</ins></td>
+            <td>85.9</td>
             <td><strong>84.1</strong></td>
             <td>89.4</td>
             <td><strong>90.4</strong></td>
@@ -270,7 +270,7 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="21"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="23"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>MonkeyOCRv2-B-Parsing</td>
             <td><ins>83.3</ins></td>
             <td>88.1</td>
@@ -401,7 +401,33 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>80.7</td>
         </tr>
         <tr>
-            <td>HunyuanOCR_v1-5</td>
+            <td>Mistral OCR 4.0</td>
+            <td>78.2</td>
+            <td>87.5</td>
+            <td>75.2</td>
+            <td>80.0</td>
+            <td>82.7</td>
+            <td>82.9</td>
+            <td>73.2</td>
+            <td>68.2</td>
+            <td>80.2</td>
+            <td>85.5</td>
+            <td>74.6</td>
+            <td>87.1</td>
+            <td><ins>86.0</ins></td>
+            <td>76.1</td>
+            <td>84.4</td>
+            <td>81.2</td>
+            <td>68.2</td>
+            <td>81.3</td>
+            <td>70.6</td>
+            <td>77.4</td>
+            <td>75.2</td>
+            <td>70.8</td>
+            <td>83.1</td>
+        </tr>
+        <tr>
+            <td>HunyuanOCR-1.5</td>
             <td>76.8</td>
             <td>86.2</td>
             <td>73.6</td>
@@ -737,6 +763,32 @@ MDPBench 包含 3,400 张文档图像，涵盖 17 种语言（简体中文、繁
             <td>39.7</td>
             <td>45.6</td>
             <td>58.5</td>
+        </tr>
+        <tr>
+            <td>Unlimited-OCR</td>
+            <td>54.1</td>
+            <td>78.6</td>
+            <td>46.1</td>
+            <td>57.8</td>
+            <td>59.8</td>
+            <td>60.6</td>
+            <td>50.1</td>
+            <td>47.4</td>
+            <td>61.5</td>
+            <td>68.7</td>
+            <td>51.9</td>
+            <td>60.8</td>
+            <td>59.6</td>
+            <td>49.7</td>
+            <td>49.0</td>
+            <td>61.1</td>
+            <td>42.2</td>
+            <td>57.8</td>
+            <td>36.8</td>
+            <td>38.9</td>
+            <td>56.0</td>
+            <td>56.1</td>
+            <td>58.9</td>
         </tr>
         <tr>
             <td>MonkeyOCR-pro-3B</td>

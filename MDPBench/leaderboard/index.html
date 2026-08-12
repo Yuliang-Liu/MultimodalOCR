@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MDPBench Leaderboard</title>
+    <meta name="description" content="Official leaderboard for MDPBench, a benchmark for multilingual document parsing in real-world scenarios." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css?v=20260720-2" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <a class="brand" href="https://github.com/Yuliang-Liu/MultimodalOCR" target="_blank" rel="noreferrer">MDP<span>Bench</span></a>
+        <p class="eyebrow">Official leaderboard · Multilingual document parsing</p>
+        <h1>How well do models parse<br /><em>documents in the real world?</em></h1>
+        <p class="intro">A unified evaluation across 17 languages, native digital pages, and photographed documents. Scores are shown as percentages; higher is better.</p>
+        <div class="links">
+          <a href="https://arxiv.org/abs/2603.28130" target="_blank" rel="noreferrer">Paper ↗</a>
+          <a href="https://huggingface.co/datasets/Delores-Lin/MDPBench" target="_blank" rel="noreferrer">Dataset ↗</a>
+          <a href="https://github.com/Yuliang-Liu/MultimodalOCR" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </header>
+
+      <section class="at-a-glance" aria-label="Benchmark facts">
+        <div><strong>3,400</strong><span>document images</span></div>
+        <div><strong>17</strong><span>languages</span></div>
+        <div><strong>3</strong><span>parsing tasks</span></div>
+        <div><strong>2</strong><span>evaluation splits</span></div>
+      </section>
+
+      <section class="board" aria-labelledby="board-title">
+        <div class="board-topline">
+          <div>
+            <p class="eyebrow">Verified results</p>
+            <h2 id="board-title">Leaderboard</h2>
+          </div>
+          <p id="updated" class="updated"></p>
+        </div>
+
+        <div class="controls">
+          <div class="rank-tabs" role="group" aria-label="Ranking score">
+            <button class="active" data-view="summary">Public Overview</button>
+            <button data-view="languages">Language Scores</button>
+          </div>
+          <label class="search"><span class="sr-only">Search models</span><input id="search" type="search" placeholder="Search model" /></label>
+          <label class="select-label"><span>Model family</span><select id="type-filter"><option value="all">All types</option><option>General VLM</option><option>Specialized VLM</option><option>Pipeline Tool</option></select></label>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead id="leaderboard-head"></thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="methodology">
+        <div><p class="eyebrow">How to read this board</p><h2>One number, with the context still visible.</h2></div>
+        <div class="method-copy"><p>The public score is calculated over released samples. Private scores use the held-out split and are the basis for verified comparison. Digital and Photo expose the real-world robustness gap; Latin and Non-Latin avoid hiding language imbalance behind an average.</p><p>To add a model, run the released evaluation pipeline, then provide inference code, weights or API details, and predictions for official private-set evaluation.</p></div>
+      </section>
+    </main>
+    <footer>MDPBench · Results are maintained by the benchmark authors.</footer>
+    <script src="model_metadata.js?v=20260720-2"></script>
+    <script src="app.js?v=20260720-2"></script>
+  </body>
+</html>
