@@ -2,7 +2,7 @@
   "benchmark": {
     "name": "MDPBench",
     "version": "Initial official results",
-    "updated": "2026-08-12",
+    "updated": "2026-08-15",
     "metric": "Page-level mean of available text, formula, and table task scores (×100)",
     "private_policy": "Private scores are run and verified by the MDPBench maintainers."
   },
@@ -36,6 +36,36 @@
         "ZH-T": 82.1
       },
       "source_name": "Gemini-3-pro-preview"
+    },
+    {
+      "type": "General VLM",
+      "name": "Kimi-K3",
+      "overall": 83.6,
+      "digital": 90.8,
+      "photo": 81.2,
+      "latin": 86.2,
+      "non_latin": 80.7,
+      "private": 85.6,
+      "languages": {
+        "DE": 89.1,
+        "EN": 87.2,
+        "ES": 80.2,
+        "FR": 80.0,
+        "ID": 86.9,
+        "IT": 92.7,
+        "NL": 86.0,
+        "PT": 88.9,
+        "VI": 84.8,
+        "AR": 77.4,
+        "HI": 77.5,
+        "JP": 74.9,
+        "KO": 89.9,
+        "RU": 82.4,
+        "TH": 72.1,
+        "ZH": 89.5,
+        "ZH-T": 81.9
+      },
+      "source_name": "Kimi K3"
     },
     {
       "type": "General VLM",
@@ -364,6 +394,35 @@
     },
     {
       "type": "Specialized VLM",
+      "name": "PaddleOCR-VL-1.6",
+      "overall": 78.9,
+      "digital": 87.1,
+      "photo": 76.3,
+      "latin": 81.4,
+      "non_latin": 76.1,
+      "private": 83.0,
+      "languages": {
+        "DE": 85.1,
+        "EN": 83.5,
+        "ES": 75.1,
+        "FR": 78.6,
+        "ID": 82.7,
+        "IT": 85.5,
+        "NL": 80.5,
+        "PT": 80.9,
+        "VI": 80.9,
+        "AR": 76.2,
+        "HI": 70.7,
+        "JP": 70.3,
+        "KO": 86.3,
+        "RU": 75.1,
+        "TH": 67.3,
+        "ZH": 85.9,
+        "ZH-T": 76.7
+      }
+    },
+    {
+      "type": "Specialized VLM",
       "name": "PaddleOCR-VL-1.5",
       "overall": 78.3,
       "digital": 87.4,
@@ -477,35 +536,6 @@
         "TH": 73.3,
         "ZH": 79.1,
         "ZH-T": 76.2
-      }
-    },
-    {
-      "type": "Specialized VLM",
-      "name": "PaddleOCR-VL-1.6",
-      "overall": 75.0,
-      "digital": 82.8,
-      "photo": 72.6,
-      "latin": 78.0,
-      "non_latin": 71.6,
-      "private": 77.0,
-      "languages": {
-        "DE": 84.1,
-        "EN": 79.7,
-        "ES": 69.2,
-        "FR": 74.8,
-        "ID": 81.6,
-        "IT": 82.0,
-        "NL": 74.7,
-        "PT": 76.4,
-        "VI": 79.3,
-        "AR": 69.4,
-        "HI": 65.6,
-        "JP": 68.7,
-        "KO": 82.5,
-        "RU": 70.7,
-        "TH": 62.3,
-        "ZH": 78.0,
-        "ZH-T": 75.7
       }
     },
     {

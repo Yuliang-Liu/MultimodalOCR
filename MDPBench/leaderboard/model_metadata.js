@@ -13,6 +13,7 @@ const MODEL_METADATA = {
       { label: "Hugging Face", url: "https://huggingface.co/moonshotai/Kimi-K2.5" }
     ]
   },
+  "Kimi-K3": { label: "Kimi K3" },
   "doubao-seed-2-0-pro-260215": { label: "Doubao-Seed-2.0-Pro (260215)" },
   "claude-sonnet-4-6": { label: "Claude Sonnet 4.6" },
   "gpt-5.2-2025-12-11": { label: "GPT-5.2 (2025-12-11)" },
