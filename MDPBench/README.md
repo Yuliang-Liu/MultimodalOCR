@@ -58,10 +58,10 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
     </thead>
     <tbody>
         <tr>
-            <td rowspan="8"><strong>General</strong><br><strong>VLMs</strong></td>
+            <td rowspan="9"><strong>General</strong><br><strong>VLMs</strong></td>
             <td>Gemini-3-pro-preview</td>
             <td><strong>86.4</strong></td>
-            <td><ins>90.4</ins></td>
+            <td>90.4</td>
             <td><strong>85.1</strong></td>
             <td><strong>88.4</strong></td>
             <td><strong>91.2</strong></td>
@@ -69,20 +69,46 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td><strong>83.4</strong></td>
             <td><strong>82.7</strong></td>
             <td><strong>91.5</strong></td>
-            <td><strong>91.6</strong></td>
+            <td><ins>91.6</ins></td>
             <td><strong>87.7</strong></td>
             <td><strong>91.4</strong></td>
-            <td><ins>85.9</ins></td>
+            <td>85.9</td>
             <td><strong>84.1</strong></td>
             <td>89.4</td>
             <td><strong>90.4</strong></td>
-            <td><ins>74.8</ins></td>
+            <td>74.8</td>
             <td>85.5</td>
             <td><strong>84.9</strong></td>
             <td><ins>80.6</ins></td>
-            <td><strong>85.1</strong></td>
+            <td>85.1</td>
             <td><strong>82.1</strong></td>
             <td><strong>89.8</strong></td>
+        </tr>
+        <tr>
+            <td>Kimi K3</td>
+            <td><ins>83.6</ins></td>
+            <td><strong>90.8</strong></td>
+            <td>81.2</td>
+            <td><ins>86.2</ins></td>
+            <td><ins>89.1</ins></td>
+            <td>87.2</td>
+            <td><ins>80.2</ins></td>
+            <td><ins>80.0</ins></td>
+            <td><ins>86.9</ins></td>
+            <td><strong>92.7</strong></td>
+            <td>86.0</td>
+            <td>88.9</td>
+            <td>84.8</td>
+            <td>80.7</td>
+            <td>77.4</td>
+            <td>77.5</td>
+            <td><ins>74.9</ins></td>
+            <td><strong>89.9</strong></td>
+            <td><ins>82.4</ins></td>
+            <td>72.1</td>
+            <td><strong>89.5</strong></td>
+            <td><ins>81.9</ins></td>
+            <td><ins>85.6</ins></td>
         </tr>
         <tr>
             <td>kimi-K2.5</td>
@@ -267,17 +293,17 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>45.3</td>
         </tr>
         <tr>
-            <td rowspan="21"><strong>Specialized</strong><br><strong>VLMs</strong></td>
+            <td rowspan="23"><strong>Specialized</strong><br><strong>VLMs</strong></td>
             <td>MonkeyOCRv2-B-Parsing</td>
-            <td><ins>83.3</ins></td>
+            <td>83.3</td>
             <td>88.1</td>
             <td><ins>81.7</ins></td>
-            <td><ins>84.2</ins></td>
-            <td><ins>87.7</ins></td>
+            <td>84.2</td>
+            <td>87.7</td>
             <td>84.5</td>
             <td>75.2</td>
-            <td><ins>78.4</ins></td>
-            <td><ins>86.5</ins></td>
+            <td>78.4</td>
+            <td>86.5</td>
             <td>88.6</td>
             <td><ins>86.1</ins></td>
             <td>87.9</td>
@@ -286,12 +312,12 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td><ins>90.7</ins></td>
             <td><ins>87.2</ins></td>
             <td>71.9</td>
-            <td><ins>87.6</ins></td>
-            <td><ins>80.1</ins></td>
+            <td>87.6</td>
+            <td>80.1</td>
             <td><strong>80.8</strong></td>
             <td>83.6</td>
             <td>75.3</td>
-            <td><ins>84.7</ins></td>
+            <td>84.7</td>
         </tr>
         <tr>
             <td>MonkeyOCRv2-S-Parsing</td>
@@ -301,7 +327,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>83.2</td>
             <td>87.3</td>
             <td>83.6</td>
-            <td><ins>76.8</ins></td>
+            <td>76.8</td>
             <td>73.6</td>
             <td>85.4</td>
             <td>87.2</td>
@@ -312,7 +338,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td><strong>91.2</strong></td>
             <td>87.1</td>
             <td>69.9</td>
-            <td><strong>88.7</strong></td>
+            <td><ins>88.7</ins></td>
             <td>78.0</td>
             <td>79.8</td>
             <td>84.4</td>
@@ -322,7 +348,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
         <tr>
             <td>dots.mocr</td>
             <td>80.5</td>
-            <td><strong>90.5</strong></td>
+            <td><ins>90.5</ins></td>
             <td>77.2</td>
             <td>81.7</td>
             <td>82.6</td>
@@ -330,7 +356,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>71.3</td>
             <td>70.1</td>
             <td>84.5</td>
-            <td><ins>89.3</ins></td>
+            <td>89.3</td>
             <td>83.2</td>
             <td>86.8</td>
             <td>79.9</td>
@@ -342,7 +368,7 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>71.2</td>
             <td>77.9</td>
             <td>84.6</td>
-            <td><ins>79.6</ins></td>
+            <td>79.6</td>
             <td>82.8</td>
         </tr>
         <tr>
@@ -372,6 +398,32 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>82.4</td>
         </tr>
         <tr>
+            <td>PaddleOCR-VL-1.6</td>
+            <td>78.9</td>
+            <td>87.1</td>
+            <td>76.3</td>
+            <td>81.4</td>
+            <td>85.1</td>
+            <td>83.5</td>
+            <td>75.1</td>
+            <td>78.6</td>
+            <td>82.7</td>
+            <td>85.5</td>
+            <td>80.5</td>
+            <td>80.9</td>
+            <td>80.9</td>
+            <td>76.1</td>
+            <td>76.2</td>
+            <td>70.7</td>
+            <td>70.3</td>
+            <td>86.3</td>
+            <td>75.1</td>
+            <td>67.3</td>
+            <td><ins>85.9</ins></td>
+            <td>76.7</td>
+            <td>83.0</td>
+        </tr>
+        <tr>
             <td>PaddleOCR-VL-1.5</td>
             <td>78.3</td>
             <td>87.4</td>
@@ -393,9 +445,35 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>86.0</td>
             <td>76.0</td>
             <td>68.4</td>
-            <td><ins>84.8</ins></td>
+            <td>84.8</td>
             <td>75.7</td>
             <td>80.7</td>
+        </tr>
+        <tr>
+            <td>Mistral OCR 4.0</td>
+            <td>78.2</td>
+            <td>87.5</td>
+            <td>75.2</td>
+            <td>80.0</td>
+            <td>82.7</td>
+            <td>82.9</td>
+            <td>73.2</td>
+            <td>68.2</td>
+            <td>80.2</td>
+            <td>85.5</td>
+            <td>74.6</td>
+            <td>87.1</td>
+            <td><ins>86.0</ins></td>
+            <td>76.1</td>
+            <td>84.4</td>
+            <td>81.2</td>
+            <td>68.2</td>
+            <td>81.3</td>
+            <td>70.6</td>
+            <td>77.4</td>
+            <td>75.2</td>
+            <td>70.8</td>
+            <td>83.1</td>
         </tr>
         <tr>
             <td>HunyuanOCR-1.5</td>
@@ -448,32 +526,6 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>79.1</td>
             <td>76.2</td>
             <td>79.7</td>
-        </tr>
-        <tr>
-            <td>PaddleOCR-VL-1.6</td>
-            <td>75.0</td>
-            <td>82.8</td>
-            <td>72.6</td>
-            <td>78.0</td>
-            <td>84.1</td>
-            <td>79.7</td>
-            <td>69.2</td>
-            <td>74.8</td>
-            <td>81.6</td>
-            <td>82.0</td>
-            <td>74.7</td>
-            <td>76.4</td>
-            <td>79.3</td>
-            <td>71.6</td>
-            <td>69.4</td>
-            <td>65.6</td>
-            <td>68.7</td>
-            <td>82.5</td>
-            <td>70.7</td>
-            <td>62.3</td>
-            <td>78.0</td>
-            <td>75.7</td>
-            <td>77.0</td>
         </tr>
         <tr>
             <td>MinerU-2.5-Pro-1.2B</td>
@@ -734,6 +786,32 @@ We introduce Multilingual Document Parsing Benchmark, the first benchmark for mu
             <td>39.7</td>
             <td>45.6</td>
             <td>58.5</td>
+        </tr>
+        <tr>
+            <td>Unlimited-OCR</td>
+            <td>54.1</td>
+            <td>78.6</td>
+            <td>46.1</td>
+            <td>57.8</td>
+            <td>59.8</td>
+            <td>60.6</td>
+            <td>50.1</td>
+            <td>47.4</td>
+            <td>61.5</td>
+            <td>68.7</td>
+            <td>51.9</td>
+            <td>60.8</td>
+            <td>59.6</td>
+            <td>49.7</td>
+            <td>49.0</td>
+            <td>61.1</td>
+            <td>42.2</td>
+            <td>57.8</td>
+            <td>36.8</td>
+            <td>38.9</td>
+            <td>56.0</td>
+            <td>56.1</td>
+            <td>58.9</td>
         </tr>
         <tr>
             <td>MonkeyOCR-pro-3B</td>
