@@ -123,16 +123,17 @@ class CDM:
                         min_samples=self.min_samples,
                         residual_threshold=self.residual_threshold,
                         max_trials=self.max_trials,
-                        random_state=42,
+                        rng=42,
                     )
                 except TypeError:
-                    # Older scikit-image versions do not support `random_state`.
+                    # scikit-image < 0.25 names the seeded RNG `random_state`.
                     model, inliers_1 = ransac(
                         (src[inliers==False], dst[inliers==False]),
                         SimpleAffineTransform,
                         min_samples=self.min_samples,
                         residual_threshold=self.residual_threshold,
                         max_trials=self.max_trials,
+                        random_state=42,
                     )
                 if inliers_1 is not None and inliers_1.any():
                     inliers = self.update_inliers(inliers, inliers_1)
