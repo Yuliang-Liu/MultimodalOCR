@@ -35,7 +35,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Yuliang-Liu/MultimodalOCR/tree/main/OCRBench_v2">
+  <a href="https://99franklin.github.io/ocrbench_v2/">
     <b>View OCRBench v2 and the full leaderboard →</b>
   </a>
 </p>
