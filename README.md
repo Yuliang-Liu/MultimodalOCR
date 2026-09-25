@@ -99,6 +99,7 @@ OCRBench v2: An Improved Benchmark for Evaluating Large Multimodal Models on Vis
 </p>
 
 # News 
+* ```2026.09.24``` 🚀 [MDPBench](./MDPBench/README.md) has been accepted by [NeurIPS 2026 Datasets & Benchmarks Track](https://neurips.cc/Conferences/2026).
 * ```2026.04.01``` 🚀 We realese [MDPBench](./MDPBench/README.md), a benchmark for multilingual document parsing in real-world scenarios.
 * ```2026.03.31``` 🚀 The leaderboard has been updated to the latest release [Leaderboard](https://99franklin.github.io/ocrbench_v2/) (2026.03).
 * ```2025.09.30``` 🚀 The leaderboard has been updated (2025.09).
@@ -149,11 +150,8 @@ If you wish to refer to the baseline results published here, please use the foll
 @misc{li2026mdpbenchbenchmarkmultilingualdocument,
       title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
       author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
-      year={2026},
-      eprint={2603.28130},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.28130}, 
+      booktitle={The Fortieth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+    year={2026}
 }
 ```
 
