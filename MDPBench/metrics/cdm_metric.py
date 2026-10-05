@@ -126,7 +126,6 @@ class CDM:
                         rng=42,
                     )
                 except TypeError:
-                    # scikit-image < 0.25 names the seeded RNG `random_state`.
                     model, inliers_1 = ransac(
                         (src[inliers==False], dst[inliers==False]),
                         SimpleAffineTransform,
