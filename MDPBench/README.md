@@ -1086,7 +1086,7 @@ python tools/calculate_scores.py  --result_folder result/Gemini3-pro-preview_res
 ```
 
 ### End-to-End Evaluation on Private Set
-To prevent data leakage and avoid sample-specific fine-tuning, we choose not to release the Private Set. If you would like to evaluate your model on MDPBench Private, please open an issue or contact us at [zhangli123@hust.edu.cn](mailto:zhangli123@hust.edu.cn), and please also provide your model’s inference code and the corresponding weight links.
+To prevent data leakage and avoid sample-specific fine-tuning, we choose not to release the Private Set. If you would like to evaluate your model on MDPBench Private, please **open an issue** (to ensure that your evaluation request is not overlooked due to the large volume of emails) and **contact us** at [zhangli123@hust.edu.cn](mailto:zhangli123@hust.edu.cn). Please also provide your model's inference code and the corresponding model weight links.
 
 
 
