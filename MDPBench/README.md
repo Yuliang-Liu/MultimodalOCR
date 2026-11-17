@@ -1099,13 +1099,11 @@ We would like to express our sincere appreciation to [OmniDocBench](https://gith
 ## Citing MDPBench
 If you find this benchmark useful, please cite:
 ```bibtex
-@misc{li2026mdpbenchbenchmarkmultilingualdocument,
+@inproceedings{mdpbench,
       title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
       author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
+      booktitle={Advances in Neural Information Processing Systems},
       year={2026},
-      eprint={2603.28130},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2603.28130}, 
+      note={Evaluations and Datasets Track}
 }
 ```
