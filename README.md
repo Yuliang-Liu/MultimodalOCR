@@ -147,11 +147,12 @@ If you wish to refer to the baseline results published here, please use the foll
     year={2025}
 }
 
-@misc{li2026mdpbenchbenchmarkmultilingualdocument,
+@inproceedings{mdpbench,
       title={MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios}, 
       author={Zhang Li and Zhibo Lin and Qiang Liu and Ziyang Zhang and Shuo Zhang and Zidun Guo and Jiajun Song and Jiarui Zhang and Xiang Bai and Yuliang Liu},
-      booktitle={The Fortieth Annual Conference on Neural Information Processing Systems Evaluations and Datasets Track},
-    year={2026}
+      booktitle={Advances in Neural Information Processing Systems},
+      year={2026},
+      note={Evaluations and Datasets Track}
 }
 ```
 
