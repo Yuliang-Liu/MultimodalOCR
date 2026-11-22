@@ -76,12 +76,15 @@ def process_predictions(input_path, output_path):
             if "eval" in data_item.keys():
                 if data_item["eval"] == "multiple choice":
                     assert len(data_item["answers"]) == 1
-                    predict = ''.join(c for c in data_item["predict"] if c.isalpha())
-
-                    if predict == data_item["answers"][0]:
-                        data_item["score"] = 1
-                    else:
+                    if not isinstance(data_item["predict"], str):
                         data_item["score"] = 0
+                    else:
+                        predict = ''.join(c for c in data_item["predict"] if c.isalpha())
+
+                        if predict == data_item["answers"][0]:
+                            data_item["score"] = 1
+                        else:
+                            data_item["score"] = 0
                 elif data_item["eval"] == "case sensitive":
                     data_item["score"] = vqa_evaluation_case_sensitive(data_item["predict"], data_item["answers"])
                 else:
